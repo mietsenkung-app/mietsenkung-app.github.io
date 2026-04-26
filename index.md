@@ -23,10 +23,6 @@ Hier findest du die rechtlichen Informationen zur App **Mietsenkung** — der Sc
     <h3>Impressum</h3>
     <p>Verantwortliche Person und Kontaktangaben.</p>
   </a>
-  <a class="card" href="https://github.com/mietsenkung-app">
-    <h3>GitHub</h3>
-    <p>Source-of-Truth dieser Seiten und Repos der App-Org.</p>
-  </a>
 </div>
 
 ---
