@@ -13,9 +13,9 @@ permalink: /privacy-de.html
 
 # Datenschutzerklärung — Mietsenkung
 
-**Stand:** 2026-04-24
-**In Kraft ab:** Launch der App im Apple App Store / Google Play Store
-**Gilt für:** Mietsenkung iOS + Android App (Bundle ID `com.mietsenkung.mietsenkung`)
+- **Stand:** 2026-04-24
+- **In Kraft ab:** Launch der App im Apple App Store / Google Play Store
+- **Gilt für:** Mietsenkung iOS + Android App (Bundle ID `com.mietsenkung.mietsenkung`)
 
 ---
 
