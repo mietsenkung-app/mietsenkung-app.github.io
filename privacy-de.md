@@ -28,13 +28,13 @@ Privatperson, kein Handelsregister-Eintrag.
 E-Mail: manuel.weingartner@gmx.ch
 Postadresse auf Anfrage per E-Mail.
 
-Diese Datenschutzerklärung richtet sich nach dem revidierten Schweizer Datenschutzgesetz (nDSG, in Kraft seit 01.09.2023). Für Nutzer*innen mit Wohnsitz im EWR gelten ergänzend die einschlägigen Bestimmungen der EU-Datenschutz-Grundverordnung (DSGVO).
+Diese Datenschutzerklärung richtet sich nach dem revidierten Schweizer Datenschutzgesetz (nDSG, in Kraft seit 01.09.2023). Für Nutzer\*innen mit Wohnsitz im EWR gelten ergänzend die einschlägigen Bestimmungen der EU-Datenschutz-Grundverordnung (DSGVO).
 
 ---
 
 ## 2. Überblick — Local-first
 
-Mietsenkung ist bewusst "local-first" gebaut. Deine Mietvertragsdaten, deine Adresse, die Adresse deiner Vermieter*in und deine Signatur bleiben ausschliesslich auf deinem Gerät in einer lokalen SQLite-Datenbank gespeichert. Es gibt kein Benutzer*innen-Konto, keine Cloud-Synchronisierung, keine serverseitige Datenbank bei uns.
+Mietsenkung ist bewusst "local-first" gebaut. Deine Mietvertragsdaten, deine Adresse, die Adresse deiner Vermieter\*in und deine Signatur bleiben ausschliesslich auf deinem Gerät in einer lokalen SQLite-Datenbank gespeichert. Es gibt kein Benutzer\*innen-Konto, keine Cloud-Synchronisierung, keine serverseitige Datenbank bei uns.
 
 Daten werden nur in zwei Situationen an Dritte übertragen:
 
@@ -49,11 +49,11 @@ Löschst du die App, sind alle Mietvertragsdaten weg. Es gibt keine Backup-Spur 
 
 ### 3.1 Lokal auf deinem Gerät
 
-- **Mieter*in-Daten:** Name, Anschrift, optional weitere Co-Mieter*innen
-- **Vermieter*in-Daten:** Name, Anschrift, optional E-Mail
+- **Mieter\*in-Daten:** Name, Anschrift, optional weitere Co-Mieter\*innen
+- **Vermieter\*in-Daten:** Name, Anschrift, optional E-Mail
 - **Mietvertrag:** Netto-Mietzins, Startdatum des Mietverhältnisses, Datum der letzten Anpassung, Referenzzinssatz bei der Anpassung, Kündigungstermine
 - **Brief-Historie:** generierte Briefe (PDF), Pingen-Tracking-IDs, Versanddatum
-- **Signatur:** Finger-gezeichnetes PNG-Bild, pro Mieter*in einmal erfasst, als BLOB in sqflite
+- **Signatur:** Finger-gezeichnetes PNG-Bild, pro Mieter\*in einmal erfasst, als BLOB in sqflite
 - **Premium-Status:** gecachter RevenueCat-Entitlement-Flag
 - **App-Einstellungen:** Sprache, Theme, Push-Präferenzen
 
@@ -83,7 +83,7 @@ Wir arbeiten mit wenigen, sorgfältig ausgewählten Auftragsverarbeitern zusamme
 
 - **Zweck:** Push-Benachrichtigungen ("Zins-Alarm"), Missbrauchsschutz (App Check), Backend-Endpoints für Referenzzinsdaten und als Pingen-Versand-Proxy.
 - **Was übertragen wird:** FCM-Token und App-Check-Token. Bei Aufruf von Cloud Functions: anonyme API-Calls ohne Personenbezug. Briefdaten laufen via Function-Proxy nur im Versandfall durch (siehe 4.4).
-- **Rechtsgrundlage:** berechtigtes Interesse an Betrieb und Sicherheit der App (Art. 31 Abs. 2 nDSG). Für EWR-Nutzer*innen zusätzlich Art. 6 Abs. 1 lit. f DSGVO.
+- **Rechtsgrundlage:** berechtigtes Interesse an Betrieb und Sicherheit der App (Art. 31 Abs. 2 nDSG). Für EWR-Nutzer\*innen zusätzlich Art. 6 Abs. 1 lit. f DSGVO.
 - **Serverstandort:** europe-west6 (Zürich) für Cloud Functions. FCM ist global durch Google betrieben.
 - **Aufbewahrung:** FCM-Token existiert, solange die App installiert ist. Cloud-Functions-Logs: 30 Tage rotierend.
 - **Datenschutz des Anbieters:** [https://firebase.google.com/support/privacy](https://firebase.google.com/support/privacy)
