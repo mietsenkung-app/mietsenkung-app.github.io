@@ -1,0 +1,14 @@
+title: Mietsenkung — Rechtliches
+description: Datenschutz und Impressum zur App Mietsenkung
+url: https://mietsenkung-app.github.io
+lang: de-CH
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - README.md
+  - .gitignore
+  - vendor
+  - Gemfile
+  - Gemfile.lock
