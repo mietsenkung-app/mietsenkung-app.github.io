@@ -131,7 +131,7 @@ permalink: /
 <section class="section steps" id="wie">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Wie's geht</span>
-    <h2 class="section-title" data-reveal>Drei Schritte. Keine Vorlage. Kein Drucker.</h2>
+    <h2 class="section-title" data-reveal>Drei Schritte. Kein Ausdrucken. Kein Postbesuch.</h2>
     <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App — von der Berechnung bis zum Briefkasten deiner Vermieter*in.</p>
 
     <div class="steps__grid">
