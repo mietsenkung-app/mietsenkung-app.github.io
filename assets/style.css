@@ -388,14 +388,20 @@ img, svg { max-width: 100%; height: auto; display: block; }
 .hero__pricing {
   font-size: var(--fs-small);
   color: var(--ink-faint);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px 14px;
   margin: 0;
+  line-height: 1.55;
+  text-wrap: pretty;
 }
-.hero__pricing strong { color: var(--ink); font-weight: 600; }
-.hero__pricing .dot { color: var(--line); }
+.hero__pricing strong { color: var(--ink); font-weight: 600; white-space: nowrap; }
+.hero__pricing .dot { color: var(--line); margin: 0 8px; }
+@media (max-width: 599px) {
+  .hero__pricing .dot { display: none; }
+  .hero__pricing strong { display: inline-block; }
+  /* Stack each segment as a separate line on small screens. The strong tags
+     are the natural anchors of each segment, so we surface them as block-ish
+     pieces. The plain text between strong tags wraps naturally with them. */
+  .hero__pricing { display: block; }
+}
 
 .hero__trust {
   margin-top: var(--sp-8);
@@ -1000,7 +1006,15 @@ img, svg { max-width: 100%; height: auto; display: block; }
   justify-content: space-between;
   gap: var(--sp-3);
 }
-.price-card__addons-row strong { color: var(--ink); font-weight: 600; }
+.price-card__addons-row strong { color: var(--ink); font-weight: 600; white-space: nowrap; }
+@media (max-width: 599px) {
+  .price-card__addons-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .price-card__addons-row strong { color: var(--emerald-deep); }
+}
 
 .pricing-note {
   margin-top: var(--sp-8);
