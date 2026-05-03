@@ -394,13 +394,10 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 .hero__pricing strong { color: var(--ink); font-weight: 600; white-space: nowrap; }
 .hero__pricing .dot { color: var(--line); margin: 0 8px; }
+.hero__pricing-bit { display: inline; }
 @media (max-width: 599px) {
   .hero__pricing .dot { display: none; }
-  .hero__pricing strong { display: inline-block; }
-  /* Stack each segment as a separate line on small screens. The strong tags
-     are the natural anchors of each segment, so we surface them as block-ish
-     pieces. The plain text between strong tags wraps naturally with them. */
-  .hero__pricing { display: block; }
+  .hero__pricing-bit { display: block; margin: 0 0 2px; }
 }
 
 .hero__trust {

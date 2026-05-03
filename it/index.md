@@ -36,7 +36,7 @@ permalink: /it/
         </a>
       </div>
 
-      <p class="hero__pricing"><strong>Verifica del diritto + allarme tasso gratis</strong><span class="dot">·</span>Lettera da <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>Posta A inclusa<span class="dot">·</span>Senza abbonamento</p>
+      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Verifica del diritto + allarme tasso gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettera da <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Posta A inclusa</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Senza abbonamento</span></p>
 
       <div class="hero__trust">
         <span class="trust-pill">
@@ -439,6 +439,6 @@ permalink: /it/
         </span>
       </a>
     </div>
-    <p class="hero__pricing"><strong>Verifica + allarme tasso gratis</strong><span class="dot">·</span>Lettera da <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>Senza abbonamento</p>
+    <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Verifica + allarme tasso gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettera da <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Senza abbonamento</span></p>
   </div>
 </section>

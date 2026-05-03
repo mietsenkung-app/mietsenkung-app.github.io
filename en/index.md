@@ -36,7 +36,7 @@ permalink: /en/
         </a>
       </div>
 
-      <p class="hero__pricing"><strong>Claim check + rate alert free</strong><span class="dot">·</span>Letter from <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>A-Mail included<span class="dot">·</span>No subscription</p>
+      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Claim check + rate alert free</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Letter from <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">A-Mail included</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">No subscription</span></p>
 
       <div class="hero__trust">
         <span class="trust-pill">
@@ -440,6 +440,6 @@ permalink: /en/
         </span>
       </a>
     </div>
-    <p class="hero__pricing"><strong>Claim check + rate alert free</strong><span class="dot">·</span>Letter from <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>No subscription</p>
+    <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Claim check + rate alert free</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Letter from <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">No subscription</span></p>
   </div>
 </section>

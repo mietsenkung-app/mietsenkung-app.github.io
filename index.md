@@ -36,7 +36,7 @@ permalink: /
         </a>
       </div>
 
-      <p class="hero__pricing"><strong>Anspruch prüfen + Zins-Alarm gratis</strong><span class="dot">·</span>Brief ab <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>A-Post inklusive<span class="dot">·</span>Kein Abo</p>
+      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Anspruch prüfen + Zins-Alarm gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Brief ab <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">A-Post inklusive</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Kein Abo</span></p>
 
       <div class="hero__trust">
         <span class="trust-pill">
@@ -464,6 +464,6 @@ permalink: /
         </span>
       </a>
     </div>
-    <p class="hero__pricing"><strong>Anspruch prüfen + Zins-Alarm gratis</strong><span class="dot">·</span>Brief ab <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>Kein Abo</p>
+    <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Anspruch prüfen + Zins-Alarm gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Brief ab <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Kein Abo</span></p>
   </div>
 </section>
