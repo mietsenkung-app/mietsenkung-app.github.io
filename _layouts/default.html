@@ -101,8 +101,16 @@
   </footer>
 
   <script>
-    // Smooth-fade-on-scroll, only when reduced-motion is OFF.
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+    // Progressive-enhancement reveal-on-scroll. Content stays visible if JS or IO
+    // is unavailable (prints, crawlers, screenshots, reduced-motion). The .fx-reveal
+    // class on <html> is what *enables* the initial-hidden state in CSS.
+    (function () {
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const supportsIO = 'IntersectionObserver' in window;
+      if (reduce || !supportsIO) return;
+
+      document.documentElement.classList.add('fx-reveal');
+
       const io = new IntersectionObserver((entries) => {
         for (const e of entries) {
           if (e.isIntersecting) {
@@ -111,10 +119,16 @@
           }
         }
       }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
-      document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
-    } else {
-      document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('is-visible'));
-    }
+
+      const els = document.querySelectorAll('[data-reveal]');
+      els.forEach(el => io.observe(el));
+
+      // Safety net: if IO hasn't fired for some elements after 4s (e.g. user
+      // landed deep-linked, doesn't scroll), reveal everything that's still hidden.
+      setTimeout(() => {
+        document.querySelectorAll('[data-reveal]:not(.is-visible)').forEach(el => el.classList.add('is-visible'));
+      }, 4000);
+    })();
     // Solid nav after scroll past hero.
     const nav = document.querySelector('.site-nav');
     if (nav) {
