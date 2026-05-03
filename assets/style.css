@@ -184,7 +184,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 .site-nav__cta:hover { background: var(--emerald-deep); color: white; transform: translateY(-1px); }
 .lang-switcher {
-  display: none;
+  display: inline-flex;
   align-items: center;
   gap: 2px;
   padding: 3px;
@@ -192,6 +192,8 @@ img, svg { max-width: 100%; height: auto; display: block; }
   border: 1px solid var(--line);
   border-radius: 999px;
   font-size: 12px;
+  margin-left: auto;
+  order: 3;
 }
 .lang-switcher a {
   padding: 4px 9px;
@@ -209,8 +211,14 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 @media (min-width: 760px) {
   .site-nav__links { display: inline-flex; margin-left: auto; }
-  .site-nav__cta { margin-left: 0; }
-  .lang-switcher { display: inline-flex; }
+  .site-nav__cta { margin-left: 0; order: 4; }
+  .lang-switcher { margin-left: 0; order: 3; }
+}
+/* On narrow screens, hide the desktop nav links + CTA but keep the lang switcher
+   visible so Manuel (and anyone else) can switch language on mobile. */
+@media (max-width: 759px) {
+  .site-nav__cta { display: none; }
+  .site-nav__inner { gap: var(--sp-3); }
 }
 
 /* ---------- 4. Section base ---------- */
