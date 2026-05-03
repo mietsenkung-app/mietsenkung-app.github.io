@@ -9,7 +9,7 @@ permalink: /
 <section class="hero">
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
-      <span class="eyebrow">Schweizer Mietrecht — endlich machbar</span>
+      <span class="eyebrow">Mietzinssenkung in 2 Minuten</span>
       <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
       <p class="hero__sub">Der Referenzzinssatz ist gesunken. Du hast vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> rechnet's in 2 Minuten und schickt dein Senkungsbegehren mit einem Tap an deine Vermieter*in.</p>
 
@@ -44,7 +44,7 @@ permalink: /
         </span>
         <span class="trust-pill">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          Daten bleiben am Gerät
+          Daten bleiben auf deinem Gerät
         </span>
         <span class="trust-pill">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18M12 3v18"/></svg>
@@ -197,8 +197,8 @@ permalink: /
 <section class="section">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Was Mietsenkung anders macht</span>
-    <h2 class="section-title" data-reveal>Lokal-first. Rechtssicher. Tap-easy.</h2>
-    <p class="section-lead" data-reveal>Vier Eigenschaften, die zusammen den Unterschied zwischen "irgendwann mal machen" und "Brief ist raus" ausmachen.</p>
+    <h2 class="section-title" data-reveal>Privat. Präzise. Mit einem Tap.</h2>
+    <p class="section-lead" data-reveal>Fünf Punkte, die zusammen den Unterschied zwischen "irgendwann mal machen" und "Brief ist raus" ausmachen.</p>
 
     <div class="bento">
       <article class="bento__card bento__a bento__card--accent" data-reveal>
