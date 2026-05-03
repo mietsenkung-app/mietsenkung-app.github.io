@@ -208,7 +208,6 @@ permalink: /fr/
         </span>
         <h3>Calcul à la précision des tribunaux</h3>
         <p>Baisse-loyer utilise les données fédérales officielles (taux de référence OFL, IPC OFS) et reproduit le calculateur de loyer des tribunaux zurichois au centime près. Y compris renchérissement, hausses de coûts et test d'admissibilité.</p>
-        <p class="bento__big-num">ct.<small>Précision face à gerichte-zh.ch</small></p>
       </article>
 
       <article class="bento__card bento__b" data-reveal>

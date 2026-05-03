@@ -208,7 +208,6 @@ permalink: /en/
         </span>
         <h3>Court-grade calculation</h3>
         <p>RentReducer uses federal source data (BWO reference rate, BFS national CPI) and reproduces the official Zurich-courts rent calculator down to the cent. Including inflation, cost increases and an affordability check.</p>
-        <p class="bento__big-num">¢<small>Accuracy vs. gerichte-zh.ch</small></p>
       </article>
 
       <article class="bento__card bento__b" data-reveal>

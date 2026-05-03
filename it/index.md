@@ -208,7 +208,6 @@ permalink: /it/
         </span>
         <h3>Calcolo con precisione da tribunale</h3>
         <p>Ribassoaffitto usa i dati ufficiali federali (tasso UFAB, IPC UST) e riproduce il calcolatore degli affitti dei tribunali zurighesi al centesimo. Inclusi rincaro, aumenti dei costi e verifica della sostenibilità.</p>
-        <p class="bento__big-num">ct.<small>Precisione vs. gerichte-zh.ch</small></p>
       </article>
 
       <article class="bento__card bento__b" data-reveal>
