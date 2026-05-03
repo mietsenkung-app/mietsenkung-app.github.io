@@ -177,9 +177,9 @@ permalink: /en/
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">12&nbsp;%</span></p>
-        <p class="stat__label">of tenants actively claim</p>
-        <p class="stat__desc">Source: ZKB study&nbsp;2026 on the latest reference-rate cut. About half were entitled.</p>
+        <p class="stat__num"><span class="stat__num--accent">9&nbsp;in&nbsp;10</span></p>
+        <p class="stat__label">tenants don't claim</p>
+        <p class="stat__desc">Only 12 % actively ask for a reduction, even though about half are entitled. Source: ZKB study&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num">CHF&nbsp;73</p>

@@ -177,9 +177,9 @@ permalink: /
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">12&nbsp;%</span></p>
-        <p class="stat__label">der Mieter*innen fordern aktiv</p>
-        <p class="stat__desc">Quelle: ZKB-Studie&nbsp;2026 zur letzten Referenzzinssatz-Senkung. Rund die Hälfte hätte Anspruch gehabt.</p>
+        <p class="stat__num"><span class="stat__num--accent">9&nbsp;von&nbsp;10</span></p>
+        <p class="stat__label">Mieter*innen fordern nichts ein</p>
+        <p class="stat__desc">Nur 12 % verlangen aktiv eine Senkung, obwohl rund die Hälfte Anspruch hätte. Quelle: ZKB-Studie&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num">CHF&nbsp;73</p>

@@ -177,9 +177,9 @@ permalink: /it/
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">12&nbsp;%</span></p>
-        <p class="stat__label">degli inquilini fa richiesta</p>
-        <p class="stat__desc">Fonte: studio ZKB&nbsp;2026 sull'ultimo ribasso del tasso di riferimento. Circa la metà ne aveva diritto.</p>
+        <p class="stat__num"><span class="stat__num--accent">9&nbsp;su&nbsp;10</span></p>
+        <p class="stat__label">inquilini non chiedono nulla</p>
+        <p class="stat__desc">Solo il 12 % chiede attivamente un ribasso, anche se circa la metà ne avrebbe diritto. Fonte: studio ZKB&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num">CHF&nbsp;73</p>

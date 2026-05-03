@@ -177,9 +177,9 @@ permalink: /fr/
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">12&nbsp;%</span></p>
-        <p class="stat__label">des locataires en font la demande</p>
-        <p class="stat__desc">Source : étude ZKB&nbsp;2026 sur la dernière baisse du taux de référence. Environ la moitié y avait droit.</p>
+        <p class="stat__num"><span class="stat__num--accent">9&nbsp;sur&nbsp;10</span></p>
+        <p class="stat__label">locataires ne demandent rien</p>
+        <p class="stat__desc">Seuls 12 % font activement valoir une baisse, alors qu'environ la moitié y aurait droit. Source : étude ZKB&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num">CHF&nbsp;73</p>
