@@ -2,27 +2,126 @@
 <html lang="{{ page.lang | default: site.lang | default: 'de-CH' }}">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="referrer" content="no-referrer-when-downgrade">
   <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#059669" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#020617" media="(prefers-color-scheme: dark)">
+
   <title>{% if page.title and page.title != site.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+
+  {% assign og_title = page.title | default: site.title %}
+  {% assign og_desc = page.description | default: site.description %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ og_title }}">
+  <meta property="og:description" content="{{ og_desc }}">
+  <meta property="og:locale" content="{{ page.lang | default: 'de_CH' | replace: '-', '_' }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title }}">
+  <meta name="twitter:description" content="{{ og_desc }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  {% comment %} Inline SVG favicon — Mietsenkung "M" mark, scales perfectly {% endcomment %}
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23059669'/%3E%3Cpath d='M14 46V18l10 14 8-10 8 10 10-14v28' fill='none' stroke='white' stroke-width='4' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
 </head>
 <body>
-  <header class="site">
-    <a class="brand" href="{{ '/' | relative_url }}">Mietsenkung</a>
-    <nav>
-      <a href="{{ '/privacy-de.html' | relative_url }}">Datenschutz</a>
-      <a href="{{ '/privacy-en.html' | relative_url }}">Privacy (EN)</a>
-      <a href="{{ '/impressum.html' | relative_url }}">Impressum</a>
-    </nav>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-nav" id="top">
+    <div class="site-nav__inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Mietsenkung Startseite">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="28" height="28">
+            <rect width="64" height="64" rx="14" fill="currentColor"/>
+            <path d="M14 46V18l10 14 8-10 8 10 10-14v28" fill="none" stroke="white" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand__word">Mietsenkung</span>
+      </a>
+      <nav class="site-nav__links" aria-label="Hauptnavigation">
+        <a href="#wie">Wie's geht</a>
+        <a href="#preis">Preis</a>
+        <a href="#faq">FAQ</a>
+        <a href="#quellen">Quellen</a>
+      </nav>
+      <a class="site-nav__cta" href="#download">Jetzt holen</a>
+    </div>
   </header>
-  <main>
+
+  <main id="main">
     {{ content }}
   </main>
-  <footer class="site">
-    <p>© {{ 'now' | date: '%Y' }} Manuel Weingartner — Mietsenkung App</p>
+
+  <footer class="site-foot">
+    <div class="site-foot__grid">
+      <div class="site-foot__brand">
+        <span class="brand">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="22" height="22">
+              <rect width="64" height="64" rx="14" fill="currentColor"/>
+              <path d="M14 46V18l10 14 8-10 8 10 10-14v28" fill="none" stroke="white" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand__word">Mietsenkung</span>
+        </span>
+        <p>Hol dir zurück was dir zusteht.<br>Eine Schweizer App von Manuel&nbsp;Weingartner.</p>
+      </div>
+      <div>
+        <h4>Produkt</h4>
+        <ul>
+          <li><a href="#wie">Wie's geht</a></li>
+          <li><a href="#preis">Preis</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="{{ '/privacy-de.html' | relative_url }}">Datenschutz</a></li>
+          <li><a href="{{ '/privacy-en.html' | relative_url }}">Privacy (EN)</a></li>
+          <li><a href="{{ '/impressum.html' | relative_url }}">Impressum</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="mailto:kontakt@mietsenkung.swiss">kontakt@mietsenkung.swiss</a></li>
+          <li><a href="https://github.com/mietsenkung-app" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-foot__bottom">
+      <p>© {{ 'now' | date: '%Y' }} Manuel Weingartner. Mietsenkung ist eine unabhängige App und nicht mit dem Bund, Kantonen oder Gerichten verbunden.</p>
+    </div>
   </footer>
+
+  <script>
+    // Smooth-fade-on-scroll, only when reduced-motion is OFF.
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-visible');
+            io.unobserve(e.target);
+          }
+        }
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+      document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+    } else {
+      document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('is-visible'));
+    }
+    // Solid nav after scroll past hero.
+    const nav = document.querySelector('.site-nav');
+    if (nav) {
+      const onScroll = () => nav.classList.toggle('is-scrolled', window.scrollY > 24);
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
+  </script>
 </body>
 </html>
