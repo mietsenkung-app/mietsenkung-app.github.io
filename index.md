@@ -54,7 +54,7 @@ permalink: /
     </div>
 
     <div class="hero__visual" data-reveal>
-      <div class="phone" role="img" aria-label="Beispiel-Bildschirm: Mietsenkung errechnet eine monatliche Ersparnis von CHF 73.">
+      <div class="phone" role="img" aria-label="Beispiel-Bildschirm der App Mietsenkung: aktueller Anspruch CHF 73 pro Monat, ein Tap zum Brief erstellen.">
         <div class="phone__notch"></div>
         <div class="phone__screen">
           <div class="phone__statusbar">
@@ -62,28 +62,43 @@ permalink: /
             <span aria-hidden="true">●●●●● 5G</span>
           </div>
           <div class="phone__appbar">
-            <h4>Dein Anspruch</h4>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span class="phone__appbar-title">
+              <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="22" height="22">
+              Mietsenkung
+            </span>
+            <span class="phone__appbar-action" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </span>
           </div>
           <div class="phone__body">
-            <div class="phone__savings-card">
-              <div class="phone__savings-label">Monatliche Ersparnis</div>
-              <div class="phone__savings-value">CHF&nbsp;73</div>
-              <div class="phone__savings-sub">≈&nbsp;CHF&nbsp;876 pro Jahr · ab&nbsp;1.&nbsp;Juni</div>
+            <div class="phone__card">
+              <p class="phone__claim-label">Dein Anspruch</p>
+              <div class="phone__claim-row">
+                <span class="phone__claim-value">CHF&nbsp;73</span>
+                <span class="phone__claim-unit">pro Monat</span>
+              </div>
+              <p class="phone__claim-sub">CHF&nbsp;876 pro Jahr · ab 1.&nbsp;Juni</p>
+              <a class="phone__cta" href="#download">Brief erstellen →</a>
+              <p class="phone__recalc">Neu berechnen</p>
             </div>
-            <div class="phone__row">
-              <span>Aktuelle Miete</span>
-              <strong>CHF 1'920</strong>
+            <div class="phone__card">
+              <p class="phone__history-title">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><polyline points="7 14 11 10 15 14 21 8"/></svg>
+                Mietverlauf
+              </p>
+              <div class="phone__history-row">
+                <span>Aktuell</span>
+                <strong>CHF 1'920</strong>
+              </div>
+              <div class="phone__history-row">
+                <span>Neu (ab 1. Juni)</span>
+                <strong class="is-new">CHF 1'847</strong>
+              </div>
+              <div class="phone__history-row">
+                <span>Referenzzins</span>
+                <strong>1.25&nbsp;%</strong>
+              </div>
             </div>
-            <div class="phone__row">
-              <span>Neue Miete</span>
-              <strong style="color: var(--emerald-deep)">CHF 1'847</strong>
-            </div>
-            <div class="phone__row">
-              <span>Referenzzins</span>
-              <strong>1.25&nbsp;%</strong>
-            </div>
-            <div class="phone__cta">Brief erstellen — ab CHF 9.90</div>
           </div>
           <div class="phone__home"></div>
         </div>
@@ -116,7 +131,7 @@ permalink: /
 <section class="section steps" id="wie">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Wie's geht</span>
-    <h2 class="section-title" data-reveal>Drei Schritte. Kein Kanzlei-Termin. Kein Drucker.</h2>
+    <h2 class="section-title" data-reveal>Drei Schritte. Keine Vorlage. Kein Drucker.</h2>
     <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App — von der Berechnung bis zum Briefkasten deiner Vermieter*in.</p>
 
     <div class="steps__grid">
