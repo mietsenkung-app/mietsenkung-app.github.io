@@ -11,7 +11,7 @@ permalink: /privacy-en.html
   <a class="active">EN</a>
 </div>
 
-# Privacy Policy — Mietsenkung
+# Privacy Policy Mietsenkung
 
 - **Date:** 2026-04-24
 - **Effective from:** Launch of the app on the Apple App Store / Google Play Store
@@ -32,7 +32,7 @@ This privacy policy is based on the revised Swiss Federal Act on Data Protection
 
 ---
 
-## 2. Overview — local-first
+## 2. Overview: local-first
 
 Mietsenkung is deliberately built "local-first". Your lease data, your address, the address of your landlord and your signature stay exclusively on your device in a local SQLite database. There is no user account, no cloud sync, no server-side database at our end.
 

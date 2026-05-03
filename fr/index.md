@@ -1,0 +1,445 @@
+---
+layout: default
+title: "Baisse-loyer. Récupère ce qui te revient."
+description: Application suisse qui vérifie en 2 minutes si tu as droit à une baisse de loyer et envoie la demande de baisse à ton·a bailleur·esse en un tap. Dès CHF 9.90.
+lang: fr-CH
+lang_short: fr
+permalink: /fr/
+---
+
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__copy" data-reveal>
+      <span class="eyebrow">Baisse de loyer en 2 minutes</span>
+      <h1 class="hero__title">Récupère<br>ce qui te <em>revient</em>.</h1>
+      <p class="hero__sub">Le taux de référence a baissé. Tu as probablement droit à un loyer plus bas. <strong>Baisse-loyer</strong> fait le calcul en 2 minutes et envoie ta demande de baisse à ton·a bailleur·esse en un tap.</p>
+
+      <div class="hero__cta">
+        <a class="store-button" href="https://apps.apple.com/ch/app/mietsenkung/id6765495437" aria-label="Télécharger Baisse-loyer sur l'App Store">
+          <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+          <span class="store-button__text">
+            <span class="store-button__small">Télécharger sur l'</span>
+            <span class="store-button__big">App&nbsp;Store</span>
+          </span>
+        </a>
+        <a class="store-button" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Obtenir Baisse-loyer sur Google Play">
+          <svg class="store-button__icon" viewBox="0 0 512 512" aria-hidden="true">
+            <path fill="#34d399" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
+            <path fill="#fbbf24" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
+            <path fill="#60a5fa" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
+            <path fill="#f87171" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
+          </svg>
+          <span class="store-button__text">
+            <span class="store-button__small">Disponible sur</span>
+            <span class="store-button__big">Google&nbsp;Play</span>
+          </span>
+        </a>
+      </div>
+
+      <p class="hero__pricing"><strong>Vérification du droit + alerte taux gratuites</strong><span class="dot">·</span>Lettre dès <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>Courrier A inclus<span class="dot">·</span>Sans abonnement</p>
+
+      <div class="hero__trust">
+        <span class="trust-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Conforme nLPD
+        </span>
+        <span class="trust-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Tes données restent sur ton appareil
+        </span>
+        <span class="trust-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18M12 3v18"/></svg>
+          Swiss made
+        </span>
+      </div>
+    </div>
+
+    <div class="hero__visual" data-reveal>
+      <div class="phone" role="img" aria-label="Écran d'exemple de Baisse-loyer : droit actuel CHF 73 par mois, un tap pour créer la lettre.">
+        <div class="phone__notch"></div>
+        <div class="phone__screen">
+          <div class="phone__statusbar">
+            <span>9:41</span>
+            <span aria-hidden="true">●●●●● 5G</span>
+          </div>
+          <div class="phone__appbar">
+            <span class="phone__appbar-title">
+              <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="22" height="22">
+              Baisse-loyer
+            </span>
+            <span class="phone__appbar-action" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </span>
+          </div>
+          <div class="phone__body">
+            <div class="phone__card">
+              <p class="phone__claim-label">Ton droit</p>
+              <div class="phone__claim-row">
+                <span class="phone__claim-value">CHF&nbsp;73</span>
+                <span class="phone__claim-unit">par mois</span>
+              </div>
+              <p class="phone__claim-sub">CHF&nbsp;876 par an · dès le 1er&nbsp;juin</p>
+              <a class="phone__cta" href="#download">Créer la lettre →</a>
+              <p class="phone__recalc">Recalculer</p>
+            </div>
+            <div class="phone__card">
+              <p class="phone__history-title">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><polyline points="7 14 11 10 15 14 21 8"/></svg>
+                Historique du loyer
+              </p>
+              <div class="phone__history-row">
+                <span>Actuel</span>
+                <strong>CHF 1'920</strong>
+              </div>
+              <div class="phone__history-row">
+                <span>Nouveau (dès 1er juin)</span>
+                <strong class="is-new">CHF 1'847</strong>
+              </div>
+              <div class="phone__history-row">
+                <span>Taux de référence</span>
+                <strong>1.25&nbsp;%</strong>
+              </div>
+            </div>
+          </div>
+          <div class="phone__home"></div>
+        </div>
+        <div class="phone__float phone__float--top" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Lettre en route
+        </div>
+        <div class="phone__float phone__float--bot" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          2 minutes
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="trust-strip__inner">
+    <span class="trust-strip__label">Données et droit issus de sources officielles&nbsp;suisses</span>
+    <div class="trust-strip__sources">
+      <span>OFL</span>
+      <span>OFS</span>
+      <span>Fedlex / CO</span>
+      <span>OBLF&nbsp;art.&nbsp;13</span>
+      <span>Calculateur ZH</span>
+    </div>
+  </div>
+</section>
+
+<section class="section steps" id="how">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Comment ça marche</span>
+    <h2 class="section-title" data-reveal>Trois étapes. Pas d'imprimante. Pas de poste à faire.</h2>
+    <p class="section-lead" data-reveal>Tu saisis ton loyer et la date de la dernière adaptation. L'app fait le reste : du calcul à la boîte aux lettres de ton·a bailleur·esse.</p>
+
+    <div class="steps__grid">
+      <article class="step" data-reveal>
+        <span class="step__num">01</span>
+        <span class="step__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
+        </span>
+        <h3>Vérifier ton droit</h3>
+        <p>Tu saisis ton loyer et la date de la dernière adaptation. L'app calcule selon le droit fédéral (art.&nbsp;270a&nbsp;CO + OBLF&nbsp;art.&nbsp;13) avec renchérissement et hausses de coûts. Parité 1:1 avec le calculateur des tribunaux zurichois.</p>
+        <span class="step__time">≈ 2&nbsp;min · gratuit</span>
+      </article>
+
+      <article class="step" data-reveal>
+        <span class="step__num">02</span>
+        <span class="step__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+        </span>
+        <h3>Un tap sur Envoyer</h3>
+        <p>L'app génère ta demande de baisse avec ta signature au doigt, la transmet chiffrée à notre partenaire postal suisse, qui l'envoie en courrier A ou recommandé. Tu reçois une notification de confirmation.</p>
+        <span class="step__time">≈ 30&nbsp;sec · dès CHF&nbsp;9.90</span>
+      </article>
+
+      <article class="step" data-reveal>
+        <span class="step__num">03</span>
+        <span class="step__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        </span>
+        <h3>Rappels automatiques</h3>
+        <p>Pas de réponse de ton·a bailleur·esse ? Baisse-loyer te rappelle après 14, 30 et 60&nbsp;jours. En un tap tu envoies la lettre de suivi adaptée : rappel, demande de pièces ou requête de conciliation.</p>
+        <span class="step__time">automatique</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats__inner">
+    <span class="eyebrow" data-reveal>Pourquoi cette appli</span>
+    <h2 class="stats__title" data-reveal>Les locataires en Suisse perdent des millions chaque année.</h2>
+    <p class="stats__lead" data-reveal>Seule une minorité fait valoir son droit. Le plus souvent parce que rédiger semble compliqué : chercher un modèle, faire le calcul, mettre des dates dans l'agenda, relancer en cas de silence.</p>
+
+    <div class="stats__grid">
+      <div class="stat" data-reveal>
+        <p class="stat__num"><span class="stat__num--accent">12&nbsp;%</span></p>
+        <p class="stat__label">des locataires en font la demande</p>
+        <p class="stat__desc">Source : étude ZKB&nbsp;2026 sur la dernière baisse du taux de référence. Environ la moitié y avait droit.</p>
+      </div>
+      <div class="stat" data-reveal>
+        <p class="stat__num">CHF&nbsp;73</p>
+        <p class="stat__label">économie mensuelle moyenne</p>
+        <p class="stat__desc">Pour un 2.5 pièces typique à CHF&nbsp;1'920. La lettre est rentabilisée la première semaine.</p>
+      </div>
+      <div class="stat" data-reveal>
+        <p class="stat__num">2&nbsp;min</p>
+        <p class="stat__label">de l'ouverture à la lettre prête</p>
+        <p class="stat__desc">Pas de modèle, pas de Word, pas d'imprimante. Notification dès que la lettre part.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Ce qui rend Baisse-loyer différent</span>
+    <h2 class="section-title" data-reveal>Privée. Précise. En un tap.</h2>
+    <p class="section-lead" data-reveal>Ce qui distingue Baisse-loyer d'un modèle Word.</p>
+
+    <div class="bento">
+      <article class="bento__card bento__a bento__card--accent" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </span>
+        <h3>Calcul à la précision des tribunaux</h3>
+        <p>Baisse-loyer utilise les données fédérales officielles (taux de référence OFL, IPC OFS) et reproduit le calculateur de loyer des tribunaux zurichois au centime près. Y compris renchérissement, hausses de coûts et test d'admissibilité.</p>
+        <p class="bento__big-num">ct.<small>Précision face à gerichte-zh.ch</small></p>
+      </article>
+
+      <article class="bento__card bento__b" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </span>
+        <h3>Vie privée d'abord</h3>
+        <p>Tes données restent chiffrées sur ton appareil. Pas de compte, pas de base de données cloud. Seul le PDF final est transmis chiffré à notre partenaire postal suisse.</p>
+      </article>
+
+      <article class="bento__card bento__c" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </span>
+        <h3>Alerte taux gratuite</h3>
+        <p>Notification dès que le taux de référence baisse. Pas d'inscription, pas d'abonnement. Tu peux utiliser l'appli uniquement comme système d'alerte précoce, c'est tout à fait OK.</p>
+      </article>
+
+      <article class="bento__card bento__d" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+        </span>
+        <h3>Quatre langues</h3>
+        <p>App et lettres en allemand, français, italien et anglais. Tu choisis la langue, l'app calcule, La Poste suisse livre.</p>
+      </article>
+
+      <article class="bento__card bento__e" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h18v18H3z"/><path d="M10 8h4M10 12h4M10 16h4M8 8v8M16 8v8"/></svg>
+        </span>
+        <h3>De la demande à la conciliation</h3>
+        <p>De la première demande de baisse aux rappels, demandes de pièces ou annonce de conciliation. Toutes les lettres de suivi sont dans l'app, à un tap de distance.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section pricing" id="price">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Prix</span>
+    <h2 class="section-title" data-reveal>Pay-per-use. Sans abonnement. Moins d'1/3 de ta première économie mensuelle.</h2>
+    <p class="section-lead" data-reveal>La vérification du droit est gratuite. Tu paies uniquement quand tu envoies la lettre, et même là, qu'une seule fois par lettre.</p>
+
+    <div class="pricing__grid">
+      <article class="price-card" data-reveal>
+        <p class="price-card__name">Gratuit</p>
+        <p class="price-card__price">CHF&nbsp;0</p>
+        <p class="price-card__price-sub">utilisation illimitée</p>
+        <ul class="price-card__list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Vérification du droit en 2 minutes</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Alerte si le taux de référence baisse</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Historique du loyer + compteur d'économies</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Données chiffrées localement, pas de compte</li>
+        </ul>
+        <div class="price-card__addons">
+          <strong>Parfait pour découvrir.</strong> Pas de droit ? Tu n'as rien payé.
+        </div>
+      </article>
+
+      <article class="price-card price-card--featured" data-reveal>
+        <span class="price-card__tag">Populaire</span>
+        <p class="price-card__name">Envoi de la lettre</p>
+        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;– 29.90</span></p>
+        <p class="price-card__price-sub">une fois par lettre · courrier A inclus</p>
+        <ul class="price-card__list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Demande de baisse en PDF juridiquement&nbsp;solide</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Impression + envoi par notre partenaire postal suisse</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Ta signature au doigt, capturée dans le wizard</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Rappels automatiques + lettres de suivi disponibles</li>
+        </ul>
+        <div class="price-card__addons">
+          <strong>Options (à la carte) :</strong>
+          <div class="price-card__addons-grid">
+            <div class="price-card__addons-row"><span>Recommandé avec suivi</span><strong>+ CHF 7.90</strong></div>
+            <div class="price-card__addons-row"><span>Suivi : rappel / pièces / conciliation</span><strong>CHF 6.90</strong></div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <p class="pricing-note">Le prix de la lettre suit ton économie mensuelle (env. 30 %, avec un plancher et un plafond). Petite baisse, petit prix. Grosse baisse, un peu plus, mais jamais au-dessus de CHF 29.90. Six paliers : 9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Questions fréquentes</span>
+    <h2 class="section-title" data-reveal>Ce que tu veux savoir avant de te lancer.</h2>
+
+    <div class="faq__list" data-reveal>
+      <details>
+        <summary>Est-ce que j'ai vraiment droit à une baisse ?</summary>
+        <div class="faq__answer">
+          <p>Si ta dernière adaptation de loyer reposait sur un taux de référence plus élevé qu'aujourd'hui, alors oui, très probablement. Baisse-loyer le calcule automatiquement selon l'art.&nbsp;270a&nbsp;CO et l'OBLF art.&nbsp;13. Tu n'as qu'à saisir ton loyer actuel et la date de la dernière adaptation.</p>
+          <p>La vérification est gratuite. Si le résultat est nul, tu n'as rien payé.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Combien coûte vraiment l'app ?</summary>
+        <div class="faq__answer">
+          <p>L'app est gratuite. La vérification du droit et l'alerte taux le restent. Tu paies uniquement l'envoi de la lettre : CHF&nbsp;9.90 à 29.90 selon ton économie mensuelle. Inclus : génération de la lettre, impression et distribution courrier A par notre partenaire postal suisse.</p>
+          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90) et lettres de suivi (rappel / pièces / conciliation) à CHF&nbsp;6.90 chacune.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Baisse-loyer est-elle une appli officielle de l'État ?</summary>
+        <div class="faq__answer">
+          <p>Non. Baisse-loyer est une application indépendante, sans lien avec la Confédération, un canton, une autorité ou un tribunal. Toutes les données et bases légales utilisées proviennent de sources officielles suisses. Voir le bloc Sources plus bas.</p>
+          <p>Baisse-loyer ne remplace pas un conseil juridique. Pour des questions juridiques, contacte une association cantonale de défense des locataires ou un·e avocat·e.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Que deviennent mes données ?</summary>
+        <div class="faq__answer">
+          <p>Tes données de loyer et de bail restent chiffrées sur ton appareil. Nous ne gérons aucune base de données cloud et tu n'as pas besoin de compte. Seul le PDF final de ta lettre est transmis chiffré à notre partenaire postal suisse pour impression et distribution.</p>
+          <p>Détails dans la <a href="{{ '/privacy-en.html' | relative_url }}">politique de confidentialité</a>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Quelle est la précision du calcul ?</summary>
+        <div class="faq__answer">
+          <p>Au centime près face au calculateur des tribunaux zurichois. Nous utilisons les sources officielles (taux de référence OFL, IPC OFS) et reproduisons la formule de l'OBLF art.&nbsp;13, y compris renchérissement, hausses de coûts et test d'admissibilité.</p>
+          <p>Quand les données fédérales sont mises à jour en amont, l'app les reprend automatiquement et recalcule au prochain ouverture.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Que faire si mon·a bailleur·esse ne répond pas ?</summary>
+        <div class="faq__answer">
+          <p>Baisse-loyer te rappelle automatiquement après 14, 30 et 60 jours. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : rappel, demande de pièces ou annonce de conciliation. Chaque lettre de suivi coûte CHF&nbsp;6.90 (courrier A inclus).</p>
+          <p>Si tu vas à la conciliation, l'app t'aide à trouver l'autorité cantonale de conciliation compétente (source : OFL).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Sur quels appareils Baisse-loyer fonctionne ?</summary>
+        <div class="faq__answer">
+          <p>iPhone (iOS&nbsp;15+) et téléphones Android (Android&nbsp;9+). Tablettes prises en charge, mais l'interface est conçue pour mobile. Quatre langues : allemand, français, italien, anglais.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section sources" id="sources">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Sources et avertissement</span>
+    <h2 class="section-title" data-reveal>Tout vient de sources officielles suisses.</h2>
+    <p class="section-lead" data-reveal>Baisse-loyer renvoie directement aux données fédérales et aux bases légales sous-jacentes. Tu peux vérifier toi-même chaque valeur dans l'app.</p>
+
+    <div class="sources__grid">
+      <a class="source-row" href="https://www.bwo.admin.ch/bwo/fr/home/mietrecht/referenzzinssatz.html" rel="noopener">
+        <span class="source-row__abbr">OFL</span>
+        <span class="source-row__body">
+          <span class="source-row__title">Taux d'intérêt de référence hypothécaire</span>
+          <span class="source-row__sub">Office fédéral du logement, source primaire</span>
+        </span>
+      </a>
+      <a class="source-row" href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/prix/indice-prix-consommation.html" rel="noopener">
+        <span class="source-row__abbr">OFS</span>
+        <span class="source-row__body">
+          <span class="source-row__title">Indice national des prix à la consommation</span>
+          <span class="source-row__sub">Office fédéral de la statistique, pour le renchérissement</span>
+        </span>
+      </a>
+      <a class="source-row" href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr" rel="noopener">
+        <span class="source-row__abbr">CO</span>
+        <span class="source-row__body">
+          <span class="source-row__title">Droit du bail : CO art. 269 ss, en particulier 270a</span>
+          <span class="source-row__sub">Code des obligations (Fedlex)</span>
+        </span>
+      </a>
+      <a class="source-row" href="https://www.fedlex.admin.ch/eli/cc/1990/835_835_835/fr" rel="noopener">
+        <span class="source-row__abbr">OBLF</span>
+        <span class="source-row__body">
+          <span class="source-row__title">Ordonnance sur le bail à loyer</span>
+          <span class="source-row__sub">OBLF art. 13, formule de calcul</span>
+        </span>
+      </a>
+      <a class="source-row" href="https://www.bwo.admin.ch/bwo/fr/home/mietrecht/schlichtungsbehoerden.html" rel="noopener">
+        <span class="source-row__abbr">AC</span>
+        <span class="source-row__body">
+          <span class="source-row__title">Annuaire des autorités de conciliation</span>
+          <span class="source-row__sub">OFL, adresses cantonales</span>
+        </span>
+      </a>
+      <a class="source-row" href="https://www.gerichte-zh.ch/themen/mietsachen/mietzinsrechner.html" rel="noopener">
+        <span class="source-row__abbr">ZH</span>
+        <span class="source-row__body">
+          <span class="source-row__title">Calculateur de loyer des tribunaux zurichois</span>
+          <span class="source-row__sub">Référence de vérification du calcul</span>
+        </span>
+      </a>
+    </div>
+
+    <div class="sources-disclaimer">
+      <p style="margin: 0 0 8px;"><strong>Baisse-loyer est une application indépendante.</strong> Sans lien avec la Confédération, les cantons, une autorité ou un tribunal, non opérée par eux et ne représente aucune entité gouvernementale.</p>
+      <p style="margin: 0;">L'app n'est <strong>pas un conseil juridique</strong> et ne remplace pas un·e avocat·e. Pour des questions juridiques, contacte une association cantonale de locataires ou un·e avocat·e.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="download">
+  <div class="cta__inner" data-reveal>
+    <h2>Récupère ce qui te revient.</h2>
+    <p>Vérification en 2 minutes. Un tap pour envoyer. Dès CHF&nbsp;9.90 par lettre, courrier A inclus, sans abonnement.</p>
+    <div class="hero__cta">
+      <a class="store-button" href="https://apps.apple.com/ch/app/mietsenkung/id6765495437" aria-label="Télécharger Baisse-loyer sur l'App Store">
+        <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        <span class="store-button__text">
+          <span class="store-button__small">Télécharger sur l'</span>
+          <span class="store-button__big">App&nbsp;Store</span>
+        </span>
+      </a>
+      <a class="store-button" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Obtenir Baisse-loyer sur Google Play">
+        <svg class="store-button__icon" viewBox="0 0 512 512" aria-hidden="true">
+          <path fill="#34d399" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
+          <path fill="#fbbf24" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
+          <path fill="#60a5fa" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
+          <path fill="#f87171" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
+        </svg>
+        <span class="store-button__text">
+          <span class="store-button__small">Disponible sur</span>
+          <span class="store-button__big">Google&nbsp;Play</span>
+        </span>
+      </a>
+    </div>
+    <p class="hero__pricing"><strong>Vérification + alerte taux gratuites</strong><span class="dot">·</span>Lettre dès <strong>CHF&nbsp;9.90</strong><span class="dot">·</span>Sans abonnement</p>
+  </div>
+</section>

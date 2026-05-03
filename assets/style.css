@@ -183,9 +183,34 @@ img, svg { max-width: 100%; height: auto; display: block; }
   transition: background 0.15s, transform 0.15s;
 }
 .site-nav__cta:hover { background: var(--emerald-deep); color: white; transform: translateY(-1px); }
+.lang-switcher {
+  display: none;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 12px;
+}
+.lang-switcher a {
+  padding: 4px 9px;
+  border-radius: 999px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: background 0.15s, color 0.15s;
+}
+.lang-switcher a:hover { color: var(--ink); }
+.lang-switcher a.is-active {
+  background: var(--ink);
+  color: white;
+}
 @media (min-width: 760px) {
-  .site-nav__links { display: inline-flex; }
+  .site-nav__links { display: inline-flex; margin-left: auto; }
   .site-nav__cta { margin-left: 0; }
+  .lang-switcher { display: inline-flex; }
 }
 
 /* ---------- 4. Section base ---------- */

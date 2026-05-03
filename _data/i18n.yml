@@ -1,0 +1,91 @@
+# Shared chrome translations (nav, footer) for the marketing site.
+# Anchor IDs (#how, #price, #faq, #sources, #download) are language-agnostic;
+# only the link labels are localised.
+
+de:
+  nav:
+    how: "Wie's geht"
+    price: "Preis"
+    faq: "FAQ"
+    sources: "Quellen"
+    cta: "Jetzt holen"
+  skip: "Zum Inhalt springen"
+  brand_aria: "Mietsenkung Startseite"
+  brand_word: "Mietsenkung"
+  foot_tagline: "Hol dir zurück, was dir zusteht."
+  foot_byline: "Eine Schweizer App von Manuel&nbsp;Weingartner."
+  foot_h_product: "Produkt"
+  foot_h_legal: "Rechtliches"
+  foot_h_contact: "Kontakt"
+  foot_legal_privacy: "Datenschutz"
+  foot_legal_imprint: "Impressum"
+  foot_disclaimer: "Mietsenkung ist eine unabhängige App und nicht mit dem Bund, Kantonen oder Gerichten verbunden."
+  langswitch_label: "Sprache"
+
+fr:
+  nav:
+    how: "Comment ça marche"
+    price: "Prix"
+    faq: "FAQ"
+    sources: "Sources"
+    cta: "Télécharger"
+  skip: "Aller au contenu"
+  brand_aria: "Baisse-loyer page d'accueil"
+  brand_word: "Baisse-loyer"
+  foot_tagline: "Récupère ce qui te revient."
+  foot_byline: "Une appli suisse de Manuel&nbsp;Weingartner."
+  foot_h_product: "Produit"
+  foot_h_legal: "Mentions légales"
+  foot_h_contact: "Contact"
+  foot_legal_privacy: "Confidentialité"
+  foot_legal_imprint: "Mentions légales"
+  foot_disclaimer: "Baisse-loyer est une application indépendante, sans lien avec la Confédération, les cantons ou les tribunaux."
+  langswitch_label: "Langue"
+
+it:
+  nav:
+    how: "Come funziona"
+    price: "Prezzo"
+    faq: "FAQ"
+    sources: "Fonti"
+    cta: "Scarica"
+  skip: "Salta al contenuto"
+  brand_aria: "Ribassoaffitto pagina iniziale"
+  brand_word: "Ribassoaffitto"
+  foot_tagline: "Recupera ciò che ti spetta."
+  foot_byline: "Un'app svizzera di Manuel&nbsp;Weingartner."
+  foot_h_product: "Prodotto"
+  foot_h_legal: "Note legali"
+  foot_h_contact: "Contatto"
+  foot_legal_privacy: "Privacy"
+  foot_legal_imprint: "Note legali"
+  foot_disclaimer: "Ribassoaffitto è un'applicazione indipendente, non affiliata alla Confederazione, ai Cantoni o ai tribunali."
+  langswitch_label: "Lingua"
+
+en:
+  nav:
+    how: "How it works"
+    price: "Price"
+    faq: "FAQ"
+    sources: "Sources"
+    cta: "Get the app"
+  skip: "Skip to content"
+  brand_aria: "RentReducer home"
+  brand_word: "RentReducer"
+  foot_tagline: "Get back what you're owed."
+  foot_byline: "A Swiss app by Manuel&nbsp;Weingartner."
+  foot_h_product: "Product"
+  foot_h_legal: "Legal"
+  foot_h_contact: "Contact"
+  foot_legal_privacy: "Privacy"
+  foot_legal_imprint: "Imprint"
+  foot_disclaimer: "RentReducer is an independent app and is not affiliated with the Swiss Confederation, any canton, or any court."
+  langswitch_label: "Language"
+
+# Map from (current lang) → URL prefix used by the language switcher.
+# DE is at root, others under /<lang>/.
+urls:
+  de: "/"
+  fr: "/fr/"
+  it: "/it/"
+  en: "/en/"

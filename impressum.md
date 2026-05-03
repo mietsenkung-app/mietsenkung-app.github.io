@@ -22,7 +22,7 @@ Postadresse auf Anfrage per E-Mail.
 
 ## Zweck dieser Seite
 
-Diese Seite stellt für die App **Mietsenkung** (Bundle ID `com.mietsenkung.mietsenkung`) die rechtlich verlangten Dokumente — Datenschutzerklärung und Impressum — an einer stabilen URL bereit, wie es Apple App Store und Google Play Store von App-Anbietern verlangen.
+Diese Seite stellt für die App **Mietsenkung** (Bundle ID `com.mietsenkung.mietsenkung`) die rechtlich verlangten Dokumente (Datenschutzerklärung und Impressum) an einer stabilen URL bereit, wie es Apple App Store und Google Play Store von App-Anbietern verlangen.
 
 ## Haftungsausschluss
 

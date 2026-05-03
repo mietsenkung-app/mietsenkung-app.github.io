@@ -1,5 +1,15 @@
 <!doctype html>
-<html lang="{{ page.lang | default: site.lang | default: 'de-CH' }}">
+{%- comment -%}
+  Localised default layout.
+  page.lang: de-CH | fr-CH | it-CH | en
+  page.lang_short (set in front-matter): de | fr | it | en — used to look up site.data.i18n[page.lang_short]
+  Anchor IDs are stable across languages (#how, #price, #faq, #sources, #download).
+  The navigation labels and footer chrome come from _data/i18n.yml.
+{%- endcomment -%}
+{%- assign lang_short = page.lang_short | default: 'de' -%}
+{%- assign t = site.data.i18n[lang_short] -%}
+{%- assign home = site.data.i18n.urls[lang_short] | default: '/' -%}
+<html lang="{{ page.lang | default: 'de-CH' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -28,25 +38,32 @@
 
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/app_icon.svg' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/app_icon.svg' | relative_url }}">
+
+  {%- comment -%} hreflang alternates for SEO {%- endcomment -%}
+  {% for entry in site.data.i18n.urls %}<link rel="alternate" hreflang="{{ entry[0] }}" href="{{ entry[1] | relative_url }}">{% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | relative_url }}">
 </head>
 <body>
-  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <a class="skip-link" href="#main">{{ t.skip }}</a>
 
   <header class="site-nav" id="top">
     <div class="site-nav__inner">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Mietsenkung Startseite">
+      <a class="brand" href="{{ home | relative_url }}" aria-label="{{ t.brand_aria }}">
         <span class="brand__mark" aria-hidden="true">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="28" height="28">
         </span>
-        <span class="brand__word">Mietsenkung</span>
+        <span class="brand__word">{{ t.brand_word }}</span>
       </a>
-      <nav class="site-nav__links" aria-label="Hauptnavigation">
-        <a href="#wie">Wie's geht</a>
-        <a href="#preis">Preis</a>
-        <a href="#faq">FAQ</a>
-        <a href="#quellen">Quellen</a>
+      <nav class="site-nav__links" aria-label="{{ t.nav.cta }}">
+        <a href="#how">{{ t.nav.how }}</a>
+        <a href="#price">{{ t.nav.price }}</a>
+        <a href="#faq">{{ t.nav.faq }}</a>
+        <a href="#sources">{{ t.nav.sources }}</a>
       </nav>
-      <a class="site-nav__cta" href="#download">Jetzt holen</a>
+      <div class="lang-switcher" role="group" aria-label="{{ t.langswitch_label }}">
+        {% for entry in site.data.i18n.urls %}{% assign other = entry[0] %}<a href="{{ entry[1] | relative_url }}"{% if other == lang_short %} aria-current="page" class="is-active"{% endif %} hreflang="{{ other }}">{{ other | upcase }}</a>{% endfor %}
+      </div>
+      <a class="site-nav__cta" href="#download">{{ t.nav.cta }}</a>
     </div>
   </header>
 
@@ -61,36 +78,40 @@
           <span class="brand__mark" aria-hidden="true">
             <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="22" height="22">
           </span>
-          <span class="brand__word">Mietsenkung</span>
+          <span class="brand__word">{{ t.brand_word }}</span>
         </span>
-        <p>Hol dir zurück was dir zusteht.<br>Eine Schweizer App von Manuel&nbsp;Weingartner.</p>
+        <p>{{ t.foot_tagline }}<br>{{ t.foot_byline }}</p>
       </div>
       <div>
-        <h4>Produkt</h4>
+        <h4>{{ t.foot_h_product }}</h4>
         <ul>
-          <li><a href="#wie">Wie's geht</a></li>
-          <li><a href="#preis">Preis</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#how">{{ t.nav.how }}</a></li>
+          <li><a href="#price">{{ t.nav.price }}</a></li>
+          <li><a href="#faq">{{ t.nav.faq }}</a></li>
         </ul>
       </div>
       <div>
-        <h4>Rechtliches</h4>
+        <h4>{{ t.foot_h_legal }}</h4>
         <ul>
-          <li><a href="{{ '/privacy-de.html' | relative_url }}">Datenschutz</a></li>
-          <li><a href="{{ '/privacy-en.html' | relative_url }}">Privacy (EN)</a></li>
-          <li><a href="{{ '/impressum.html' | relative_url }}">Impressum</a></li>
+          {%- if lang_short == 'en' -%}
+            <li><a href="{{ '/privacy-en.html' | relative_url }}">{{ t.foot_legal_privacy }}</a></li>
+            <li><a href="{{ '/impressum.html' | relative_url }}">{{ t.foot_legal_imprint }}</a></li>
+          {%- else -%}
+            <li><a href="{{ '/privacy-de.html' | relative_url }}">{{ t.foot_legal_privacy }}</a></li>
+            <li><a href="{{ '/privacy-en.html' | relative_url }}">Privacy (EN)</a></li>
+            <li><a href="{{ '/impressum.html' | relative_url }}">{{ t.foot_legal_imprint }}</a></li>
+          {%- endif -%}
         </ul>
       </div>
       <div>
-        <h4>Kontakt</h4>
+        <h4>{{ t.foot_h_contact }}</h4>
         <ul>
           <li><a href="mailto:kontakt@mietsenkung.swiss">kontakt@mietsenkung.swiss</a></li>
-          <li><a href="https://github.com/mietsenkung-app" rel="noopener">GitHub</a></li>
         </ul>
       </div>
     </div>
     <div class="site-foot__bottom">
-      <p>© {{ 'now' | date: '%Y' }} Manuel Weingartner. Mietsenkung ist eine unabhängige App und nicht mit dem Bund, Kantonen oder Gerichten verbunden.</p>
+      <p>© {{ 'now' | date: '%Y' }} Manuel Weingartner. {{ t.foot_disclaimer }}</p>
     </div>
   </footer>
 

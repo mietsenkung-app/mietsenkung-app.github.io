@@ -11,7 +11,7 @@ permalink: /privacy-de.html
   <a href="privacy-en.html">EN</a>
 </div>
 
-# Datenschutzerklärung — Mietsenkung
+# Datenschutzerklärung Mietsenkung
 
 - **Stand:** 2026-04-24
 - **In Kraft ab:** Launch der App im Apple App Store / Google Play Store
@@ -32,7 +32,7 @@ Diese Datenschutzerklärung richtet sich nach dem revidierten Schweizer Datensch
 
 ---
 
-## 2. Überblick — Local-first
+## 2. Überblick: Local-first
 
 Mietsenkung ist bewusst "local-first" gebaut. Deine Mietvertragsdaten, deine Adresse, die Adresse deiner Vermieter\*in und deine Signatur bleiben ausschliesslich auf deinem Gerät in einer lokalen SQLite-Datenbank gespeichert. Es gibt kein Benutzer\*innen-Konto, keine Cloud-Synchronisierung, keine serverseitige Datenbank bei uns.
 
