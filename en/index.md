@@ -363,14 +363,14 @@ permalink: /en/
     <p class="section-lead" data-reveal>RentReducer links directly to the underlying federal data and legal references. You can verify every value in the app yourself.</p>
 
     <div class="sources__grid">
-      <a class="source-row" href="https://www.bwo.admin.ch/en/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/de/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
         <span class="source-row__abbr">BWO</span>
         <span class="source-row__body">
           <span class="source-row__title">Mortgage reference interest rate</span>
-          <span class="source-row__sub">Federal Office for Housing, primary data source</span>
+          <span class="source-row__sub">Federal Office for Housing, primary data source (German)</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.bfs.admin.ch/bfs/en/home/statistics/prices/national-consumer-price-index.html" rel="noopener">
+      <a class="source-row" href="https://www.bfs.admin.ch/bfs/en/home/statistiken/preise/landesindex-konsumentenpreise.html" rel="noopener">
         <span class="source-row__abbr">BFS</span>
         <span class="source-row__body">
           <span class="source-row__title">National Consumer Price Index</span>
@@ -391,18 +391,18 @@ permalink: /en/
           <span class="source-row__sub">VMWG art. 13, calculation formula</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/en/home/mietrecht/schlichtungsbehoerden.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/de/schlichtungsverfahren" rel="noopener">
         <span class="source-row__abbr">SB</span>
         <span class="source-row__body">
           <span class="source-row__title">Conciliation authorities directory</span>
-          <span class="source-row__sub">BWO, cantonal addresses</span>
+          <span class="source-row__sub">BWO, cantonal addresses (German)</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.gerichte-zh.ch/themen/mietsachen/mietzinsrechner.html" rel="noopener">
+      <a class="source-row" href="https://www.gerichte-zh.ch/de/themen/miete" rel="noopener">
         <span class="source-row__abbr">ZH</span>
         <span class="source-row__body">
-          <span class="source-row__title">Rent calculator of the Zurich courts</span>
-          <span class="source-row__sub">Verification reference for the calculation</span>
+          <span class="source-row__title">Tenancy law information from the Zurich courts</span>
+          <span class="source-row__sub">Verification reference (in German)</span>
         </span>
       </a>
     </div>

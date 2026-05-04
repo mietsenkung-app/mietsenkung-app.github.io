@@ -415,14 +415,14 @@ permalink: /
           <span class="source-row__sub">VMWG Art. 13, Berechnungsformel</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/de/home/mietrecht/schlichtungsbehoerden.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/de/schlichtungsverfahren" rel="noopener">
         <span class="source-row__abbr">SB</span>
         <span class="source-row__body">
           <span class="source-row__title">Schlichtungsbehörden-Verzeichnis</span>
           <span class="source-row__sub">BWO, kantonale Adressen</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.gerichte-zh.ch/themen/mietsachen/mietzinsrechner.html" rel="noopener">
+      <a class="source-row" href="https://www.gerichte-zh.ch/de/themen/miete" rel="noopener">
         <span class="source-row__abbr">ZH</span>
         <span class="source-row__body">
           <span class="source-row__title">Mietzinsrechner der Zürcher Gerichte</span>

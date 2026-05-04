@@ -362,14 +362,14 @@ permalink: /it/
     <p class="section-lead" data-reveal>Ribassoaffitto rimanda direttamente ai dati federali e alle basi legali. Puoi verificare ogni valore nell'app stessa.</p>
 
     <div class="sources__grid">
-      <a class="source-row" href="https://www.bwo.admin.ch/it/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/it/tasso-di-riferimento" rel="noopener">
         <span class="source-row__abbr">UFAB</span>
         <span class="source-row__body">
           <span class="source-row__title">Tasso di riferimento ipotecario</span>
           <span class="source-row__sub">Ufficio federale delle abitazioni, fonte primaria</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.bfs.admin.ch/bfs/it/home/statistiche/prezzi/indice-prezzi-consumo.html" rel="noopener">
+      <a class="source-row" href="https://www.bfs.admin.ch/bfs/it/home/statistiche/prezzi/indice-nazionale-prezzi-consumo.html" rel="noopener">
         <span class="source-row__abbr">UST</span>
         <span class="source-row__body">
           <span class="source-row__title">Indice nazionale dei prezzi al consumo</span>
@@ -390,18 +390,18 @@ permalink: /it/
           <span class="source-row__sub">OLAL art. 13, formula di calcolo</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/it/home/mietrecht/schlichtungsbehoerden.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/it/procedura-di-conciliazione" rel="noopener">
         <span class="source-row__abbr">AC</span>
         <span class="source-row__body">
           <span class="source-row__title">Elenco delle autorità di conciliazione</span>
           <span class="source-row__sub">UFAB, indirizzi cantonali</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.gerichte-zh.ch/themen/mietsachen/mietzinsrechner.html" rel="noopener">
+      <a class="source-row" href="https://www.gerichte-zh.ch/de/themen/miete" rel="noopener">
         <span class="source-row__abbr">ZH</span>
         <span class="source-row__body">
-          <span class="source-row__title">Calcolatore degli affitti dei tribunali zurighesi</span>
-          <span class="source-row__sub">Riferimento di verifica del calcolo</span>
+          <span class="source-row__title">Informazioni sul diritto di locazione dei Tribunali di Zurigo</span>
+          <span class="source-row__sub">Riferimento di verifica (in tedesco)</span>
         </span>
       </a>
     </div>

@@ -363,7 +363,7 @@ permalink: /fr/
     <p class="section-lead" data-reveal>Baisse-loyer renvoie directement aux données fédérales et aux bases légales sous-jacentes. Tu peux vérifier toi-même chaque valeur dans l'app.</p>
 
     <div class="sources__grid">
-      <a class="source-row" href="https://www.bwo.admin.ch/fr/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/fr/taux-de-reference" rel="noopener">
         <span class="source-row__abbr">OFL</span>
         <span class="source-row__body">
           <span class="source-row__title">Taux d'intérêt de référence hypothécaire</span>
@@ -391,18 +391,18 @@ permalink: /fr/
           <span class="source-row__sub">OBLF art. 13, formule de calcul</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/fr/home/mietrecht/schlichtungsbehoerden.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/fr/procedure-de-conciliation" rel="noopener">
         <span class="source-row__abbr">AC</span>
         <span class="source-row__body">
           <span class="source-row__title">Annuaire des autorités de conciliation</span>
           <span class="source-row__sub">OFL, adresses cantonales</span>
         </span>
       </a>
-      <a class="source-row" href="https://www.gerichte-zh.ch/themen/mietsachen/mietzinsrechner.html" rel="noopener">
+      <a class="source-row" href="https://www.gerichte-zh.ch/de/themen/miete" rel="noopener">
         <span class="source-row__abbr">ZH</span>
         <span class="source-row__body">
-          <span class="source-row__title">Calculateur de loyer des tribunaux zurichois</span>
-          <span class="source-row__sub">Référence de vérification du calcul</span>
+          <span class="source-row__title">Informations en matière de bail des Tribunaux zurichois</span>
+          <span class="source-row__sub">Référence de vérification (en allemand)</span>
         </span>
       </a>
     </div>
