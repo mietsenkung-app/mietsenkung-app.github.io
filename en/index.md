@@ -363,7 +363,7 @@ permalink: /en/
     <p class="section-lead" data-reveal>RentReducer links directly to the underlying federal data and legal references. You can verify every value in the app yourself.</p>
 
     <div class="sources__grid">
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/en/home/mietrecht/referenzzinssatz.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/en/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
         <span class="source-row__abbr">BWO</span>
         <span class="source-row__body">
           <span class="source-row__title">Mortgage reference interest rate</span>

@@ -387,7 +387,7 @@ permalink: /
     <p class="section-lead" data-reveal>Mietsenkung verlinkt direkt auf die zugrundeliegenden Bundes-Daten und Rechtsgrundlagen. Du kannst jeden Wert in der App selbst überprüfen.</p>
 
     <div class="sources__grid">
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/de/home/mietrecht/referenzzinssatz.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/de/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
         <span class="source-row__abbr">BWO</span>
         <span class="source-row__body">
           <span class="source-row__title">Hypothekarischer Referenzzinssatz</span>

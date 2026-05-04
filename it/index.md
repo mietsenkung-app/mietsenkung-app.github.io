@@ -362,7 +362,7 @@ permalink: /it/
     <p class="section-lead" data-reveal>Ribassoaffitto rimanda direttamente ai dati federali e alle basi legali. Puoi verificare ogni valore nell'app stessa.</p>
 
     <div class="sources__grid">
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/it/home/mietrecht/referenzzinssatz.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/it/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
         <span class="source-row__abbr">UFAB</span>
         <span class="source-row__body">
           <span class="source-row__title">Tasso di riferimento ipotecario</span>

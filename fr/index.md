@@ -363,7 +363,7 @@ permalink: /fr/
     <p class="section-lead" data-reveal>Baisse-loyer renvoie directement aux données fédérales et aux bases légales sous-jacentes. Tu peux vérifier toi-même chaque valeur dans l'app.</p>
 
     <div class="sources__grid">
-      <a class="source-row" href="https://www.bwo.admin.ch/bwo/fr/home/mietrecht/referenzzinssatz.html" rel="noopener">
+      <a class="source-row" href="https://www.bwo.admin.ch/fr/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
         <span class="source-row__abbr">OFL</span>
         <span class="source-row__body">
           <span class="source-row__title">Taux d'intérêt de référence hypothécaire</span>
