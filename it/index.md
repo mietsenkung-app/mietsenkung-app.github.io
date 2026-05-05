@@ -282,7 +282,8 @@ permalink: /it/
           <strong>Opzioni (à la carte):</strong>
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Raccomandata con tracciamento</span><strong>+ CHF 7.90</strong></div>
-            <div class="price-card__addons-row"><span>Lettera successiva: sollecito / documenti / conciliazione</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Lettera successiva sollecito / documenti (via Pingen)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Lettera successiva conciliazione (PDF/DOCX, da spedire tu con gli allegati)</span><strong>CHF 6.90</strong></div>
           </div>
         </div>
       </article>
@@ -309,7 +310,7 @@ permalink: /it/
         <summary>Quanto costa davvero l'app?</summary>
         <div class="faq__answer">
           <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e consegna posta A dal nostro partner postale svizzero.</p>
-          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90) e lettere successive (sollecito / documenti / conciliazione) a CHF&nbsp;6.90 ciascuna.</p>
+          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna — sollecito e richiesta documenti vengono inviate automaticamente via Pingen, l'**annuncio di conciliazione** invece arriva come **PDF/DOCX da scaricare** perché va depositato all'autorità di conciliazione con gli allegati (contratto, lettere precedenti), cosa che il nostro servizio di stampa non può coprire.</p>
         </div>
       </details>
 
@@ -340,7 +341,7 @@ permalink: /it/
       <details>
         <summary>E se il locatore o la locatrice non risponde?</summary>
         <div class="faq__answer">
-          <p>Ribassoaffitto ti ricorda automaticamente dopo 14, 30 e 60 giorni. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: sollecito, richiesta di documenti o annuncio di conciliazione. Ogni lettera successiva costa CHF&nbsp;6.90 (posta A inclusa).</p>
+          <p>Ribassoaffitto ti ricorda automaticamente dopo 14, 30 e 60 giorni. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: sollecito, richiesta di documenti o annuncio di conciliazione. Ogni lettera successiva costa CHF&nbsp;6.90. Sollecito e richiesta documenti vanno via Pingen con Posta A inclusa; l'annuncio di conciliazione arriva come PDF/DOCX da spedire tu, perché va depositato all'autorità di conciliazione con gli allegati.</p>
           <p>Se vai in conciliazione, l'app ti aiuta con l'elenco dell'autorità cantonale di conciliazione competente (fonte: UFAB).</p>
         </div>
       </details>

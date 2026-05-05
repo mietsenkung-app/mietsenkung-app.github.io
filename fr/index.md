@@ -282,7 +282,8 @@ permalink: /fr/
           <strong>Options (à la carte) :</strong>
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Recommandé avec suivi</span><strong>+ CHF 7.90</strong></div>
-            <div class="price-card__addons-row"><span>Suivi : rappel / pièces / conciliation</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Suivi rappel / demande de pièces (via Pingen)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Suivi conciliation (PDF/DOCX, à envoyer toi-même avec les annexes)</span><strong>CHF 6.90</strong></div>
           </div>
         </div>
       </article>
@@ -310,7 +311,7 @@ permalink: /fr/
         <summary>Combien coûte vraiment l'app ?</summary>
         <div class="faq__answer">
           <p>L'app est gratuite. La vérification du droit et l'alerte taux le restent. Tu paies uniquement l'envoi de la lettre : CHF&nbsp;9.90 à 29.90 selon ton économie mensuelle. Inclus : génération de la lettre, impression et distribution courrier A par notre partenaire postal suisse.</p>
-          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90) et lettres de suivi (rappel / pièces / conciliation) à CHF&nbsp;6.90 chacune.</p>
+          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90). Lettres de suivi à CHF&nbsp;6.90 chacune — rappel et demande de pièces partent automatiquement via Pingen, **l\'annonce de conciliation** arrive en revanche en **PDF/DOCX à télécharger** parce qu\'elle doit être déposée à l\'autorité de conciliation avec les annexes (bail, lettres précédentes), ce que notre service d\'impression ne peut pas couvrir.</p>
         </div>
       </details>
 
@@ -341,7 +342,7 @@ permalink: /fr/
       <details>
         <summary>Que faire si mon·a bailleur·esse ne répond pas ?</summary>
         <div class="faq__answer">
-          <p>Baisse-loyer te rappelle automatiquement après 14, 30 et 60 jours. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : rappel, demande de pièces ou annonce de conciliation. Chaque lettre de suivi coûte CHF&nbsp;6.90 (courrier A inclus).</p>
+          <p>Baisse-loyer te rappelle automatiquement après 14, 30 et 60 jours. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : rappel, demande de pièces ou annonce de conciliation. Chaque lettre de suivi coûte CHF&nbsp;6.90. Rappel et demande de pièces partent via Pingen avec courrier A inclus ; l'annonce de conciliation arrive en PDF/DOCX à envoyer toi-même, parce qu'elle doit être déposée à l'autorité de conciliation avec les annexes.</p>
           <p>Si tu vas à la conciliation, l'app t'aide à trouver l'autorité cantonale de conciliation compétente (source : OFL).</p>
         </div>
       </details>
