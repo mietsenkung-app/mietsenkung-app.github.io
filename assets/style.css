@@ -815,7 +815,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 .stats__title {
   font-size: var(--fs-h2);
-  margin: 0 0 var(--sp-3);
+  margin: var(--sp-3) 0 var(--sp-4);
   color: white;
 }
 .stats__lead {
