@@ -25,7 +25,7 @@ The person responsible for data processing in this app is:
 
 **Manuel Weingartner**
 Private individual, no commercial register entry.
-E-mail: manuel.weingartner@gmx.ch
+E-mail: kontakt@mietsenkung-app.ch
 Postal address available on request via e-mail.
 
 This privacy policy is based on the revised Swiss Federal Act on Data Protection (nDSG, in force since 01.09.2023). For users resident in the EEA, the relevant provisions of the EU General Data Protection Regulation (GDPR) apply in addition.
@@ -149,7 +149,7 @@ Under nDSG (and GDPR where applicable) you have the following rights:
 - **Objection and restriction:** you can object to processing by Sentry and RevenueCat by discontinuing use of the app. A granular per-provider opt-out is not implemented in v1.0.
 - **Right to lodge a complaint:** with the competent data protection authority. In Switzerland: Federal Data Protection and Information Commissioner (FDPIC), [https://www.edoeb.admin.ch](https://www.edoeb.admin.ch).
 
-Please send requests to manuel.weingartner@gmx.ch. We respond within 30 days.
+Please send requests to kontakt@mietsenkung-app.ch. We respond within 30 days.
 
 ---
 
@@ -177,6 +177,6 @@ We may adapt this privacy policy when app features, third parties or legal requi
 For all data protection inquiries:
 
 **Manuel Weingartner**
-E-mail: manuel.weingartner@gmx.ch
+E-mail: kontakt@mietsenkung-app.ch
 
 Postal address on request. We usually respond within 30 days.

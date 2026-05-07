@@ -25,7 +25,7 @@ Verantwortlich für die Datenbearbeitung in dieser App ist:
 
 **Manuel Weingartner**
 Privatperson, kein Handelsregister-Eintrag.
-E-Mail: manuel.weingartner@gmx.ch
+E-Mail: kontakt@mietsenkung-app.ch
 Postadresse auf Anfrage per E-Mail.
 
 Diese Datenschutzerklärung richtet sich nach dem revidierten Schweizer Datenschutzgesetz (nDSG, in Kraft seit 01.09.2023). Für Nutzer\*innen mit Wohnsitz im EWR gelten ergänzend die einschlägigen Bestimmungen der EU-Datenschutz-Grundverordnung (DSGVO).
@@ -149,7 +149,7 @@ Nach nDSG (und DSGVO, falls anwendbar) stehen dir folgende Rechte zu:
 - **Widerspruch und Einschränkung:** du kannst gegen die Verarbeitung durch Sentry und RevenueCat widersprechen, indem du die App nicht mehr nutzt. Ein granulares Opt-out pro Drittanbieter ist in v1.0 nicht implementiert.
 - **Beschwerderecht:** bei der zuständigen Datenschutzaufsichtsbehörde. In der Schweiz: Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (EDÖB), [https://www.edoeb.admin.ch](https://www.edoeb.admin.ch).
 
-Anfragen richtest du bitte an manuel.weingartner@gmx.ch. Wir antworten innerhalb von 30 Tagen.
+Anfragen richtest du bitte an kontakt@mietsenkung-app.ch. Wir antworten innerhalb von 30 Tagen.
 
 ---
 
@@ -177,6 +177,6 @@ Wir dürfen diese Datenschutzerklärung anpassen, wenn sich Funktionen der App, 
 Für alle Datenschutzanfragen:
 
 **Manuel Weingartner**
-E-Mail: manuel.weingartner@gmx.ch
+E-Mail: kontakt@mietsenkung-app.ch
 
 Postadresse auf Anfrage. Wir antworten in der Regel innerhalb von 30 Tagen.

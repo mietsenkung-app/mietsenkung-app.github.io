@@ -16,7 +16,7 @@ Kein Handelsregister-Eintrag.
 
 ## Kontakt
 
-E-Mail: [manuel.weingartner@gmx.ch](mailto:manuel.weingartner@gmx.ch)
+E-Mail: [kontakt@mietsenkung-app.ch](mailto:kontakt@mietsenkung-app.ch)
 
 Postadresse auf Anfrage per E-Mail.
 
