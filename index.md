@@ -22,8 +22,17 @@ permalink: /
             <span class="store-button__big">App&nbsp;Store</span>
           </span>
         </a>
-        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="">
-          <img src="{{ '/assets/badge-google-play-de.png' | relative_url }}" alt="Jetzt bei Google Play" width="180" height="54" loading="lazy">
+        <a class="store-button" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Mietsenkung bei Google Play laden">
+          <svg class="store-button__icon" viewBox="0 0 512 512" aria-hidden="true">
+            <path fill="#00C9A7" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
+            <path fill="#FFCE00" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
+            <path fill="#00A1FF" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
+            <path fill="#EA4335" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
+          </svg>
+          <span class="store-button__text">
+            <span class="store-button__small">Jetzt bei</span>
+            <span class="store-button__big">Google&nbsp;Play</span>
+          </span>
         </a>
       </div>
 
@@ -458,9 +467,18 @@ permalink: /
           <span class="store-button__big">App&nbsp;Store</span>
         </span>
       </a>
-      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="">
-          <img src="{{ '/assets/badge-google-play-de.png' | relative_url }}" alt="Jetzt bei Google Play" width="180" height="54" loading="lazy">
-        </a>
+      <a class="store-button" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Mietsenkung bei Google Play laden">
+        <svg class="store-button__icon" viewBox="0 0 512 512" aria-hidden="true">
+          <path fill="#00C9A7" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
+          <path fill="#FFCE00" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
+          <path fill="#00A1FF" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
+          <path fill="#EA4335" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
+        </svg>
+        <span class="store-button__text">
+          <span class="store-button__small">Jetzt bei</span>
+          <span class="store-button__big">Google&nbsp;Play</span>
+        </span>
+      </a>
     </div>
     <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Anspruch prüfen + Zins-Alarm gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Brief ab <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Kein Abo</span></p>
   </div>

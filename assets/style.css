@@ -385,31 +385,6 @@ img, svg { max-width: 100%; height: auto; display: block; }
   margin-top: 1px;
 }
 
-/* Official "Get it on Google Play" badge — sits next to the App-Store button.
-   The badge already has its own black background + 4-color logo, so we keep
-   no padding and just match the App-Store-button height for visual parity. */
-.store-badge {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  border-radius: 14px;
-  transition: transform 0.18s, box-shadow 0.18s;
-  line-height: 0;
-}
-.store-badge img {
-  height: 54px;
-  width: auto;
-  display: block;
-  border-radius: 8px;
-}
-.store-badge:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-/* In the dark final-CTA section the App-Store button gets a light background;
-   the Google badge stays as-is since it ships with its own black background. */
-.cta .store-badge { background: transparent; }
-
 .hero__pricing {
   font-size: var(--fs-small);
   color: var(--ink-faint);
