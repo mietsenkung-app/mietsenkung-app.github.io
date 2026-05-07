@@ -311,7 +311,7 @@ permalink: /en/
         <summary>What does the app actually cost?</summary>
         <div class="faq__answer">
           <p>The app is free. Claim check and rate alert stay free. You only pay for mailing the letter: a one-time CHF&nbsp;9.90 to 29.90 depending on your monthly saving. Included: letter generation, A-Mail print and delivery by our Swiss postal partner.</p>
-          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each — reminder and document-request go out automatically via Pingen, the **conciliation letter** instead arrives as a **PDF/DOCX download** because the conciliation authority requires attachments (lease, prior letters) that our print service cannot include.</p>
+          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each — reminder and document-request go out automatically via Pingen, the <strong>conciliation letter</strong> instead arrives as a <strong>PDF/DOCX download</strong> because the conciliation authority requires attachments (lease, prior letters) that our print service cannot include.</p>
         </div>
       </details>
 

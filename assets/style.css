@@ -1027,11 +1027,11 @@ img, svg { max-width: 100%; height: auto; display: block; }
   gap: var(--sp-2);
   border-top: 1px solid var(--line);
 }
-.faq details {
+.faq__list details {
   border-bottom: 1px solid var(--line);
   padding: var(--sp-2) 0;
 }
-.faq summary {
+.faq__list summary {
   display: flex;
   justify-content: space-between;
   gap: var(--sp-4);
@@ -1044,8 +1044,8 @@ img, svg { max-width: 100%; height: auto; display: block; }
   padding: var(--sp-4) 0;
   transition: color 0.2s;
 }
-.faq summary::-webkit-details-marker { display: none; }
-.faq summary::after {
+.faq__list summary::-webkit-details-marker { display: none; }
+.faq__list summary::after {
   content: '+';
   flex: none;
   width: 28px;
@@ -1060,12 +1060,12 @@ img, svg { max-width: 100%; height: auto; display: block; }
   font-size: 22px;
   transition: transform 0.25s, background 0.2s;
 }
-.faq details[open] summary::after {
+.faq__list details[open] summary::after {
   content: '−';
   background: var(--emerald-mist);
   color: var(--emerald-deep);
 }
-.faq summary:hover { color: var(--emerald-deep); }
+.faq__list summary:hover { color: var(--emerald-deep); }
 .faq__answer {
   padding: 0 0 var(--sp-6);
   color: var(--ink-soft);
@@ -1206,6 +1206,11 @@ img, svg { max-width: 100%; height: auto; display: block; }
   font-size: 15px;
 }
 .site-foot ul a:hover { color: var(--emerald-deep); }
+.site-foot ul a[href^="mailto:"] {
+  white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
 .site-foot__bottom {
   max-width: var(--max-content);
   margin: var(--sp-12) auto 0;
@@ -1250,9 +1255,9 @@ main:not(:has(.hero)) th { background: var(--paper-soft); font-weight: 600; }
   font-size: var(--fs-small);
   color: var(--ink-faint);
 }
-.lang-switch a { color: var(--ink-soft); text-decoration: none; padding: 4px 10px; border-radius: 999px; }
+.lang-switch a, .lang-switch span { color: var(--ink-soft); text-decoration: none; padding: 4px 10px; border-radius: 999px; }
 .lang-switch a:hover { background: var(--paper-soft); color: var(--ink); }
-.lang-switch a.active { background: var(--ink); color: white; font-weight: 600; }
+.lang-switch .active { background: var(--ink); color: white; font-weight: 600; }
 
 .cards {
   display: grid;

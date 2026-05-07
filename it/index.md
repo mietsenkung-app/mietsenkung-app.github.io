@@ -310,7 +310,7 @@ permalink: /it/
         <summary>Quanto costa davvero l'app?</summary>
         <div class="faq__answer">
           <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e consegna posta A dal nostro partner postale svizzero.</p>
-          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna — sollecito e richiesta documenti vengono inviate automaticamente via Pingen, l'**annuncio di conciliazione** invece arriva come **PDF/DOCX da scaricare** perché va depositato all'autorità di conciliazione con gli allegati (contratto, lettere precedenti), cosa che il nostro servizio di stampa non può coprire.</p>
+          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna — sollecito e richiesta documenti vengono inviate automaticamente via Pingen, l'<strong>annuncio di conciliazione</strong> invece arriva come <strong>PDF/DOCX da scaricare</strong> perché va depositato all'autorità di conciliazione con gli allegati (contratto, lettere precedenti), cosa che il nostro servizio di stampa non può coprire.</p>
         </div>
       </details>
 
@@ -326,7 +326,7 @@ permalink: /it/
         <summary>Cosa succede ai miei dati?</summary>
         <div class="faq__answer">
           <p>I tuoi dati di affitto e contratto restano cifrati sul tuo dispositivo. Non gestiamo alcuna banca dati cloud e non hai bisogno di un account. Solo il PDF finale della lettera viene trasmesso cifrato al nostro partner postale svizzero per la stampa e la consegna.</p>
-          <p>Dettagli nella <a href="{{ '/privacy-en.html' | relative_url }}">privacy policy</a>.</p>
+          <p>Dettagli nella <a href="{{ '/privacy-de.html' | relative_url }}">privacy policy</a>.</p>
         </div>
       </details>
 

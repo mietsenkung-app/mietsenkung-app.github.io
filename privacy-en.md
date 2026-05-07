@@ -8,7 +8,7 @@ permalink: /privacy-en.html
 
 <div class="lang-switch">
   <a href="privacy-de.html">DE</a>
-  <a class="active">EN</a>
+  <span class="active" aria-current="page">EN</span>
 </div>
 
 # Privacy Policy Mietsenkung

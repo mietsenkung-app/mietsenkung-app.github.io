@@ -7,7 +7,7 @@ permalink: /privacy-de.html
 ---
 
 <div class="lang-switch">
-  <a class="active">DE</a>
+  <span class="active" aria-current="page">DE</span>
   <a href="privacy-en.html">EN</a>
 </div>
 

@@ -311,7 +311,7 @@ permalink: /fr/
         <summary>Combien coûte vraiment l'app ?</summary>
         <div class="faq__answer">
           <p>L'app est gratuite. La vérification du droit et l'alerte taux le restent. Tu paies uniquement l'envoi de la lettre : CHF&nbsp;9.90 à 29.90 selon ton économie mensuelle. Inclus : génération de la lettre, impression et distribution courrier A par notre partenaire postal suisse.</p>
-          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90). Lettres de suivi à CHF&nbsp;6.90 chacune — rappel et demande de pièces partent automatiquement via Pingen, **l\'annonce de conciliation** arrive en revanche en **PDF/DOCX à télécharger** parce qu\'elle doit être déposée à l\'autorité de conciliation avec les annexes (bail, lettres précédentes), ce que notre service d\'impression ne peut pas couvrir.</p>
+          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90). Lettres de suivi à CHF&nbsp;6.90 chacune — rappel et demande de pièces partent automatiquement via Pingen, <strong>l'annonce de conciliation</strong> arrive en revanche en <strong>PDF/DOCX à télécharger</strong> parce qu'elle doit être déposée à l'autorité de conciliation avec les annexes (bail, lettres précédentes), ce que notre service d'impression ne peut pas couvrir.</p>
         </div>
       </details>
 
@@ -327,7 +327,7 @@ permalink: /fr/
         <summary>Que deviennent mes données ?</summary>
         <div class="faq__answer">
           <p>Tes données de loyer et de bail restent chiffrées sur ton appareil. Nous ne gérons aucune base de données cloud et tu n'as pas besoin de compte. Seul le PDF final de ta lettre est transmis chiffré à notre partenaire postal suisse pour impression et distribution.</p>
-          <p>Détails dans la <a href="{{ '/privacy-en.html' | relative_url }}">politique de confidentialité</a>.</p>
+          <p>Détails dans la <a href="{{ '/privacy-de.html' | relative_url }}">politique de confidentialité</a>.</p>
         </div>
       </details>
 

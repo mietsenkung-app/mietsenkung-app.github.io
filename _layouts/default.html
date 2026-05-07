@@ -9,6 +9,16 @@
 {%- assign lang_short = page.lang_short | default: 'de' -%}
 {%- assign t = site.data.i18n[lang_short] -%}
 {%- assign home = site.data.i18n.urls[lang_short] | default: '/' -%}
+{%- comment -%}
+  Anchor sections (#how, #price, #faq, #sources, #download) only exist on language home pages.
+  On legal pages (no lang_short in front-matter), prefix anchors with the home URL so the
+  link navigates to the home page first, then scrolls to the section.
+{%- endcomment -%}
+{%- if page.lang_short -%}
+  {%- assign anchor_prefix = '' -%}
+{%- else -%}
+  {%- assign anchor_prefix = home | relative_url -%}
+{%- endif -%}
 <html lang="{{ page.lang | default: 'de-CH' }}">
 <head>
   <meta charset="utf-8">
@@ -55,15 +65,15 @@
         <span class="brand__word">{{ t.brand_word }}</span>
       </a>
       <nav class="site-nav__links" aria-label="{{ t.nav.cta }}">
-        <a href="#how">{{ t.nav.how }}</a>
-        <a href="#price">{{ t.nav.price }}</a>
-        <a href="#faq">{{ t.nav.faq }}</a>
-        <a href="#sources">{{ t.nav.sources }}</a>
+        <a href="{{ anchor_prefix }}#how">{{ t.nav.how }}</a>
+        <a href="{{ anchor_prefix }}#price">{{ t.nav.price }}</a>
+        <a href="{{ anchor_prefix }}#faq">{{ t.nav.faq }}</a>
+        <a href="{{ anchor_prefix }}#sources">{{ t.nav.sources }}</a>
       </nav>
       <div class="lang-switcher" role="group" aria-label="{{ t.langswitch_label }}">
         {% for entry in site.data.i18n.urls %}{% assign other = entry[0] %}<a href="{{ entry[1] | relative_url }}"{% if other == lang_short %} aria-current="page" class="is-active"{% endif %} hreflang="{{ other }}">{{ other | upcase }}</a>{% endfor %}
       </div>
-      <a class="site-nav__cta" href="#download">{{ t.nav.cta }}</a>
+      <a class="site-nav__cta" href="{{ anchor_prefix }}#download">{{ t.nav.cta }}</a>
     </div>
   </header>
 
@@ -85,9 +95,9 @@
       <div>
         <h4>{{ t.foot_h_product }}</h4>
         <ul>
-          <li><a href="#how">{{ t.nav.how }}</a></li>
-          <li><a href="#price">{{ t.nav.price }}</a></li>
-          <li><a href="#faq">{{ t.nav.faq }}</a></li>
+          <li><a href="{{ anchor_prefix }}#how">{{ t.nav.how }}</a></li>
+          <li><a href="{{ anchor_prefix }}#price">{{ t.nav.price }}</a></li>
+          <li><a href="{{ anchor_prefix }}#faq">{{ t.nav.faq }}</a></li>
         </ul>
       </div>
       <div>

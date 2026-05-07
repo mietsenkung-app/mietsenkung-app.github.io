@@ -335,7 +335,7 @@ permalink: /
         <summary>Was kostet mich die App wirklich?</summary>
         <div class="faq__answer">
           <p>Die App selbst ist gratis. Der Anspruchs-Check und der Zins-Alarm sind dauerhaft kostenlos. Bezahlt wird nur der Brief-Versand: einmalig CHF&nbsp;9.90&nbsp;– 29.90, je nach deiner monatlichen Ersparnis. Im Preis enthalten: Brief-Generierung, A-Post-Druck und -Zustellung durch unseren Schweizer Post-Partner.</p>
-          <p>Optional: Einschreiben statt A-Post (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90 — Erinnerung und Unterlagen-Anforderung gehen automatisch via Pingen, der **Schlichtungs-Brief** dagegen kommt als **PDF/DOCX zu dir** zum selber Senden mit den Beilagen, weil das Schlichtungsverfahren Beilagen-Pflicht hat, die wir nicht über den Druckdienst abdecken können.</p>
+          <p>Optional: Einschreiben statt A-Post (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90 — Erinnerung und Unterlagen-Anforderung gehen automatisch via Pingen, der <strong>Schlichtungs-Brief</strong> dagegen kommt als <strong>PDF/DOCX zu dir</strong> zum selber Senden mit den Beilagen, weil das Schlichtungsverfahren Beilagen-Pflicht hat, die wir nicht über den Druckdienst abdecken können.</p>
         </div>
       </details>
 
