@@ -327,7 +327,9 @@ permalink: /
       </article>
     </div>
 
-    <p class="pricing-note">Der Brief-Preis richtet sich nach deiner monatlichen Ersparnis (rund 30 % davon, mit Floor und Ceiling). Wer wenig spart, zahlt wenig. Wer viel spart, zahlt etwas mehr, aber nie mehr als CHF 29.90. Sechs Tiers: 9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">Der Brief-Preis richtet sich nach deiner monatlichen Ersparnis (rund 30&nbsp;% davon, mit Floor und Ceiling).</p>
+    <p class="pricing-note">Wer wenig spart, zahlt wenig. Wer viel spart, zahlt etwas mehr, aber nie mehr als CHF&nbsp;29.90.</p>
+    <p class="pricing-note">Sechs Tiers: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
   </div>
 </section>
 

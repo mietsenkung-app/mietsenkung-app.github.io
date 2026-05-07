@@ -303,7 +303,9 @@ permalink: /en/
       </article>
     </div>
 
-    <p class="pricing-note">The letter price scales with your monthly saving (about 30 %, with a floor and a ceiling). Save little, pay little. Save more, pay a touch more, but never above CHF 29.90. Six tiers: 9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">The letter price scales with your monthly saving (about 30&nbsp;%, with a floor and a ceiling).</p>
+    <p class="pricing-note">Save little, pay little. Save more, pay a touch more, but never above CHF&nbsp;29.90.</p>
+    <p class="pricing-note">Six tiers: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
   </div>
 </section>
 

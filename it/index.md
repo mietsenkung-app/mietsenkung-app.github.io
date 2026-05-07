@@ -302,7 +302,9 @@ permalink: /it/
         </div>
       </article>
     </div>
-    <p class="pricing-note">Il prezzo della lettera segue il tuo risparmio mensile (circa 30 %, con un minimo e un massimo). Risparmi poco, paghi poco. Risparmi tanto, paghi un po' di più, ma mai oltre CHF 29.90. Sei livelli: 9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">Il prezzo della lettera segue il tuo risparmio mensile (circa 30&nbsp;%, con un minimo e un massimo).</p>
+    <p class="pricing-note">Risparmi poco, paghi poco. Risparmi tanto, paghi un po' di più, ma mai oltre CHF&nbsp;29.90.</p>
+    <p class="pricing-note">Sei livelli: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
   </div>
 </section>
 

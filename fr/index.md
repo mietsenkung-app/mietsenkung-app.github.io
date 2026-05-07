@@ -303,7 +303,9 @@ permalink: /fr/
       </article>
     </div>
 
-    <p class="pricing-note">Le prix de la lettre suit ton économie mensuelle (env. 30 %, avec un plancher et un plafond). Petite baisse, petit prix. Grosse baisse, un peu plus, mais jamais au-dessus de CHF 29.90. Six paliers : 9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">Le prix de la lettre suit ton économie mensuelle (env. 30&nbsp;%, avec un plancher et un plafond).</p>
+    <p class="pricing-note">Petite baisse, petit prix. Grosse baisse, un peu plus, mais jamais au-dessus de CHF&nbsp;29.90.</p>
+    <p class="pricing-note">Six paliers&nbsp;: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
   </div>
 </section>
 

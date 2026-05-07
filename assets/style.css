@@ -1056,10 +1056,12 @@ img, svg { max-width: 100%; height: auto; display: block; }
 
 .pricing-note {
   margin-top: var(--sp-8);
+  margin-bottom: 0;
   font-size: var(--fs-small);
   color: var(--ink-faint);
   max-width: 50rem;
 }
+.pricing-note + .pricing-note { margin-top: var(--sp-2); }
 
 /* ---------- 11. FAQ ---------- */
 .faq__list {
