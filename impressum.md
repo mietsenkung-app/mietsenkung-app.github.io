@@ -26,7 +26,7 @@ Diese Seite stellt für die App **Mietsenkung** (Bundle ID `com.mietsenkung.miet
 
 ## Haftungsausschluss
 
-Die App Mietsenkung stellt Informationen zum Schweizer Mietrecht bereit, ist aber **kein Rechtsberater**. Berechnungen und generierte Briefe basieren auf öffentlich publizierten Daten des Bundesamts für Wohnungswesen (BWO) und des Bundesamts für Statistik (BFS). Trotz sorgfältiger Pflege wird keine Gewähr für die Aktualität, Richtigkeit oder Vollständigkeit dieser Daten übernommen. Bei rechtlich heiklen Konstellationen ist die Konsultation einer Mieter\*innenberatung (z.B. [Schweizerischer Mieterinnen- und Mieterverband](https://www.mieterverband.ch)) oder einer Anwältin / eines Anwalts dringend empfohlen.
+Die App Mietsenkung stellt Informationen zum Schweizer Mietrecht bereit, ist aber **kein Rechtsberater**. Berechnungen und generierte Briefe basieren auf öffentlich publizierten Daten des Bundesamts für Wohnungswesen (BWO) und des Bundesamts für Statistik (BFS). Trotz sorgfältiger Pflege wird keine Gewähr für die Aktualität, Richtigkeit oder Vollständigkeit dieser Daten übernommen. Bei rechtlich heiklen Konstellationen ist die Konsultation einer Mieter\*innenberatung (z.B. [Schweizerischer Mieterinnen- und Mieterverband](https://www.mieterverband.ch)) oder ein\*er Anwält\*in dringend empfohlen.
 
 ## Rechtswahl und Gerichtsstand
 

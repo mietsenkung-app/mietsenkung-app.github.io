@@ -394,7 +394,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 .hero__pricing strong { color: var(--ink); font-weight: 600; white-space: nowrap; }
 .hero__pricing .dot { color: var(--line); margin: 0 8px; }
-.hero__pricing-bit { display: inline; }
+.hero__pricing-bit { display: inline; white-space: nowrap; }
 @media (max-width: 599px) {
   .hero__pricing .dot { display: none; }
   .hero__pricing-bit { display: block; margin: 0 0 2px; }
@@ -418,6 +418,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   font-size: var(--fs-micro);
   color: var(--ink-soft);
   font-weight: 500;
+  white-space: nowrap;
 }
 .trust-pill svg { color: var(--emerald); }
 

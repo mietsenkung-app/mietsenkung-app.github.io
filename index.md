@@ -12,7 +12,7 @@ permalink: /
     <div class="hero__copy" data-reveal>
       <span class="eyebrow">Mietzinssenkung in 2 Minuten</span>
       <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
-      <p class="hero__sub">Der Referenzzinssatz ist gesunken. Du hast vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> rechnet's in 2 Minuten und schickt dein Senkungsbegehren mit einem Tap an deine Vermieter*in.</p>
+      <p class="hero__sub">Der Referenzzinssatz ist gesunken. Du hast vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> rechnet's in 2 Minuten und schickt dein Senkungsbegehren mit einem Tap an dein*e Vermieter*in.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="https://apps.apple.com/ch/app/mietsenkung/id6765495437" aria-label="Mietsenkung im App Store laden">
@@ -133,7 +133,7 @@ permalink: /
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Wie's geht</span>
     <h2 class="section-title" data-reveal>Drei Schritte. Kein Ausdrucken. Kein Postbesuch.</h2>
-    <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App: von der Berechnung bis zum Briefkasten deiner Vermieter*in.</p>
+    <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App: von der Berechnung bis zum Briefkasten dein*er Vermieter*in.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
@@ -162,7 +162,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         </span>
         <h3>Auto-Reminder</h3>
-        <p>Antwortet deine Vermieter*in nicht? Mietsenkung erinnert dich nach 14, 30 und 60 Tagen. Mit einem Tap löst du dann den passenden Folgebrief aus: Erinnerung, Unterlagen-Anforderung oder Schlichtungs-Begehren.</p>
+        <p>Antwortet dein*e Vermieter*in nicht? Mietsenkung erinnert dich nach 14, 30 und 60 Tagen. Mit einem Tap löst du dann den passenden Folgebrief aus: Erinnerung, Unterlagen-Anforderung oder Schlichtungs-Begehren.</p>
         <span class="step__time">automatisch</span>
       </article>
     </div>
@@ -343,7 +343,7 @@ permalink: /
         <summary>Ist Mietsenkung eine offizielle App vom Bund?</summary>
         <div class="faq__answer">
           <p>Nein. Mietsenkung ist eine unabhängige App und nicht mit dem Bund, einem Kanton, einer Behörde oder einem Gericht verbunden. Sämtliche genutzten amtlichen Daten und Rechtsgrundlagen stammen aus offiziellen Schweizer Quellen. Siehe Quellen-Block weiter unten.</p>
-          <p>Mietsenkung ersetzt keine Rechtsberatung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder eine Anwältin / einen Anwalt.</p>
+          <p>Mietsenkung ersetzt keine Rechtsberatung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein*e Anwält*in.</p>
         </div>
       </details>
 
@@ -364,7 +364,7 @@ permalink: /
       </details>
 
       <details>
-        <summary>Was, wenn meine Vermieter*in nicht antwortet?</summary>
+        <summary>Was, wenn mein*e Vermieter*in nicht antwortet?</summary>
         <div class="faq__answer">
           <p>Mietsenkung erinnert dich automatisch nach 14, 30 und 60 Tagen. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: Erinnerung, Unterlagen-Anforderung oder Schlichtungs-Ankündigung. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerung und Unterlagen-Anforderung gehen via Pingen mit A-Post inklusive, der Schlichtungs-Brief kommt als PDF/DOCX zum Selber-Senden, weil er mit Beilagen bei der Schlichtungsbehörde eingereicht werden muss.</p>
           <p>Wenn du in die Schlichtung gehst, hilft dir die App mit der Verzeichnis-Suche der zuständigen kantonalen Schlichtungsbehörde (Quelle: BWO).</p>
@@ -434,7 +434,7 @@ permalink: /
 
     <div class="sources-disclaimer">
       <p style="margin: 0 0 8px;"><strong>Mietsenkung ist eine unabhängige App.</strong> Sie ist nicht mit dem Bund, einem Kanton, einer Behörde oder einem Gericht verbunden, wird von diesen nicht betrieben und vertritt keine staatliche Stelle.</p>
-      <p style="margin: 0;">Die App ist <strong>keine Rechtsberatung</strong> und ersetzt keine anwaltliche Vertretung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder eine Anwältin / einen Anwalt.</p>
+      <p style="margin: 0;">Die App ist <strong>keine Rechtsberatung</strong> und ersetzt keine anwaltliche Vertretung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein*e Anwält*in.</p>
     </div>
   </div>
 </section>
