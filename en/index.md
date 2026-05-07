@@ -73,7 +73,7 @@ permalink: /en/
         <div class="phone__notch"></div>
         <div class="phone__screen">
           <div class="phone__statusbar">
-            <span>9:41</span>
+            <span>13:12</span>
             <span aria-hidden="true">●●●●● 5G</span>
           </div>
           <div class="phone__appbar">
