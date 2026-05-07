@@ -22,7 +22,7 @@ permalink: /fr/
             <span class="store-button__big">App&nbsp;Store</span>
           </span>
         </a>
-        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="">
+        <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Obtenir Baisse-loyer sur Google Play">
           <img src="{{ '/assets/badge-google-play-fr.png' | relative_url }}" alt="Disponible sur Google Play" width="180" height="54" loading="lazy">
         </a>
       </div>
@@ -434,7 +434,7 @@ permalink: /fr/
           <span class="store-button__big">App&nbsp;Store</span>
         </span>
       </a>
-      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="">
+      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Obtenir Baisse-loyer sur Google Play">
           <img src="{{ '/assets/badge-google-play-fr.png' | relative_url }}" alt="Disponible sur Google Play" width="180" height="54" loading="lazy">
         </a>
     </div>
