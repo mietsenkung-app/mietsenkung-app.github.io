@@ -24,10 +24,10 @@ permalink: /it/
         </a>
         <a class="store-button" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Disponibile su Google Play">
           <svg class="store-button__icon" viewBox="0 0 512 512" aria-hidden="true">
-            <path fill="#00C9A7" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
-            <path fill="#FFCE00" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
-            <path fill="#00A1FF" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
-            <path fill="#EA4335" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
+            <path fill="#34d399" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
+            <path fill="#fbbf24" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
+            <path fill="#60a5fa" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
+            <path fill="#f87171" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
           </svg>
           <span class="store-button__text">
             <span class="store-button__small">Disponibile su</span>
@@ -444,10 +444,10 @@ permalink: /it/
       </a>
       <a class="store-button" href="https://play.google.com/store/apps/details?id=com.mietsenkung.mietsenkung" aria-label="Disponibile su Google Play">
         <svg class="store-button__icon" viewBox="0 0 512 512" aria-hidden="true">
-          <path fill="#00C9A7" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
-          <path fill="#FFCE00" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
-          <path fill="#00A1FF" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
-          <path fill="#EA4335" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
+          <path fill="#34d399" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z"/>
+          <path fill="#fbbf24" d="M104.6 499 325.3 277.7l60.1 60.1L104.6 499z"/>
+          <path fill="#60a5fa" d="m480.6 256.5-95.2 60.1-66.3-60.1 66.3-60.1 95.2 60.1z"/>
+          <path fill="#f87171" d="m104.6 499 1.3-489.7 219.4 222 0 .3 0 .3z"/>
         </svg>
         <span class="store-button__text">
           <span class="store-button__small">Disponibile su</span>
