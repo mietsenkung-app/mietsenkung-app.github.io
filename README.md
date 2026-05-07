@@ -2,7 +2,7 @@
 
 Statische Site mit Datenschutzerklärung, Privacy Policy und Impressum zur App **Mietsenkung**. Wird über GitHub Pages aus diesem Repo gerendert.
 
-Live unter: [https://mietsenkung-app.github.io/](https://mietsenkung-app.github.io/)
+Live unter: [https://mietsenkung-app.ch/](https://mietsenkung-app.ch/) (Custom Domain via Infomaniak DNS, GitHub-Pages-Backend bleibt `mietsenkung-app.github.io`).
 
 ## Struktur
 
