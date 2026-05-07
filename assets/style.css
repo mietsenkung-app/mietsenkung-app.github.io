@@ -400,6 +400,46 @@ img, svg { max-width: 100%; height: auto; display: block; }
   .hero__pricing-bit { display: block; margin: 0 0 2px; }
 }
 
+/* QR-cards: only render on real desktops/laptops with a fine pointer (no touch).
+   On phones the user is already on the right device — they tap the store button instead. */
+.qr-install { display: none; }
+@media (min-width: 960px) and (hover: hover) and (pointer: fine) {
+  .qr-install { display: block; margin-top: var(--sp-6); }
+}
+.qr-install__hint {
+  font-size: var(--fs-small);
+  color: var(--ink-faint);
+  margin: 0 0 var(--sp-3);
+  font-weight: 500;
+}
+.qr-install__row {
+  display: flex;
+  gap: var(--sp-4);
+}
+.qr-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px 8px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+}
+.qr-card img {
+  width: 84px;
+  height: 84px;
+  display: block;
+}
+.qr-card__label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
 .hero__trust {
   margin-top: var(--sp-8);
   display: flex;
@@ -757,7 +797,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   font-size: var(--fs-micro);
   font-weight: 500;
   color: var(--ink-soft);
-  font-family: var(--font-mono);
+  white-space: nowrap;
 }
 
 /* ---------- 8. Stats band (dark) ---------- */

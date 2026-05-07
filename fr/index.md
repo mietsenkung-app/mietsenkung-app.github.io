@@ -38,6 +38,20 @@ permalink: /fr/
 
       <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Vérification du droit + alerte taux gratuites</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettre dès <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Courrier A inclus</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Sans abonnement</span></p>
 
+      <div class="qr-install" aria-label="QR codes pour installer l'app">
+        <p class="qr-install__hint">Sur un ordinateur ? Scanne avec ton smartphone&nbsp;:</p>
+        <div class="qr-install__row">
+          <span class="qr-card">
+            <img src="{{ '/assets/qr-app-store.svg' | relative_url }}" alt="QR code App Store" width="84" height="84">
+            <span class="qr-card__label">App&nbsp;Store</span>
+          </span>
+          <span class="qr-card">
+            <img src="{{ '/assets/qr-google-play.svg' | relative_url }}" alt="QR code Google Play" width="84" height="84">
+            <span class="qr-card__label">Google&nbsp;Play</span>
+          </span>
+        </div>
+      </div>
+
       <div class="hero__trust">
         <span class="trust-pill">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
