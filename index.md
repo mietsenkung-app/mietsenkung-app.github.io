@@ -139,7 +139,7 @@ permalink: /
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Wie's geht</span>
     <h2 class="section-title" data-reveal>Drei Schritte. Kein Ausdrucken. Kein Postbesuch.</h2>
-    <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App: von der Berechnung bis zum Briefkasten dein*er Vermieter*in.</p>
+    <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App: von der Berechnung bis dein Brief im Briefkasten landet.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
@@ -159,7 +159,7 @@ permalink: /
         </span>
         <h3>Ein Tap auf Senden</h3>
         <p>Die App generiert dein Senkungsbegehren mit deiner Unterschrift, übergibt es verschlüsselt an unseren Schweizer Post-Partner und der versendet als A-Post oder Einschreiben. Du erhältst eine Push-Bestätigung.</p>
-        <span class="step__time">≈ 2&nbsp;min · ab CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 3&nbsp;sek · ab CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -254,7 +254,7 @@ permalink: /
 <section class="section pricing" id="price">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Preis</span>
-    <h2 class="section-title" data-reveal>Pay-per-Use. Kein Abo. Du zahlst weniger als 1/3 deiner ersten Monatsersparnis.</h2>
+    <h2 class="section-title" data-reveal>Kein Abo. Du zahlst weniger als 1/3 deiner ersten Monatsersparnis.</h2>
     <p class="section-lead" data-reveal>Anspruch prüfen ist gratis. Bezahlen tust du erst, wenn du den Brief abschickst, und auch dann nur einmal pro Brief.</p>
 
     <div class="pricing__grid">
@@ -319,9 +319,9 @@ permalink: /
       </article>
     </div>
 
-    <p class="pricing-note">Der Brief-Preis richtet sich nach deiner monatlichen Ersparnis (rund 30&nbsp;% davon, mit Floor und Ceiling).</p>
+    <p class="pricing-note">Der Brief-Preis richtet sich nach deiner monatlichen Ersparnis — rund ein Drittel davon.</p>
     <p class="pricing-note">Wer wenig spart, zahlt wenig. Wer viel spart, zahlt etwas mehr, aber nie mehr als CHF&nbsp;29.90.</p>
-    <p class="pricing-note">Sechs Tiers: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — je nachdem, wie viel du sparst.</p>
   </div>
 </section>
 

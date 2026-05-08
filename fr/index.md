@@ -159,7 +159,7 @@ permalink: /fr/
         </span>
         <h3>Un tap sur Envoyer</h3>
         <p>L'app génère ta demande de baisse avec ta signature au doigt, la transmet chiffrée à notre partenaire postal suisse, qui l'envoie en courrier A ou recommandé. Tu reçois une notification de confirmation.</p>
-        <span class="step__time">≈ 2&nbsp;min · dès CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 3&nbsp;sec · dès CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -254,7 +254,7 @@ permalink: /fr/
 <section class="section pricing" id="price">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Prix</span>
-    <h2 class="section-title" data-reveal>Pay-per-use. Sans abonnement. Moins d'1/3 de ta première économie mensuelle.</h2>
+    <h2 class="section-title" data-reveal>Sans abonnement. Moins d'1/3 de ta première économie mensuelle.</h2>
     <p class="section-lead" data-reveal>La vérification du droit est gratuite. Tu paies uniquement quand tu envoies la lettre, et même là, qu'une seule fois par lettre.</p>
 
     <div class="pricing__grid">
@@ -295,9 +295,9 @@ permalink: /fr/
       </article>
     </div>
 
-    <p class="pricing-note">Le prix de la lettre suit ton économie mensuelle (env. 30&nbsp;%, avec un plancher et un plafond).</p>
+    <p class="pricing-note">Le prix de la lettre suit ton économie mensuelle — environ un tiers.</p>
     <p class="pricing-note">Petite baisse, petit prix. Grosse baisse, un peu plus, mais jamais au-dessus de CHF&nbsp;29.90.</p>
-    <p class="pricing-note">Six paliers&nbsp;: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — selon ton économie.</p>
   </div>
 </section>
 

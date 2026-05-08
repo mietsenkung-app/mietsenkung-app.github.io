@@ -799,6 +799,11 @@ img, svg { max-width: 100%; height: auto; display: block; }
   color: white;
   padding: var(--sp-16) var(--pad-x);
 }
+/* Eyebrow auf dunklem Hintergrund: heller Text statt ink-soft, sonst
+   verschwindet er fast unsichtbar im Night-Background. */
+.stats .eyebrow {
+  color: rgba(255, 255, 255, 0.72);
+}
 .stats__inner {
   max-width: var(--max-content);
   margin: 0 auto;

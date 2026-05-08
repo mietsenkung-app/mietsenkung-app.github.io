@@ -159,7 +159,7 @@ permalink: /it/
         </span>
         <h3>Un tap su Invia</h3>
         <p>L'app genera la richiesta di ribasso con la tua firma a dito, la trasmette cifrata al nostro partner postale svizzero e la spedisce in posta A o raccomandata. Ricevi una notifica di conferma.</p>
-        <span class="step__time">≈ 2&nbsp;min · da CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 3&nbsp;sec · da CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -254,7 +254,7 @@ permalink: /it/
 <section class="section pricing" id="price">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Prezzo</span>
-    <h2 class="section-title" data-reveal>Pay-per-use. Senza abbonamento. Meno di 1/3 del tuo primo risparmio mensile.</h2>
+    <h2 class="section-title" data-reveal>Senza abbonamento. Meno di 1/3 del tuo primo risparmio mensile.</h2>
     <p class="section-lead" data-reveal>La verifica del diritto è gratuita. Paghi solo quando spedisci la lettera, e anche allora una volta sola per lettera.</p>
 
     <div class="pricing__grid">
@@ -294,9 +294,9 @@ permalink: /it/
         </div>
       </article>
     </div>
-    <p class="pricing-note">Il prezzo della lettera segue il tuo risparmio mensile (circa 30&nbsp;%, con un minimo e un massimo).</p>
+    <p class="pricing-note">Il prezzo della lettera segue il tuo risparmio mensile — circa un terzo.</p>
     <p class="pricing-note">Risparmi poco, paghi poco. Risparmi tanto, paghi un po' di più, ma mai oltre CHF&nbsp;29.90.</p>
-    <p class="pricing-note">Sei livelli: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — in base al tuo risparmio.</p>
   </div>
 </section>
 

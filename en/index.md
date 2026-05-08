@@ -159,7 +159,7 @@ permalink: /en/
         </span>
         <h3>One tap to send</h3>
         <p>The app generates your reduction request with your finger-signature, hands it off encrypted to our Swiss postal partner, and mails it as A-Mail or registered. You get a push confirmation.</p>
-        <span class="step__time">≈ 2&nbsp;min · from CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 3&nbsp;sec · from CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -254,7 +254,7 @@ permalink: /en/
 <section class="section pricing" id="price">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Price</span>
-    <h2 class="section-title" data-reveal>Pay-per-use. No subscription. Less than 1/3 of your first month's saving.</h2>
+    <h2 class="section-title" data-reveal>No subscription. Less than 1/3 of your first month's saving.</h2>
     <p class="section-lead" data-reveal>The claim check is free. You pay only when you mail the letter, and even then only once per letter.</p>
 
     <div class="pricing__grid">
@@ -295,9 +295,9 @@ permalink: /en/
       </article>
     </div>
 
-    <p class="pricing-note">The letter price scales with your monthly saving (about 30&nbsp;%, with a floor and a ceiling).</p>
+    <p class="pricing-note">The letter price scales with your monthly saving — about a third.</p>
     <p class="pricing-note">Save little, pay little. Save more, pay a touch more, but never above CHF&nbsp;29.90.</p>
-    <p class="pricing-note">Six tiers: CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — depending on how much you save.</p>
   </div>
 </section>
 
