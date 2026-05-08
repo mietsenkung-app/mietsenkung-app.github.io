@@ -117,14 +117,6 @@ permalink: /it/
           </div>
           <div class="phone__home"></div>
         </div>
-        <div class="phone__float phone__float--top" aria-hidden="true">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          Lettera in viaggio
-        </div>
-        <div class="phone__float phone__float--bot" aria-hidden="true">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-          2 minuti
-        </div>
       </div>
     </div>
   </div>

@@ -229,27 +229,21 @@ img, svg { max-width: 100%; height: auto; display: block; }
   max-width: var(--max-content);
   margin: 0 auto;
 }
+/* Eyebrow-Untertitel im editorial Stil: keine Pill, kein Punkt, kein Background.
+   Reine Typo-Auszeichnung als Section-Label, wie bei NZZ/Republik. */
 .eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 10px 4px 8px;
-  background: var(--emerald-mist);
-  color: var(--emerald-deep);
-  border-radius: 999px;
+  display: block;
+  padding: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  border-radius: 0;
   font-size: var(--fs-micro);
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+  margin: 0 0 var(--sp-2);
 }
-.eyebrow::before {
-  content: '';
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--emerald);
-  box-shadow: 0 0 0 4px rgba(5, 150, 105, 0.18);
-}
+.eyebrow::before { display: none; }
 .section-title {
   font-size: var(--fs-h1);
   margin: var(--sp-3) 0 var(--sp-4);
@@ -270,22 +264,12 @@ img, svg { max-width: 100%; height: auto; display: block; }
 .hero {
   position: relative;
   padding: var(--sp-20) var(--pad-x) var(--sp-16);
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(5, 150, 105, 0.10), transparent 70%),
-    radial-gradient(ellipse 70% 50% at 90% 30%, rgba(245, 158, 11, 0.08), transparent 70%),
-    linear-gradient(180deg, var(--paper-warm) 0%, var(--paper) 100%);
+  /* Single subtle vertical gradient instead of multi-color SaaS-atmospheric
+     glows. Editorial-feel: one warm-paper tone fading to neutral paper. */
+  background: linear-gradient(180deg, var(--paper-warm) 0%, var(--paper) 70%);
   overflow: hidden;
 }
-.hero::before {
-  /* subtle dotted-grid texture */
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: radial-gradient(circle at 1px 1px, rgba(15, 23, 42, 0.05) 1px, transparent 0);
-  background-size: 24px 24px;
-  mask-image: linear-gradient(180deg, transparent, black 30%, transparent 90%);
-  pointer-events: none;
-}
+.hero::before { display: none; }
 .hero__inner {
   position: relative;
   max-width: var(--max-content);
@@ -444,27 +428,29 @@ img, svg { max-width: 100%; height: auto; display: block; }
   text-transform: uppercase;
 }
 
+/* Trust-Hinweise als editorial Inline-Zeile mit Punkten als Trennzeichen,
+   keine Pills, keine Icons. Schweizer Sachlichkeit. */
 .hero__trust {
   margin-top: var(--sp-8);
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--sp-4);
-  align-items: center;
-}
-.trust-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 12px 6px 10px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  display: block;
   font-size: var(--fs-micro);
   color: var(--ink-soft);
   font-weight: 500;
-  white-space: nowrap;
 }
-.trust-pill svg { color: var(--emerald); }
+.trust-pill {
+  display: inline;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  white-space: normal;
+}
+.trust-pill svg { display: none; }
+.trust-pill + .trust-pill::before {
+  content: " · ";
+  color: var(--line);
+  margin: 0 6px;
+}
 
 /* Phone mockup — mirrors the real Mietsenkung dashboard:
    - Manrope font (matches the app's UI font)
@@ -869,50 +855,39 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 
 /* ---------- 9. Bento "Why" ---------- */
+/* Klassisches gleichmässiges Grid statt asymmetrisches Bento. Auto-fit
+   passt sich Viewport an: 3 Cards/Reihe auf Desktop, 2 auf Tablet,
+   1 auf Mobile. Keine accent-card mehr, alle gleichwertig. */
 .bento {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--sp-4);
 }
 @media (min-width: 760px) {
-  .bento { grid-template-columns: repeat(6, 1fr); grid-auto-rows: minmax(220px, auto); gap: var(--sp-4); }
-  .bento__a { grid-column: span 4; }
-  .bento__b { grid-column: span 2; }
-  .bento__c { grid-column: span 2; }
-  .bento__d { grid-column: span 2; }
-  .bento__e { grid-column: span 2; }
+  .bento { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .bento__a, .bento__b, .bento__c, .bento__d, .bento__e { grid-column: auto; }
 }
 .bento__card {
   position: relative;
   background: var(--paper);
   border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  padding: var(--sp-8);
+  border-radius: var(--r-md);
+  padding: var(--sp-6);
   display: flex;
   flex-direction: column;
   gap: var(--sp-3);
   overflow: hidden;
-  transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+  transition: border-color 0.2s;
 }
 .bento__card:hover {
-  border-color: var(--emerald-glow);
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+  border-color: var(--ink-soft);
 }
 .bento__card--accent {
-  background: linear-gradient(135deg, var(--emerald-mist) 0%, var(--paper) 60%);
-  border-color: var(--emerald-glow);
+  background: var(--paper);
+  border-color: var(--line);
 }
-.bento__icon {
-  width: 44px;
-  height: 44px;
-  border-radius: var(--r-md);
-  background: var(--emerald-mist);
-  color: var(--emerald-deep);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
+/* Icons aus den Bento-Cards weg — editorial: nur Headline + Text. */
+.bento__icon { display: none; }
 .bento__card h3 {
   font-size: var(--fs-h3);
   margin: 0;
@@ -973,19 +948,9 @@ img, svg { max-width: 100%; height: auto; display: block; }
   box-shadow: var(--shadow-glow);
   background: linear-gradient(180deg, var(--paper) 0%, var(--emerald-mist) 100%);
 }
-.price-card__tag {
-  position: absolute;
-  top: -14px;
-  right: 24px;
-  padding: 6px 14px;
-  background: var(--gold);
-  color: var(--ink);
-  border-radius: 999px;
-  font-size: var(--fs-micro);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
+/* "Beliebt"-Tag entfernt — Pricing-Cards sprechen für sich, kein
+   "highlighted plan"-SaaS-Pattern mehr. */
+.price-card__tag { display: none; }
 .price-card__name {
   font-size: 13px;
   font-weight: 600;
@@ -1148,20 +1113,9 @@ img, svg { max-width: 100%; height: auto; display: block; }
   transition: border-color 0.2s, transform 0.2s;
 }
 .source-row:hover { border-color: var(--emerald-glow); transform: translateY(-2px); color: var(--ink); }
-.source-row__abbr {
-  flex: none;
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  background: var(--emerald-mist);
-  color: var(--emerald-deep);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-mono);
-  font-size: 13px;
-  font-weight: 600;
-}
+/* Abkürzungs-Pills (BWO/BFS/...) entfernt — schlichte Quellen-Liste
+   nur mit Title + Sub. */
+.source-row__abbr { display: none; }
 .source-row__body { flex: 1; min-width: 0; }
 .source-row__title { font-weight: 600; font-size: 15px; margin: 0 0 2px; color: var(--ink); }
 .source-row__sub { font-size: 13px; color: var(--ink-soft); margin: 0; }
