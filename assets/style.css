@@ -1335,3 +1335,78 @@ main:not(:has(.hero)) th { background: var(--paper-soft); font-weight: 600; }
   .site-nav, .cta { background: white; color: black; }
   .phone, .phone__float--top, .phone__float--bot { display: none; }
 }
+
+/* ---------------------------------------------------------
+   Coming-Soon modal (temporary — remove once Apple/Google
+   listings are live and store-button hrefs are restored).
+   --------------------------------------------------------- */
+.coming-soon-modal {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  max-width: min(440px, calc(100vw - 32px));
+  width: 100%;
+  color: inherit;
+}
+.coming-soon-modal::backdrop {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
+}
+.coming-soon-modal__inner {
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 18px;
+  padding: 28px 26px 22px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18), 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+.coming-soon-modal__title {
+  font-family: 'Manrope', 'Inter', system-ui, sans-serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 10px;
+  color: #059669;
+  letter-spacing: -0.01em;
+}
+.coming-soon-modal__body {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  margin: 0 0 22px;
+  color: #334155;
+}
+.coming-soon-modal__close {
+  appearance: none;
+  border: 0;
+  background: #059669;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 11px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.05s ease;
+}
+.coming-soon-modal__close:hover {
+  background: #047857;
+}
+.coming-soon-modal__close:active {
+  transform: scale(0.97);
+}
+.coming-soon-modal__close:focus-visible {
+  outline: 3px solid rgba(5, 150, 105, 0.4);
+  outline-offset: 2px;
+}
+@media (prefers-color-scheme: dark) {
+  .coming-soon-modal__inner {
+    background: #0f172a;
+    color: #e2e8f0;
+  }
+  .coming-soon-modal__title {
+    color: #34d399;
+  }
+  .coming-soon-modal__body {
+    color: #cbd5e1;
+  }
+}

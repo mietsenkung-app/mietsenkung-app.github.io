@@ -21,6 +21,10 @@ de:
   foot_legal_imprint: "Impressum"
   foot_disclaimer: "Mietsenkung ist eine unabhängige App und nicht mit dem Bund, Kantonen oder Gerichten verbunden."
   langswitch_label: "Sprache"
+  coming_soon:
+    title: "Bald im Store"
+    body: "Mietsenkung ist kurz vor dem Launch und noch nicht im App&nbsp;Store oder bei Google&nbsp;Play verfügbar. Schau in den nächsten Tagen vorbei — der Button wird dann direkt zum Store führen."
+    close: "Schliessen"
 
 fr:
   nav:
@@ -41,6 +45,10 @@ fr:
   foot_legal_imprint: "Mentions légales"
   foot_disclaimer: "Baisse-loyer est une application indépendante, sans lien avec la Confédération, les cantons ou les tribunaux."
   langswitch_label: "Langue"
+  coming_soon:
+    title: "Bientôt disponible"
+    body: "Baisse-loyer est sur le point d'être lancée et n'est pas encore disponible sur l'App&nbsp;Store ou Google&nbsp;Play. Reviens dans les prochains jours — le bouton mènera alors directement au store."
+    close: "Fermer"
 
 it:
   nav:
@@ -61,6 +69,10 @@ it:
   foot_legal_imprint: "Note legali"
   foot_disclaimer: "Ribassoaffitto è un'applicazione indipendente, non affiliata alla Confederazione, ai Cantoni o ai tribunali."
   langswitch_label: "Lingua"
+  coming_soon:
+    title: "Presto nello store"
+    body: "Ribassoaffitto è prossima al lancio e non è ancora disponibile su App&nbsp;Store o Google&nbsp;Play. Torna nei prossimi giorni — il pulsante porterà allora direttamente allo store."
+    close: "Chiudi"
 
 en:
   nav:
@@ -81,6 +93,10 @@ en:
   foot_legal_imprint: "Imprint"
   foot_disclaimer: "RentReducer is an independent app and is not affiliated with the Swiss Confederation, any canton, or any court."
   langswitch_label: "Language"
+  coming_soon:
+    title: "Coming soon"
+    body: "RentReducer is about to launch — not yet on the App&nbsp;Store or Google&nbsp;Play. Check back in the next few days; the button will take you straight to the store."
+    close: "Close"
 
 # Map from (current lang) → URL prefix used by the language switcher.
 # DE is at root, others under /<lang>/.

@@ -81,6 +81,22 @@
     {{ content }}
   </main>
 
+  {%- comment -%}
+    Coming-Soon modal: store-button anchors carry data-coming-soon and a stub
+    href="#". JS below intercepts the click and shows this dialog. Remove
+    once App Store + Google Play listings are live and replace the hrefs
+    back to the store URLs (see memory: feedback_mietsenkung_store_links.md).
+  {%- endcomment -%}
+  <dialog class="coming-soon-modal" id="coming-soon-modal" aria-labelledby="coming-soon-title">
+    <div class="coming-soon-modal__inner">
+      <h2 class="coming-soon-modal__title" id="coming-soon-title">{{ t.coming_soon.title }}</h2>
+      <p class="coming-soon-modal__body">{{ t.coming_soon.body }}</p>
+      <form method="dialog">
+        <button type="submit" class="coming-soon-modal__close">{{ t.coming_soon.close }}</button>
+      </form>
+    </div>
+  </dialog>
+
   <footer class="site-foot">
     <div class="site-foot__grid">
       <div class="site-foot__brand">
@@ -161,6 +177,30 @@
       onScroll();
       window.addEventListener('scroll', onScroll, { passive: true });
     }
+
+    // Coming-Soon: hijack store-button clicks until App Store + Google Play go live.
+    // Anchors carry data-coming-soon and stub href="#"; we open the localised dialog instead.
+    (function () {
+      const dialog = document.getElementById('coming-soon-modal');
+      if (!dialog) return;
+      document.addEventListener('click', (e) => {
+        const trigger = e.target.closest('[data-coming-soon]');
+        if (!trigger) return;
+        e.preventDefault();
+        if (typeof dialog.showModal === 'function') {
+          dialog.showModal();
+        } else {
+          // Ancient browser: fall back to alert with concatenated dialog text.
+          const title = dialog.querySelector('.coming-soon-modal__title')?.textContent || '';
+          const body = dialog.querySelector('.coming-soon-modal__body')?.textContent || '';
+          window.alert(title + '\n\n' + body);
+        }
+      });
+      // Click on backdrop closes (form/method=dialog handles the explicit close button).
+      dialog.addEventListener('click', (e) => {
+        if (e.target === dialog) dialog.close();
+      });
+    })();
   </script>
 </body>
 </html>
