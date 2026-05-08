@@ -139,7 +139,7 @@ permalink: /
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Wie's geht</span>
     <h2 class="section-title" data-reveal>Drei Schritte. Kein Ausdrucken. Kein Postbesuch.</h2>
-    <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App: von der Berechnung bis dein Brief im Briefkasten landet.</p>
+    <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App: von der Berechnung bis er bei deiner Vermieter*in im Briefkasten liegt.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
