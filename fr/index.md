@@ -167,7 +167,7 @@ permalink: /fr/
         </span>
         <h3>Un tap sur Envoyer</h3>
         <p>L'app génère ta demande de baisse avec ta signature au doigt, la transmet chiffrée à notre partenaire postal suisse, qui l'envoie en courrier A ou recommandé. Tu reçois une notification de confirmation.</p>
-        <span class="step__time">≈ 30&nbsp;sec · dès CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 2&nbsp;min · dès CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -366,7 +366,7 @@ permalink: /fr/
       <details>
         <summary>Sur quels appareils Baisse-loyer fonctionne ?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) et téléphones Android (Android&nbsp;9+). Tablettes prises en charge, mais l'interface est conçue pour mobile. Quatre langues : allemand, français, italien, anglais.</p>
+          <p>iPhone (iOS&nbsp;15+) et Android (9+). Fonctionne sur smartphone comme sur tablette — l'écran plus grand de la tablette laisse simplement plus de place pour la saisie.</p>
         </div>
       </details>
     </div>

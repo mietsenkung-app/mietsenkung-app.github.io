@@ -167,7 +167,7 @@ permalink: /it/
         </span>
         <h3>Un tap su Invia</h3>
         <p>L'app genera la richiesta di ribasso con la tua firma a dito, la trasmette cifrata al nostro partner postale svizzero e la spedisce in posta A o raccomandata. Ricevi una notifica di conferma.</p>
-        <span class="step__time">≈ 30&nbsp;sec · da CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 2&nbsp;min · da CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -365,7 +365,7 @@ permalink: /it/
       <details>
         <summary>Su quali dispositivi gira Ribassoaffitto?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) e telefoni Android (Android&nbsp;9+). Tablet supportati, ma l'interfaccia è pensata per smartphone. Quattro lingue: tedesco, francese, italiano, inglese.</p>
+          <p>iPhone (iOS&nbsp;15+) e Android (9+). Funziona su smartphone e tablet — sullo schermo più grande del tablet hai semplicemente più spazio per inserire i dati.</p>
         </div>
       </details>
     </div>

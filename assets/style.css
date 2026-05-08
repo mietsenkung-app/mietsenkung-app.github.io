@@ -315,6 +315,10 @@ img, svg { max-width: 100%; height: auto; display: block; }
   color: transparent;
   position: relative;
   white-space: nowrap;
+  /* isolation creates a local stacking context so the ::after underline with
+     z-index:-1 sits behind the text but in front of the hero background.
+     Without this, z-index:-1 escapes upward and the underline disappears. */
+  isolation: isolate;
 }
 .hero__title em::after {
   content: '';

@@ -167,7 +167,7 @@ permalink: /
         </span>
         <h3>Ein Tap auf Senden</h3>
         <p>Die App generiert dein Senkungsbegehren mit deiner Unterschrift, übergibt es verschlüsselt an unseren Schweizer Post-Partner und der versendet als A-Post oder Einschreiben. Du erhältst eine Push-Bestätigung.</p>
-        <span class="step__time">≈ 30&nbsp;sek · ab CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 2&nbsp;min · ab CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -390,7 +390,7 @@ permalink: /
       <details>
         <summary>Auf welchen Geräten läuft Mietsenkung?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) und Android-Smartphones (Android&nbsp;9+). Tablets unterstützt, aber das UI ist Smartphone-first ausgelegt. Vier Sprachen: Deutsch, Französisch, Italienisch, Englisch.</p>
+          <p>iPhone (iOS&nbsp;15+) und Android (9+). Funktioniert auf Smartphone und Tablet — auf dem grösseren Tablet-Display hast du einfach mehr Platz für die Eingabe.</p>
         </div>
       </details>
     </div>

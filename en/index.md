@@ -167,7 +167,7 @@ permalink: /en/
         </span>
         <h3>One tap to send</h3>
         <p>The app generates your reduction request with your finger-signature, hands it off encrypted to our Swiss postal partner, and mails it as A-Mail or registered. You get a push confirmation.</p>
-        <span class="step__time">≈ 30&nbsp;sec · from CHF&nbsp;9.90</span>
+        <span class="step__time">≈ 2&nbsp;min · from CHF&nbsp;9.90</span>
       </article>
 
       <article class="step" data-reveal>
@@ -366,7 +366,7 @@ permalink: /en/
       <details>
         <summary>What devices does RentReducer run on?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) and Android phones (Android&nbsp;9+). Tablets supported, but the UI is mobile-first. Four languages: German, French, Italian, English.</p>
+          <p>iPhone (iOS&nbsp;15+) and Android (9+). Works on phones and tablets — the larger tablet screen just gives you more room to type.</p>
         </div>
       </details>
     </div>
