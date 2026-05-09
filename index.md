@@ -313,7 +313,7 @@ permalink: /
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Einschreiben statt A-Post (mit Tracking)</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Folgebrief Erinnerung / Unterlagen (via Pingen)</span><strong>CHF 6.90</strong></div>
-            <div class="price-card__addons-row"><span>Folgebrief Schlichtung (PDF/DOCX zum Selber-Senden mit Beilagen)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Folgebrief Schlichtung als Einschreiben mit Mietvertrag-Foto und Brief-Historie als Beilage (oder DOCX-Download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>
       </article>
@@ -343,7 +343,7 @@ permalink: /
         <summary>Was kostet mich die App wirklich?</summary>
         <div class="faq__answer">
           <p>Die App selbst ist gratis. Der Anspruchs-Check und der Zins-Alarm sind dauerhaft kostenlos. Bezahlt wird nur der Brief-Versand: einmalig CHF&nbsp;9.90&nbsp;– 29.90, je nach deiner monatlichen Ersparnis. Im Preis enthalten: Brief-Generierung, A-Post-Druck und -Zustellung durch unseren Schweizer Post-Partner.</p>
-          <p>Optional: Einschreiben statt A-Post (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90 — Erinnerung und Unterlagen-Anforderung gehen automatisch via Pingen, der <strong>Schlichtungs-Brief</strong> dagegen kommt als <strong>PDF/DOCX zu dir</strong> zum selber Senden mit den Beilagen, weil das Schlichtungsverfahren Beilagen-Pflicht hat, die wir nicht über den Druckdienst abdecken können.</p>
+          <p>Optional: Einschreiben statt A-Post (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90 — Erinnerung und Unterlagen-Anforderung gehen automatisch via Pingen. Der <strong>Schlichtungs-Brief</strong> geht ebenfalls aus der App, als Einschreiben (+ CHF&nbsp;7.90) mit Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen. Wer lieber selbst zur Post will, kann ihn auch als DOCX herunterladen.</p>
         </div>
       </details>
 
@@ -374,7 +374,7 @@ permalink: /
       <details>
         <summary>Was, wenn mein*e Vermieter*in nicht antwortet?</summary>
         <div class="faq__answer">
-          <p>Mietsenkung erinnert dich automatisch nach 14, 30 und 60 Tagen. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: Erinnerung, Unterlagen-Anforderung oder Schlichtungs-Ankündigung. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerung und Unterlagen-Anforderung gehen via Pingen mit A-Post inklusive, der Schlichtungs-Brief kommt als PDF/DOCX zum Selber-Senden, weil er mit Beilagen bei der Schlichtungsbehörde eingereicht werden muss.</p>
+          <p>Mietsenkung erinnert dich automatisch nach 14, 30 und 60 Tagen. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: Erinnerung, Unterlagen-Anforderung oder Schlichtungs-Brief. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerung und Unterlagen-Anforderung gehen via Pingen mit A-Post inklusive. Der Schlichtungs-Brief geht auch direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und den vorherigen Brief-Kopien als Beilagen — alternativ kannst du ihn als DOCX herunterladen und selber einreichen.</p>
           <p>Wenn du in die Schlichtung gehst, hilft dir die App mit der Verzeichnis-Suche der zuständigen kantonalen Schlichtungsbehörde (Quelle: BWO).</p>
         </div>
       </details>

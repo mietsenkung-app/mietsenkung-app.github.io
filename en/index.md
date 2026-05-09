@@ -289,7 +289,7 @@ permalink: /en/
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Registered with tracking</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Follow-up reminder / document request (via Pingen)</span><strong>CHF 6.90</strong></div>
-            <div class="price-card__addons-row"><span>Follow-up conciliation (PDF/DOCX, you mail it with the attachments)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Follow-up conciliation as registered mail with lease photo and prior letters attached (or DOCX download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>
       </article>
@@ -319,7 +319,7 @@ permalink: /en/
         <summary>What does the app actually cost?</summary>
         <div class="faq__answer">
           <p>The app is free. Claim check and rate alert stay free. You only pay for mailing the letter: a one-time CHF&nbsp;9.90 to 29.90 depending on your monthly saving. Included: letter generation, A-Mail print and delivery by our Swiss postal partner.</p>
-          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each — reminder and document-request go out automatically via Pingen, the <strong>conciliation letter</strong> instead arrives as a <strong>PDF/DOCX download</strong> because the conciliation authority requires attachments (lease, prior letters) that our print service cannot include.</p>
+          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each — reminder and document-request go out automatically via Pingen. The <strong>conciliation letter</strong> also goes from the app, as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and all prior letter copies attached. Prefer to mail it yourself? You can also download it as a DOCX.</p>
         </div>
       </details>
 
@@ -350,7 +350,7 @@ permalink: /en/
       <details>
         <summary>What if my landlord doesn't reply?</summary>
         <div class="faq__answer">
-          <p>RentReducer reminds you automatically after 14, 30 and 60 days. At every reminder you can fire the right follow-up letter with one tap, by status: reminder, document request, or conciliation announcement. Each follow-up letter costs CHF&nbsp;6.90. Reminder and document-request go via Pingen with A-Mail included; the conciliation letter arrives as a PDF/DOCX for you to mail yourself, because it must be filed with the conciliation authority together with attachments.</p>
+          <p>RentReducer reminds you automatically after 14, 30 and 60 days. At every reminder you can fire the right follow-up letter with one tap, by status: reminder, document request, or conciliation letter. Each follow-up letter costs CHF&nbsp;6.90. Reminder and document-request go via Pingen with A-Mail included. The conciliation letter also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached — or you can download it as a DOCX and mail it yourself.</p>
           <p>If you go to conciliation, the app helps you with the directory of the cantonal conciliation authority (source: BWO).</p>
         </div>
       </details>
