@@ -10,11 +10,15 @@ permalink: /it/
 <section class="hero">
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
-      <div class="hero__brand">
-        <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="App Ribassoaffitto" class="hero__brand-icon" width="96" height="96">
+      <div class="hero__head">
+        <div class="hero__head-text">
+          <span class="eyebrow">Ribasso dell'affitto in 2 minuti</span>
+          <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
+        </div>
+        <div class="hero__brand">
+          <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="App Ribassoaffitto" class="hero__brand-icon" width="112" height="112">
+        </div>
       </div>
-      <span class="eyebrow">Ribasso dell'affitto in 2 minuti</span>
-      <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
       <p class="hero__sub">Il tasso di riferimento è sceso. Probabilmente hai diritto a un affitto più basso. <strong>Ribassoaffitto</strong> fa il calcolo in 2 minuti e invia la richiesta di ribasso al tuo locatore o alla tua locatrice con un tap.</p>
 
       <div class="hero__cta">

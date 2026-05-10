@@ -10,11 +10,15 @@ permalink: /en/
 <section class="hero">
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
-      <div class="hero__brand">
-        <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="RentReducer app" class="hero__brand-icon" width="96" height="96">
+      <div class="hero__head">
+        <div class="hero__head-text">
+          <span class="eyebrow">Lower rent in 2 minutes</span>
+          <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
+        </div>
+        <div class="hero__brand">
+          <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="RentReducer app" class="hero__brand-icon" width="112" height="112">
+        </div>
       </div>
-      <span class="eyebrow">Lower rent in 2 minutes</span>
-      <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
       <p class="hero__sub">The Swiss reference rate has dropped. You probably have a right to lower rent. <strong>RentReducer</strong> does the math in 2 minutes and mails your reduction request to your landlord with one tap.</p>
 
       <div class="hero__cta">

@@ -284,22 +284,35 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 .hero__copy { max-width: 36rem; }
 
-/* Big-Hero-Logo (2026-05-10): Manuel-Befund war "Logo zu wenig präsent".
-   Squarish iOS-Style 96px-Icon mit emerald-getöntem drop-shadow. Feiert
-   die Brand BEVOR die User die Eyebrow-Zeile scannen. Mobile shrinkt
-   auf 72px damit die H1 trotzdem nicht ins zweite Scroll-Drittel rutscht. */
-.hero__brand {
+/* Big-Hero-Logo (2026-05-10, v2): Manuel-Befund war "Logo zu nah am Text,
+   eher rechts vom Text". Layout-Wechsel von logo-above-eyebrow zu Flex-Row:
+   Eyebrow + H1 links, Logo rechts daneben, vertikal mit dem Block ge-
+   centert. iOS-Style 112px mit emerald-tönigem drop-shadow. Mobile (≤480px)
+   wechselt auf 80px und behält die rechte Position; ganz schmale screens
+   (≤360px) gehen auf column-reverse falls H1 sonst zu eng würde. */
+.hero__head {
   display: flex;
   align-items: center;
+  gap: var(--sp-6);
   margin: 0 0 var(--sp-5);
 }
+.hero__head-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.hero__brand {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .hero__brand-icon {
-  width: 96px;
-  height: 96px;
-  border-radius: 22px;
+  width: 112px;
+  height: 112px;
+  border-radius: 26px;
   display: block;
   filter:
-    drop-shadow(0 12px 24px rgba(16, 185, 129, 0.28))
+    drop-shadow(0 14px 28px rgba(16, 185, 129, 0.30))
     drop-shadow(0 4px 8px rgba(0, 0, 0, 0.10));
   transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -307,12 +320,31 @@ img, svg { max-width: 100%; height: auto; display: block; }
   transform: translateY(-2px) scale(1.02);
 }
 @media (max-width: 720px) {
+  .hero__head { gap: var(--sp-4); }
+  .hero__brand-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .hero__head { gap: var(--sp-3); }
   .hero__brand-icon {
     width: 72px;
     height: 72px;
     border-radius: 16px;
   }
-  .hero__brand { margin-bottom: var(--sp-4); }
+}
+/* Sehr schmale screens: H1 darf volle Breite nehmen, Logo rutscht nach
+   oben/rechts und wird kompakt — Reihenfolge bleibt logo-rechts dank
+   row-direction; sollte H1 auf ≤320px clippen, kann ein flex-direction:
+   column-reverse hier reaktiviert werden. */
+@media (max-width: 360px) {
+  .hero__brand-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+  }
 }
 
 .hero__title {
