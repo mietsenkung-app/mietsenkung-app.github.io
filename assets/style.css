@@ -283,6 +283,38 @@ img, svg { max-width: 100%; height: auto; display: block; }
   .hero__inner { grid-template-columns: 1.1fr 0.9fr; gap: var(--sp-20); }
 }
 .hero__copy { max-width: 36rem; }
+
+/* Big-Hero-Logo (2026-05-10): Manuel-Befund war "Logo zu wenig präsent".
+   Squarish iOS-Style 96px-Icon mit emerald-getöntem drop-shadow. Feiert
+   die Brand BEVOR die User die Eyebrow-Zeile scannen. Mobile shrinkt
+   auf 72px damit die H1 trotzdem nicht ins zweite Scroll-Drittel rutscht. */
+.hero__brand {
+  display: flex;
+  align-items: center;
+  margin: 0 0 var(--sp-5);
+}
+.hero__brand-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  display: block;
+  filter:
+    drop-shadow(0 12px 24px rgba(16, 185, 129, 0.28))
+    drop-shadow(0 4px 8px rgba(0, 0, 0, 0.10));
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.hero__brand-icon:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+@media (max-width: 720px) {
+  .hero__brand-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+  }
+  .hero__brand { margin-bottom: var(--sp-4); }
+}
+
 .hero__title {
   font-size: var(--fs-display);
   font-weight: 800;

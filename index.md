@@ -10,6 +10,9 @@ permalink: /
 <section class="hero">
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
+      <div class="hero__brand">
+        <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="Mietsenkung App" class="hero__brand-icon" width="96" height="96">
+      </div>
       <span class="eyebrow">Mietzinssenkung in 2 Minuten</span>
       <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
       <p class="hero__sub">Der Referenzzinssatz ist gesunken. Du hast vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> rechnet's in 2 Minuten und schickt dein Senkungsbegehren mit einem Tap an dein*e Vermieter*in.</p>

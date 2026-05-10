@@ -119,14 +119,16 @@
       <div>
         <h4>{{ t.foot_h_legal }}</h4>
         <ul>
-          {%- if lang_short == 'en' -%}
+          {%- if lang_short == 'fr' -%}
+            <li><a href="{{ '/privacy-fr.html' | relative_url }}">{{ t.foot_legal_privacy }}</a></li>
+          {%- elsif lang_short == 'it' -%}
+            <li><a href="{{ '/privacy-it.html' | relative_url }}">{{ t.foot_legal_privacy }}</a></li>
+          {%- elsif lang_short == 'en' -%}
             <li><a href="{{ '/privacy-en.html' | relative_url }}">{{ t.foot_legal_privacy }}</a></li>
-            <li><a href="{{ '/impressum.html' | relative_url }}">{{ t.foot_legal_imprint }}</a></li>
           {%- else -%}
             <li><a href="{{ '/privacy-de.html' | relative_url }}">{{ t.foot_legal_privacy }}</a></li>
-            <li><a href="{{ '/privacy-en.html' | relative_url }}">Privacy (EN)</a></li>
-            <li><a href="{{ '/impressum.html' | relative_url }}">{{ t.foot_legal_imprint }}</a></li>
           {%- endif -%}
+          <li><a href="{{ '/impressum.html' | relative_url }}">{{ t.foot_legal_imprint }}</a></li>
         </ul>
       </div>
       <div>

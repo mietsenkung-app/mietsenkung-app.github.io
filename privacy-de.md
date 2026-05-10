@@ -8,12 +8,14 @@ permalink: /privacy-de.html
 
 <div class="lang-switch">
   <span class="active" aria-current="page">DE</span>
+  <a href="privacy-fr.html">FR</a>
+  <a href="privacy-it.html">IT</a>
   <a href="privacy-en.html">EN</a>
 </div>
 
 # Datenschutzerklärung Mietsenkung
 
-- **Stand:** 2026-04-24
+- **Stand:** 2026-05-10
 - **In Kraft ab:** Launch der App im Apple App Store / Google Play Store
 - **Gilt für:** Mietsenkung iOS + Android App (Bundle ID `com.mietsenkung.mietsenkung`)
 
@@ -129,6 +131,10 @@ Wir arbeiten mit wenigen, sorgfältig ausgewählten Auftragsverarbeitern zusamme
 ## 5. Cookies und Tracking
 
 Die App ist eine native Mobile-App und setzt **keine Cookies**. Es gibt keine Werbung, keine Tracker, keine Analytics-SDKs. Kein Cross-App-Tracking, kein Fingerprinting, keine Identifier for Advertisers.
+
+### 5.1 Webseite mietsenkung-app.ch
+
+Diese Webseite ist statisch und wird über GitHub Pages ausgeliefert. Sie setzt **keine Cookies**, nutzt **kein Tracking**, lädt keine Drittanbieter-Skripte und speichert keine personenbezogenen Daten. Es läuft kein serverseitiges Analytics.
 
 ---
 

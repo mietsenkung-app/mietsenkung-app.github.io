@@ -10,6 +10,9 @@ permalink: /fr/
 <section class="hero">
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
+      <div class="hero__brand">
+        <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="Application Baisse-loyer" class="hero__brand-icon" width="96" height="96">
+      </div>
       <span class="eyebrow">Baisse de loyer en 2 minutes</span>
       <h1 class="hero__title">Récupère<br>ce qui te <em>revient</em>.</h1>
       <p class="hero__sub">Le taux de référence a baissé. Tu as probablement droit à un loyer plus bas. <strong>Baisse-loyer</strong> fait le calcul en 2 minutes et envoie ta demande de baisse à ton·a bailleur·esse en un tap.</p>
