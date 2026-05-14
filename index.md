@@ -234,7 +234,7 @@ permalink: /
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Warum gibt's das</span>
     <h2 class="stats__title" data-reveal>Schweizer Mieter*innen verschenken jährlich Millionen.</h2>
-    <p class="stats__lead" data-reveal>Nur ein Bruchteil der Berechtigten fordert die Senkung tatsächlich ein. Der Aufwand schreckt ab: Anspruch berechnen, Brief formulieren, Termine setzen, bei Schweigen oder Ablehnung den nächsten Schritt einleiten. Mietsenkung übernimmt diese Schritte vollständig, vom Anspruchs-Check bis zur Schlichtungsbehörde.</p>
+    <p class="stats__lead" data-reveal>Nur ein Bruchteil der Berechtigten fordert die Senkung tatsächlich ein. Der Aufwand schreckt ab: Anspruch berechnen, Brief formulieren, Termine setzen, bei Schweigen oder Ablehnung den nächsten Schritt einleiten. <strong>Mietsenkung</strong> übernimmt diese Schritte vollständig, vom Anspruchs-Check bis zur Schlichtungsbehörde.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
@@ -260,7 +260,7 @@ permalink: /
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Was Mietsenkung anders macht</span>
     <h2 class="section-title" data-reveal>Privat. Präzise. Mit einem Tap.</h2>
-    <p class="section-lead" data-reveal>Was Mietsenkung von einer Word-Vorlage unterscheidet.</p>
+    <p class="section-lead" data-reveal>Was <strong>Mietsenkung</strong> von einer Word-Vorlage unterscheidet.</p>
 
     <div class="bento">
       <article class="bento__card bento__a bento__card--accent" data-reveal>
@@ -268,7 +268,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </span>
         <h3>Berechnung mit Gerichts-Parität</h3>
-        <p>Mietsenkung verwendet Bundesrechts-Quelldaten (BWO Referenzzinssatz, BFS Landesindex der Konsumentenpreise) und reproduziert die Berechnung des amtlichen Mietzinsrechners der Zürcher Gerichte auf Rappen-Genauigkeit. Inklusive Teuerung, Kostensteigerung, Tragbarkeits-Check.</p>
+        <p><strong>Mietsenkung</strong> verwendet Bundesrechts-Quelldaten (BWO Referenzzinssatz, BFS Landesindex der Konsumentenpreise) und reproduziert die Berechnung des amtlichen Mietzinsrechners der Zürcher Gerichte auf Rappen-Genauigkeit. Inklusive Teuerung, Kostensteigerung, Tragbarkeits-Check.</p>
       </article>
 
       <article class="bento__card bento__b" data-reveal>
@@ -476,7 +476,7 @@ permalink: /
       <details>
         <summary>Habe ich überhaupt Anspruch auf eine Mietsenkung?</summary>
         <div class="faq__answer">
-          <p>Wenn deine letzte Mietzins-Anpassung auf einem höheren Referenzzinssatz basiert als heute gültig, dann ja, sehr wahrscheinlich. Mietsenkung berechnet das automatisch nach Art.&nbsp;270a&nbsp;OR und VMWG&nbsp;Art.&nbsp;13. Du gibst nur deinen aktuellen Mietzins und das Datum der letzten Anpassung ein.</p>
+          <p>Wenn deine letzte Mietzins-Anpassung auf einem höheren Referenzzinssatz basiert als heute gültig, dann ja, sehr wahrscheinlich. <strong>Mietsenkung</strong> berechnet das automatisch nach Art.&nbsp;270a&nbsp;OR und VMWG&nbsp;Art.&nbsp;13. Du gibst nur deinen aktuellen Mietzins und das Datum der letzten Anpassung ein.</p>
           <p>Der Anspruchs-Check selbst kostet nichts. Wenn dein Anspruch null ist, musst du auch nichts bezahlen, die Berechnung bleibt gratis.</p>
         </div>
       </details>
@@ -492,8 +492,8 @@ permalink: /
       <details>
         <summary>Ist Mietsenkung eine offizielle App vom Bund?</summary>
         <div class="faq__answer">
-          <p>Nein. Mietsenkung ist eine unabhängige App und nicht mit dem Bund, einem Kanton, einer Behörde oder einem Gericht verbunden. Sämtliche genutzten amtlichen Daten und Rechtsgrundlagen stammen aus offiziellen Schweizer Quellen. Siehe Quellen-Block weiter unten.</p>
-          <p>Mietsenkung ersetzt keine Rechtsberatung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein*e Anwält*in.</p>
+          <p>Nein. <strong>Mietsenkung</strong> ist eine unabhängige App und nicht mit dem Bund, einem Kanton, einer Behörde oder einem Gericht verbunden. Sämtliche genutzten amtlichen Daten und Rechtsgrundlagen stammen aus offiziellen Schweizer Quellen. Siehe Quellen-Block weiter unten.</p>
+          <p><strong>Mietsenkung</strong> ersetzt keine Rechtsberatung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein*e Anwält*in.</p>
         </div>
       </details>
 
@@ -501,7 +501,7 @@ permalink: /
         <summary>Was passiert mit meinen Daten?</summary>
         <div class="faq__answer">
           <p>Deine Mietzins- und Vertragsdaten bleiben verschlüsselt auf deinem Gerät. Wir betreiben keine Cloud-Datenbank und du brauchst kein Konto. Nur das fertige PDF deines Briefes wird verschlüsselt an unseren Schweizer Post-Partner übergeben, damit er gedruckt und zugestellt werden kann.</p>
-          <p>Mietsenkung ist nDSG-konform. Details findest du in der <a href="{{ '/privacy-de.html' | relative_url }}">Datenschutzerklärung</a>.</p>
+          <p><strong>Mietsenkung</strong> ist nDSG-konform. Details findest du in der <a href="{{ '/privacy-de.html' | relative_url }}">Datenschutzerklärung</a>.</p>
         </div>
       </details>
 
@@ -516,7 +516,7 @@ permalink: /
       <details>
         <summary>Was, wenn mein*e Vermieter*in nicht antwortet?</summary>
         <div class="faq__answer">
-          <p>Mietsenkung erinnert dich automatisch nach <strong>30 und 60 Tagen</strong>. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: <strong>Erinnerungsschreiben</strong>, <strong>Begründung &amp; Belege verlangen</strong> oder <strong>Schlichtungsklage</strong>. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerungsschreiben und Begründung &amp; Belege gehen via Pingen mit A-Post inklusive. Die Schlichtungsklage geht direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen, alternativ kannst du sie als <strong>Word-Datei</strong> herunterladen und selber einreichen.</p>
+          <p><strong>Mietsenkung</strong> erinnert dich automatisch nach <strong>30 und 60 Tagen</strong>. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: <strong>Erinnerungsschreiben</strong>, <strong>Begründung &amp; Belege verlangen</strong> oder <strong>Schlichtungsklage</strong>. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerungsschreiben und Begründung &amp; Belege gehen via Pingen mit A-Post inklusive. Die Schlichtungsklage geht direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen, alternativ kannst du sie als <strong>Word-Datei</strong> herunterladen und selber einreichen.</p>
           <p>Wenn du in die Schlichtung gehst, hilft dir die App mit der Verzeichnis-Suche der zuständigen kantonalen Schlichtungsbehörde (Quelle: BWO).</p>
         </div>
       </details>
@@ -535,7 +535,7 @@ permalink: /
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Quellen und Haftungsausschluss</span>
     <h2 class="section-title" data-reveal>Alles aus offiziellen Schweizer Quellen.</h2>
-    <p class="section-lead" data-reveal>Mietsenkung verlinkt direkt auf die zugrundeliegenden Bundes-Daten und Rechtsgrundlagen. Du kannst jeden Wert in der App selbst überprüfen.</p>
+    <p class="section-lead" data-reveal><strong>Mietsenkung</strong> verlinkt direkt auf die zugrundeliegenden Bundes-Daten und Rechtsgrundlagen. Du kannst jeden Wert in der App selbst überprüfen.</p>
 
     <div class="sources__grid">
       <a class="source-row" href="https://www.bwo.admin.ch/de/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">
@@ -592,7 +592,7 @@ permalink: /
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
     <h2>Bereit, deinen Anspruch durchzusetzen?</h2>
-    <p>Anspruch prüfen ist gratis. Der Brief geht ab CHF&nbsp;9.90 inklusive Druck und A-Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich Mietsenkung bis zur Schlichtungsbehörde.</p>
+    <p>Anspruch prüfen ist gratis. Der Brief geht ab CHF&nbsp;9.90 inklusive Druck und A-Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich <strong>Mietsenkung</strong> bis zur Schlichtungsbehörde.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>

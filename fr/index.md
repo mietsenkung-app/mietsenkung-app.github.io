@@ -268,7 +268,7 @@ permalink: /fr/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </span>
         <h3>Calcul à la précision des tribunaux</h3>
-        <p>Baisse-loyer utilise les données fédérales officielles (taux de référence OFL, IPC OFS) et reproduit le calculateur de loyer des tribunaux zurichois au centime près. Y compris renchérissement, hausses de coûts et test d'admissibilité.</p>
+        <p><strong>Baisse-loyer</strong> utilise les données fédérales officielles (taux de référence OFL, IPC OFS) et reproduit le calculateur de loyer des tribunaux zurichois au centime près. Y compris renchérissement, hausses de coûts et test d'admissibilité.</p>
       </article>
 
       <article class="bento__card bento__b" data-reveal>
@@ -452,7 +452,7 @@ permalink: /fr/
       <details>
         <summary>Est-ce que j'ai vraiment droit à une baisse ?</summary>
         <div class="faq__answer">
-          <p>Si ta dernière adaptation de loyer reposait sur un taux de référence plus élevé qu'aujourd'hui, alors oui, très probablement. Baisse-loyer le calcule automatiquement selon l'art.&nbsp;270a&nbsp;CO et l'OBLF art.&nbsp;13. Tu n'as qu'à saisir ton loyer actuel et la date de la dernière adaptation.</p>
+          <p>Si ta dernière adaptation de loyer reposait sur un taux de référence plus élevé qu'aujourd'hui, alors oui, très probablement. <strong>Baisse-loyer</strong> le calcule automatiquement selon l'art.&nbsp;270a&nbsp;CO et l'OBLF art.&nbsp;13. Tu n'as qu'à saisir ton loyer actuel et la date de la dernière adaptation.</p>
           <p>La vérification est gratuite. Si ta prétention est nulle, tu n'as rien à payer, le calcul reste gratuit.</p>
         </div>
       </details>
@@ -468,8 +468,8 @@ permalink: /fr/
       <details>
         <summary>Baisse-loyer est-elle une appli officielle de l'État ?</summary>
         <div class="faq__answer">
-          <p>Non. Baisse-loyer est une application indépendante, sans lien avec la Confédération, un canton, une autorité ou un tribunal. Toutes les données et bases légales utilisées proviennent de sources officielles suisses. Voir le bloc Sources plus bas.</p>
-          <p>Baisse-loyer ne remplace pas un conseil juridique. Pour des questions juridiques, contacte une association cantonale de défense des locataires ou un·e avocat·e.</p>
+          <p>Non. <strong>Baisse-loyer</strong> est une application indépendante, sans lien avec la Confédération, un canton, une autorité ou un tribunal. Toutes les données et bases légales utilisées proviennent de sources officielles suisses. Voir le bloc Sources plus bas.</p>
+          <p><strong>Baisse-loyer</strong> ne remplace pas un conseil juridique. Pour des questions juridiques, contacte une association cantonale de défense des locataires ou un·e avocat·e.</p>
         </div>
       </details>
 
@@ -492,7 +492,7 @@ permalink: /fr/
       <details>
         <summary>Que faire si mon·a bailleur·esse ne répond pas ?</summary>
         <div class="faq__answer">
-          <p>Baisse-loyer te rappelle automatiquement après <strong>30 et 60 jours</strong>. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : <strong>lettre de rappel</strong>, <strong>demande de justification et de pièces</strong> ou <strong>demande de conciliation</strong>. Chaque lettre de suivi coûte CHF&nbsp;6.90. La lettre de rappel et la demande de justification partent via Pingen avec courrier A inclus. La demande de conciliation part aussi directement depuis l'app, en recommandé (+ CHF&nbsp;7.90), avec ta photo du bail et les lettres précédentes en annexe, ou tu peux la télécharger en <strong>fichier Word</strong> et la déposer toi-même.</p>
+          <p><strong>Baisse-loyer</strong> te rappelle automatiquement après <strong>30 et 60 jours</strong>. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : <strong>lettre de rappel</strong>, <strong>demande de justification et de pièces</strong> ou <strong>demande de conciliation</strong>. Chaque lettre de suivi coûte CHF&nbsp;6.90. La lettre de rappel et la demande de justification partent via Pingen avec courrier A inclus. La demande de conciliation part aussi directement depuis l'app, en recommandé (+ CHF&nbsp;7.90), avec ta photo du bail et les lettres précédentes en annexe, ou tu peux la télécharger en <strong>fichier Word</strong> et la déposer toi-même.</p>
           <p>Si tu vas à la conciliation, l'app t'aide à trouver l'autorité cantonale de conciliation compétente (source : OFL).</p>
         </div>
       </details>
@@ -511,7 +511,7 @@ permalink: /fr/
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Sources et avertissement</span>
     <h2 class="section-title" data-reveal>Tout vient de sources officielles suisses.</h2>
-    <p class="section-lead" data-reveal>Baisse-loyer renvoie directement aux données fédérales et aux bases légales sous-jacentes. Tu peux vérifier toi-même chaque valeur dans l'app.</p>
+    <p class="section-lead" data-reveal><strong>Baisse-loyer</strong> renvoie directement aux données fédérales et aux bases légales sous-jacentes. Tu peux vérifier toi-même chaque valeur dans l'app.</p>
 
     <div class="sources__grid">
       <a class="source-row" href="https://www.bwo.admin.ch/fr/taux-de-reference" rel="noopener">

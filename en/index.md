@@ -268,7 +268,7 @@ permalink: /en/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </span>
         <h3>Court-grade calculation</h3>
-        <p>RentReducer uses federal source data (BWO reference rate, BFS national CPI) and reproduces the official Zurich-courts rent calculator down to the cent. Including inflation, cost increases and an affordability check.</p>
+        <p><strong>RentReducer</strong> uses federal source data (BWO reference rate, BFS national CPI) and reproduces the official Zurich-courts rent calculator down to the cent. Including inflation, cost increases and an affordability check.</p>
       </article>
 
       <article class="bento__card bento__b" data-reveal>
@@ -452,7 +452,7 @@ permalink: /en/
       <details>
         <summary>Do I even have a claim?</summary>
         <div class="faq__answer">
-          <p>If your last rent adjustment was based on a higher reference rate than today's, then yes, most likely. RentReducer calculates this automatically under Art.&nbsp;270a&nbsp;CO and VMWG art.&nbsp;13. You just enter your current rent and the date of the last adjustment.</p>
+          <p>If your last rent adjustment was based on a higher reference rate than today's, then yes, most likely. <strong>RentReducer</strong> calculates this automatically under Art.&nbsp;270a&nbsp;CO and VMWG art.&nbsp;13. You just enter your current rent and the date of the last adjustment.</p>
           <p>The claim check itself is free. If your claim is zero, you don't pay anything, the calculation stays free.</p>
         </div>
       </details>
@@ -468,8 +468,8 @@ permalink: /en/
       <details>
         <summary>Is RentReducer an official government app?</summary>
         <div class="faq__answer">
-          <p>No. RentReducer is an independent app and is not affiliated with, operated by, or endorsed by the Swiss Confederation, any canton, public authority or court. All official data and legal references come from official Swiss sources. See the Sources block below.</p>
-          <p>RentReducer does not replace legal advice. For legal questions, contact a cantonal tenants' association or a lawyer.</p>
+          <p>No. <strong>RentReducer</strong> is an independent app and is not affiliated with, operated by, or endorsed by the Swiss Confederation, any canton, public authority or court. All official data and legal references come from official Swiss sources. See the Sources block below.</p>
+          <p><strong>RentReducer</strong> does not replace legal advice. For legal questions, contact a cantonal tenants' association or a lawyer.</p>
         </div>
       </details>
 
@@ -492,7 +492,7 @@ permalink: /en/
       <details>
         <summary>What if my landlord doesn't reply?</summary>
         <div class="faq__answer">
-          <p>RentReducer reminds you automatically after <strong>30 and 60 days</strong>. At every reminder you can fire the right follow-up letter with one tap, by status: <strong>reminder letter</strong>, <strong>request for explanation and evidence</strong>, or <strong>conciliation petition</strong>. Each follow-up letter costs CHF&nbsp;6.90. The reminder letter and request for explanation go via Pingen with A-Mail included. The conciliation petition also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached, or you can download it as a <strong>Word file</strong> and mail it yourself.</p>
+          <p><strong>RentReducer</strong> reminds you automatically after <strong>30 and 60 days</strong>. At every reminder you can fire the right follow-up letter with one tap, by status: <strong>reminder letter</strong>, <strong>request for explanation and evidence</strong>, or <strong>conciliation petition</strong>. Each follow-up letter costs CHF&nbsp;6.90. The reminder letter and request for explanation go via Pingen with A-Mail included. The conciliation petition also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached, or you can download it as a <strong>Word file</strong> and mail it yourself.</p>
           <p>If you go to conciliation, the app helps you with the directory of the cantonal conciliation authority (source: BWO).</p>
         </div>
       </details>
@@ -511,7 +511,7 @@ permalink: /en/
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Sources and disclaimer</span>
     <h2 class="section-title" data-reveal>All from official Swiss sources.</h2>
-    <p class="section-lead" data-reveal>RentReducer links directly to the underlying federal data and legal references. You can verify every value in the app yourself.</p>
+    <p class="section-lead" data-reveal><strong>RentReducer</strong> links directly to the underlying federal data and legal references. You can verify every value in the app yourself.</p>
 
     <div class="sources__grid">
       <a class="source-row" href="https://www.bwo.admin.ch/de/entwicklung-referenzzinssatz-und-durchschnittszinssatz" rel="noopener">

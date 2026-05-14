@@ -268,7 +268,7 @@ permalink: /it/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </span>
         <h3>Calcolo con precisione da tribunale</h3>
-        <p>Ribassoaffitto usa i dati ufficiali federali (tasso UFAB, IPC UST) e riproduce il calcolatore degli affitti dei tribunali zurighesi al centesimo. Inclusi rincaro, aumenti dei costi e verifica della sostenibilità.</p>
+        <p><strong>Ribassoaffitto</strong> usa i dati ufficiali federali (tasso UFAB, IPC UST) e riproduce il calcolatore degli affitti dei tribunali zurighesi al centesimo. Inclusi rincaro, aumenti dei costi e verifica della sostenibilità.</p>
       </article>
 
       <article class="bento__card bento__b" data-reveal>
@@ -451,7 +451,7 @@ permalink: /it/
       <details>
         <summary>Ho davvero diritto a un ribasso?</summary>
         <div class="faq__answer">
-          <p>Se l'ultimo adeguamento dell'affitto si basava su un tasso di riferimento più alto di oggi, allora sì, molto probabilmente. Ribassoaffitto lo calcola automaticamente secondo l'art.&nbsp;270a&nbsp;CO e l'OLAL art.&nbsp;13. Ti basta inserire l'affitto attuale e la data dell'ultimo adeguamento.</p>
+          <p>Se l'ultimo adeguamento dell'affitto si basava su un tasso di riferimento più alto di oggi, allora sì, molto probabilmente. <strong>Ribassoaffitto</strong> lo calcola automaticamente secondo l'art.&nbsp;270a&nbsp;CO e l'OLAL art.&nbsp;13. Ti basta inserire l'affitto attuale e la data dell'ultimo adeguamento.</p>
           <p>La verifica è gratuita. Se la tua pretesa è zero, non devi pagare nulla, il calcolo resta gratis.</p>
         </div>
       </details>
@@ -467,8 +467,8 @@ permalink: /it/
       <details>
         <summary>Ribassoaffitto è un'app ufficiale dello Stato?</summary>
         <div class="faq__answer">
-          <p>No. Ribassoaffitto è un'applicazione indipendente, non affiliata alla Confederazione, ai Cantoni, ad autorità o tribunali. Tutti i dati e le basi legali utilizzate provengono da fonti ufficiali svizzere. Vedi il blocco Fonti più sotto.</p>
-          <p>Ribassoaffitto non sostituisce la consulenza legale. Per questioni legali rivolgiti a un'associazione cantonale di tutela degli inquilini o a un avvocato o un'avvocata.</p>
+          <p>No. <strong>Ribassoaffitto</strong> è un'applicazione indipendente, non affiliata alla Confederazione, ai Cantoni, ad autorità o tribunali. Tutti i dati e le basi legali utilizzate provengono da fonti ufficiali svizzere. Vedi il blocco Fonti più sotto.</p>
+          <p><strong>Ribassoaffitto</strong> non sostituisce la consulenza legale. Per questioni legali rivolgiti a un'associazione cantonale di tutela degli inquilini o a un avvocato o un'avvocata.</p>
         </div>
       </details>
 
@@ -491,7 +491,7 @@ permalink: /it/
       <details>
         <summary>E se il locatore o la locatrice non risponde?</summary>
         <div class="faq__answer">
-          <p>Ribassoaffitto ti ricorda automaticamente dopo <strong>30 e 60 giorni</strong>. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: <strong>sollecito</strong>, <strong>richiesta di motivazione e documenti</strong> o <strong>domanda di conciliazione</strong>. Ogni lettera successiva costa CHF&nbsp;6.90. Il sollecito e la richiesta di motivazione vanno via Pingen con Posta A inclusa. La domanda di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato, oppure puoi scaricarla come <strong>file Word</strong> e depositarla tu stesso/a.</p>
+          <p><strong>Ribassoaffitto</strong> ti ricorda automaticamente dopo <strong>30 e 60 giorni</strong>. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: <strong>sollecito</strong>, <strong>richiesta di motivazione e documenti</strong> o <strong>domanda di conciliazione</strong>. Ogni lettera successiva costa CHF&nbsp;6.90. Il sollecito e la richiesta di motivazione vanno via Pingen con Posta A inclusa. La domanda di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato, oppure puoi scaricarla come <strong>file Word</strong> e depositarla tu stesso/a.</p>
           <p>Se vai in conciliazione, l'app ti aiuta con l'elenco dell'autorità cantonale di conciliazione competente (fonte: UFAB).</p>
         </div>
       </details>
@@ -510,7 +510,7 @@ permalink: /it/
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Fonti e avvertenza</span>
     <h2 class="section-title" data-reveal>Tutto da fonti ufficiali svizzere.</h2>
-    <p class="section-lead" data-reveal>Ribassoaffitto rimanda direttamente ai dati federali e alle basi legali. Puoi verificare ogni valore nell'app stessa.</p>
+    <p class="section-lead" data-reveal><strong>Ribassoaffitto</strong> rimanda direttamente ai dati federali e alle basi legali. Puoi verificare ogni valore nell'app stessa.</p>
 
     <div class="sources__grid">
       <a class="source-row" href="https://www.bwo.admin.ch/it/tasso-di-riferimento" rel="noopener">
