@@ -36,12 +36,11 @@ permalink: /fr/
   </div>
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
-      <div class="hero__head">
-        <span class="eyebrow">Baisse de loyer pour ton appartement, en 2 minutes</span>
-        <div class="hero__brand">
-          <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="Application Baisse-loyer" class="hero__brand-icon" width="112" height="112">
-        </div>
-      </div>
+      <a class="hero__brandmark" href="#download" aria-label="Télécharger l'application Baisse-loyer">
+        <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" class="hero__brandmark__icon" width="56" height="56">
+        <span class="hero__brandmark__word">Baisse-loyer</span>
+      </a>
+      <span class="eyebrow">Baisse de loyer pour ton appartement, en 2 minutes</span>
       <h1 class="hero__title">Récupère<br>ce qui te <em>revient</em>.</h1>
       <p class="hero__sub">Le taux de référence a baissé plusieurs fois ces dernières années. Si ton loyer n'a pas été adapté en conséquence, tu as probablement droit à un loyer plus bas. <strong>Baisse-loyer</strong> calcule la prétention selon le droit fédéral, rédige la demande de baisse et la confie à La Poste suisse. Si ton·a bailleur·esse ne répond pas ou refuse, l'app t'accompagne jusqu'à la conciliation.</p>
 

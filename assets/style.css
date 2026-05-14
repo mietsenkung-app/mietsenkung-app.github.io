@@ -317,11 +317,41 @@ img, svg { max-width: 100%; height: auto; display: block; }
    centert. iOS-Style 112px mit emerald-tönigem drop-shadow. Mobile (≤480px)
    wechselt auf 80px und behält die rechte Position; ganz schmale screens
    (≤360px) gehen auf column-reverse falls H1 sonst zu eng würde. */
-/* 2026-05-14 Restructure: vorher waren Eyebrow + H1 zusammen im flex-row mit Logo
-   rechts daneben, was die H1 in einer schmalen Spalte einquetschte und im DE
-   auf 3-4 Zeilen zerlegte. Jetzt: Eyebrow + Logo bilden eine schmale 1-Liner-
-   Bar oben (justify-content: space-between), H1 nimmt darunter die volle
-   hero__copy-Breite und atmet richtig. */
+/* 2026-05-14 v3: Brand-Block oben (Icon + Wortmarke "Mietsenkung") als
+   kompakte Marker-Zeile, darunter Eyebrow, dann H1 voll-breit. Vorher
+   waren H1 + Logo zusammen im flex-row, was den H1 im DE auf 3-4 Zeilen
+   zerlegte und das Logo "verloren" wirken liess. */
+.hero__brandmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 var(--sp-4);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.hero__brandmark:hover { transform: translateY(-1px); color: var(--ink); }
+.hero__brandmark__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: block;
+  filter:
+    drop-shadow(0 10px 22px rgba(16, 185, 129, 0.28))
+    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
+  flex: none;
+}
+.hero__brandmark__word {
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+@media (max-width: 480px) {
+  .hero__brandmark__icon { width: 48px; height: 48px; border-radius: 12px; }
+  .hero__brandmark__word { font-size: 20px; }
+}
 .hero__head {
   display: flex;
   align-items: center;
