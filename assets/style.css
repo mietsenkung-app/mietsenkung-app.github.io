@@ -270,8 +270,35 @@ img, svg { max-width: 100%; height: auto; display: block; }
   overflow: hidden;
 }
 .hero::before { display: none; }
+
+/* Hero background: animated reference-rate trend chart (Variante B, 2026-05-14).
+   SVG zeichnet sich beim Page-Load über ~6s ein via stroke-dasharray/offset.
+   Sehr dezent (opacity 0.55 max), läuft NICHT als Endlosschleife — daher
+   batterie- und reduce-motion-freundlich. Stellt thematisch dar: Referenzzins-
+   Verlauf von 2020 bis heute, der über die Jahre mehrfach gesunken ist. */
+.hero__bg-trend {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+.hero__bg-trend svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero__bg-trend svg path[data-trend-line],
+  .hero__bg-trend svg circle[data-trend-dot] {
+    animation: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: 0.4 !important;
+  }
+}
 .hero__inner {
   position: relative;
+  z-index: 1;
   max-width: var(--max-content);
   margin: 0 auto;
   display: grid;

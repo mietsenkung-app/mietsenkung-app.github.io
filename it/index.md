@@ -1,25 +1,45 @@
 ---
 layout: default
 title: "Ribassoaffitto. Recupera ciò che ti spetta."
-description: App svizzera che verifica in 2 minuti se hai diritto a un affitto più basso e invia la richiesta di ribasso al tuo locatore o alla tua locatrice con un tap. Da CHF 9.90.
+description: App svizzera per inquilini. In 2 minuti verifica se hai diritto a un affitto più basso per il tuo appartamento e invia la richiesta di ribasso al tuo locatore o alla tua locatrice con un tap. Da CHF 9.90.
 lang: it-CH
 lang_short: it
 permalink: /it/
 ---
 
 <section class="hero">
+  <div class="hero__bg-trend" aria-hidden="true">
+    <svg viewBox="0 0 800 320" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="heroTrendGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#059669" stop-opacity="0.10"/>
+          <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <path d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260 L 800 320 L 0 320 Z" fill="url(#heroTrendGrad)"/>
+      <path data-trend-line d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260" fill="none" stroke="#059669" stroke-width="1.4" stroke-linecap="round" opacity="0.45" stroke-dasharray="1600" stroke-dashoffset="1600">
+        <animate attributeName="stroke-dashoffset" from="1600" to="0" dur="6s" fill="freeze"/>
+      </path>
+      <g fill="#059669" opacity="0.5">
+        <circle data-trend-dot cx="180" cy="100" r="2.2"><animate attributeName="opacity" values="0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="360" cy="165" r="2.2"><animate attributeName="opacity" values="0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="540" cy="210" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="720" cy="252" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+      </g>
+    </svg>
+  </div>
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
       <div class="hero__head">
         <div class="hero__head-text">
-          <span class="eyebrow">Ribasso dell'affitto in 2 minuti</span>
+          <span class="eyebrow">Ribasso dell'affitto per il tuo appartamento, in 2 minuti</span>
           <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
         </div>
         <div class="hero__brand">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="App Ribassoaffitto" class="hero__brand-icon" width="112" height="112">
         </div>
       </div>
-      <p class="hero__sub">Il tasso di riferimento è sceso. Probabilmente hai diritto a un affitto più basso. <strong>Ribassoaffitto</strong> fa il calcolo in 2 minuti e invia la richiesta di ribasso al tuo locatore o alla tua locatrice con un tap.</p>
+      <p class="hero__sub">Il tasso di riferimento è sceso più volte negli ultimi anni. Se il tuo affitto non è stato adeguato di conseguenza, probabilmente hai diritto a un affitto più basso. <strong>Ribassoaffitto</strong> calcola la pretesa secondo il diritto federale, formula la richiesta di ribasso e la consegna alla Posta Svizzera. Se il locatore o la locatrice non risponde o rifiuta, l'app ti accompagna fino alla conciliazione.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Scarica Ribassoaffitto su App Store">
@@ -84,12 +104,12 @@ permalink: /it/
             <span aria-hidden="true">●●●●● 5G</span>
           </div>
           <div class="phone__appbar">
-            <span class="phone__appbar-title">
-              <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="22" height="22">
-              Ribassoaffitto
+            <span class="phone__appbar-leading" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
             </span>
+            <span class="phone__appbar-title">Ribassoaffitto</span>
             <span class="phone__appbar-action" aria-hidden="true">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
             </span>
           </div>
           <div class="phone__body">
@@ -122,6 +142,32 @@ permalink: /it/
               </div>
             </div>
           </div>
+          <div class="phone__tabbar" aria-hidden="true">
+            <span class="phone__tab phone__tab--active">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l9.5 8.2v10.3a1 1 0 0 1-1 1h-5.5v-7h-6v7H4.5a1 1 0 0 1-1-1V10.7L12 2.5z"/></svg>
+              </span>
+              <span>Home</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+              </span>
+              <span>Dati</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </span>
+              <span>Lettere</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="19" cy="12" r="1.7"/></svg>
+              </span>
+              <span>Altro</span>
+            </span>
+          </div>
           <div class="phone__home"></div>
         </div>
       </div>
@@ -133,20 +179,19 @@ permalink: /it/
   <div class="trust-strip__inner">
     <span class="trust-strip__label">Dati e diritto da fonti ufficiali&nbsp;svizzere</span>
     <div class="trust-strip__sources">
-      <span>UFAB</span>
-      <span>UST</span>
-      <span>Fedlex / CO</span>
-      <span>OLAL&nbsp;art.&nbsp;13</span>
-      <span>Calcolatore ZH</span>
+      <span>Ufficio federale delle abitazioni</span>
+      <span>Ufficio federale di statistica</span>
+      <span>Diritto della locazione (CO + OLAL)</span>
+      <span>Calcolatore degli affitti ZH</span>
     </div>
   </div>
 </section>
 
 <section class="section steps" id="how">
   <div class="section__inner">
-    <span class="eyebrow" data-reveal>Come funziona</span>
-    <h2 class="section-title" data-reveal>Tre passi. Niente stampante. Niente ufficio postale.</h2>
-    <p class="section-lead" data-reveal>Inserisci affitto e data dell'ultimo adeguamento. Al resto pensa l'app: dal calcolo alla cassetta della posta del tuo locatore o della tua locatrice.</p>
+    <span class="eyebrow" data-reveal>Procedura</span>
+    <h2 class="section-title" data-reveal>Tre passi dalla pretesa alla lettera pronta da spedire.</h2>
+    <p class="section-lead" data-reveal>Inserisci l'affitto attuale e la data dell'ultimo adeguamento. L'app calcola la pretesa, genera la richiesta di ribasso con la tua firma e la consegna alla Posta Svizzera. Se il locatore o la locatrice non risponde o rifiuta, l'app gestisce anche il passo successivo.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
@@ -174,8 +219,8 @@ permalink: /it/
         <span class="step__icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         </span>
-        <h3>Promemoria automatici</h3>
-        <p>Il tuo locatore o la tua locatrice non risponde? Ribassoaffitto ti ricorda dopo 14, 30 e 60&nbsp;giorni. Con un tap fai partire la lettera successiva giusta: sollecito, richiesta di documenti o domanda di conciliazione.</p>
+        <h3>Promemoria automatici e lettere successive</h3>
+        <p>Se il locatore o la locatrice non risponde, l'app ti ricorda dopo 30 e 60 giorni. A seconda della risposta ti propone la lettera adatta: un sollecito in caso di silenzio, una richiesta di motivazione e documenti in caso di rifiuto, oppure una domanda di conciliazione come ultimo passo.</p>
         <span class="step__time">automatico</span>
       </article>
     </div>
@@ -186,7 +231,7 @@ permalink: /it/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Perché esiste</span>
     <h2 class="stats__title" data-reveal>Inquiline e inquilini in Svizzera perdono milioni ogni anno.</h2>
-    <p class="stats__lead" data-reveal>Solo una piccola parte chiede attivamente il ribasso. Spesso perché scrivere sembra una fatica: cercare un modello, fare il calcolo, segnare le scadenze, sollecitare in caso di silenzio.</p>
+    <p class="stats__lead" data-reveal>Solo una frazione degli aventi diritto fa effettivamente la richiesta. L'impegno scoraggia: calcolare la pretesa, redigere la lettera, fissare i promemoria, sollecitare in caso di silenzio o rifiuto. Ribassoaffitto si occupa di tutti questi passi, dalla verifica iniziale fino all'autorità di conciliazione.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
@@ -252,7 +297,7 @@ permalink: /it/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h18v18H3z"/><path d="M10 8h4M10 12h4M10 16h4M8 8v8M16 8v8"/></svg>
         </span>
         <h3>Dalla richiesta alla conciliazione</h3>
-        <p>Dalla prima richiesta di ribasso ai solleciti, dalle richieste di documenti all'annuncio di conciliazione. Tutte le lettere successive sono nell'app, a un tap di distanza.</p>
+        <p>Ribassoaffitto conosce quattro tipi di lettera: la richiesta di ribasso, il sollecito in caso di silenzio, la richiesta di motivazione e documenti in caso di rifiuto, e la domanda di conciliazione. Ogni lettera successiva viene preparata nel contesto della pratica, con le copie delle lettere precedenti come allegato.</p>
       </article>
     </div>
   </div>
@@ -276,7 +321,7 @@ permalink: /it/
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Dati cifrati localmente, nessun account</li>
         </ul>
         <div class="price-card__addons">
-          <strong>Perfetto per provare.</strong> Niente diritto? Non hai pagato nulla.
+          <strong>Perfetto per provare.</strong> Se non hai diritto a un ribasso, non devi pagare nulla.
         </div>
       </article>
 
@@ -296,7 +341,7 @@ permalink: /it/
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Raccomandata con tracciamento</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Lettera successiva sollecito / documenti (via Pingen)</span><strong>CHF 6.90</strong></div>
-            <div class="price-card__addons-row"><span>Lettera successiva conciliazione come raccomandata con foto del contratto e lettere precedenti in allegato (o download DOCX)</span><strong>CHF 6.90 + 7.90</strong></div>
+            <div class="price-card__addons-row"><span>Domanda di conciliazione come raccomandata con foto del contratto e lettere precedenti in allegato (o download Word)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>
       </article>
@@ -317,7 +362,7 @@ permalink: /it/
         <summary>Ho davvero diritto a un ribasso?</summary>
         <div class="faq__answer">
           <p>Se l'ultimo adeguamento dell'affitto si basava su un tasso di riferimento più alto di oggi, allora sì, molto probabilmente. Ribassoaffitto lo calcola automaticamente secondo l'art.&nbsp;270a&nbsp;CO e l'OLAL art.&nbsp;13. Ti basta inserire l'affitto attuale e la data dell'ultimo adeguamento.</p>
-          <p>La verifica è gratuita. Se il risultato è zero, non hai pagato nulla.</p>
+          <p>La verifica è gratuita. Se la tua pretesa è zero, non devi pagare nulla, il calcolo resta gratis.</p>
         </div>
       </details>
 
@@ -325,7 +370,7 @@ permalink: /it/
         <summary>Quanto costa davvero l'app?</summary>
         <div class="faq__answer">
           <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e consegna posta A dal nostro partner postale svizzero.</p>
-          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna, sollecito e richiesta documenti vanno automaticamente via Pingen. L'<strong>annuncio di conciliazione</strong> parte anch'esso dall'app, come raccomandata (+ CHF&nbsp;7.90) con la foto del contratto caricata da te e tutte le lettere precedenti in allegato. Preferisci portarla tu alla Posta? Puoi anche scaricarla in DOCX.</p>
+          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna, il <strong>sollecito</strong> e la <strong>richiesta di motivazione e documenti</strong> partono automaticamente via Pingen. La <strong>domanda di conciliazione</strong> parte anch'essa dall'app, come raccomandata (+ CHF&nbsp;7.90) con la foto del contratto caricata da te e tutte le lettere precedenti in allegato. Preferisci portarla tu alla Posta? Puoi anche scaricarla come <strong>file Word</strong>.</p>
         </div>
       </details>
 
@@ -356,7 +401,7 @@ permalink: /it/
       <details>
         <summary>E se il locatore o la locatrice non risponde?</summary>
         <div class="faq__answer">
-          <p>Ribassoaffitto ti ricorda automaticamente dopo 14, 30 e 60 giorni. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: sollecito, richiesta di documenti o annuncio di conciliazione. Ogni lettera successiva costa CHF&nbsp;6.90. Sollecito e richiesta documenti vanno via Pingen con Posta A inclusa. L'annuncio di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato, oppure puoi scaricarla in DOCX e depositarla tu stesso/a.</p>
+          <p>Ribassoaffitto ti ricorda automaticamente dopo <strong>30 e 60 giorni</strong>. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: <strong>sollecito</strong>, <strong>richiesta di motivazione e documenti</strong> o <strong>domanda di conciliazione</strong>. Ogni lettera successiva costa CHF&nbsp;6.90. Il sollecito e la richiesta di motivazione vanno via Pingen con Posta A inclusa. La domanda di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato, oppure puoi scaricarla come <strong>file Word</strong> e depositarla tu stesso/a.</p>
           <p>Se vai in conciliazione, l'app ti aiuta con l'elenco dell'autorità cantonale di conciliazione competente (fonte: UFAB).</p>
         </div>
       </details>

@@ -8,6 +8,26 @@ permalink: /
 ---
 
 <section class="hero">
+  <div class="hero__bg-trend" aria-hidden="true">
+    <svg viewBox="0 0 800 320" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="heroTrendGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#059669" stop-opacity="0.10"/>
+          <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <path d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260 L 800 320 L 0 320 Z" fill="url(#heroTrendGrad)"/>
+      <path data-trend-line d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260" fill="none" stroke="#059669" stroke-width="1.4" stroke-linecap="round" opacity="0.45" stroke-dasharray="1600" stroke-dashoffset="1600">
+        <animate attributeName="stroke-dashoffset" from="1600" to="0" dur="6s" fill="freeze"/>
+      </path>
+      <g fill="#059669" opacity="0.5">
+        <circle data-trend-dot cx="180" cy="100" r="2.2"><animate attributeName="opacity" values="0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="360" cy="165" r="2.2"><animate attributeName="opacity" values="0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="540" cy="210" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="720" cy="252" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+      </g>
+    </svg>
+  </div>
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
       <div class="hero__head">

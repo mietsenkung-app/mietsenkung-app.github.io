@@ -1,25 +1,45 @@
 ---
 layout: default
 title: "Baisse-loyer. Récupère ce qui te revient."
-description: Application suisse qui vérifie en 2 minutes si tu as droit à une baisse de loyer et envoie la demande de baisse à ton·a bailleur·esse en un tap. Dès CHF 9.90.
+description: Application suisse pour locataires. En 2 minutes elle vérifie si tu as droit à une baisse de loyer pour ton appartement et envoie la demande à ton·a bailleur·esse en un tap. Dès CHF 9.90.
 lang: fr-CH
 lang_short: fr
 permalink: /fr/
 ---
 
 <section class="hero">
+  <div class="hero__bg-trend" aria-hidden="true">
+    <svg viewBox="0 0 800 320" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="heroTrendGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#059669" stop-opacity="0.10"/>
+          <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <path d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260 L 800 320 L 0 320 Z" fill="url(#heroTrendGrad)"/>
+      <path data-trend-line d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260" fill="none" stroke="#059669" stroke-width="1.4" stroke-linecap="round" opacity="0.45" stroke-dasharray="1600" stroke-dashoffset="1600">
+        <animate attributeName="stroke-dashoffset" from="1600" to="0" dur="6s" fill="freeze"/>
+      </path>
+      <g fill="#059669" opacity="0.5">
+        <circle data-trend-dot cx="180" cy="100" r="2.2"><animate attributeName="opacity" values="0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="360" cy="165" r="2.2"><animate attributeName="opacity" values="0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="540" cy="210" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="720" cy="252" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+      </g>
+    </svg>
+  </div>
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
       <div class="hero__head">
         <div class="hero__head-text">
-          <span class="eyebrow">Baisse de loyer en 2 minutes</span>
+          <span class="eyebrow">Baisse de loyer pour ton appartement, en 2 minutes</span>
           <h1 class="hero__title">Récupère<br>ce qui te <em>revient</em>.</h1>
         </div>
         <div class="hero__brand">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="Application Baisse-loyer" class="hero__brand-icon" width="112" height="112">
         </div>
       </div>
-      <p class="hero__sub">Le taux de référence a baissé. Tu as probablement droit à un loyer plus bas. <strong>Baisse-loyer</strong> fait le calcul en 2 minutes et envoie ta demande de baisse à ton·a bailleur·esse en un tap.</p>
+      <p class="hero__sub">Le taux de référence a baissé plusieurs fois ces dernières années. Si ton loyer n'a pas été adapté en conséquence, tu as probablement droit à un loyer plus bas. <strong>Baisse-loyer</strong> calcule la prétention selon le droit fédéral, rédige la demande de baisse et la confie à La Poste suisse. Si ton·a bailleur·esse ne répond pas ou refuse, l'app t'accompagne jusqu'à la conciliation.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Télécharger Baisse-loyer sur l'App Store">
@@ -84,12 +104,12 @@ permalink: /fr/
             <span aria-hidden="true">●●●●● 5G</span>
           </div>
           <div class="phone__appbar">
-            <span class="phone__appbar-title">
-              <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="22" height="22">
-              Baisse-loyer
+            <span class="phone__appbar-leading" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
             </span>
+            <span class="phone__appbar-title">Baisse-loyer</span>
             <span class="phone__appbar-action" aria-hidden="true">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
             </span>
           </div>
           <div class="phone__body">
@@ -122,6 +142,32 @@ permalink: /fr/
               </div>
             </div>
           </div>
+          <div class="phone__tabbar" aria-hidden="true">
+            <span class="phone__tab phone__tab--active">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l9.5 8.2v10.3a1 1 0 0 1-1 1h-5.5v-7h-6v7H4.5a1 1 0 0 1-1-1V10.7L12 2.5z"/></svg>
+              </span>
+              <span>Accueil</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+              </span>
+              <span>Données</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </span>
+              <span>Lettres</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="19" cy="12" r="1.7"/></svg>
+              </span>
+              <span>Plus</span>
+            </span>
+          </div>
           <div class="phone__home"></div>
         </div>
       </div>
@@ -133,10 +179,9 @@ permalink: /fr/
   <div class="trust-strip__inner">
     <span class="trust-strip__label">Données et droit issus de sources officielles&nbsp;suisses</span>
     <div class="trust-strip__sources">
-      <span>OFL</span>
-      <span>OFS</span>
-      <span>Fedlex / CO</span>
-      <span>OBLF&nbsp;art.&nbsp;13</span>
+      <span>Office fédéral du logement</span>
+      <span>Office fédéral de la statistique</span>
+      <span>Droit du bail (CO + OBLF)</span>
       <span>Calculateur ZH</span>
     </div>
   </div>
@@ -144,9 +189,9 @@ permalink: /fr/
 
 <section class="section steps" id="how">
   <div class="section__inner">
-    <span class="eyebrow" data-reveal>Comment ça marche</span>
-    <h2 class="section-title" data-reveal>Trois étapes. Pas d'imprimante. Pas de poste à faire.</h2>
-    <p class="section-lead" data-reveal>Tu saisis ton loyer et la date de la dernière adaptation. L'app fait le reste : du calcul à la boîte aux lettres de ton·a bailleur·esse.</p>
+    <span class="eyebrow" data-reveal>Déroulement</span>
+    <h2 class="section-title" data-reveal>Trois étapes de la prétention à la lettre prête à envoyer.</h2>
+    <p class="section-lead" data-reveal>Tu saisis ton loyer actuel et la date de la dernière adaptation. L'app calcule la prétention, génère la demande de baisse avec ta signature et la confie à La Poste suisse. Si ton·a bailleur·esse ne répond pas ou refuse, l'app gère aussi la suite.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
@@ -174,8 +219,8 @@ permalink: /fr/
         <span class="step__icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         </span>
-        <h3>Rappels automatiques</h3>
-        <p>Pas de réponse de ton·a bailleur·esse ? Baisse-loyer te rappelle après 14, 30 et 60&nbsp;jours. En un tap tu envoies la lettre de suivi adaptée : rappel, demande de pièces ou requête de conciliation.</p>
+        <h3>Rappels automatiques et lettres de suivi</h3>
+        <p>Si ton·a bailleur·esse ne répond pas, l'app te rappelle après 30 et 60 jours. Selon la réponse, elle te propose la lettre adaptée : une lettre de rappel en cas de silence, une demande de justification et de pièces en cas de refus, ou une demande de conciliation comme dernière étape.</p>
         <span class="step__time">automatique</span>
       </article>
     </div>
@@ -186,7 +231,7 @@ permalink: /fr/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Pourquoi cette appli</span>
     <h2 class="stats__title" data-reveal>Les locataires en Suisse perdent des millions chaque année.</h2>
-    <p class="stats__lead" data-reveal>Seule une minorité fait valoir son droit. Le plus souvent parce que rédiger semble compliqué : chercher un modèle, faire le calcul, mettre des dates dans l'agenda, relancer en cas de silence.</p>
+    <p class="stats__lead" data-reveal>Seule une fraction des personnes en droit réclame effectivement. La charge dissuade : calculer la prétention, rédiger la lettre, planifier les rappels, relancer en cas de silence ou refus. Baisse-loyer prend ces étapes en main, de la première vérification jusqu'à l'autorité de conciliation.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
@@ -252,7 +297,7 @@ permalink: /fr/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h18v18H3z"/><path d="M10 8h4M10 12h4M10 16h4M8 8v8M16 8v8"/></svg>
         </span>
         <h3>De la demande à la conciliation</h3>
-        <p>De la première demande de baisse aux rappels, demandes de pièces ou annonce de conciliation. Toutes les lettres de suivi sont dans l'app, à un tap de distance.</p>
+        <p>Baisse-loyer connaît quatre types de lettres : la demande de baisse, la lettre de rappel en cas de silence, la demande de justification et de pièces en cas de refus, et la demande de conciliation. Chaque lettre de suivi est préparée dans le contexte du dossier, avec les copies des lettres précédentes en annexe.</p>
       </article>
     </div>
   </div>
@@ -276,7 +321,7 @@ permalink: /fr/
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Données chiffrées localement, pas de compte</li>
         </ul>
         <div class="price-card__addons">
-          <strong>Parfait pour découvrir.</strong> Pas de droit ? Tu n'as rien payé.
+          <strong>Parfait pour découvrir.</strong> Si tu n'as pas droit à une baisse de loyer, tu n'as rien à payer.
         </div>
       </article>
 
@@ -296,7 +341,7 @@ permalink: /fr/
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Recommandé avec suivi</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Suivi rappel / demande de pièces (via Pingen)</span><strong>CHF 6.90</strong></div>
-            <div class="price-card__addons-row"><span>Suivi conciliation en recommandé avec photo du bail et lettres précédentes en annexe (ou téléchargement DOCX)</span><strong>CHF 6.90 + 7.90</strong></div>
+            <div class="price-card__addons-row"><span>Demande de conciliation en recommandé avec photo du bail et lettres précédentes en annexe (ou téléchargement Word)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>
       </article>
@@ -318,7 +363,7 @@ permalink: /fr/
         <summary>Est-ce que j'ai vraiment droit à une baisse ?</summary>
         <div class="faq__answer">
           <p>Si ta dernière adaptation de loyer reposait sur un taux de référence plus élevé qu'aujourd'hui, alors oui, très probablement. Baisse-loyer le calcule automatiquement selon l'art.&nbsp;270a&nbsp;CO et l'OBLF art.&nbsp;13. Tu n'as qu'à saisir ton loyer actuel et la date de la dernière adaptation.</p>
-          <p>La vérification est gratuite. Si le résultat est nul, tu n'as rien payé.</p>
+          <p>La vérification est gratuite. Si ta prétention est nulle, tu n'as rien à payer, le calcul reste gratuit.</p>
         </div>
       </details>
 
@@ -326,7 +371,7 @@ permalink: /fr/
         <summary>Combien coûte vraiment l'app ?</summary>
         <div class="faq__answer">
           <p>L'app est gratuite. La vérification du droit et l'alerte taux le restent. Tu paies uniquement l'envoi de la lettre : CHF&nbsp;9.90 à 29.90 selon ton économie mensuelle. Inclus : génération de la lettre, impression et distribution courrier A par notre partenaire postal suisse.</p>
-          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90). Lettres de suivi à CHF&nbsp;6.90 chacune, rappel et demande de pièces partent automatiquement via Pingen. <strong>L'annonce de conciliation</strong> part aussi depuis l'app, en recommandé (+ CHF&nbsp;7.90) avec ta photo du bail et toutes les lettres précédentes en annexe. Préfères-tu passer toi-même à La Poste ? Tu peux aussi la télécharger en DOCX.</p>
+          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90). Lettres de suivi à CHF&nbsp;6.90 chacune, la <strong>lettre de rappel</strong> et la <strong>demande de justification et de pièces</strong> partent automatiquement via Pingen. La <strong>demande de conciliation</strong> part aussi depuis l'app, en recommandé (+ CHF&nbsp;7.90) avec ta photo du bail et toutes les lettres précédentes en annexe. Préfères-tu passer toi-même à La Poste ? Tu peux aussi la télécharger en <strong>fichier Word</strong>.</p>
         </div>
       </details>
 
@@ -357,7 +402,7 @@ permalink: /fr/
       <details>
         <summary>Que faire si mon·a bailleur·esse ne répond pas ?</summary>
         <div class="faq__answer">
-          <p>Baisse-loyer te rappelle automatiquement après 14, 30 et 60 jours. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : rappel, demande de pièces ou annonce de conciliation. Chaque lettre de suivi coûte CHF&nbsp;6.90. Rappel et demande de pièces partent via Pingen avec courrier A inclus. L'annonce de conciliation part aussi directement depuis l'app, en recommandé (+ CHF&nbsp;7.90), avec ta photo du bail et les lettres précédentes en annexe, ou tu peux la télécharger en DOCX et la déposer toi-même.</p>
+          <p>Baisse-loyer te rappelle automatiquement après <strong>30 et 60 jours</strong>. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : <strong>lettre de rappel</strong>, <strong>demande de justification et de pièces</strong> ou <strong>demande de conciliation</strong>. Chaque lettre de suivi coûte CHF&nbsp;6.90. La lettre de rappel et la demande de justification partent via Pingen avec courrier A inclus. La demande de conciliation part aussi directement depuis l'app, en recommandé (+ CHF&nbsp;7.90), avec ta photo du bail et les lettres précédentes en annexe, ou tu peux la télécharger en <strong>fichier Word</strong> et la déposer toi-même.</p>
           <p>Si tu vas à la conciliation, l'app t'aide à trouver l'autorité cantonale de conciliation compétente (source : OFL).</p>
         </div>
       </details>

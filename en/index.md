@@ -1,25 +1,45 @@
 ---
 layout: default
 title: "RentReducer. Get back what you're owed."
-description: Swiss app that checks in 2 minutes whether you have a right to lower rent and mails the reduction request to your landlord with one tap. From CHF 9.90.
+description: Swiss app for tenants. In 2 minutes it checks whether you have a right to a lower rent on your apartment and mails the reduction request to your landlord with one tap. From CHF 9.90.
 lang: en
 lang_short: en
 permalink: /en/
 ---
 
 <section class="hero">
+  <div class="hero__bg-trend" aria-hidden="true">
+    <svg viewBox="0 0 800 320" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="heroTrendGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#059669" stop-opacity="0.10"/>
+          <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <path d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260 L 800 320 L 0 320 Z" fill="url(#heroTrendGrad)"/>
+      <path data-trend-line d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260" fill="none" stroke="#059669" stroke-width="1.4" stroke-linecap="round" opacity="0.45" stroke-dasharray="1600" stroke-dashoffset="1600">
+        <animate attributeName="stroke-dashoffset" from="1600" to="0" dur="6s" fill="freeze"/>
+      </path>
+      <g fill="#059669" opacity="0.5">
+        <circle data-trend-dot cx="180" cy="100" r="2.2"><animate attributeName="opacity" values="0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="360" cy="165" r="2.2"><animate attributeName="opacity" values="0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="540" cy="210" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="720" cy="252" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+      </g>
+    </svg>
+  </div>
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
       <div class="hero__head">
         <div class="hero__head-text">
-          <span class="eyebrow">Lower rent in 2 minutes</span>
+          <span class="eyebrow">Lower rent on your apartment, in 2 minutes</span>
           <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
         </div>
         <div class="hero__brand">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="RentReducer app" class="hero__brand-icon" width="112" height="112">
         </div>
       </div>
-      <p class="hero__sub">The Swiss reference rate has dropped. You probably have a right to lower rent. <strong>RentReducer</strong> does the math in 2 minutes and mails your reduction request to your landlord with one tap.</p>
+      <p class="hero__sub">The Swiss reference rate has dropped multiple times in recent years. If your rent has not been adjusted accordingly, you likely have a right to a lower rent. <strong>RentReducer</strong> calculates the claim under Swiss federal law, drafts the reduction request and hands it to Swiss Post. If your landlord does not respond or refuses, the app guides you through the next steps up to conciliation.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Download RentReducer on the App Store">
@@ -84,12 +104,12 @@ permalink: /en/
             <span aria-hidden="true">●●●●● 5G</span>
           </div>
           <div class="phone__appbar">
-            <span class="phone__appbar-title">
-              <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="22" height="22">
-              RentReducer
+            <span class="phone__appbar-leading" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
             </span>
+            <span class="phone__appbar-title">RentReducer</span>
             <span class="phone__appbar-action" aria-hidden="true">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
             </span>
           </div>
           <div class="phone__body">
@@ -122,6 +142,32 @@ permalink: /en/
               </div>
             </div>
           </div>
+          <div class="phone__tabbar" aria-hidden="true">
+            <span class="phone__tab phone__tab--active">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l9.5 8.2v10.3a1 1 0 0 1-1 1h-5.5v-7h-6v7H4.5a1 1 0 0 1-1-1V10.7L12 2.5z"/></svg>
+              </span>
+              <span>Home</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+              </span>
+              <span>Data</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </span>
+              <span>Letters</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="19" cy="12" r="1.7"/></svg>
+              </span>
+              <span>More</span>
+            </span>
+          </div>
           <div class="phone__home"></div>
         </div>
       </div>
@@ -133,11 +179,10 @@ permalink: /en/
   <div class="trust-strip__inner">
     <span class="trust-strip__label">Data and law from official Swiss&nbsp;sources</span>
     <div class="trust-strip__sources">
-      <span>BWO</span>
-      <span>BFS</span>
-      <span>Fedlex / CO</span>
-      <span>VMWG&nbsp;art.&nbsp;13</span>
-      <span>ZH&nbsp;rent calculator</span>
+      <span>Federal Office for Housing</span>
+      <span>Federal Statistical Office</span>
+      <span>Tenancy law (CO + VMWG)</span>
+      <span>Zurich rent calculator</span>
     </div>
   </div>
 </section>
@@ -145,8 +190,8 @@ permalink: /en/
 <section class="section steps" id="how">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>How it works</span>
-    <h2 class="section-title" data-reveal>Three steps. No printing. No post office.</h2>
-    <p class="section-lead" data-reveal>Enter your rent and the date of the last adjustment. The app handles the rest: from the calculation to your landlord's mailbox.</p>
+    <h2 class="section-title" data-reveal>Three steps from claim to ready-to-mail letter.</h2>
+    <p class="section-lead" data-reveal>Enter your current rent and the date of the last adjustment. The app calculates the claim, generates the reduction request with your signature and hands it to Swiss Post. If your landlord stays silent or refuses, the app handles the next step too.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
@@ -174,8 +219,8 @@ permalink: /en/
         <span class="step__icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         </span>
-        <h3>Auto-reminders</h3>
-        <p>Landlord doesn't reply? RentReducer reminds you after 14, 30 and 60&nbsp;days. With one tap you fire the right follow-up: reminder, document request, or conciliation request.</p>
+        <h3>Auto-reminders and follow-ups</h3>
+        <p>If your landlord doesn't reply, the app reminds you after 30 and 60 days. Depending on their answer it suggests the right follow-up letter: a reminder letter for silence, a request for explanation and evidence for refusal, or a conciliation petition as the last step.</p>
         <span class="step__time">automatic</span>
       </article>
     </div>
@@ -186,7 +231,7 @@ permalink: /en/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Why we built this</span>
     <h2 class="stats__title" data-reveal>Swiss tenants miss out on millions every year.</h2>
-    <p class="stats__lead" data-reveal>Only a fraction actively claims. Most because the writing feels like work: searching templates, doing the math, calendar reminders, chasing silence.</p>
+    <p class="stats__lead" data-reveal>Only a fraction of those entitled actually claim. The effort puts people off: calculating the claim, drafting the letter, scheduling reminders, chasing silence or refusal with the next step. RentReducer takes those steps over completely, from the initial claim to the conciliation authority.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
@@ -252,7 +297,7 @@ permalink: /en/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h18v18H3z"/><path d="M10 8h4M10 12h4M10 16h4M8 8v8M16 8v8"/></svg>
         </span>
         <h3>From request to conciliation</h3>
-        <p>From the initial reduction request through reminders and document requests to a conciliation announcement. Every follow-up letter is in the app, one tap away.</p>
+        <p>RentReducer knows four letter types: the reduction request, the reminder letter for silence, the request for explanation and evidence on refusal, and the conciliation petition. Each follow-up is prepared in the case context of the app, with copies of all prior letters attached.</p>
       </article>
     </div>
   </div>
@@ -276,7 +321,7 @@ permalink: /en/
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Data locally encrypted, no account needed</li>
         </ul>
         <div class="price-card__addons">
-          <strong>Perfect to dip in.</strong> If you have no claim, you pay nothing.
+          <strong>Perfect to dip in.</strong> If you have no claim to a rent reduction, you don't pay anything.
         </div>
       </article>
 
@@ -296,7 +341,7 @@ permalink: /en/
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Registered with tracking</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Follow-up reminder / document request (via Pingen)</span><strong>CHF 6.90</strong></div>
-            <div class="price-card__addons-row"><span>Follow-up conciliation as registered mail with lease photo and prior letters attached (or DOCX download)</span><strong>CHF 6.90 + 7.90</strong></div>
+            <div class="price-card__addons-row"><span>Follow-up conciliation petition as registered mail with lease photo and prior letters attached (or Word download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>
       </article>
@@ -318,7 +363,7 @@ permalink: /en/
         <summary>Do I even have a claim?</summary>
         <div class="faq__answer">
           <p>If your last rent adjustment was based on a higher reference rate than today's, then yes, most likely. RentReducer calculates this automatically under Art.&nbsp;270a&nbsp;CO and VMWG art.&nbsp;13. You just enter your current rent and the date of the last adjustment.</p>
-          <p>The claim check itself is free. If the result is zero, you pay nothing.</p>
+          <p>The claim check itself is free. If your claim is zero, you don't pay anything, the calculation stays free.</p>
         </div>
       </details>
 
@@ -326,7 +371,7 @@ permalink: /en/
         <summary>What does the app actually cost?</summary>
         <div class="faq__answer">
           <p>The app is free. Claim check and rate alert stay free. You only pay for mailing the letter: a one-time CHF&nbsp;9.90 to 29.90 depending on your monthly saving. Included: letter generation, A-Mail print and delivery by our Swiss postal partner.</p>
-          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each, reminder and document-request go out automatically via Pingen. The <strong>conciliation letter</strong> also goes from the app, as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and all prior letter copies attached. Prefer to mail it yourself? You can also download it as a DOCX.</p>
+          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each, the <strong>reminder letter</strong> and <strong>request for explanation and evidence</strong> go out automatically via Pingen. The <strong>conciliation petition</strong> also goes from the app, as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and all prior letter copies attached. Prefer to mail it yourself? You can also download it as a <strong>Word file</strong>.</p>
         </div>
       </details>
 
@@ -357,7 +402,7 @@ permalink: /en/
       <details>
         <summary>What if my landlord doesn't reply?</summary>
         <div class="faq__answer">
-          <p>RentReducer reminds you automatically after 14, 30 and 60 days. At every reminder you can fire the right follow-up letter with one tap, by status: reminder, document request, or conciliation letter. Each follow-up letter costs CHF&nbsp;6.90. Reminder and document-request go via Pingen with A-Mail included. The conciliation letter also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached, or you can download it as a DOCX and mail it yourself.</p>
+          <p>RentReducer reminds you automatically after <strong>30 and 60 days</strong>. At every reminder you can fire the right follow-up letter with one tap, by status: <strong>reminder letter</strong>, <strong>request for explanation and evidence</strong>, or <strong>conciliation petition</strong>. Each follow-up letter costs CHF&nbsp;6.90. The reminder letter and request for explanation go via Pingen with A-Mail included. The conciliation petition also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached, or you can download it as a <strong>Word file</strong> and mail it yourself.</p>
           <p>If you go to conciliation, the app helps you with the directory of the cantonal conciliation authority (source: BWO).</p>
         </div>
       </details>
