@@ -60,7 +60,7 @@
 
   --max-content: 72rem;       /* 1152px */
   --max-prose:   42rem;       /*  672px legal pages */
-  --pad-x:       clamp(1.5rem, 5vw, 2rem);
+  --pad-x:       clamp(1.75rem, 6vw, 2rem);
 }
 
 /* ---------- 2. Base ---------- */
@@ -285,7 +285,11 @@ img, svg { max-width: 100%; height: auto; display: block; }
   overflow: hidden;
 }
 @media (max-width: 720px) {
-  .hero { padding-top: var(--sp-6); }
+  .hero { padding-top: var(--sp-6); padding-left: 1.75rem; padding-right: 1.75rem; }
+  .hero__inner { padding-left: 0; padding-right: 0; }
+}
+@media (max-width: 480px) {
+  .hero { padding-left: 1.75rem; padding-right: 1.75rem; }
 }
 .hero::before { display: none; }
 
@@ -842,6 +846,126 @@ img, svg { max-width: 100%; height: auto; display: block; }
   height: 4px;
   background: rgba(255,255,255,0.6);
   border-radius: 999px;
+}
+
+/* Verfahrens-Phone-Mock (zweiter Hero-Mock unten in Journey-Section,
+   zeigt Dashboard-State NACH erstem Brief-Versand mit Antwort-Chip +
+   Empfehlungs-Card. Reused phone-frame, eigene Body-Klassen. */
+.phone__journey-hero {
+  background: linear-gradient(135deg, #059669, #047857);
+  color: white;
+  padding: 14px 16px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
+.phone__journey-eyebrow {
+  font-size: 9px; font-weight: 700;
+  opacity: 0.85;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin: 0;
+}
+.phone__journey-title {
+  font-size: 16px; font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 4px 0 2px;
+}
+.phone__journey-sub {
+  font-size: 11px; opacity: 0.85;
+  margin: 0; font-weight: 500;
+}
+.phone__letter-card {
+  background: white;
+  border: 1px solid var(--phone-border);
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.phone__letter-icon {
+  width: 30px; height: 30px;
+  border-radius: 8px;
+  background: var(--phone-pill);
+  color: var(--phone-primary-dark);
+  display: flex; align-items: center; justify-content: center;
+  flex: none;
+  font-size: 14px; font-weight: 700;
+}
+.phone__letter-body { flex: 1; min-width: 0; }
+.phone__letter-title {
+  font-size: 12px; font-weight: 700;
+  color: var(--phone-text);
+  margin: 0;
+}
+.phone__letter-meta {
+  font-size: 10px; color: var(--phone-muted);
+  margin: 2px 0 8px;
+}
+.phone__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--phone-pill);
+  border: 1px solid rgba(5, 150, 105, 0.30);
+  color: var(--phone-primary-dark);
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 10px; font-weight: 600;
+}
+.phone__rec-card {
+  background: rgba(5, 150, 105, 0.06);
+  border: 1px dashed rgba(5, 150, 105, 0.32);
+  border-radius: 14px;
+  padding: 12px;
+}
+.phone__rec-label {
+  font-size: 9px; font-weight: 700;
+  color: var(--phone-primary-dark);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin: 0;
+}
+.phone__rec-title {
+  font-size: 12px; font-weight: 700;
+  color: var(--phone-text);
+  margin: 4px 0 2px;
+  line-height: 1.25;
+}
+.phone__rec-sub {
+  font-size: 10px; color: var(--phone-muted);
+  margin: 0;
+}
+
+/* Journey-Section layout — Phone + Text side-by-side wie im Hero */
+.journey {
+  padding: var(--sp-16) var(--pad-x);
+  background: var(--paper);
+}
+.journey__inner {
+  max-width: var(--max-content);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-12);
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .journey__inner { grid-template-columns: 0.9fr 1.1fr; gap: var(--sp-20); }
+}
+.journey__visual { display: flex; justify-content: center; }
+.journey__copy h2 {
+  font-size: var(--fs-h2);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  margin: var(--sp-3) 0 var(--sp-4);
+}
+.journey__copy p {
+  font-size: var(--fs-body);
+  color: var(--ink-soft);
+  line-height: 1.65;
+  margin: 0 0 var(--sp-3);
 }
 .hero__visual {
   display: flex;
