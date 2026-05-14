@@ -40,9 +40,9 @@ permalink: /fr/
         <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" class="hero__brandmark__icon" width="56" height="56">
         <span class="hero__brandmark__word">Baisse-loyer</span>
       </a>
-      <span class="eyebrow">Baisse de loyer pour ton appartement, en 2 minutes</span>
+      <span class="eyebrow">Baisse de loyer en 2 minutes</span>
       <h1 class="hero__title">Récupère<br>ce qui te <em>revient</em>.</h1>
-      <p class="hero__sub">Tu paies peut-être un loyer trop élevé depuis des années. <strong>Baisse-loyer</strong> calcule ta prétention selon le droit fédéral et envoie la lettre par La Poste. Si ton·a bailleur·esse reste silencieux·se ou refuse, l'app t'accompagne jusqu'à l'autorité de conciliation.</p>
+      <p class="hero__sub">Tu paies peut-être un loyer trop élevé pour ton appartement depuis des années. <strong>Baisse-loyer</strong> calcule ta prétention selon le droit fédéral et envoie la lettre par La Poste. Si ton·a bailleur·esse reste silencieux·se ou refuse, l'app t'accompagne jusqu'à l'autorité de conciliation.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Télécharger Baisse-loyer sur l'App Store">

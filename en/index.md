@@ -40,9 +40,9 @@ permalink: /en/
         <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" class="hero__brandmark__icon" width="56" height="56">
         <span class="hero__brandmark__word">RentReducer</span>
       </a>
-      <span class="eyebrow">Lower rent on your apartment, in 2 minutes</span>
+      <span class="eyebrow">Lower rent in 2 minutes</span>
       <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
-      <p class="hero__sub">You may have been overpaying rent for years. <strong>RentReducer</strong> calculates your claim under Swiss federal law and mails the letter for you. If your landlord stays silent or refuses, the app guides you all the way to the conciliation authority.</p>
+      <p class="hero__sub">You may have been overpaying rent on your apartment for years. <strong>RentReducer</strong> calculates your claim under Swiss federal law and mails the letter for you. If your landlord stays silent or refuses, the app guides you all the way to the conciliation authority.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Download RentReducer on the App Store">

@@ -40,9 +40,9 @@ permalink: /
         <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" class="hero__brandmark__icon" width="56" height="56">
         <span class="hero__brandmark__word">Mietsenkung</span>
       </a>
-      <span class="eyebrow">Mietzinssenkung deiner Wohnung, in 2 Minuten</span>
+      <span class="eyebrow">Mietzinssenkung in 2 Minuten</span>
       <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
-      <p class="hero__sub">Du zahlst womöglich seit Jahren zu viel Miete. <strong>Mietsenkung</strong> berechnet deinen Anspruch nach Bundesrecht und versendet den Brief per Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich die App weiter bis zur Schlichtungsbehörde.</p>
+      <p class="hero__sub">Du zahlst womöglich seit Jahren zu viel Miete für deine Wohnung. <strong>Mietsenkung</strong> berechnet deinen Anspruch nach Bundesrecht und versendet den Brief per Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich die App weiter bis zur Schlichtungsbehörde.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">

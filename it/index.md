@@ -40,9 +40,9 @@ permalink: /it/
         <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" class="hero__brandmark__icon" width="56" height="56">
         <span class="hero__brandmark__word">Ribassoaffitto</span>
       </a>
-      <span class="eyebrow">Ribasso dell'affitto per il tuo appartamento, in 2 minuti</span>
+      <span class="eyebrow">Ribasso dell'affitto in 2 minuti</span>
       <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
-      <p class="hero__sub">Forse paghi un affitto troppo alto da anni. <strong>Ribassoaffitto</strong> calcola la tua pretesa secondo il diritto federale e invia la lettera per Posta. Se il locatore o la locatrice resta in silenzio o rifiuta, l'app ti accompagna fino all'autorità di conciliazione.</p>
+      <p class="hero__sub">Forse paghi un affitto troppo alto per il tuo appartamento da anni. <strong>Ribassoaffitto</strong> calcola la tua pretesa secondo il diritto federale e invia la lettera per Posta. Se il locatore o la locatrice resta in silenzio o rifiuta, l'app ti accompagna fino all'autorità di conciliazione.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Scarica Ribassoaffitto su App Store">
