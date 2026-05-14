@@ -31,14 +31,12 @@ permalink: /en/
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
       <div class="hero__head">
-        <div class="hero__head-text">
-          <span class="eyebrow">Lower rent on your apartment, in 2 minutes</span>
-          <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
-        </div>
+        <span class="eyebrow">Lower rent on your apartment, in 2 minutes</span>
         <div class="hero__brand">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="RentReducer app" class="hero__brand-icon" width="112" height="112">
         </div>
       </div>
+      <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
       <p class="hero__sub">The Swiss reference rate has dropped multiple times in recent years. If your rent has not been adjusted accordingly, you likely have a right to a lower rent. <strong>RentReducer</strong> calculates the claim under Swiss federal law, drafts the reduction request and hands it to Swiss Post. If your landlord does not respond or refuses, the app guides you through the next steps up to conciliation.</p>
 
       <div class="hero__cta">

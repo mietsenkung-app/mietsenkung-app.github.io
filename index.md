@@ -31,14 +31,12 @@ permalink: /
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
       <div class="hero__head">
-        <div class="hero__head-text">
-          <span class="eyebrow">Mietzinssenkung deiner Wohnung, in 2 Minuten</span>
-          <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
-        </div>
+        <span class="eyebrow">Mietzinssenkung deiner Wohnung, in 2 Minuten</span>
         <div class="hero__brand">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="Mietsenkung App" class="hero__brand-icon" width="112" height="112">
         </div>
       </div>
+      <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
       <p class="hero__sub">Der Referenzzinssatz ist in den letzten Jahren mehrfach gesunken. Wenn dein Mietzins seither nicht entsprechend angepasst wurde, hast du vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> berechnet den Anspruch nach Bundesrecht, formuliert das Senkungsbegehren und übergibt es der Schweizer Post. Falls dein*e Vermieter*in nicht reagiert oder ablehnt, führt dich die App durch die nächsten Schritte bis zur Schlichtung.</p>
 
       <div class="hero__cta">

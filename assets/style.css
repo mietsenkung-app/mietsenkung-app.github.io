@@ -317,11 +317,17 @@ img, svg { max-width: 100%; height: auto; display: block; }
    centert. iOS-Style 112px mit emerald-tönigem drop-shadow. Mobile (≤480px)
    wechselt auf 80px und behält die rechte Position; ganz schmale screens
    (≤360px) gehen auf column-reverse falls H1 sonst zu eng würde. */
+/* 2026-05-14 Restructure: vorher waren Eyebrow + H1 zusammen im flex-row mit Logo
+   rechts daneben, was die H1 in einer schmalen Spalte einquetschte und im DE
+   auf 3-4 Zeilen zerlegte. Jetzt: Eyebrow + Logo bilden eine schmale 1-Liner-
+   Bar oben (justify-content: space-between), H1 nimmt darunter die volle
+   hero__copy-Breite und atmet richtig. */
 .hero__head {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: var(--sp-6);
-  margin: 0 0 var(--sp-5);
+  margin: 0 0 var(--sp-4);
 }
 .hero__head-text {
   flex: 1 1 auto;

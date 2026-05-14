@@ -31,14 +31,12 @@ permalink: /it/
   <div class="hero__inner">
     <div class="hero__copy" data-reveal>
       <div class="hero__head">
-        <div class="hero__head-text">
-          <span class="eyebrow">Ribasso dell'affitto per il tuo appartamento, in 2 minuti</span>
-          <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
-        </div>
+        <span class="eyebrow">Ribasso dell'affitto per il tuo appartamento, in 2 minuti</span>
         <div class="hero__brand">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="App Ribassoaffitto" class="hero__brand-icon" width="112" height="112">
         </div>
       </div>
+      <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
       <p class="hero__sub">Il tasso di riferimento è sceso più volte negli ultimi anni. Se il tuo affitto non è stato adeguato di conseguenza, probabilmente hai diritto a un affitto più basso. <strong>Ribassoaffitto</strong> calcola la pretesa secondo il diritto federale, formula la richiesta di ribasso e la consegna alla Posta Svizzera. Se il locatore o la locatrice non risponde o rifiuta, l'app ti accompagna fino alla conciliazione.</p>
 
       <div class="hero__cta">
