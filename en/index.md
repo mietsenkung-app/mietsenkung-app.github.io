@@ -42,7 +42,7 @@ permalink: /en/
       </a>
       <span class="eyebrow">Lower rent on your apartment, in 2 minutes</span>
       <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
-      <p class="hero__sub">The Swiss reference rate has dropped multiple times in recent years. If your rent has not been adjusted accordingly, you likely have a right to a lower rent. <strong>RentReducer</strong> calculates the claim under Swiss federal law, drafts the reduction request and hands it to Swiss Post. If your landlord does not respond or refuses, the app guides you through the next steps up to conciliation.</p>
+      <p class="hero__sub">You may have been overpaying rent for years. <strong>RentReducer</strong> calculates your claim under Swiss federal law and mails the letter for you. If your landlord stays silent or refuses, the app guides you all the way to the conciliation authority.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Download RentReducer on the App Store">

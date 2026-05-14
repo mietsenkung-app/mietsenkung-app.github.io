@@ -42,7 +42,7 @@ permalink: /
       </a>
       <span class="eyebrow">Mietzinssenkung deiner Wohnung, in 2 Minuten</span>
       <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
-      <p class="hero__sub">Der Referenzzinssatz ist in den letzten Jahren mehrfach gesunken. Wenn dein Mietzins seither nicht entsprechend angepasst wurde, hast du vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> berechnet den Anspruch nach Bundesrecht, formuliert das Senkungsbegehren und übergibt es der Schweizer Post. Falls dein*e Vermieter*in nicht reagiert oder ablehnt, führt dich die App durch die nächsten Schritte bis zur Schlichtung.</p>
+      <p class="hero__sub">Du zahlst womöglich seit Jahren zu viel Miete. <strong>Mietsenkung</strong> berechnet deinen Anspruch nach Bundesrecht und versendet den Brief per Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich die App weiter bis zur Schlichtungsbehörde.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">

@@ -42,7 +42,7 @@ permalink: /fr/
       </a>
       <span class="eyebrow">Baisse de loyer pour ton appartement, en 2 minutes</span>
       <h1 class="hero__title">Récupère<br>ce qui te <em>revient</em>.</h1>
-      <p class="hero__sub">Le taux de référence a baissé plusieurs fois ces dernières années. Si ton loyer n'a pas été adapté en conséquence, tu as probablement droit à un loyer plus bas. <strong>Baisse-loyer</strong> calcule la prétention selon le droit fédéral, rédige la demande de baisse et la confie à La Poste suisse. Si ton·a bailleur·esse ne répond pas ou refuse, l'app t'accompagne jusqu'à la conciliation.</p>
+      <p class="hero__sub">Tu paies peut-être un loyer trop élevé depuis des années. <strong>Baisse-loyer</strong> calcule ta prétention selon le droit fédéral et envoie la lettre par La Poste. Si ton·a bailleur·esse reste silencieux·se ou refuse, l'app t'accompagne jusqu'à l'autorité de conciliation.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Télécharger Baisse-loyer sur l'App Store">

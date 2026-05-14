@@ -42,7 +42,7 @@ permalink: /it/
       </a>
       <span class="eyebrow">Ribasso dell'affitto per il tuo appartamento, in 2 minuti</span>
       <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
-      <p class="hero__sub">Il tasso di riferimento è sceso più volte negli ultimi anni. Se il tuo affitto non è stato adeguato di conseguenza, probabilmente hai diritto a un affitto più basso. <strong>Ribassoaffitto</strong> calcola la pretesa secondo il diritto federale, formula la richiesta di ribasso e la consegna alla Posta Svizzera. Se il locatore o la locatrice non risponde o rifiuta, l'app ti accompagna fino alla conciliazione.</p>
+      <p class="hero__sub">Forse paghi un affitto troppo alto da anni. <strong>Ribassoaffitto</strong> calcola la tua pretesa secondo il diritto federale e invia la lettera per Posta. Se il locatore o la locatrice resta in silenzio o rifiuta, l'app ti accompagna fino all'autorità di conciliazione.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Scarica Ribassoaffitto su App Store">
