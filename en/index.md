@@ -283,7 +283,7 @@ permalink: /en/
       <article class="price-card price-card--featured" data-reveal>
         <span class="price-card__tag">Popular</span>
         <p class="price-card__name">Letter mailing</p>
-        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;– 29.90</span></p>
+        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;to 29.90</span></p>
         <p class="price-card__price-sub">once per letter · A-Mail included</p>
         <ul class="price-card__list">
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Reduction request as a legally compliant&nbsp;PDF</li>
@@ -302,9 +302,9 @@ permalink: /en/
       </article>
     </div>
 
-    <p class="pricing-note">The letter price scales with your monthly saving — about a third.</p>
+    <p class="pricing-note">The letter price scales with your monthly saving, about a third.</p>
     <p class="pricing-note">Save little, pay little. Save more, pay a touch more, but never above CHF&nbsp;29.90.</p>
-    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — depending on how much you save.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90, depending on how much you save.</p>
   </div>
 </section>
 
@@ -326,7 +326,7 @@ permalink: /en/
         <summary>What does the app actually cost?</summary>
         <div class="faq__answer">
           <p>The app is free. Claim check and rate alert stay free. You only pay for mailing the letter: a one-time CHF&nbsp;9.90 to 29.90 depending on your monthly saving. Included: letter generation, A-Mail print and delivery by our Swiss postal partner.</p>
-          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each — reminder and document-request go out automatically via Pingen. The <strong>conciliation letter</strong> also goes from the app, as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and all prior letter copies attached. Prefer to mail it yourself? You can also download it as a DOCX.</p>
+          <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each, reminder and document-request go out automatically via Pingen. The <strong>conciliation letter</strong> also goes from the app, as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and all prior letter copies attached. Prefer to mail it yourself? You can also download it as a DOCX.</p>
         </div>
       </details>
 
@@ -357,7 +357,7 @@ permalink: /en/
       <details>
         <summary>What if my landlord doesn't reply?</summary>
         <div class="faq__answer">
-          <p>RentReducer reminds you automatically after 14, 30 and 60 days. At every reminder you can fire the right follow-up letter with one tap, by status: reminder, document request, or conciliation letter. Each follow-up letter costs CHF&nbsp;6.90. Reminder and document-request go via Pingen with A-Mail included. The conciliation letter also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached — or you can download it as a DOCX and mail it yourself.</p>
+          <p>RentReducer reminds you automatically after 14, 30 and 60 days. At every reminder you can fire the right follow-up letter with one tap, by status: reminder, document request, or conciliation letter. Each follow-up letter costs CHF&nbsp;6.90. Reminder and document-request go via Pingen with A-Mail included. The conciliation letter also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached, or you can download it as a DOCX and mail it yourself.</p>
           <p>If you go to conciliation, the app helps you with the directory of the cantonal conciliation authority (source: BWO).</p>
         </div>
       </details>
@@ -365,7 +365,7 @@ permalink: /en/
       <details>
         <summary>What devices does RentReducer run on?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) and Android (9+). Works on phones and tablets — the larger tablet screen just gives you more room to type.</p>
+          <p>iPhone (iOS&nbsp;15+) and Android (9+). Works on phones and tablets, the larger tablet screen just gives you more room to type.</p>
         </div>
       </details>
     </div>

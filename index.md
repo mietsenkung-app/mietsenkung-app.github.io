@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Mietsenkung. Hol dir zurück was dir zusteht."
-description: Schweizer App, die in 2 Minuten prüft ob dir eine Mietsenkung zusteht und das Senkungsbegehren mit einem Tap per Post versendet. Ab CHF 9.90.
+description: Schweizer App für Mieter*innen. In 2 Minuten prüft sie, ob dir eine Mietzinssenkung deiner Wohnung zusteht, und versendet das Senkungsbegehren mit einem Tap per Post. Ab CHF 9.90.
 lang: de-CH
 lang_short: de
 permalink: /
@@ -12,14 +12,14 @@ permalink: /
     <div class="hero__copy" data-reveal>
       <div class="hero__head">
         <div class="hero__head-text">
-          <span class="eyebrow">Mietzinssenkung in 2 Minuten</span>
+          <span class="eyebrow">Mietzinssenkung deiner Wohnung, in 2 Minuten</span>
           <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
         </div>
         <div class="hero__brand">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="Mietsenkung App" class="hero__brand-icon" width="112" height="112">
         </div>
       </div>
-      <p class="hero__sub">Der Referenzzinssatz ist gesunken. Du hast vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> rechnet's in 2 Minuten und schickt dein Senkungsbegehren mit einem Tap an dein*e Vermieter*in.</p>
+      <p class="hero__sub">Der Referenzzinssatz ist in den letzten Jahren mehrfach gesunken. Wenn dein Mietzins seither nicht entsprechend angepasst wurde, hast du vermutlich Anspruch auf eine tiefere Miete. <strong>Mietsenkung</strong> berechnet den Anspruch nach Bundesrecht, formuliert das Senkungsbegehren und übergibt es der Schweizer Post. Falls dein*e Vermieter*in nicht reagiert oder ablehnt, führt dich die App durch die nächsten Schritte bis zur Schlichtung.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">
@@ -84,12 +84,12 @@ permalink: /
             <span aria-hidden="true">●●●●● 5G</span>
           </div>
           <div class="phone__appbar">
-            <span class="phone__appbar-title">
-              <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="22" height="22">
-              Mietsenkung
+            <span class="phone__appbar-leading" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
             </span>
+            <span class="phone__appbar-title">Mietsenkung</span>
             <span class="phone__appbar-action" aria-hidden="true">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
             </span>
           </div>
           <div class="phone__body">
@@ -122,6 +122,32 @@ permalink: /
               </div>
             </div>
           </div>
+          <div class="phone__tabbar" aria-hidden="true">
+            <span class="phone__tab phone__tab--active">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l9.5 8.2v10.3a1 1 0 0 1-1 1h-5.5v-7h-6v7H4.5a1 1 0 0 1-1-1V10.7L12 2.5z"/></svg>
+              </span>
+              <span>Home</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+              </span>
+              <span>Daten</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </span>
+              <span>Briefe</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="19" cy="12" r="1.7"/></svg>
+              </span>
+              <span>Mehr</span>
+            </span>
+          </div>
           <div class="phone__home"></div>
         </div>
       </div>
@@ -133,20 +159,19 @@ permalink: /
   <div class="trust-strip__inner">
     <span class="trust-strip__label">Daten und Recht aus offiziellen&nbsp;Schweizer Quellen</span>
     <div class="trust-strip__sources">
-      <span>BWO</span>
-      <span>BFS</span>
-      <span>Fedlex / OR</span>
-      <span>VMWG&nbsp;Art.&nbsp;13</span>
-      <span>ZH&nbsp;Mietzinsrechner</span>
+      <span>Bundesamt für Wohnungswesen</span>
+      <span>Bundesamt für Statistik</span>
+      <span>Mietrecht (OR + VMWG)</span>
+      <span>Zürcher Mietzinsrechner</span>
     </div>
   </div>
 </section>
 
 <section class="section steps" id="how">
   <div class="section__inner">
-    <span class="eyebrow" data-reveal>Wie's geht</span>
-    <h2 class="section-title" data-reveal>Drei Schritte. Kein Ausdrucken. Kein Postbesuch.</h2>
-    <p class="section-lead" data-reveal>Du gibst Mietzins und Datum der letzten Anpassung ein. Den Rest macht die App: von der Berechnung bis er bei deiner Vermieter*in im Briefkasten liegt.</p>
+    <span class="eyebrow" data-reveal>Ablauf</span>
+    <h2 class="section-title" data-reveal>Drei Schritte vom Anspruch bis zum versandfertigen Brief.</h2>
+    <p class="section-lead" data-reveal>Du gibst deinen aktuellen Mietzins und das Datum der letzten Anpassung ein. Die App berechnet den Anspruch, generiert das Senkungsbegehren mit deiner Unterschrift und übergibt es der Schweizer Post. Reagiert dein*e Vermieter*in nicht oder lehnt ab, übernimmt die App auch den nächsten Schritt.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
@@ -174,8 +199,8 @@ permalink: /
         <span class="step__icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         </span>
-        <h3>Auto-Reminder</h3>
-        <p>Antwortet dein*e Vermieter*in nicht? Mietsenkung erinnert dich nach 14, 30 und 60 Tagen. Mit einem Tap löst du dann den passenden Folgebrief aus: Erinnerung, Unterlagen-Anforderung oder Schlichtungs-Begehren.</p>
+        <h3>Auto-Reminder und Folgebriefe</h3>
+        <p>Reagiert dein*e Vermieter*in nicht, erinnert die App dich nach 30 und 60 Tagen. Je nach Antwort schlägt sie den passenden Folgebrief vor: Erinnerungsschreiben bei Schweigen, Aufforderung zur Begründung bei Ablehnung, oder die Schlichtungsklage als letzten Schritt.</p>
         <span class="step__time">automatisch</span>
       </article>
     </div>
@@ -186,7 +211,7 @@ permalink: /
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Warum gibt's das</span>
     <h2 class="stats__title" data-reveal>Schweizer Mieter*innen verschenken jährlich Millionen.</h2>
-    <p class="stats__lead" data-reveal>Nur ein Bruchteil holt sich die berechtigte Senkung. Meist weil das Schreiben aufwendig wirkt: Vorlage suchen, Berechnung erstellen, Termine im Kalender, bei Schweigen nachhaken.</p>
+    <p class="stats__lead" data-reveal>Nur ein Bruchteil der Berechtigten fordert die Senkung tatsächlich ein. Der Aufwand schreckt ab: Anspruch berechnen, Brief formulieren, Termine setzen, bei Schweigen oder Ablehnung den nächsten Schritt einleiten. Mietsenkung übernimmt diese Schritte vollständig, vom Anspruchs-Check bis zur Schlichtungsbehörde.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
@@ -252,7 +277,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h18v18H3z"/><path d="M10 8h4M10 12h4M10 16h4M8 8v8M16 8v8"/></svg>
         </span>
         <h3>Vom Begehren bis zur Schlichtung</h3>
-        <p>Vom ersten Senkungsbegehren über Erinnerungs- und Unterlagen-Briefe bis zur Schlichtungs-Ankündigung. Alle Folge-Briefe sind in der App, jeweils einen Tap entfernt.</p>
+        <p>Mietsenkung kennt vier Brief-Arten: das Senkungsbegehren, das Erinnerungsschreiben bei Schweigen, die Aufforderung zur Begründung samt Belegen, sowie die Schlichtungsklage. Jeder Folgebrief wird im Verfahrens-Kontext der App vorbereitet, mit allen bisherigen Brief-Kopien als Beilage.</p>
       </article>
     </div>
   </div>
@@ -288,14 +313,14 @@ permalink: /
           </li>
         </ul>
         <div class="price-card__addons">
-          <strong>Perfekt zum Reinschnuppern.</strong> Wenn du keinen Anspruch hast, hast du nichts bezahlt.
+          <strong>Perfekt zum Reinschnuppern.</strong> Wenn du keinen Anspruch auf eine Mietsenkung hast, musst du auch nichts bezahlen.
         </div>
       </article>
 
       <article class="price-card price-card--featured" data-reveal>
         <span class="price-card__tag">Beliebt</span>
         <p class="price-card__name">Brief-Versand</p>
-        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;– 29.90</span></p>
+        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;bis 29.90</span></p>
         <p class="price-card__price-sub">einmalig pro Brief · A-Post inklusive</p>
         <ul class="price-card__list">
           <li>
@@ -320,15 +345,15 @@ permalink: /
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Einschreiben statt A-Post (mit Tracking)</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Folgebrief Erinnerung / Unterlagen (via Pingen)</span><strong>CHF 6.90</strong></div>
-            <div class="price-card__addons-row"><span>Folgebrief Schlichtung als Einschreiben mit Mietvertrag-Foto und Brief-Historie als Beilage (oder DOCX-Download)</span><strong>CHF 6.90 + 7.90</strong></div>
+            <div class="price-card__addons-row"><span>Folgebrief Schlichtungsklage als Einschreiben mit Mietvertrag-Foto und Brief-Historie als Beilage (oder Word-Download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>
       </article>
     </div>
 
-    <p class="pricing-note">Der Brief-Preis richtet sich nach deiner monatlichen Ersparnis — rund ein Drittel davon.</p>
+    <p class="pricing-note">Der Brief-Preis richtet sich nach deiner monatlichen Ersparnis, rund ein Drittel davon.</p>
     <p class="pricing-note">Wer wenig spart, zahlt wenig. Wer viel spart, zahlt etwas mehr, aber nie mehr als CHF&nbsp;29.90.</p>
-    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — je nachdem, wie viel du sparst.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90, je nachdem, wie viel du sparst.</p>
   </div>
 </section>
 
@@ -342,15 +367,15 @@ permalink: /
         <summary>Habe ich überhaupt Anspruch auf eine Mietsenkung?</summary>
         <div class="faq__answer">
           <p>Wenn deine letzte Mietzins-Anpassung auf einem höheren Referenzzinssatz basiert als heute gültig, dann ja, sehr wahrscheinlich. Mietsenkung berechnet das automatisch nach Art.&nbsp;270a&nbsp;OR und VMWG&nbsp;Art.&nbsp;13. Du gibst nur deinen aktuellen Mietzins und das Datum der letzten Anpassung ein.</p>
-          <p>Der Anspruchs-Check selbst kostet nichts. Wenn das Resultat null ist, hast du nichts gezahlt.</p>
+          <p>Der Anspruchs-Check selbst kostet nichts. Wenn dein Anspruch null ist, musst du auch nichts bezahlen, die Berechnung bleibt gratis.</p>
         </div>
       </details>
 
       <details>
         <summary>Was kostet mich die App wirklich?</summary>
         <div class="faq__answer">
-          <p>Die App selbst ist gratis. Der Anspruchs-Check und der Zins-Alarm sind dauerhaft kostenlos. Bezahlt wird nur der Brief-Versand: einmalig CHF&nbsp;9.90&nbsp;– 29.90, je nach deiner monatlichen Ersparnis. Im Preis enthalten: Brief-Generierung, A-Post-Druck und -Zustellung durch unseren Schweizer Post-Partner.</p>
-          <p>Optional: Einschreiben statt A-Post (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90 — Erinnerung und Unterlagen-Anforderung gehen automatisch via Pingen. Der <strong>Schlichtungs-Brief</strong> geht ebenfalls aus der App, als Einschreiben (+ CHF&nbsp;7.90) mit Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen. Wer lieber selbst zur Post will, kann ihn auch als DOCX herunterladen.</p>
+          <p>Die App selbst ist gratis. Der Anspruchs-Check und der Zins-Alarm sind dauerhaft kostenlos. Bezahlt wird nur der Brief-Versand: einmalig CHF&nbsp;9.90 bis 29.90, je nach deiner monatlichen Ersparnis. Im Preis enthalten: Brief-Generierung, A-Post-Druck und -Zustellung durch unseren Schweizer Post-Partner.</p>
+          <p>Optional: Einschreiben statt A-Post (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90, <strong>Erinnerungsschreiben</strong> und <strong>Begründung &amp; Belege verlangen</strong> gehen automatisch via Pingen. Die <strong>Schlichtungsklage</strong> geht ebenfalls aus der App, als Einschreiben (+ CHF&nbsp;7.90) mit Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen. Wer lieber selbst zur Post will, kann sie auch als <strong>Word-Datei</strong> herunterladen.</p>
         </div>
       </details>
 
@@ -381,7 +406,7 @@ permalink: /
       <details>
         <summary>Was, wenn mein*e Vermieter*in nicht antwortet?</summary>
         <div class="faq__answer">
-          <p>Mietsenkung erinnert dich automatisch nach 14, 30 und 60 Tagen. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: Erinnerung, Unterlagen-Anforderung oder Schlichtungs-Brief. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerung und Unterlagen-Anforderung gehen via Pingen mit A-Post inklusive. Der Schlichtungs-Brief geht auch direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und den vorherigen Brief-Kopien als Beilagen — alternativ kannst du ihn als DOCX herunterladen und selber einreichen.</p>
+          <p>Mietsenkung erinnert dich automatisch nach <strong>30 und 60 Tagen</strong>. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: <strong>Erinnerungsschreiben</strong>, <strong>Begründung &amp; Belege verlangen</strong> oder <strong>Schlichtungsklage</strong>. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerungsschreiben und Begründung &amp; Belege gehen via Pingen mit A-Post inklusive. Die Schlichtungsklage geht direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen, alternativ kannst du sie als <strong>Word-Datei</strong> herunterladen und selber einreichen.</p>
           <p>Wenn du in die Schlichtung gehst, hilft dir die App mit der Verzeichnis-Suche der zuständigen kantonalen Schlichtungsbehörde (Quelle: BWO).</p>
         </div>
       </details>
@@ -389,7 +414,7 @@ permalink: /
       <details>
         <summary>Auf welchen Geräten läuft Mietsenkung?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) und Android (9+). Funktioniert auf Smartphone und Tablet — auf dem grösseren Tablet-Display hast du einfach mehr Platz für die Eingabe.</p>
+          <p>iPhone (iOS&nbsp;15+) und Android (9+). Funktioniert auf Smartphone und Tablet, auf dem grösseren Tablet-Display hast du einfach mehr Platz für die Eingabe.</p>
         </div>
       </details>
     </div>

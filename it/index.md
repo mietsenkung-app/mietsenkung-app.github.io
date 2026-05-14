@@ -283,7 +283,7 @@ permalink: /it/
       <article class="price-card price-card--featured" data-reveal>
         <span class="price-card__tag">Popolare</span>
         <p class="price-card__name">Spedizione lettera</p>
-        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;– 29.90</span></p>
+        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;a 29.90</span></p>
         <p class="price-card__price-sub">una volta per lettera · posta A inclusa</p>
         <ul class="price-card__list">
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Richiesta di ribasso come PDF giuridicamente&nbsp;valido</li>
@@ -301,9 +301,9 @@ permalink: /it/
         </div>
       </article>
     </div>
-    <p class="pricing-note">Il prezzo della lettera segue il tuo risparmio mensile — circa un terzo.</p>
+    <p class="pricing-note">Il prezzo della lettera segue il tuo risparmio mensile, circa un terzo.</p>
     <p class="pricing-note">Risparmi poco, paghi poco. Risparmi tanto, paghi un po' di più, ma mai oltre CHF&nbsp;29.90.</p>
-    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — in base al tuo risparmio.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90, in base al tuo risparmio.</p>
   </div>
 </section>
 
@@ -325,7 +325,7 @@ permalink: /it/
         <summary>Quanto costa davvero l'app?</summary>
         <div class="faq__answer">
           <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e consegna posta A dal nostro partner postale svizzero.</p>
-          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna — sollecito e richiesta documenti vanno automaticamente via Pingen. L'<strong>annuncio di conciliazione</strong> parte anch'esso dall'app, come raccomandata (+ CHF&nbsp;7.90) con la foto del contratto caricata da te e tutte le lettere precedenti in allegato. Preferisci portarla tu alla Posta? Puoi anche scaricarla in DOCX.</p>
+          <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna, sollecito e richiesta documenti vanno automaticamente via Pingen. L'<strong>annuncio di conciliazione</strong> parte anch'esso dall'app, come raccomandata (+ CHF&nbsp;7.90) con la foto del contratto caricata da te e tutte le lettere precedenti in allegato. Preferisci portarla tu alla Posta? Puoi anche scaricarla in DOCX.</p>
         </div>
       </details>
 
@@ -356,7 +356,7 @@ permalink: /it/
       <details>
         <summary>E se il locatore o la locatrice non risponde?</summary>
         <div class="faq__answer">
-          <p>Ribassoaffitto ti ricorda automaticamente dopo 14, 30 e 60 giorni. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: sollecito, richiesta di documenti o annuncio di conciliazione. Ogni lettera successiva costa CHF&nbsp;6.90. Sollecito e richiesta documenti vanno via Pingen con Posta A inclusa. L'annuncio di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato — oppure puoi scaricarla in DOCX e depositarla tu stesso/a.</p>
+          <p>Ribassoaffitto ti ricorda automaticamente dopo 14, 30 e 60 giorni. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: sollecito, richiesta di documenti o annuncio di conciliazione. Ogni lettera successiva costa CHF&nbsp;6.90. Sollecito e richiesta documenti vanno via Pingen con Posta A inclusa. L'annuncio di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato, oppure puoi scaricarla in DOCX e depositarla tu stesso/a.</p>
           <p>Se vai in conciliazione, l'app ti aiuta con l'elenco dell'autorità cantonale di conciliazione competente (fonte: UFAB).</p>
         </div>
       </details>
@@ -364,7 +364,7 @@ permalink: /it/
       <details>
         <summary>Su quali dispositivi gira Ribassoaffitto?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) e Android (9+). Funziona su smartphone e tablet — sullo schermo più grande del tablet hai semplicemente più spazio per inserire i dati.</p>
+          <p>iPhone (iOS&nbsp;15+) e Android (9+). Funziona su smartphone e tablet, sullo schermo più grande del tablet hai semplicemente più spazio per inserire i dati.</p>
         </div>
       </details>
     </div>

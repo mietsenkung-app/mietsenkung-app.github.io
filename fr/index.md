@@ -283,7 +283,7 @@ permalink: /fr/
       <article class="price-card price-card--featured" data-reveal>
         <span class="price-card__tag">Populaire</span>
         <p class="price-card__name">Envoi de la lettre</p>
-        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;– 29.90</span></p>
+        <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;à 29.90</span></p>
         <p class="price-card__price-sub">une fois par lettre · courrier A inclus</p>
         <ul class="price-card__list">
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Demande de baisse en PDF juridiquement&nbsp;solide</li>
@@ -302,9 +302,9 @@ permalink: /fr/
       </article>
     </div>
 
-    <p class="pricing-note">Le prix de la lettre suit ton économie mensuelle — environ un tiers.</p>
+    <p class="pricing-note">Le prix de la lettre suit ton économie mensuelle, environ un tiers.</p>
     <p class="pricing-note">Petite baisse, petit prix. Grosse baisse, un peu plus, mais jamais au-dessus de CHF&nbsp;29.90.</p>
-    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90 — selon ton économie.</p>
+    <p class="pricing-note">CHF&nbsp;9.90 / 14.90 / 19.90 / 24.90 / 27.90 / 29.90, selon ton économie.</p>
   </div>
 </section>
 
@@ -326,7 +326,7 @@ permalink: /fr/
         <summary>Combien coûte vraiment l'app ?</summary>
         <div class="faq__answer">
           <p>L'app est gratuite. La vérification du droit et l'alerte taux le restent. Tu paies uniquement l'envoi de la lettre : CHF&nbsp;9.90 à 29.90 selon ton économie mensuelle. Inclus : génération de la lettre, impression et distribution courrier A par notre partenaire postal suisse.</p>
-          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90). Lettres de suivi à CHF&nbsp;6.90 chacune — rappel et demande de pièces partent automatiquement via Pingen. <strong>L'annonce de conciliation</strong> part aussi depuis l'app, en recommandé (+ CHF&nbsp;7.90) avec ta photo du bail et toutes les lettres précédentes en annexe. Préfères-tu passer toi-même à La Poste ? Tu peux aussi la télécharger en DOCX.</p>
+          <p>Optionnel : recommandé avec suivi (+ CHF&nbsp;7.90). Lettres de suivi à CHF&nbsp;6.90 chacune, rappel et demande de pièces partent automatiquement via Pingen. <strong>L'annonce de conciliation</strong> part aussi depuis l'app, en recommandé (+ CHF&nbsp;7.90) avec ta photo du bail et toutes les lettres précédentes en annexe. Préfères-tu passer toi-même à La Poste ? Tu peux aussi la télécharger en DOCX.</p>
         </div>
       </details>
 
@@ -357,7 +357,7 @@ permalink: /fr/
       <details>
         <summary>Que faire si mon·a bailleur·esse ne répond pas ?</summary>
         <div class="faq__answer">
-          <p>Baisse-loyer te rappelle automatiquement après 14, 30 et 60 jours. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : rappel, demande de pièces ou annonce de conciliation. Chaque lettre de suivi coûte CHF&nbsp;6.90. Rappel et demande de pièces partent via Pingen avec courrier A inclus. L'annonce de conciliation part aussi directement depuis l'app, en recommandé (+ CHF&nbsp;7.90), avec ta photo du bail et les lettres précédentes en annexe — ou tu peux la télécharger en DOCX et la déposer toi-même.</p>
+          <p>Baisse-loyer te rappelle automatiquement après 14, 30 et 60 jours. À chaque rappel tu peux déclencher la lettre de suivi adaptée d'un seul tap, selon le statut : rappel, demande de pièces ou annonce de conciliation. Chaque lettre de suivi coûte CHF&nbsp;6.90. Rappel et demande de pièces partent via Pingen avec courrier A inclus. L'annonce de conciliation part aussi directement depuis l'app, en recommandé (+ CHF&nbsp;7.90), avec ta photo du bail et les lettres précédentes en annexe, ou tu peux la télécharger en DOCX et la déposer toi-même.</p>
           <p>Si tu vas à la conciliation, l'app t'aide à trouver l'autorité cantonale de conciliation compétente (source : OFL).</p>
         </div>
       </details>
@@ -365,7 +365,7 @@ permalink: /fr/
       <details>
         <summary>Sur quels appareils Baisse-loyer fonctionne ?</summary>
         <div class="faq__answer">
-          <p>iPhone (iOS&nbsp;15+) et Android (9+). Fonctionne sur smartphone comme sur tablette — l'écran plus grand de la tablette laisse simplement plus de place pour la saisie.</p>
+          <p>iPhone (iOS&nbsp;15+) et Android (9+). Fonctionne sur smartphone comme sur tablette, l'écran plus grand de la tablette laisse simplement plus de place pour la saisie.</p>
         </div>
       </details>
     </div>
