@@ -311,13 +311,84 @@ permalink: /it/
         <p>Vivi da solo/a, in coppia o in coabitazione? Ogni conduttore firma sul dispositivo, la lettera viene formulata automaticamente nella forma giusta. Se un'amministrazione gestisce il tuo appartamento, l'app trova l'indirizzo nel registro svizzero del commercio. Per un locatore o una locatrice privato/a basta digitare il nome.</p>
       </article>
 
-      <article class="bento__card" data-reveal>
-        <span class="bento__icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
-        </span>
-        <h3>Quattro lingue</h3>
-        <p>App e lettere in tedesco, francese, italiano e inglese. Tu scegli la lingua, l'app calcola, La Posta svizzera consegna.</p>
-      </article>
+    </div>
+  </div>
+</section>
+
+<section class="journey" id="journey">
+  <div class="journey__inner">
+    <div class="journey__visual" data-reveal>
+      <div class="phone phone--journey" role="img" aria-label="Dashboard dopo il primo invio con chip 'Hai ricevuto una risposta?' e suggerimento per il prossimo passo">
+        <div class="phone__notch"></div>
+        <div class="phone__screen">
+          <div class="phone__statusbar">
+            <span>13:12</span>
+            <span aria-hidden="true">●●●●● 5G</span>
+          </div>
+          <div class="phone__appbar">
+            <span class="phone__appbar-leading" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </span>
+            <span class="phone__appbar-title">Ribassoaffitto</span>
+            <span class="phone__appbar-action" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </span>
+          </div>
+          <div class="phone__body">
+            <div class="phone__journey-hero">
+              <p class="phone__journey-eyebrow">Pratica in corso</p>
+              <p class="phone__journey-title">Richiesta di ribasso inviata</p>
+              <p class="phone__journey-sub">Posta A · 5.5.2026 · Giorno 12</p>
+            </div>
+            <div class="phone__letter-card">
+              <div class="phone__letter-icon">✉</div>
+              <div class="phone__letter-body">
+                <p class="phone__letter-title">Richiesta di ribasso</p>
+                <p class="phone__letter-meta">Inviata il 5.5.2026</p>
+                <span class="phone__chip">Hai ricevuto una risposta?</span>
+              </div>
+            </div>
+            <div class="phone__rec-card">
+              <p class="phone__rec-label">Suggerito</p>
+              <p class="phone__rec-title">Sollecito tra 18 giorni</p>
+              <p class="phone__rec-sub">Ti ricontattiamo automaticamente.</p>
+            </div>
+          </div>
+          <div class="phone__tabbar" aria-hidden="true">
+            <span class="phone__tab phone__tab--active">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l9.5 8.2v10.3a1 1 0 0 1-1 1h-5.5v-7h-6v7H4.5a1 1 0 0 1-1-1V10.7L12 2.5z"/></svg>
+              </span>
+              <span>Home</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+              </span>
+              <span>Dati</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </span>
+              <span>Lettere</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="19" cy="12" r="1.7"/></svg>
+              </span>
+              <span>Altro</span>
+            </span>
+          </div>
+          <div class="phone__home"></div>
+        </div>
+      </div>
+    </div>
+    <div class="journey__copy" data-reveal>
+      <span class="eyebrow">Tracciamento pratica</span>
+      <h2>Ribassoaffitto pensa per te.</h2>
+      <p>Dopo l'invio, l'app mostra lo stato della pratica. Segna con un tap la risposta del locatore o della locatrice, e l'app suggerisce il passo successivo: <strong>sollecito</strong> in caso di silenzio, <strong>richiesta di motivazione e documenti</strong> in caso di rifiuto, <strong>domanda di conciliazione</strong> come ultima ratio.</p>
+      <p>Se non succede nulla, l'app ti richiama al giorno 30 e 60. Nessun calendario, nessun modello da cercare. Le pratiche chiuse vanno in archivio, una nuova si avvia quando vuoi.</p>
     </div>
   </div>
 </section>

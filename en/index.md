@@ -311,13 +311,84 @@ permalink: /en/
         <p>Living alone, with a partner, or in a shared flat? Each tenant signs on the device, the letter is worded in the right form automatically. If a company manages your flat, the app pulls the address from the Swiss commercial register. For private landlords you just type the name.</p>
       </article>
 
-      <article class="bento__card" data-reveal>
-        <span class="bento__icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
-        </span>
-        <h3>Four languages</h3>
-        <p>App and letters in German, French, Italian and English. You pick a language, the app calculates, Swiss Post delivers.</p>
-      </article>
+    </div>
+  </div>
+</section>
+
+<section class="journey" id="journey">
+  <div class="journey__inner">
+    <div class="journey__visual" data-reveal>
+      <div class="phone phone--journey" role="img" aria-label="Dashboard after first letter dispatch with got-a-reply chip and recommendation for next step">
+        <div class="phone__notch"></div>
+        <div class="phone__screen">
+          <div class="phone__statusbar">
+            <span>13:12</span>
+            <span aria-hidden="true">●●●●● 5G</span>
+          </div>
+          <div class="phone__appbar">
+            <span class="phone__appbar-leading" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </span>
+            <span class="phone__appbar-title">RentReducer</span>
+            <span class="phone__appbar-action" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </span>
+          </div>
+          <div class="phone__body">
+            <div class="phone__journey-hero">
+              <p class="phone__journey-eyebrow">Active case</p>
+              <p class="phone__journey-title">Reduction request mailed</p>
+              <p class="phone__journey-sub">A-Mail · May 5, 2026 · Day 12</p>
+            </div>
+            <div class="phone__letter-card">
+              <div class="phone__letter-icon">✉</div>
+              <div class="phone__letter-body">
+                <p class="phone__letter-title">Reduction request</p>
+                <p class="phone__letter-meta">Sent on May 5, 2026</p>
+                <span class="phone__chip">Got a reply?</span>
+              </div>
+            </div>
+            <div class="phone__rec-card">
+              <p class="phone__rec-label">Suggested</p>
+              <p class="phone__rec-title">Reminder letter in 18 days</p>
+              <p class="phone__rec-sub">We'll ping you automatically.</p>
+            </div>
+          </div>
+          <div class="phone__tabbar" aria-hidden="true">
+            <span class="phone__tab phone__tab--active">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l9.5 8.2v10.3a1 1 0 0 1-1 1h-5.5v-7h-6v7H4.5a1 1 0 0 1-1-1V10.7L12 2.5z"/></svg>
+              </span>
+              <span>Home</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+              </span>
+              <span>Data</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </span>
+              <span>Letters</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="19" cy="12" r="1.7"/></svg>
+              </span>
+              <span>More</span>
+            </span>
+          </div>
+          <div class="phone__home"></div>
+        </div>
+      </div>
+    </div>
+    <div class="journey__copy" data-reveal>
+      <span class="eyebrow">Case tracking</span>
+      <h2>RentReducer thinks ahead.</h2>
+      <p>After the letter goes out, the app shows you the case status. Mark your landlord's response with one tap, and the app suggests the next step: <strong>reminder letter</strong> for silence, <strong>request for explanation and evidence</strong> on refusal, <strong>conciliation petition</strong> as last resort.</p>
+      <p>If nothing happens, the app pings you on day 30 and 60. No calendar reminders to set, no templates to research. Closed cases move to the archive, a new one starts whenever you want.</p>
     </div>
   </div>
 </section>

@@ -311,13 +311,84 @@ permalink: /fr/
         <p>Tu vis seul·e, en couple ou en coloc ? Chaque locataire signe sur l'appareil, la lettre est formulée automatiquement dans la bonne forme. Si une régie gère ton appartement, l'app trouve l'adresse via le registre suisse du commerce. Pour un·e bailleur·esse privé·e, tu saisis simplement le nom.</p>
       </article>
 
-      <article class="bento__card" data-reveal>
-        <span class="bento__icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
-        </span>
-        <h3>Quatre langues</h3>
-        <p>App et lettres en allemand, français, italien et anglais. Tu choisis la langue, l'app calcule, La Poste suisse livre.</p>
-      </article>
+    </div>
+  </div>
+</section>
+
+<section class="journey" id="journey">
+  <div class="journey__inner">
+    <div class="journey__visual" data-reveal>
+      <div class="phone phone--journey" role="img" aria-label="Tableau de bord après l'envoi de la première lettre avec puce 'Une réponse est arrivée ?' et recommandation pour la prochaine étape">
+        <div class="phone__notch"></div>
+        <div class="phone__screen">
+          <div class="phone__statusbar">
+            <span>13:12</span>
+            <span aria-hidden="true">●●●●● 5G</span>
+          </div>
+          <div class="phone__appbar">
+            <span class="phone__appbar-leading" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </span>
+            <span class="phone__appbar-title">Baisse-loyer</span>
+            <span class="phone__appbar-action" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </span>
+          </div>
+          <div class="phone__body">
+            <div class="phone__journey-hero">
+              <p class="phone__journey-eyebrow">Dossier en cours</p>
+              <p class="phone__journey-title">Demande de baisse envoyée</p>
+              <p class="phone__journey-sub">Courrier A · 5.5.2026 · Jour 12</p>
+            </div>
+            <div class="phone__letter-card">
+              <div class="phone__letter-icon">✉</div>
+              <div class="phone__letter-body">
+                <p class="phone__letter-title">Demande de baisse</p>
+                <p class="phone__letter-meta">Envoyée le 5.5.2026</p>
+                <span class="phone__chip">Une réponse est arrivée ?</span>
+              </div>
+            </div>
+            <div class="phone__rec-card">
+              <p class="phone__rec-label">Suggéré</p>
+              <p class="phone__rec-title">Lettre de rappel dans 18 jours</p>
+              <p class="phone__rec-sub">Nous te relançons automatiquement.</p>
+            </div>
+          </div>
+          <div class="phone__tabbar" aria-hidden="true">
+            <span class="phone__tab phone__tab--active">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l9.5 8.2v10.3a1 1 0 0 1-1 1h-5.5v-7h-6v7H4.5a1 1 0 0 1-1-1V10.7L12 2.5z"/></svg>
+              </span>
+              <span>Accueil</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+              </span>
+              <span>Données</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </span>
+              <span>Lettres</span>
+            </span>
+            <span class="phone__tab">
+              <span class="phone__tab-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.7"/><circle cx="12" cy="12" r="1.7"/><circle cx="19" cy="12" r="1.7"/></svg>
+              </span>
+              <span>Plus</span>
+            </span>
+          </div>
+          <div class="phone__home"></div>
+        </div>
+      </div>
+    </div>
+    <div class="journey__copy" data-reveal>
+      <span class="eyebrow">Suivi de dossier</span>
+      <h2>Baisse-loyer pense pour toi.</h2>
+      <p>Une fois la lettre partie, l'app affiche le statut de ton dossier. Marque la réponse de ton·a bailleur·esse d'un tap, et l'app propose l'étape suivante : <strong>lettre de rappel</strong> en cas de silence, <strong>demande de justification et de pièces</strong> en cas de refus, <strong>demande de conciliation</strong> comme dernier recours.</p>
+      <p>Si rien ne se passe, l'app te relance au jour 30 et 60. Pas besoin de calendrier ni de modèles à chercher. Les dossiers clos passent à l'archive, un nouveau commence quand tu veux.</p>
     </div>
   </div>
 </section>
