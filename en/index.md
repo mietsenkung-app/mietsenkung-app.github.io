@@ -9,22 +9,28 @@ permalink: /en/
 
 <section class="hero">
   <div class="hero__bg-trend" aria-hidden="true">
-    <svg viewBox="0 0 800 320" preserveAspectRatio="none">
+    <!-- Real BWO Swiss reference-rate history 2008–2025 (source: bwo.admin.ch).
+         3.50% (Sep 2008) down to 1.25% (today), with a 2023 bump up to 1.75%
+         and 2025 drop back to 1.25%. -->
+    <svg viewBox="0 0 800 300" preserveAspectRatio="none">
       <defs>
         <linearGradient id="heroTrendGrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="#059669" stop-opacity="0.10"/>
           <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
         </linearGradient>
       </defs>
-      <path d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260 L 800 320 L 0 320 Z" fill="url(#heroTrendGrad)"/>
-      <path data-trend-line d="M 0 80 L 60 90 L 120 70 L 180 100 L 240 115 L 300 135 L 360 165 L 420 180 L 480 200 L 540 210 L 600 230 L 660 245 L 720 252 L 800 260" fill="none" stroke="#059669" stroke-width="1.4" stroke-linecap="round" opacity="0.45" stroke-dasharray="1600" stroke-dashoffset="1600">
-        <animate attributeName="stroke-dashoffset" from="1600" to="0" dur="6s" fill="freeze"/>
+      <path d="M 0 60 L 33 80 L 44 100 L 101 120 L 146 140 L 169 160 L 226 180 L 305 200 L 395 220 L 519 240 L 667 220 L 689 200 L 745 220 L 800 240 L 800 300 L 0 300 Z" fill="url(#heroTrendGrad)"/>
+      <path data-trend-line d="M 0 60 L 33 80 L 44 100 L 101 120 L 146 140 L 169 160 L 226 180 L 305 200 L 395 220 L 519 240 L 667 220 L 689 200 L 745 220 L 800 240" fill="none" stroke="#059669" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.50" stroke-dasharray="1500" stroke-dashoffset="1500">
+        <animate attributeName="stroke-dashoffset" from="1500" to="0" dur="7s" fill="freeze"/>
       </path>
-      <g fill="#059669" opacity="0.5">
-        <circle data-trend-dot cx="180" cy="100" r="2.2"><animate attributeName="opacity" values="0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
-        <circle data-trend-dot cx="360" cy="165" r="2.2"><animate attributeName="opacity" values="0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
-        <circle data-trend-dot cx="540" cy="210" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
-        <circle data-trend-dot cx="720" cy="252" r="2.2"><animate attributeName="opacity" values="0;0;0;0;0;0.5;0.5" dur="6s" fill="freeze"/></circle>
+      <g fill="#059669" opacity="0.6">
+        <circle data-trend-dot cx="0"   cy="60"  r="2.5"><animate attributeName="opacity" values="0;0.6;0.6" dur="7s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="44"  cy="100" r="2"><animate attributeName="opacity" values="0;0;0.6;0.6" dur="7s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="146" cy="140" r="2"><animate attributeName="opacity" values="0;0;0;0.6;0.6" dur="7s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="305" cy="200" r="2"><animate attributeName="opacity" values="0;0;0;0;0.6;0.6" dur="7s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="519" cy="240" r="2.5"><animate attributeName="opacity" values="0;0;0;0;0;0.6;0.6" dur="7s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="689" cy="200" r="2.5"><animate attributeName="opacity" values="0;0;0;0;0;0;0.6;0.6" dur="7s" fill="freeze"/></circle>
+        <circle data-trend-dot cx="800" cy="240" r="2.8" fill="#047857"><animate attributeName="opacity" values="0;0;0;0;0;0;0;0.85;0.85" dur="7s" fill="freeze"/></circle>
       </g>
     </svg>
   </div>
