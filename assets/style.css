@@ -977,7 +977,11 @@ img, svg { max-width: 100%; height: auto; display: block; }
     transform: rotate(-2deg);
     transition: transform 0.6s ease;
   }
-  .hero__visual:hover .phone { transform: rotate(0deg) translateY(-4px); }
+  .hero__visual:hover .phone,
+  .journey__visual:hover .phone { transform: rotate(0deg) translateY(-4px); }
+  /* Mirror tilt für zweiten Mock — leicht nach rechts statt links, damit
+     er sich vom Hero-Phone visuell unterscheidet aber denselben Stil hat. */
+  .journey__visual .phone { transform: rotate(2deg); }
 }
 .phone__float {
   position: absolute;
