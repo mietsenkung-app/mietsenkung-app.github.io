@@ -58,6 +58,12 @@
 
   <header class="site-nav" id="top">
     <div class="site-nav__inner">
+      <a class="brand brand--scrolled" href="{{ home | relative_url }}" aria-label="{{ t.brand_aria }}">
+        <span class="brand__mark" aria-hidden="true">
+          <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="24" height="24">
+        </span>
+        <span class="brand__word">{{ t.brand_word }}</span>
+      </a>
       <nav class="site-nav__links" aria-label="{{ t.nav.cta }}">
         <a href="{{ anchor_prefix }}#how">{{ t.nav.how }}</a>
         <a href="{{ anchor_prefix }}#price">{{ t.nav.price }}</a>

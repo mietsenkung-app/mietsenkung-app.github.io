@@ -250,7 +250,7 @@ permalink: /
       <div class="stat" data-reveal>
         <p class="stat__num">2&nbsp;min</p>
         <p class="stat__label">vom Öffnen zum versandfertigen Brief</p>
-        <p class="stat__desc">Keine Vorlagen, keine Word-Dokumente, kein Drucker. Push-Benachrichtigung sobald der Brief unterwegs ist.</p>
+        <p class="stat__desc">Du gibst deinen Mietzins und das Anpassungs-Datum ein, die App übernimmt alles Weitere bis zur Push-Benachrichtigung über den Briefversand.</p>
       </div>
     </div>
   </div>
@@ -289,10 +289,10 @@ permalink: /
 
       <article class="bento__card bento__d" data-reveal>
         <span class="bento__icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-4 9-9 9s-9-4-9-9 4-9 9-9c2 0 4 1 5 2"/></svg>
         </span>
-        <h3>Vier Sprachen</h3>
-        <p>App und Briefe in Deutsch, Französisch, Italienisch und Englisch. Du wählst die Sprache, die App rechnet, die Schweizer Post liefert.</p>
+        <h3>Verfahrens-Begleitung</h3>
+        <p>Pro Wohnung führt die App ein eigenes Verfahren: aktueller Anspruch, alle versendeten Briefe, Status pro Reaktion deiner Vermieter*in (akzeptiert, teilweise, abgelehnt). Erinnerungen nach 30 und 60 Tagen, konkrete Vorschläge für den nächsten Schritt. Abgeschlossene Verfahren wandern ins Archiv, ein neues startet jederzeit.</p>
       </article>
 
       <article class="bento__card bento__e" data-reveal>
@@ -300,7 +300,23 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h18v18H3z"/><path d="M10 8h4M10 12h4M10 16h4M8 8v8M16 8v8"/></svg>
         </span>
         <h3>Vom Begehren bis zur Schlichtung</h3>
-        <p>Mietsenkung kennt vier Brief-Arten: das Senkungsbegehren, das Erinnerungsschreiben bei Schweigen, die Aufforderung zur Begründung samt Belegen, sowie die Schlichtungsklage. Jeder Folgebrief wird im Verfahrens-Kontext der App vorbereitet, mit allen bisherigen Brief-Kopien als Beilage.</p>
+        <p>Vier Brief-Arten in der App: Senkungsbegehren, Erinnerungsschreiben, Begründung &amp; Belege verlangen, Schlichtungsklage. Jeder Folgebrief wird im Verfahrens-Kontext vorbereitet, mit allen bisherigen Brief-Kopien als Beilage. Beim Schlichtungsbrief lädst du den Mietvertrag direkt aus der App hoch, per Foto, Datei oder integriertem Dokument-Scanner.</p>
+      </article>
+
+      <article class="bento__card" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </span>
+        <h3>Genau für deine Situation</h3>
+        <p>Wohnst du allein, mit Partner*in oder in einer WG? Jede Mietpartei unterschreibt einzeln auf dem Gerät, der Brief wird automatisch in der richtigen Form formuliert. Verwaltet eine Firma deine Wohnung, findet die App die Adresse via Schweizer Firmen-Register. Privat-Vermieter*innen tippst du einfach ein.</p>
+      </article>
+
+      <article class="bento__card" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+        </span>
+        <h3>Vier Sprachen</h3>
+        <p>App und Briefe in Deutsch, Französisch, Italienisch und Englisch. Du wählst die Sprache, die App rechnet, die Schweizer Post liefert.</p>
       </article>
     </div>
   </div>
@@ -504,8 +520,8 @@ permalink: /
 
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
-    <h2>Hol dir zurück, was dir zusteht.</h2>
-    <p>2 Minuten Anspruchs-Check. Ein Tap auf Senden. Ab CHF&nbsp;9.90 pro Brief, A-Post inklusive, kein Abo.</p>
+    <h2>Bereit, deinen Anspruch durchzusetzen?</h2>
+    <p>Anspruch prüfen ist gratis. Der Brief geht ab CHF&nbsp;9.90 inklusive Druck und A-Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich Mietsenkung bis zur Schlichtungsbehörde.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>

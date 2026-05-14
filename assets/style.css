@@ -60,7 +60,7 @@
 
   --max-content: 72rem;       /* 1152px */
   --max-prose:   42rem;       /*  672px legal pages */
-  --pad-x:       clamp(1rem, 4vw, 2rem);
+  --pad-x:       clamp(1.25rem, 4vw, 2rem);
 }
 
 /* ---------- 2. Base ---------- */
@@ -128,15 +128,15 @@ img, svg { max-width: 100%; height: auto; display: block; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.78);
-  backdrop-filter: saturate(180%) blur(14px);
-  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  background: var(--paper-warm);
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease, background 0.2s ease;
 }
 .site-nav.is-scrolled {
   border-bottom-color: var(--line-soft);
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(250, 249, 246, 0.92);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
 }
 .site-nav__inner {
   max-width: var(--max-content);
@@ -157,7 +157,22 @@ img, svg { max-width: 100%; height: auto; display: block; }
   font-size: 17px;
 }
 .brand__mark { color: var(--emerald); display: inline-flex; }
+.brand__mark img { border-radius: 6px; display: block; }
 .brand:hover { color: var(--emerald-deep); }
+/* Sticky-scroll brand: erscheint im Header sobald die User scrolled hat
+   (>24px). Vorher unsichtbar, damit Header beim Landing minimal bleibt
+   und der Hero-Brand-Block die primäre Markenidentität trägt. */
+.brand--scrolled {
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.site-nav.is-scrolled .brand--scrolled {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
 .site-nav__links {
   display: none;
   margin-left: auto;

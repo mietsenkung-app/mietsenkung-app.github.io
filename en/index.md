@@ -250,7 +250,7 @@ permalink: /en/
       <div class="stat" data-reveal>
         <p class="stat__num">2&nbsp;min</p>
         <p class="stat__label">from open to ready-to-send</p>
-        <p class="stat__desc">No templates, no Word docs, no printer. Push notification when the letter is on its way.</p>
+        <p class="stat__desc">You enter your rent and the adjustment date, the app handles everything else through to the push confirmation that the letter is in the mail.</p>
       </div>
     </div>
   </div>
@@ -289,10 +289,10 @@ permalink: /en/
 
       <article class="bento__card bento__d" data-reveal>
         <span class="bento__icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-4 9-9 9s-9-4-9-9 4-9 9-9c2 0 4 1 5 2"/></svg>
         </span>
-        <h3>Four languages</h3>
-        <p>App and letters in German, French, Italian and English. You pick a language, the app calculates, Swiss Post delivers.</p>
+        <h3>Case-by-case guidance</h3>
+        <p>Each apartment gets its own case: current claim, every letter sent, status per landlord response (accepted, partial, refused). Reminders at 30 and 60 days, concrete suggestions for the next step. Closed cases move to the archive, a new one starts any time.</p>
       </article>
 
       <article class="bento__card bento__e" data-reveal>
@@ -300,7 +300,23 @@ permalink: /en/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h18v18H3z"/><path d="M10 8h4M10 12h4M10 16h4M8 8v8M16 8v8"/></svg>
         </span>
         <h3>From request to conciliation</h3>
-        <p>RentReducer knows four letter types: the reduction request, the reminder letter for silence, the request for explanation and evidence on refusal, and the conciliation petition. Each follow-up is prepared in the case context of the app, with copies of all prior letters attached.</p>
+        <p>Four letter types in the app: reduction request, reminder letter, request for explanation and evidence, conciliation petition. Each follow-up is prepared in the case context, with all prior letter copies attached. For the conciliation letter you upload the lease directly from the app, by photo, file or built-in document scanner.</p>
+      </article>
+
+      <article class="bento__card" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </span>
+        <h3>Built for your situation</h3>
+        <p>Living alone, with a partner, or in a shared flat? Each tenant signs on the device, the letter is worded in the right form automatically. If a company manages your flat, the app pulls the address from the Swiss commercial register. For private landlords you just type the name.</p>
+      </article>
+
+      <article class="bento__card" data-reveal>
+        <span class="bento__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+        </span>
+        <h3>Four languages</h3>
+        <p>App and letters in German, French, Italian and English. You pick a language, the app calculates, Swiss Post delivers.</p>
       </article>
     </div>
   </div>
@@ -480,8 +496,8 @@ permalink: /en/
 
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
-    <h2>Get back what you're owed.</h2>
-    <p>2 minutes claim check. One tap to send. From CHF&nbsp;9.90 per letter, A-Mail included, no subscription.</p>
+    <h2>Ready to claim what's yours?</h2>
+    <p>The claim check is free. The letter starts at CHF&nbsp;9.90 including print and A-Mail. If your landlord stays silent or refuses, RentReducer guides you all the way to the conciliation authority.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Download RentReducer on the App Store">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
