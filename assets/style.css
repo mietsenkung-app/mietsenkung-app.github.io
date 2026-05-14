@@ -288,6 +288,22 @@ img, svg { max-width: 100%; height: auto; display: block; }
   height: 100%;
   display: block;
 }
+/* Mobile: Hero stackt vertikal sehr hoch (Brand → Eyebrow → H1 → Sub → CTA
+   → QR → Trust → Phone-Mock). Das SVG mit preserveAspectRatio="none"
+   stretchte zuvor über die volle Höhe und wirkte "krass senkend".
+   Cappe es daher auf den oberen Bereich (bis ungefähr zu den Store-Buttons)
+   und lass es sanft nach unten ausfaden. */
+@media (max-width: 960px) {
+  .hero__bg-trend {
+    inset: 0 0 auto 0;
+    height: 480px;
+    mask-image: linear-gradient(180deg, black 0%, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(180deg, black 0%, black 80%, transparent 100%);
+  }
+}
+@media (max-width: 480px) {
+  .hero__bg-trend { height: 420px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .hero__bg-trend svg path[data-trend-line],
   .hero__bg-trend svg circle[data-trend-dot] {
