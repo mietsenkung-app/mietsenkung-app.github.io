@@ -263,11 +263,14 @@ img, svg { max-width: 100%; height: auto; display: block; }
 /* ---------- 5. Hero ---------- */
 .hero {
   position: relative;
-  padding: var(--sp-20) var(--pad-x) var(--sp-16);
+  padding: var(--sp-10) var(--pad-x) var(--sp-16);
   /* Single subtle vertical gradient instead of multi-color SaaS-atmospheric
      glows. Editorial-feel: one warm-paper tone fading to neutral paper. */
   background: linear-gradient(180deg, var(--paper-warm) 0%, var(--paper) 70%);
   overflow: hidden;
+}
+@media (max-width: 720px) {
+  .hero { padding-top: var(--sp-6); }
 }
 .hero::before { display: none; }
 
