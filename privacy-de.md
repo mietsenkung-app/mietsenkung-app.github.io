@@ -112,7 +112,7 @@ Wir arbeiten mit wenigen, sorgfältig ausgewählten Auftragsverarbeitern zusamme
 ### 4.4 Pingen (Pingen AG, Industriestrasse 27, 8304 Wallisellen, Schweiz)
 
 - **Zweck:** physischer Druck und Zustellung von Briefen, die du aus der App verschickst.
-- **Was übertragen wird:** Absender-Name und -Adresse, Empfänger-Name und -Adresse, vollständiger Brief-Inhalt als PDF inklusive eingebetteter Signatur, Kanal (A-Post oder Einschreiben), eine Idempotency-UUID.
+- **Was übertragen wird:** Absender-Name und -Adresse, Empfänger-Name und -Adresse, vollständiger Brief-Inhalt als PDF inklusive eingebetteter Signatur, Kanal (Standardbrief oder Einschreiben), eine Idempotency-UUID.
 - **Rechtsgrundlage:** Vertragserfüllung (Art. 31 Abs. 1 lit. a nDSG). Der Versand erfolgt nur auf aktive Auslösung durch dich.
 - **Serverstandort:** Schweiz.
 - **Aufbewahrung:** Pingen bewahrt Versand-Nachweise für 90 Tage auf. Danach Löschung gemäss Pingen-Datenschutzerklärung.

@@ -112,7 +112,7 @@ Nous travaillons avec un nombre restreint de sous-traitants soigneusement sélec
 ### 4.4 Pingen (Pingen AG, Industriestrasse 27, 8304 Wallisellen, Suisse)
 
 - **But:** impression et acheminement physiques des lettres que tu envoies depuis l'application.
-- **Ce qui est transmis:** nom et adresse de l'expéditeur·rice, nom et adresse du·de la destinataire, contenu complet de la lettre en PDF y compris la signature intégrée, canal (courrier A ou recommandé), un UUID d'idempotence.
+- **Ce qui est transmis:** nom et adresse de l'expéditeur·rice, nom et adresse du·de la destinataire, contenu complet de la lettre en PDF y compris la signature intégrée, canal (lettre standard ou recommandé), un UUID d'idempotence.
 - **Base légale:** exécution du contrat (art. 31 al. 1 let. a nLPD). L'envoi a lieu uniquement sur ton déclenchement actif.
 - **Localisation des serveurs:** Suisse.
 - **Conservation:** Pingen conserve les preuves d'envoi pendant 90 jours. Suppression ensuite conformément à la politique de Pingen.

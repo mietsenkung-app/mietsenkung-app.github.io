@@ -66,7 +66,7 @@ permalink: /en/
         </a>
       </div>
 
-      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Claim check + rate alert free</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Letter from <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">A-Mail included</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">No subscription</span></p>
+      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Claim check + rate alert free</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Letter from <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">letter delivery included</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">No subscription</span></p>
 
       <div class="qr-install" aria-label="QR codes to install the app">
         <p class="qr-install__hint">On a laptop? Scan with your phone:</p>
@@ -213,7 +213,7 @@ permalink: /en/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
         </span>
         <h3>One tap to send</h3>
-        <p>The app generates your reduction request with your finger-signature, hands it off encrypted to our Swiss postal partner, and mails it as A-Mail or registered. You get a push confirmation.</p>
+        <p>The app generates your reduction request with your finger-signature, hands it off encrypted to our Swiss postal partner, and mails it as a standard letter or registered. You get a push confirmation.</p>
         <span class="step__time">≈ 3&nbsp;sec · from CHF&nbsp;9.90</span>
       </article>
 
@@ -338,7 +338,7 @@ permalink: /en/
             <div class="phone__journey-hero">
               <p class="phone__journey-eyebrow">Active case</p>
               <p class="phone__journey-title">Reduction request mailed</p>
-              <p class="phone__journey-sub">A-Mail · May 5, 2026 · Day 12</p>
+              <p class="phone__journey-sub">Sent · May 5, 2026 · Day 12</p>
             </div>
             <div class="phone__letter-card">
               <div class="phone__letter-icon">✉</div>
@@ -419,7 +419,7 @@ permalink: /en/
         <span class="price-card__tag">Popular</span>
         <p class="price-card__name">Letter mailing</p>
         <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;to 29.90</span></p>
-        <p class="price-card__price-sub">once per letter · A-Mail included</p>
+        <p class="price-card__price-sub">once per letter · letter delivery included</p>
         <ul class="price-card__list">
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Reduction request as a legally compliant&nbsp;PDF</li>
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Print + delivery by Swiss postal partner</li>
@@ -460,7 +460,7 @@ permalink: /en/
       <details>
         <summary>What does the app actually cost?</summary>
         <div class="faq__answer">
-          <p>The app is free. Claim check and rate alert stay free. You only pay for mailing the letter: a one-time CHF&nbsp;9.90 to 29.90 depending on your monthly saving. Included: letter generation, A-Mail print and delivery by our Swiss postal partner.</p>
+          <p>The app is free. Claim check and rate alert stay free. You only pay for mailing the letter: a one-time CHF&nbsp;9.90 to 29.90 depending on your monthly saving. Included: letter generation, print and delivery by our Swiss postal partner.</p>
           <p>Optional: Registered with tracking (+ CHF&nbsp;7.90). Follow-up letters at CHF&nbsp;6.90 each, the <strong>reminder letter</strong> and <strong>request for explanation and evidence</strong> go out automatically via Pingen. The <strong>conciliation petition</strong> also goes from the app, as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and all prior letter copies attached. Prefer to mail it yourself? You can also download it as a <strong>Word file</strong>.</p>
         </div>
       </details>
@@ -492,7 +492,7 @@ permalink: /en/
       <details>
         <summary>What if my landlord doesn't reply?</summary>
         <div class="faq__answer">
-          <p><strong>RentReducer</strong> reminds you automatically after <strong>30 and 60 days</strong>. At every reminder you can fire the right follow-up letter with one tap, by status: <strong>reminder letter</strong>, <strong>request for explanation and evidence</strong>, or <strong>conciliation petition</strong>. Each follow-up letter costs CHF&nbsp;6.90. The reminder letter and request for explanation go via Pingen with A-Mail included. The conciliation petition also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached, or you can download it as a <strong>Word file</strong> and mail it yourself.</p>
+          <p><strong>RentReducer</strong> reminds you automatically after <strong>30 and 60 days</strong>. At every reminder you can fire the right follow-up letter with one tap, by status: <strong>reminder letter</strong>, <strong>request for explanation and evidence</strong>, or <strong>conciliation petition</strong>. Each follow-up letter costs CHF&nbsp;6.90. The reminder letter and request for explanation go via Pingen with letter delivery included. The conciliation petition also goes straight from the app as registered mail (+ CHF&nbsp;7.90) with your uploaded lease photo and prior letter copies attached, or you can download it as a <strong>Word file</strong> and mail it yourself.</p>
           <p>If you go to conciliation, the app helps you with the directory of the cantonal conciliation authority (source: BWO).</p>
         </div>
       </details>
@@ -568,7 +568,7 @@ permalink: /en/
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
     <h2>Ready to claim what's yours?</h2>
-    <p>The claim check is free. The letter starts at CHF&nbsp;9.90 including print and A-Mail. If your landlord stays silent or refuses, <strong>RentReducer</strong> guides you all the way to the conciliation authority.</p>
+    <p>The claim check is free. The letter starts at CHF&nbsp;9.90 including print and delivery. If your landlord stays silent or refuses, <strong>RentReducer</strong> guides you all the way to the conciliation authority.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Download RentReducer on the App Store">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>

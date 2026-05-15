@@ -112,7 +112,7 @@ We work with a small number of carefully selected data processors. Each is liste
 ### 4.4 Pingen (Pingen AG, Industriestrasse 27, 8304 Wallisellen, Switzerland)
 
 - **Purpose:** physical printing and delivery of letters you send from the app.
-- **What is transferred:** sender name and address, recipient name and address, full letter content as PDF including embedded signature, channel (A-Post or registered), an idempotency UUID.
+- **What is transferred:** sender name and address, recipient name and address, full letter content as PDF including embedded signature, channel (standard letter or registered), an idempotency UUID.
 - **Legal basis:** contract performance (Art. 31 para. 1 lit. a nDSG). Dispatch happens only when you actively trigger it.
 - **Server location:** Switzerland.
 - **Retention:** Pingen retains dispatch evidence for 90 days, then deletes it according to their privacy policy.

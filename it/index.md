@@ -66,7 +66,7 @@ permalink: /it/
         </a>
       </div>
 
-      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Verifica del diritto + allarme tasso gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettera da <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Posta A inclusa</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Senza abbonamento</span></p>
+      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Verifica del diritto + allarme tasso gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettera da <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Invio incluso</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Senza abbonamento</span></p>
 
       <div class="qr-install" aria-label="QR code per installare l'app">
         <p class="qr-install__hint">Sul computer? Scansiona con lo smartphone:</p>
@@ -213,7 +213,7 @@ permalink: /it/
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
         </span>
         <h3>Un tap su Invia</h3>
-        <p>L'app genera la richiesta di ribasso con la tua firma a dito, la trasmette cifrata al nostro partner postale svizzero e la spedisce in posta A o raccomandata. Ricevi una notifica di conferma.</p>
+        <p>L'app genera la richiesta di ribasso con la tua firma a dito, la trasmette cifrata al nostro partner postale svizzero e la spedisce come lettera standard o raccomandata. Ricevi una notifica di conferma.</p>
         <span class="step__time">≈ 3&nbsp;sec · da CHF&nbsp;9.90</span>
       </article>
 
@@ -338,7 +338,7 @@ permalink: /it/
             <div class="phone__journey-hero">
               <p class="phone__journey-eyebrow">Pratica in corso</p>
               <p class="phone__journey-title">Richiesta di ribasso inviata</p>
-              <p class="phone__journey-sub">Posta A · 5.5.2026 · Giorno 12</p>
+              <p class="phone__journey-sub">Inviata · 5.5.2026 · Giorno 12</p>
             </div>
             <div class="phone__letter-card">
               <div class="phone__letter-icon">✉</div>
@@ -419,7 +419,7 @@ permalink: /it/
         <span class="price-card__tag">Popolare</span>
         <p class="price-card__name">Spedizione lettera</p>
         <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;a 29.90</span></p>
-        <p class="price-card__price-sub">una volta per lettera · posta A inclusa</p>
+        <p class="price-card__price-sub">una volta per lettera · invio incluso</p>
         <ul class="price-card__list">
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Richiesta di ribasso come PDF giuridicamente&nbsp;valido</li>
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Stampa + consegna dal nostro partner postale svizzero</li>
@@ -459,7 +459,7 @@ permalink: /it/
       <details>
         <summary>Quanto costa davvero l'app?</summary>
         <div class="faq__answer">
-          <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e consegna posta A dal nostro partner postale svizzero.</p>
+          <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e consegna dal nostro partner postale svizzero.</p>
           <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna, il <strong>sollecito</strong> e la <strong>richiesta di motivazione e documenti</strong> partono automaticamente via Pingen. La <strong>domanda di conciliazione</strong> parte anch'essa dall'app, come raccomandata (+ CHF&nbsp;7.90) con la foto del contratto caricata da te e tutte le lettere precedenti in allegato. Preferisci portarla tu alla Posta? Puoi anche scaricarla come <strong>file Word</strong>.</p>
         </div>
       </details>
@@ -491,7 +491,7 @@ permalink: /it/
       <details>
         <summary>E se il locatore o la locatrice non risponde?</summary>
         <div class="faq__answer">
-          <p><strong>Ribassoaffitto</strong> ti ricorda automaticamente dopo <strong>30 e 60 giorni</strong>. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: <strong>sollecito</strong>, <strong>richiesta di motivazione e documenti</strong> o <strong>domanda di conciliazione</strong>. Ogni lettera successiva costa CHF&nbsp;6.90. Il sollecito e la richiesta di motivazione vanno via Pingen con Posta A inclusa. La domanda di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato, oppure puoi scaricarla come <strong>file Word</strong> e depositarla tu stesso/a.</p>
+          <p><strong>Ribassoaffitto</strong> ti ricorda automaticamente dopo <strong>30 e 60 giorni</strong>. A ogni promemoria puoi attivare con un tap la lettera successiva giusta, secondo lo stato: <strong>sollecito</strong>, <strong>richiesta di motivazione e documenti</strong> o <strong>domanda di conciliazione</strong>. Ogni lettera successiva costa CHF&nbsp;6.90. Il sollecito e la richiesta di motivazione vanno via Pingen con Invio incluso. La domanda di conciliazione parte anche direttamente dall'app, come raccomandata (+ CHF&nbsp;7.90), con la foto del contratto caricata da te e le lettere precedenti in allegato, oppure puoi scaricarla come <strong>file Word</strong> e depositarla tu stesso/a.</p>
           <p>Se vai in conciliazione, l'app ti aiuta con l'elenco dell'autorità cantonale di conciliazione competente (fonte: UFAB).</p>
         </div>
       </details>
@@ -567,7 +567,7 @@ permalink: /it/
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
     <h2>Pronto/a a far valere la tua pretesa?</h2>
-    <p>La verifica del diritto è gratuita. La lettera parte da CHF&nbsp;9.90 inclusa stampa e Posta A. Se il locatore o la locatrice resta in silenzio o rifiuta, <strong>Ribassoaffitto</strong> ti accompagna fino all'autorità di conciliazione.</p>
+    <p>La verifica del diritto è gratuita. La lettera parte da CHF&nbsp;9.90 inclusa stampa e invio. Se il locatore o la locatrice resta in silenzio o rifiuta, <strong>Ribassoaffitto</strong> ti accompagna fino all'autorità di conciliazione.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Scarica Ribassoaffitto su App Store">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>

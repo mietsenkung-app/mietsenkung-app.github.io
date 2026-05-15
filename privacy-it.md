@@ -112,7 +112,7 @@ Lavoriamo con un numero ridotto di responsabili del trattamento accuratamente se
 ### 4.4 Pingen (Pingen AG, Industriestrasse 27, 8304 Wallisellen, Svizzera)
 
 - **Scopo:** stampa e recapito fisico delle lettere che invii dall'app.
-- **Cosa viene trasmesso:** nome e indirizzo del/della mittente, nome e indirizzo del/della destinatario/a, contenuto completo della lettera in PDF inclusa la firma incorporata, canale (Posta A o raccomandata), un UUID di idempotenza.
+- **Cosa viene trasmesso:** nome e indirizzo del/della mittente, nome e indirizzo del/della destinatario/a, contenuto completo della lettera in PDF inclusa la firma incorporata, canale (lettera standard o raccomandata), un UUID di idempotenza.
 - **Base giuridica:** esecuzione del contratto (art. 31 cpv. 1 lett. a nLPD). L'invio avviene solo dopo un'attivazione attiva da parte tua.
 - **Sede dei server:** Svizzera.
 - **Conservazione:** Pingen conserva le prove di invio per 90 giorni. In seguito cancellazione conformemente all'informativa privacy di Pingen.

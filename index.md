@@ -66,7 +66,7 @@ permalink: /
         </a>
       </div>
 
-      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Anspruch prüfen + Zins-Alarm gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Brief ab <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">A-Post inklusive</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Kein Abo</span></p>
+      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Anspruch prüfen + Zins-Alarm gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Brief ab <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Brief-Versand inklusive</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Kein Abo</span></p>
 
       <div class="qr-install" aria-label="QR-Codes zum Installieren der App">
         <p class="qr-install__hint">Am Laptop? Mit Smartphone scannen:</p>
@@ -213,7 +213,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
         </span>
         <h3>Ein Tap auf Senden</h3>
-        <p>Die App generiert dein Senkungsbegehren mit deiner Unterschrift, übergibt es verschlüsselt an unseren Schweizer Post-Partner und der versendet als A-Post oder Einschreiben. Du erhältst eine Push-Bestätigung.</p>
+        <p>Die App generiert dein Senkungsbegehren mit deiner Unterschrift, übergibt es verschlüsselt an unseren Schweizer Post-Partner und der versendet als Standardbrief oder Einschreiben. Du erhältst eine Push-Bestätigung.</p>
         <span class="step__time">≈ 3&nbsp;sek · ab CHF&nbsp;9.90</span>
       </article>
 
@@ -338,7 +338,7 @@ permalink: /
             <div class="phone__journey-hero">
               <p class="phone__journey-eyebrow">Aktuelles Verfahren</p>
               <p class="phone__journey-title">Senkungsbegehren versendet</p>
-              <p class="phone__journey-sub">A-Post · 5.5.2026 · Tag 12</p>
+              <p class="phone__journey-sub">Versendet · 5.5.2026 · Tag 12</p>
             </div>
             <div class="phone__letter-card">
               <div class="phone__letter-icon">✉</div>
@@ -431,7 +431,7 @@ permalink: /
         <span class="price-card__tag">Beliebt</span>
         <p class="price-card__name">Brief-Versand</p>
         <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;bis 29.90</span></p>
-        <p class="price-card__price-sub">einmalig pro Brief · A-Post inklusive</p>
+        <p class="price-card__price-sub">einmalig pro Brief · Brief-Versand inklusive</p>
         <ul class="price-card__list">
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
@@ -453,7 +453,7 @@ permalink: /
         <div class="price-card__addons">
           <strong>Add-Ons (optional, einzeln):</strong>
           <div class="price-card__addons-grid">
-            <div class="price-card__addons-row"><span>Einschreiben statt A-Post (mit Tracking)</span><strong>+ CHF 7.90</strong></div>
+            <div class="price-card__addons-row"><span>Einschreiben optional (mit Tracking)</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Folgebrief Erinnerung / Unterlagen (via Pingen)</span><strong>CHF 6.90</strong></div>
             <div class="price-card__addons-row"><span>Folgebrief Schlichtungsklage als Einschreiben mit Mietvertrag-Foto und Brief-Historie als Beilage (oder Word-Download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
@@ -484,8 +484,8 @@ permalink: /
       <details>
         <summary>Was kostet mich die App wirklich?</summary>
         <div class="faq__answer">
-          <p>Die App selbst ist gratis. Der Anspruchs-Check und der Zins-Alarm sind dauerhaft kostenlos. Bezahlt wird nur der Brief-Versand: einmalig CHF&nbsp;9.90 bis 29.90, je nach deiner monatlichen Ersparnis. Im Preis enthalten: Brief-Generierung, A-Post-Druck und -Zustellung durch unseren Schweizer Post-Partner.</p>
-          <p>Optional: Einschreiben statt A-Post (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90, <strong>Erinnerungsschreiben</strong> und <strong>Begründung &amp; Belege verlangen</strong> gehen automatisch via Pingen. Die <strong>Schlichtungsklage</strong> geht ebenfalls aus der App, als Einschreiben (+ CHF&nbsp;7.90) mit Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen. Wer lieber selbst zur Post will, kann sie auch als <strong>Word-Datei</strong> herunterladen.</p>
+          <p>Die App selbst ist gratis. Der Anspruchs-Check und der Zins-Alarm sind dauerhaft kostenlos. Bezahlt wird nur der Brief-Versand: einmalig CHF&nbsp;9.90 bis 29.90, je nach deiner monatlichen Ersparnis. Im Preis enthalten: Brief-Generierung, Druck und Zustellung durch unseren Schweizer Post-Partner.</p>
+          <p>Optional: Einschreiben optional (+ CHF&nbsp;7.90, mit Sendungsverfolgung). Folgebriefe je CHF&nbsp;6.90, <strong>Erinnerungsschreiben</strong> und <strong>Begründung &amp; Belege verlangen</strong> gehen automatisch via Pingen. Die <strong>Schlichtungsklage</strong> geht ebenfalls aus der App, als Einschreiben (+ CHF&nbsp;7.90) mit Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen. Wer lieber selbst zur Post will, kann sie auch als <strong>Word-Datei</strong> herunterladen.</p>
         </div>
       </details>
 
@@ -516,7 +516,7 @@ permalink: /
       <details>
         <summary>Was, wenn mein*e Vermieter*in nicht antwortet?</summary>
         <div class="faq__answer">
-          <p><strong>Mietsenkung</strong> erinnert dich automatisch nach <strong>30 und 60 Tagen</strong>. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: <strong>Erinnerungsschreiben</strong>, <strong>Begründung &amp; Belege verlangen</strong> oder <strong>Schlichtungsklage</strong>. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerungsschreiben und Begründung &amp; Belege gehen via Pingen mit A-Post inklusive. Die Schlichtungsklage geht direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen, alternativ kannst du sie als <strong>Word-Datei</strong> herunterladen und selber einreichen.</p>
+          <p><strong>Mietsenkung</strong> erinnert dich automatisch nach <strong>30 und 60 Tagen</strong>. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: <strong>Erinnerungsschreiben</strong>, <strong>Begründung &amp; Belege verlangen</strong> oder <strong>Schlichtungsklage</strong>. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerungsschreiben und Begründung &amp; Belege gehen via Pingen mit Brief-Versand inklusive. Die Schlichtungsklage geht direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen, alternativ kannst du sie als <strong>Word-Datei</strong> herunterladen und selber einreichen.</p>
           <p>Wenn du in die Schlichtung gehst, hilft dir die App mit der Verzeichnis-Suche der zuständigen kantonalen Schlichtungsbehörde (Quelle: BWO).</p>
         </div>
       </details>
@@ -592,7 +592,7 @@ permalink: /
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
     <h2>Bereit, deinen Anspruch durchzusetzen?</h2>
-    <p>Anspruch prüfen ist gratis. Der Brief geht ab CHF&nbsp;9.90 inklusive Druck und A-Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich <strong>Mietsenkung</strong> bis zur Schlichtungsbehörde.</p>
+    <p>Anspruch prüfen ist gratis. Der Brief geht ab CHF&nbsp;9.90 inklusive Druck und Versand. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich <strong>Mietsenkung</strong> bis zur Schlichtungsbehörde.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
