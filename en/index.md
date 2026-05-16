@@ -430,7 +430,7 @@ permalink: /en/
           <strong>Add-ons (optional, à la carte):</strong>
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Registered with tracking</span><strong>+ CHF 7.90</strong></div>
-            <div class="price-card__addons-row"><span>Follow-up reminder / document request (via Pingen)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Follow-up reminder / document request (via Pingen, repeatable)</span><strong>CHF 6.90</strong></div>
             <div class="price-card__addons-row"><span>Follow-up conciliation petition as registered mail with lease photo and prior letters attached (or Word download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>

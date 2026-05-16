@@ -430,7 +430,7 @@ permalink: /it/
           <strong>Opzioni (à la carte):</strong>
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Raccomandata con tracciamento</span><strong>+ CHF 7.90</strong></div>
-            <div class="price-card__addons-row"><span>Lettera successiva sollecito / documenti (via Pingen)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Lettera successiva sollecito / documenti (via Pingen, reinviabile)</span><strong>CHF 6.90</strong></div>
             <div class="price-card__addons-row"><span>Domanda di conciliazione come raccomandata con foto del contratto e lettere precedenti in allegato (o download Word)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>

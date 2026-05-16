@@ -430,7 +430,7 @@ permalink: /fr/
           <strong>Options (à la carte) :</strong>
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Recommandé avec suivi</span><strong>+ CHF 7.90</strong></div>
-            <div class="price-card__addons-row"><span>Suivi rappel / demande de pièces (via Pingen)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Suivi rappel / demande de pièces (via Pingen, renvoyable)</span><strong>CHF 6.90</strong></div>
             <div class="price-card__addons-row"><span>Demande de conciliation en recommandé avec photo du bail et lettres précédentes en annexe (ou téléchargement Word)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>

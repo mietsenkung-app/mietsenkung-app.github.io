@@ -454,7 +454,7 @@ permalink: /
           <strong>Add-Ons (optional, einzeln):</strong>
           <div class="price-card__addons-grid">
             <div class="price-card__addons-row"><span>Einschreiben optional (mit Tracking)</span><strong>+ CHF 7.90</strong></div>
-            <div class="price-card__addons-row"><span>Folgebrief Erinnerung / Unterlagen (via Pingen)</span><strong>CHF 6.90</strong></div>
+            <div class="price-card__addons-row"><span>Folgebrief Erinnerung / Unterlagen (via Pingen, beliebig oft buchbar)</span><strong>CHF 6.90</strong></div>
             <div class="price-card__addons-row"><span>Folgebrief Schlichtungsklage als Einschreiben mit Mietvertrag-Foto und Brief-Historie als Beilage (oder Word-Download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>
         </div>
