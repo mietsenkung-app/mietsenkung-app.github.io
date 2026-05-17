@@ -53,12 +53,16 @@
   {% for entry in site.data.i18n.urls %}<link rel="alternate" hreflang="{{ entry[0] }}" href="{{ entry[1] | relative_url }}">{% endfor %}
   <link rel="alternate" hreflang="x-default" href="{{ '/' | relative_url }}">
 </head>
-<body>
+{% assign is_landing = false %}
+{% if page.url == "/" or page.url == "/fr/" or page.url == "/it/" or page.url == "/en/" %}
+  {% assign is_landing = true %}
+{% endif %}
+<body class="{% if is_landing %}is-landing{% else %}is-subpage{% endif %}">
   <a class="skip-link" href="#main">{{ t.skip }}</a>
 
   <header class="site-nav" id="top">
     <div class="site-nav__inner">
-      <a class="brand brand--scrolled" href="{{ home | relative_url }}" aria-label="{{ t.brand_aria }}">
+      <a class="brand{% if is_landing %} brand--scrolled{% endif %}" href="{{ home | relative_url }}" aria-label="{{ t.brand_aria }}">
         <span class="brand__mark" aria-hidden="true">
           <img src="{{ '/assets/app_icon.svg' | relative_url }}" alt="" width="24" height="24">
         </span>
