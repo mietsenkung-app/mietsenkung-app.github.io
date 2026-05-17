@@ -190,6 +190,90 @@ permalink: /it/
   </div>
 </section>
 
+<section class="section barriers" id="barriers">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Perché la maggior parte non agisce</span>
+    <h2 class="section-title" data-reveal>Il diritto esiste. La legge è chiara. Ma tre motivi trattengono la maggior parte.</h2>
+    <p class="section-lead" data-reveal>Quando il tasso d'interesse di riferimento scende, hai diritto secondo il diritto federale a una riduzione dell'affitto. Tuttavia solo il 12&nbsp;% degli aventi diritto la richiede attivamente. Ecco i tre motivi più frequenti e come <strong>Ribassoaffitto</strong> li risolve.</p>
+
+    <div class="barriers__grid">
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">01</span>
+        <h3>«&nbsp;Non sapevo di avere questo diritto&nbsp;»</h3>
+        <p>Il tasso d'interesse di riferimento viene pubblicato nel Foglio federale. I locatori non sono tenuti ad annunciare attivamente le riduzioni. Migliaia di inquilini pagano per anni troppo, senza mai reagire.</p>
+        <p class="barrier__solution"><strong>Ribassoaffitto</strong> monitora il tasso e ti avvisa appena hai diritto a una riduzione.</p>
+      </article>
+
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">02</span>
+        <h3>«&nbsp;Ho perso il termine&nbsp;»</h3>
+        <p>Una richiesta di riduzione deve essere presentata in tempo per la prossima scadenza di disdetta. Una volta passata, aspetti un altro trimestre per la riduzione.</p>
+        <p class="barrier__solution"><strong>Ribassoaffitto</strong> calcola automaticamente la prossima scadenza e invia in tempo per posta.</p>
+      </article>
+
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">03</span>
+        <h3>«&nbsp;Ho paura della reazione del mio locatore&nbsp;»</h3>
+        <p>Molti inquilini temono che una richiesta di riduzione possa pesare sul rapporto. La paura è comprensibile. Ma il diritto è inequivocabile&nbsp;: art.&nbsp;271a&nbsp;CO ti protegge dalle disdette di ritorsione per tre anni dopo una legittima richiesta.</p>
+        <p class="barrier__solution"><strong>Ribassoaffitto</strong> formula in modo fattuale e giuridicamente corretto. Migliaia di richieste annuali, senza conseguenze.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section savings" id="savings">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Quanto vale il tuo diritto</span>
+    <h2 class="section-title" data-reveal>Più scaglioni di riduzione hai perso, più denaro c'è sul tavolo.</h2>
+    <p class="section-lead" data-reveal>Il tasso d'interesse di riferimento è sceso quattro volte dal 2023, da 1.75&nbsp;% a 1.50&nbsp;% e oggi a 1.25&nbsp;%. Per ogni scaglione di 0.25 punti, hai diritto a circa <strong>2.91&nbsp;%</strong> di affitto netto in meno (art.&nbsp;13&nbsp;OLAL). Orientamento approssimativo&nbsp;:</p>
+
+    <div class="savings__table-wrap" data-reveal>
+      <table class="savings__table">
+        <thead>
+          <tr>
+            <th>Scaglioni persi</th>
+            <th>Riduzione lorda</th>
+            <th>Affitto 1'200&nbsp;.–</th>
+            <th>Affitto 1'800&nbsp;.–</th>
+            <th>Affitto 2'400&nbsp;.–</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 scaglione<br><span class="savings__hint">ultimo adeguamento a 1.50&nbsp;%</span></td>
+            <td>2.91&nbsp;%</td>
+            <td>CHF&nbsp;419 / anno</td>
+            <td>CHF&nbsp;629 / anno</td>
+            <td>CHF&nbsp;838 / anno</td>
+          </tr>
+          <tr>
+            <td>2 scaglioni<br><span class="savings__hint">ultimo adeguamento a 1.75&nbsp;%</span></td>
+            <td>5.73&nbsp;%</td>
+            <td>CHF&nbsp;825 / anno</td>
+            <td>CHF&nbsp;1'238 / anno</td>
+            <td>CHF&nbsp;1'650 / anno</td>
+          </tr>
+          <tr>
+            <td>3 scaglioni<br><span class="savings__hint">ultimo adeguamento a 2.00&nbsp;%</span></td>
+            <td>8.47&nbsp;%</td>
+            <td>CHF&nbsp;1'220 / anno</td>
+            <td>CHF&nbsp;1'830 / anno</td>
+            <td>CHF&nbsp;2'440 / anno</td>
+          </tr>
+          <tr>
+            <td>5 scaglioni<br><span class="savings__hint">ultimo adeguamento a 2.50&nbsp;%</span></td>
+            <td>13.68&nbsp;%</td>
+            <td>CHF&nbsp;1'970 / anno</td>
+            <td>CHF&nbsp;2'955 / anno</td>
+            <td>CHF&nbsp;3'940 / anno</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="savings__note" data-reveal>La riduzione lorda qui sopra è solo metà della verità. La legge permette al locatore di compensare un aumento forfettario dei costi di <strong>0.5&nbsp;% all'anno</strong> dall'ultimo adeguamento, oltre al <strong>40&nbsp;% del rincaro</strong> (IPC, art.&nbsp;16&nbsp;OLAL). <strong>Ribassoaffitto</strong> applica entrambi i contro-calcoli automaticamente e ti mostra il diritto netto che puoi effettivamente richiedere, conforme al diritto federale.</p>
+  </div>
+</section>
+
 <section class="section steps" id="how">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Procedura</span>

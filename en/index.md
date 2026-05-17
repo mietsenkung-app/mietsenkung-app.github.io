@@ -190,6 +190,90 @@ permalink: /en/
   </div>
 </section>
 
+<section class="section barriers" id="barriers">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Why most tenants do nothing</span>
+    <h2 class="section-title" data-reveal>The right is there. The law is clear. But three reasons stop most people from acting.</h2>
+    <p class="section-lead" data-reveal>When the reference interest rate drops, federal law gives you the right to a rent reduction. Yet only 12&nbsp;% of those entitled actually claim it. Here are the three most common reasons, and how <strong>RentReducer</strong> solves them.</p>
+
+    <div class="barriers__grid">
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">01</span>
+        <h3>"I didn't know I could ask"</h3>
+        <p>The reference interest rate is published in the Federal Gazette. Landlords aren't required to actively announce reductions. Thousands of tenants overpay for years without ever taking action.</p>
+        <p class="barrier__solution"><strong>RentReducer</strong> monitors the reference rate and proactively tells you when you're entitled to a reduction.</p>
+      </article>
+
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">02</span>
+        <h3>"I missed the deadline"</h3>
+        <p>A reduction request must be filed in time for the next termination date. Miss it, and you wait another quarter for the lower rent.</p>
+        <p class="barrier__solution"><strong>RentReducer</strong> calculates the next eligible termination date automatically and posts your letter on time.</p>
+      </article>
+
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">03</span>
+        <h3>"I'm afraid of my landlord's reaction"</h3>
+        <p>Many tenants fear that a reduction request will damage the relationship. The fear is understandable. The law is unambiguous: art.&nbsp;271a&nbsp;CO protects you from retaliatory terminations for three years after a legitimate request.</p>
+        <p class="barrier__solution"><strong>RentReducer</strong> drafts factually and legally correct letters. Thousands of requests every year, without consequences.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section savings" id="savings">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>What your claim is worth</span>
+    <h2 class="section-title" data-reveal>The more reduction steps you've missed, the more money is on the table.</h2>
+    <p class="section-lead" data-reveal>The reference interest rate has dropped four times since 2023, from 1.75&nbsp;% to 1.50&nbsp;% and now to 1.25&nbsp;%. For each 0.25-point step, you're entitled to roughly <strong>2.91&nbsp;%</strong> lower net rent (art.&nbsp;13&nbsp;VMWG). Rough orientation:</p>
+
+    <div class="savings__table-wrap" data-reveal>
+      <table class="savings__table">
+        <thead>
+          <tr>
+            <th>Steps missed</th>
+            <th>Gross reduction</th>
+            <th>Rent 1'200&nbsp;.–</th>
+            <th>Rent 1'800&nbsp;.–</th>
+            <th>Rent 2'400&nbsp;.–</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 step<br><span class="savings__hint">last adjustment at 1.50&nbsp;%</span></td>
+            <td>2.91&nbsp;%</td>
+            <td>CHF&nbsp;419 / year</td>
+            <td>CHF&nbsp;629 / year</td>
+            <td>CHF&nbsp;838 / year</td>
+          </tr>
+          <tr>
+            <td>2 steps<br><span class="savings__hint">last adjustment at 1.75&nbsp;%</span></td>
+            <td>5.73&nbsp;%</td>
+            <td>CHF&nbsp;825 / year</td>
+            <td>CHF&nbsp;1'238 / year</td>
+            <td>CHF&nbsp;1'650 / year</td>
+          </tr>
+          <tr>
+            <td>3 steps<br><span class="savings__hint">last adjustment at 2.00&nbsp;%</span></td>
+            <td>8.47&nbsp;%</td>
+            <td>CHF&nbsp;1'220 / year</td>
+            <td>CHF&nbsp;1'830 / year</td>
+            <td>CHF&nbsp;2'440 / year</td>
+          </tr>
+          <tr>
+            <td>5 steps<br><span class="savings__hint">last adjustment at 2.50&nbsp;%</span></td>
+            <td>13.68&nbsp;%</td>
+            <td>CHF&nbsp;1'970 / year</td>
+            <td>CHF&nbsp;2'955 / year</td>
+            <td>CHF&nbsp;3'940 / year</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="savings__note" data-reveal>The gross reduction above is only half the truth. The law lets the landlord offset a flat cost-increase of <strong>0.5&nbsp;% per year</strong> since the last adjustment, plus <strong>40&nbsp;% of inflation</strong> (CPI, art.&nbsp;16&nbsp;VMWG). <strong>RentReducer</strong> applies both counter-calculations automatically and shows you the net claim you can actually demand, calculated against federal law.</p>
+  </div>
+</section>
+
 <section class="section steps" id="how">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>How it works</span>

@@ -190,6 +190,90 @@ permalink: /fr/
   </div>
 </section>
 
+<section class="section barriers" id="barriers">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Pourquoi la plupart ne font rien</span>
+    <h2 class="section-title" data-reveal>La prétention existe. La loi est claire. Mais trois raisons empêchent la plupart d'agir.</h2>
+    <p class="section-lead" data-reveal>Quand le taux d'intérêt de référence baisse, tu as droit selon le droit fédéral à une baisse de loyer. Pourtant seuls 12&nbsp;% des ayants droit la demandent activement. Voici les trois raisons les plus fréquentes et comment <strong>Baisse-loyer</strong> les résout.</p>
+
+    <div class="barriers__grid">
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">01</span>
+        <h3>«&nbsp;Je ne savais pas que j'avais ce droit&nbsp;»</h3>
+        <p>Le taux d'intérêt de référence est publié dans la Feuille fédérale. Les bailleur·esses ne sont pas tenu·es d'annoncer activement les baisses. Des milliers de locataires paient des années trop, sans jamais réagir.</p>
+        <p class="barrier__solution"><strong>Baisse-loyer</strong> surveille le taux et te prévient dès que tu as droit à une baisse.</p>
+      </article>
+
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">02</span>
+        <h3>«&nbsp;J'ai manqué le délai&nbsp;»</h3>
+        <p>Une demande de baisse doit être posée à temps pour la prochaine échéance de résiliation. Une fois passée, tu attends encore un trimestre la réduction.</p>
+        <p class="barrier__solution"><strong>Baisse-loyer</strong> calcule automatiquement la prochaine échéance et envoie à temps par La Poste.</p>
+      </article>
+
+      <article class="barrier" data-reveal>
+        <span class="barrier__num">03</span>
+        <h3>«&nbsp;J'ai peur de la réaction de mon·a bailleur·esse&nbsp;»</h3>
+        <p>Beaucoup de locataires craignent qu'une demande de baisse ne pèse sur la relation. La peur est compréhensible. Mais le droit est sans ambiguïté&nbsp;: art.&nbsp;271a&nbsp;CO te protège des résiliations de représailles pendant trois ans après une demande légitime.</p>
+        <p class="barrier__solution"><strong>Baisse-loyer</strong> rédige factuellement et juridiquement correct. Des milliers de demandes annuelles, sans conséquences.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section savings" id="savings">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Ce que vaut ta prétention</span>
+    <h2 class="section-title" data-reveal>Plus tu as manqué de paliers de baisse, plus il y a d'argent sur la table.</h2>
+    <p class="section-lead" data-reveal>Le taux d'intérêt de référence a baissé quatre fois depuis 2023, passant de 1.75&nbsp;% à 1.50&nbsp;% puis à 1.25&nbsp;% aujourd'hui. Pour chaque palier de 0.25 point, tu as droit à environ <strong>2.91&nbsp;%</strong> de loyer net en moins (art.&nbsp;13&nbsp;OBLF). Orientation approximative&nbsp;:</p>
+
+    <div class="savings__table-wrap" data-reveal>
+      <table class="savings__table">
+        <thead>
+          <tr>
+            <th>Paliers manqués</th>
+            <th>Baisse brute</th>
+            <th>Loyer 1'200&nbsp;.–</th>
+            <th>Loyer 1'800&nbsp;.–</th>
+            <th>Loyer 2'400&nbsp;.–</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 palier<br><span class="savings__hint">dernière adaptation à 1.50&nbsp;%</span></td>
+            <td>2.91&nbsp;%</td>
+            <td>CHF&nbsp;419 / an</td>
+            <td>CHF&nbsp;629 / an</td>
+            <td>CHF&nbsp;838 / an</td>
+          </tr>
+          <tr>
+            <td>2 paliers<br><span class="savings__hint">dernière adaptation à 1.75&nbsp;%</span></td>
+            <td>5.73&nbsp;%</td>
+            <td>CHF&nbsp;825 / an</td>
+            <td>CHF&nbsp;1'238 / an</td>
+            <td>CHF&nbsp;1'650 / an</td>
+          </tr>
+          <tr>
+            <td>3 paliers<br><span class="savings__hint">dernière adaptation à 2.00&nbsp;%</span></td>
+            <td>8.47&nbsp;%</td>
+            <td>CHF&nbsp;1'220 / an</td>
+            <td>CHF&nbsp;1'830 / an</td>
+            <td>CHF&nbsp;2'440 / an</td>
+          </tr>
+          <tr>
+            <td>5 paliers<br><span class="savings__hint">dernière adaptation à 2.50&nbsp;%</span></td>
+            <td>13.68&nbsp;%</td>
+            <td>CHF&nbsp;1'970 / an</td>
+            <td>CHF&nbsp;2'955 / an</td>
+            <td>CHF&nbsp;3'940 / an</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="savings__note" data-reveal>La baisse brute ci-dessus n'est qu'une moitié de la vérité. La loi permet à la bailleur·esse de compenser une augmentation forfaitaire des coûts de <strong>0.5&nbsp;% par an</strong> depuis la dernière adaptation, plus <strong>40&nbsp;% du renchérissement</strong> (IPC, art.&nbsp;16&nbsp;OBLF). <strong>Baisse-loyer</strong> applique les deux contre-calculs automatiquement et te montre la prétention nette que tu peux effectivement demander, conformément au droit fédéral.</p>
+  </div>
+</section>
+
 <section class="section steps" id="how">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Déroulement</span>
