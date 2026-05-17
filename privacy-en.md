@@ -65,10 +65,11 @@ If you uninstall the app, all lease data is gone. There is no backup trace on ou
 - **App Check token:** short-lived attestation token that confirms device integrity to Firebase. No personal identifier.
 - **RevenueCat app user ID:** anonymous UUID used to map your subscription. No personal identifier, no e-mail.
 - **Crash reports:** if the app crashes, stack trace, device type and OS version are sent to Sentry. PII is actively stripped before transmission (see section 4.3).
+- **Anonymous usage statistics (opt-out):** On by default, can be switched off at any time in Settings under Privacy. Only aggregate daily counters are stored in Firestore (e.g. "number of entitlement checks today", "number of letters dispatched today", "sum of accepted rent reductions today, bucketed in CHF 10 steps"). There is **no** user ID, **no** device ID, **no** event containing personal data. Re-identification of individuals from these counters is impossible. Legal basis: legitimate interest in measuring product success (art. 31 para. 2 revFADP, art. 6 para. 1 lit. f GDPR).
 
 ### 3.3 Data we **do not** collect
 
-- No analytics (no Google Analytics, no Firebase Analytics, no Mixpanel).
+- No personal analytics (no Google Analytics, no Firebase Analytics, no Mixpanel). The aggregate daily counters mentioned in 3.2 contain no personal identifiers.
 - No cross-device tracking.
 - No advertising IDs (IDFA / GAID are not read).
 - No location data.

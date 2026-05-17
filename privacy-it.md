@@ -65,10 +65,11 @@ Se disinstalli l'app, tutti i dati di locazione spariscono. Non resta alcuna cop
 - **Token App Check:** token di attestazione di breve durata che certifica l'integrità del tuo dispositivo verso Firebase. Nessun riferimento a una persona.
 - **ID utente RevenueCat:** UUID anonimo per associare il tuo abbonamento. Nessun riferimento personale, nessuna e-mail.
 - **Rapporti di crash:** in caso di crash, lo stack-trace, il tipo di dispositivo e la versione del sistema operativo vengono inviati a Sentry. I dati personali vengono attivamente rimossi prima dell'invio (vedi 4.3).
+- **Statistiche di utilizzo anonime (opt-out):** Attive di default, disattivabili in qualsiasi momento nelle Impostazioni, sezione Privacy. Vengono conservati solo contatori giornalieri aggregati in Firestore (ad esempio "numero di verifiche del diritto oggi", "numero di lettere inviate oggi", "somma delle riduzioni di affitto accettate oggi, arrotondate in fasce da 10 CHF"). **Nessun** identificativo utente, **nessun** identificativo del dispositivo, **nessun** evento con dati personali. Non è possibile re-identificare singole persone da questi contatori. Base giuridica: interesse legittimo a misurare il successo del prodotto (art. 31 cpv. 2 nLPD, art. 6 par. 1 lett. f GDPR).
 
 ### 3.3 Dati che **non** raccogliamo
 
-- Nessun analytics (né Google Analytics, né Firebase Analytics, né Mixpanel).
+- Nessun analytics nominativo (né Google Analytics, né Firebase Analytics, né Mixpanel). I contatori giornalieri aggregati menzionati al 3.2 non contengono alcun identificativo personale.
 - Nessun tracking cross-device.
 - Nessun ID pubblicitario (IDFA / GAID non vengono letti).
 - Nessun dato di posizione.

@@ -65,10 +65,11 @@ Si tu désinstalles l'application, toutes les données de bail disparaissent. Il
 - **Jeton App Check:** jeton d'attestation de courte durée qui certifie l'intégrité de ton appareil auprès de Firebase. Aucune référence à une personne.
 - **Identifiant utilisateur RevenueCat:** UUID anonyme pour rattacher ton abonnement. Aucune référence personnelle, aucune adresse e-mail.
 - **Rapports de crash:** en cas de plantage, la trace de pile, le type d'appareil et la version de l'OS sont envoyés à Sentry. Les données personnelles sont activement supprimées avant l'envoi (voir 4.3).
+- **Statistiques d'utilisation anonymes (opt-out):** Activées par défaut, désactivables à tout moment dans les Réglages, section Vie privée. Seuls des compteurs journaliers agrégés sont conservés dans Firestore (par exemple "nombre de vérifications de droit aujourd'hui", "nombre de courriers envoyés aujourd'hui", "somme des réductions de loyer acceptées aujourd'hui, arrondies par tranches de 10 CHF"). **Aucun** identifiant utilisateur, **aucun** identifiant d'appareil, **aucun** événement contenant des données personnelles. Une ré-identification de personnes individuelles à partir de ces compteurs est impossible. Base légale: intérêt légitime à mesurer le succès du produit (art. 31 al. 2 nLPD, art. 6 par. 1 let. f RGPD).
 
 ### 3.3 Données que nous **ne** collectons **pas**
 
-- Pas d'analytics (ni Google Analytics, ni Firebase Analytics, ni Mixpanel).
+- Pas d'analytics nominatives (ni Google Analytics, ni Firebase Analytics, ni Mixpanel). Les compteurs journaliers agrégés mentionnés au 3.2 ne contiennent aucun identifiant personnel.
 - Pas de suivi cross-device.
 - Pas d'identifiants publicitaires (IDFA / GAID ne sont pas lus).
 - Pas de données de localisation.

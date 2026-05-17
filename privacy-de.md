@@ -65,10 +65,11 @@ Löschst du die App, sind alle Mietvertragsdaten weg. Es gibt keine Backup-Spur 
 - **App-Check-Token:** kurzlebiges Attestation-Token, das Integrität deines Geräts gegenüber Firebase bestätigt. Kein Personenbezug.
 - **RevenueCat-App-User-ID:** anonyme UUID zur Zuordnung deines Abos. Kein Personenbezug, keine E-Mail.
 - **Crash-Reports:** falls die App abstürzt, werden Stack-Trace, Gerätetyp und OS-Version an Sentry gesendet. PII wird vor Versand aktiv entfernt (siehe Ziff. 4.3).
+- **Anonyme Nutzungs-Statistiken (opt-out):** Standardmässig aktiviert, jederzeit in den Einstellungen unter Datenschutz abschaltbar. Es werden ausschliesslich aggregierte Tages-Zähler in Firestore geführt (z.B. "Anzahl Anspruchs-Prüfungen heute", "Anzahl versendete Briefe heute", "Summe der akzeptierten CHF-Reduktionen heute" in 10er-Schritten gebuckelt). Es gibt **kein** User-ID-Feld, **kein** Device-ID-Feld, **kein** Event mit personenbezogenen Daten. Eine Re-Identifikation einzelner Personen aus diesen Zählern ist nicht möglich. Rechtsgrundlage: berechtigtes Interesse an Produkt-Erfolgsmessung (Art. 31 Abs. 2 nDSG, Art. 6 Abs. 1 lit. f DSGVO).
 
 ### 3.3 Daten, die wir **nicht** sammeln
 
-- Keine Analytics (kein Google Analytics, kein Firebase Analytics, kein Mixpanel).
+- Keine personenbezogenen Analytics (kein Google Analytics, kein Firebase Analytics, kein Mixpanel). Die unter 3.2 erwähnten aggregierten Tages-Zähler enthalten keine Personen-Identifier.
 - Kein Cross-Device-Tracking.
 - Keine Werbe-IDs (IDFA / GAID werden nicht gelesen).
 - Keine Standortdaten.
