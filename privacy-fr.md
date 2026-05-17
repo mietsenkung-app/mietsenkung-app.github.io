@@ -156,7 +156,7 @@ En vertu de la nLPD (et du RGPD si applicable), tu disposes des droits suivants:
 - **Opposition et limitation:** tu peux t'opposer au traitement par Sentry et RevenueCat en cessant d'utiliser l'application. Un opt-out granulaire par fournisseur tiers n'est pas implémenté en v1.0.
 - **Droit de plainte:** auprès de l'autorité de contrôle compétente. En Suisse: Préposé fédéral à la protection des données et à la transparence (PFPDT), [https://www.edoeb.admin.ch](https://www.edoeb.admin.ch).
 
-Adresse tes demandes à kontakt@mietsenkung-app.ch. Nous répondons dans un délai de 30 jours.
+Adresse tes demandes à kontakt@mietsenkung-app.ch. Nous répondons dans un délai de 48 heures.
 
 ---
 
@@ -186,4 +186,4 @@ Pour toutes les demandes liées à la confidentialité:
 **Manuel Weingartner**
 E-mail: kontakt@mietsenkung-app.ch
 
-Adresse postale sur demande. Nous répondons en règle générale dans un délai de 30 jours.
+Adresse postale sur demande. Réponse en règle générale dans un délai de 48 heures.

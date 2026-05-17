@@ -156,7 +156,7 @@ Nach nDSG (und DSGVO, falls anwendbar) stehen dir folgende Rechte zu:
 - **Widerspruch und Einschränkung:** du kannst gegen die Verarbeitung durch Sentry und RevenueCat widersprechen, indem du die App nicht mehr nutzt. Ein granulares Opt-out pro Drittanbieter ist in v1.0 nicht implementiert.
 - **Beschwerderecht:** bei der zuständigen Datenschutzaufsichtsbehörde. In der Schweiz: Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (EDÖB), [https://www.edoeb.admin.ch](https://www.edoeb.admin.ch).
 
-Anfragen richtest du bitte an kontakt@mietsenkung-app.ch. Wir antworten innerhalb von 30 Tagen.
+Anfragen richtest du bitte an kontakt@mietsenkung-app.ch. Wir antworten innerhalb von 48 Stunden.
 
 ---
 
@@ -186,4 +186,4 @@ Für alle Datenschutzanfragen:
 **Manuel Weingartner**
 E-Mail: kontakt@mietsenkung-app.ch
 
-Postadresse auf Anfrage. Wir antworten in der Regel innerhalb von 30 Tagen.
+Postadresse auf Anfrage. Antwort in der Regel innerhalb 48 Stunden.

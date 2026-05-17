@@ -42,7 +42,7 @@ permalink: /
       </a>
       <span class="eyebrow">Mietzinssenkung in 2 Minuten</span>
       <h1 class="hero__title">Hol dir zurück<br>was dir <em>zusteht</em>.</h1>
-      <p class="hero__sub">Du zahlst womöglich seit Jahren zu viel Miete für deine Wohnung. <strong>Mietsenkung</strong> berechnet deinen Anspruch nach Bundesrecht und versendet den Brief per Post. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich die App weiter bis zur Schlichtungsbehörde.</p>
+      <p class="hero__sub">Du zahlst womöglich seit Jahren zu viel Miete für deine Wohnung. <strong>Mietsenkung</strong> berechnet deinen Anspruch nach Bundesrecht und versendet den Brief per Post. Bei Schweigen oder Ablehnung deiner Vermieter\*in begleitet dich die App weiter bis zur Schlichtungsbehörde.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">
@@ -194,7 +194,7 @@ permalink: /
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Ablauf</span>
     <h2 class="section-title" data-reveal>Drei Schritte vom Anspruch bis zum versandfertigen Brief.</h2>
-    <p class="section-lead" data-reveal>Du gibst deinen aktuellen Mietzins und das Datum der letzten Anpassung ein. Die App berechnet den Anspruch, generiert das Senkungsbegehren mit deiner Unterschrift und übergibt es der Schweizer Post. Reagiert dein*e Vermieter*in nicht oder lehnt ab, übernimmt die App auch den nächsten Schritt.</p>
+    <p class="section-lead" data-reveal>Du gibst deinen aktuellen Mietzins und das Datum der letzten Anpassung ein. Die App berechnet den Anspruch, generiert das Senkungsbegehren mit deiner Unterschrift und übergibt es der Schweizer Post. Reagiert dein\*e Vermieter\*in nicht oder lehnt ab, übernimmt die App auch den nächsten Schritt.</p>
 
     <div class="steps__grid">
       <article class="step" data-reveal>
@@ -223,7 +223,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
         </span>
         <h3>Auto-Reminder und Folgebriefe</h3>
-        <p>Reagiert dein*e Vermieter*in nicht, erinnert die App dich nach 30 und 60 Tagen. Je nach Antwort schlägt sie den passenden Folgebrief vor: Erinnerungsschreiben bei Schweigen, Aufforderung zur Begründung bei Ablehnung, oder die Schlichtungsklage als letzten Schritt.</p>
+        <p>Reagiert dein\*e Vermieter\*in nicht, erinnert die App dich nach 30 und 60 Tagen. Je nach Antwort schlägt sie den passenden Folgebrief vor: Erinnerungsschreiben bei Schweigen, Aufforderung zur Begründung bei Ablehnung, oder die Schlichtungsklage als letzten Schritt.</p>
         <span class="step__time">automatisch</span>
       </article>
     </div>
@@ -233,13 +233,13 @@ permalink: /
 <section class="stats">
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Warum gibt's das</span>
-    <h2 class="stats__title" data-reveal>Schweizer Mieter*innen verschenken jährlich Millionen.</h2>
+    <h2 class="stats__title" data-reveal>Schweizer Mieter\*innen verschenken jährlich Millionen.</h2>
     <p class="stats__lead" data-reveal>Nur ein Bruchteil der Berechtigten fordert die Senkung tatsächlich ein. Der Aufwand schreckt ab: Anspruch berechnen, Brief formulieren, Termine setzen, bei Schweigen oder Ablehnung den nächsten Schritt einleiten. <strong>Mietsenkung</strong> übernimmt diese Schritte vollständig, vom Anspruchs-Check bis zur Schlichtungsbehörde.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
         <p class="stat__num"><span class="stat__num--accent">9&nbsp;von&nbsp;10</span></p>
-        <p class="stat__label">Mieter*innen fordern nichts ein</p>
+        <p class="stat__label">Mieter\*innen fordern nichts ein</p>
         <p class="stat__desc">Nur 12 % verlangen aktiv eine Senkung, obwohl rund die Hälfte Anspruch hätte. Quelle: ZKB-Studie&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
@@ -292,7 +292,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-4 9-9 9s-9-4-9-9 4-9 9-9c2 0 4 1 5 2"/></svg>
         </span>
         <h3>Verfahrens-Begleitung</h3>
-        <p>Pro Wohnung führt die App ein eigenes Verfahren: aktueller Anspruch, alle versendeten Briefe, Status pro Reaktion deiner Vermieter*in (akzeptiert, teilweise, abgelehnt). Erinnerungen nach 30 und 60 Tagen, konkrete Vorschläge für den nächsten Schritt. Abgeschlossene Verfahren wandern ins Archiv, ein neues startet jederzeit.</p>
+        <p>Pro Wohnung führt die App ein eigenes Verfahren: aktueller Anspruch, alle versendeten Briefe, Status pro Reaktion deiner Vermieter\*in (akzeptiert, teilweise, abgelehnt). Erinnerungen nach 30 und 60 Tagen, konkrete Vorschläge für den nächsten Schritt. Abgeschlossene Verfahren wandern ins Archiv, ein neues startet jederzeit.</p>
       </article>
 
       <article class="bento__card bento__e" data-reveal>
@@ -308,7 +308,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </span>
         <h3>Genau für deine Situation</h3>
-        <p>Wohnst du allein, mit Partner*in oder in einer WG? Jede Mietpartei unterschreibt einzeln auf dem Gerät, der Brief wird automatisch in der richtigen Form formuliert. Verwaltet eine Firma deine Wohnung, findet die App die Adresse via Schweizer Firmen-Register. Privat-Vermieter*innen tippst du einfach ein.</p>
+        <p>Wohnst du allein, mit Partner\*in oder in einer WG? Jede Mietpartei unterschreibt einzeln auf dem Gerät, der Brief wird automatisch in der richtigen Form formuliert. Verwaltet eine Firma deine Wohnung, findet die App die Adresse via Schweizer Firmen-Register. Privat-Vermieter\*innen tippst du einfach ein.</p>
       </article>
 
     </div>
@@ -387,7 +387,7 @@ permalink: /
     <div class="journey__copy" data-reveal>
       <span class="eyebrow">Verfahrens-Tracking</span>
       <h2>Mietsenkung denkt mit.</h2>
-      <p>Nach dem Versand zeigt dir die App den Status deines Verfahrens. Du markierst die Antwort deiner Vermieter*in mit einem Tap, und die App schlägt dir den nächsten Schritt vor: <strong>Erinnerungsschreiben</strong> bei Schweigen, <strong>Begründung &amp; Belege verlangen</strong> bei Ablehnung, <strong>Schlichtungsklage</strong> als letzter Schritt.</p>
+      <p>Nach dem Versand zeigt dir die App den Status deines Verfahrens. Du markierst die Antwort deiner Vermieter\*in mit einem Tap, und die App schlägt dir den nächsten Schritt vor: <strong>Erinnerungsschreiben</strong> bei Schweigen, <strong>Begründung &amp; Belege verlangen</strong> bei Ablehnung, <strong>Schlichtungsklage</strong> als letzter Schritt.</p>
       <p>Wenn nichts passiert, meldet sich die App selbst nach 30 und 60 Tagen. Du musst dir keine Termine merken und keine Vorlagen recherchieren. Abgeschlossene Verfahren wandern ins Archiv, ein neues startest du jederzeit.</p>
     </div>
   </div>
@@ -493,14 +493,14 @@ permalink: /
         <summary>Ist Mietsenkung eine offizielle App vom Bund?</summary>
         <div class="faq__answer">
           <p>Nein. <strong>Mietsenkung</strong> ist eine unabhängige App und nicht mit dem Bund, einem Kanton, einer Behörde oder einem Gericht verbunden. Sämtliche genutzten amtlichen Daten und Rechtsgrundlagen stammen aus offiziellen Schweizer Quellen. Siehe Quellen-Block weiter unten.</p>
-          <p><strong>Mietsenkung</strong> ersetzt keine Rechtsberatung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein*e Anwält*in.</p>
+          <p><strong>Mietsenkung</strong> ersetzt keine Rechtsberatung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein\*e Anwält\*in.</p>
         </div>
       </details>
 
       <details>
-        <summary>Kann mich mein*e Vermieter*in kündigen weil ich ein Senkungsbegehren stelle?</summary>
+        <summary>Kann mich mein\*e Vermieter\*in kündigen weil ich ein Senkungsbegehren stelle?</summary>
         <div class="faq__answer">
-          <p><strong>Nein, du bist gesetzlich geschützt.</strong> Eine Kündigung als Reaktion auf ein Senkungsbegehren ist nach <strong>Art. 271a Abs. 1 lit. a Obligationenrecht (OR)</strong> anfechtbar (sog. Rachekündigung). Die Beweislast liegt beim Vermieter: er muss zeigen können dass die Kündigung NICHT wegen deines Senkungsbegehrens erfolgt. In der Praxis schaffen Vermieter*innen das fast nie. Die Schlichtungsbehörde erklärt eine solche Kündigung dann für ungültig.</p>
+          <p><strong>Nein, du bist gesetzlich geschützt.</strong> Eine Kündigung als Reaktion auf ein Senkungsbegehren ist nach <strong>Art. 271a Abs. 1 lit. a Obligationenrecht (OR)</strong> anfechtbar (sog. Rachekündigung). Die Beweislast liegt beim Vermieter: er muss zeigen können dass die Kündigung NICHT wegen deines Senkungsbegehrens erfolgt. In der Praxis schaffen Vermieter\*innen das fast nie. Die Schlichtungsbehörde erklärt eine solche Kündigung dann für ungültig.</p>
           <p><strong>Zusätzlicher Schutz:</strong> Während <strong>drei Jahren</strong> ab Abschluss eines Schlichtungs- oder Gerichtsverfahrens kann dein Vermieter dich nicht ordentlich kündigen (Art. 271a Abs. 1 lit. e OR). Auch eine Kündigung zur Unzeit (während laufendem Verfahren oder kurz danach) ist ungültig (Art. 271a Abs. 1 lit. d OR).</p>
           <p>Senkungsbegehren sind ein gesetzlich vorgesehenes, normales Verfahren und ein alltäglicher Teil des Schweizer Mietverhältnisses. Falls du trotzdem eine Kündigung erhältst: du hast <strong>30 Tage Frist</strong> ab Erhalt um sie bei der Schlichtungsbehörde anzufechten (Art. 273 OR). Wende dich sofort an den <strong>Mieterinnen- und Mieterverband</strong> (mieterverband.ch). Die App-FAQ enthält eine detaillierte Schritt-für-Schritt-Anleitung.</p>
         </div>
@@ -523,7 +523,7 @@ permalink: /
       </details>
 
       <details>
-        <summary>Was, wenn mein*e Vermieter*in nicht antwortet?</summary>
+        <summary>Was, wenn mein\*e Vermieter\*in nicht antwortet?</summary>
         <div class="faq__answer">
           <p><strong>Mietsenkung</strong> erinnert dich automatisch nach <strong>30 und 60 Tagen</strong>. Bei jeder Erinnerung kannst du mit einem Tap den passenden Folgebrief auslösen, je nach Status: <strong>Erinnerungsschreiben</strong>, <strong>Begründung &amp; Belege verlangen</strong> oder <strong>Schlichtungsklage</strong>. Jeder Folgebrief kostet CHF&nbsp;6.90. Erinnerungsschreiben und Begründung &amp; Belege gehen via Pingen mit Brief-Versand inklusive. Die Schlichtungsklage geht direkt aus der App als Einschreiben (+ CHF&nbsp;7.90), mit deinem hochgeladenen Mietvertrag-Foto und allen vorherigen Brief-Kopien als Beilagen, alternativ kannst du sie als <strong>Word-Datei</strong> herunterladen und selber einreichen.</p>
           <p>Wenn du in die Schlichtung gehst, hilft dir die App mit der Verzeichnis-Suche der zuständigen kantonalen Schlichtungsbehörde (Quelle: BWO).</p>
@@ -597,7 +597,7 @@ permalink: /
 
     <div class="sources-disclaimer">
       <p style="margin: 0 0 8px;"><strong>Mietsenkung ist eine unabhängige App.</strong> Sie ist nicht mit dem Bund, einem Kanton, einer Behörde oder einem Gericht verbunden, wird von diesen nicht betrieben und vertritt keine staatliche Stelle.</p>
-      <p style="margin: 0;">Die App ist <strong>keine Rechtsberatung</strong> und ersetzt keine anwaltliche Vertretung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein*e Anwält*in.</p>
+      <p style="margin: 0;">Die App ist <strong>keine Rechtsberatung</strong> und ersetzt keine anwaltliche Vertretung. Bei rechtlichen Fragen wende dich an einen kantonalen Mieterverband oder ein\*e Anwält\*in.</p>
     </div>
   </div>
 </section>
@@ -605,7 +605,7 @@ permalink: /
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
     <h2>Bereit, deinen Anspruch durchzusetzen?</h2>
-    <p>Anspruch prüfen ist gratis. Der Brief geht ab CHF&nbsp;9.90 inklusive Druck und Versand. Bei Schweigen oder Ablehnung deiner Vermieter*in begleitet dich <strong>Mietsenkung</strong> bis zur Schlichtungsbehörde.</p>
+    <p>Anspruch prüfen ist gratis. Der Brief geht ab CHF&nbsp;9.90 inklusive Druck und Versand. Bei Schweigen oder Ablehnung deiner Vermieter\*in begleitet dich <strong>Mietsenkung</strong> bis zur Schlichtungsbehörde.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Mietsenkung im App Store laden">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
