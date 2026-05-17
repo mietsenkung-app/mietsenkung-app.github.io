@@ -512,6 +512,10 @@ permalink: /it/
         </div>
       </details>
     </div>
+
+    <p class="faq__more" data-reveal>
+      <a href="{{ '/faq-it.html' | relative_url }}">Tutte le 41 domande su Ribassoaffitto →</a>
+    </p>
   </div>
 </section>
 

@@ -513,6 +513,10 @@ permalink: /en/
         </div>
       </details>
     </div>
+
+    <p class="faq__more" data-reveal>
+      <a href="{{ '/faq-en.html' | relative_url }}">All 41 questions about RentReducer →</a>
+    </p>
   </div>
 </section>
 

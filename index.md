@@ -537,6 +537,10 @@ permalink: /
         </div>
       </details>
     </div>
+
+    <p class="faq__more" data-reveal>
+      <a href="{{ '/faq-de.html' | relative_url }}">Alle 41 Fragen zur Mietsenkung →</a>
+    </p>
   </div>
 </section>
 

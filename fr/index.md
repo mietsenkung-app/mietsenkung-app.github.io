@@ -513,6 +513,10 @@ permalink: /fr/
         </div>
       </details>
     </div>
+
+    <p class="faq__more" data-reveal>
+      <a href="{{ '/faq-fr.html' | relative_url }}">Toutes les 41 questions sur Baisse-loyer →</a>
+    </p>
   </div>
 </section>
 
