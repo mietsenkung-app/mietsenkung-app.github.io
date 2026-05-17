@@ -498,6 +498,15 @@ permalink: /
       </details>
 
       <details>
+        <summary>Kann mich mein*e Vermieter*in kündigen weil ich ein Senkungsbegehren stelle?</summary>
+        <div class="faq__answer">
+          <p><strong>Nein, du bist gesetzlich geschützt.</strong> Eine Kündigung als Reaktion auf ein Senkungsbegehren ist nach <strong>Art. 271a Abs. 1 lit. a Obligationenrecht (OR)</strong> anfechtbar (sog. Rachekündigung). Die Beweislast liegt beim Vermieter: er muss zeigen können dass die Kündigung NICHT wegen deines Senkungsbegehrens erfolgt. In der Praxis schaffen Vermieter*innen das fast nie. Die Schlichtungsbehörde erklärt eine solche Kündigung dann für ungültig.</p>
+          <p><strong>Zusätzlicher Schutz:</strong> Während <strong>drei Jahren</strong> ab Abschluss eines Schlichtungs- oder Gerichtsverfahrens kann dein Vermieter dich nicht ordentlich kündigen (Art. 271a Abs. 1 lit. e OR). Auch eine Kündigung zur Unzeit (während laufendem Verfahren oder kurz danach) ist ungültig (Art. 271a Abs. 1 lit. d OR).</p>
+          <p>Senkungsbegehren sind ein gesetzlich vorgesehenes, normales Verfahren und ein alltäglicher Teil des Schweizer Mietverhältnisses. Falls du trotzdem eine Kündigung erhältst: du hast <strong>30 Tage Frist</strong> ab Erhalt um sie bei der Schlichtungsbehörde anzufechten (Art. 273 OR). Wende dich sofort an den <strong>Mieterinnen- und Mieterverband</strong> (mieterverband.ch). Die App-FAQ enthält eine detaillierte Schritt-für-Schritt-Anleitung.</p>
+        </div>
+      </details>
+
+      <details>
         <summary>Was passiert mit meinen Daten?</summary>
         <div class="faq__answer">
           <p>Deine Mietzins- und Vertragsdaten bleiben verschlüsselt auf deinem Gerät. Wir betreiben keine Cloud-Datenbank und du brauchst kein Konto. Nur das fertige PDF deines Briefes wird verschlüsselt an unseren Schweizer Post-Partner übergeben, damit er gedruckt und zugestellt werden kann.</p>

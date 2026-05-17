@@ -473,6 +473,15 @@ permalink: /it/
       </details>
 
       <details>
+        <summary>Il mio locatore può disdire il contratto perché presento una richiesta di riduzione?</summary>
+        <div class="faq__answer">
+          <p><strong>No, sei tutelato/a per legge.</strong> Una disdetta come reazione alla tua richiesta di riduzione è impugnabile secondo <strong>l'art. 271a cpv. 1 lett. a Codice delle obbligazioni (CO)</strong> (cosiddetta disdetta di rappresaglia). L'onere della prova spetta al locatore: deve poter dimostrare che la disdetta NON è motivata dalla tua richiesta. Nella pratica, i locatori riescono raramente. L'autorità di conciliazione dichiara quindi nulla tale disdetta.</p>
+          <p><strong>Protezione aggiuntiva:</strong> Per <strong>tre anni</strong> dalla conclusione di una procedura di conciliazione o giudiziaria, il tuo locatore non può disdire ordinariamente (art. 271a cpv. 1 lett. e CO). Anche una disdetta in tempo inopportuno (durante o subito dopo una procedura in corso) è nulla (art. 271a cpv. 1 lett. d CO).</p>
+          <p>La richiesta di riduzione è una procedura legale ordinaria e parte normale del rapporto di locazione svizzero. Se ricevi comunque una disdetta: hai <strong>30 giorni di termine</strong> dalla ricezione per impugnarla presso l'autorità di conciliazione (art. 273 CO). Contatta subito l'<strong>ASI</strong> (asi-infoalloggio.ch). La FAQ dell'app contiene una guida dettagliata passo per passo.</p>
+        </div>
+      </details>
+
+      <details>
         <summary>Cosa succede ai miei dati?</summary>
         <div class="faq__answer">
           <p>I tuoi dati di affitto e contratto restano cifrati sul tuo dispositivo. Non gestiamo alcuna banca dati cloud e non hai bisogno di un account. Solo il PDF finale della lettera viene trasmesso cifrato al nostro partner postale svizzero per la stampa e la consegna.</p>

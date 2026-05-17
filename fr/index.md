@@ -474,6 +474,15 @@ permalink: /fr/
       </details>
 
       <details>
+        <summary>Mon·ma bailleur·eresse peut-il·elle me résilier parce que je dépose une demande de baisse ?</summary>
+        <div class="faq__answer">
+          <p><strong>Non, tu es protégé·e par la loi.</strong> Une résiliation en réaction à ta demande de baisse est annulable selon <strong>l'art. 271a al. 1 let. a Code des obligations (CO)</strong> (congé de représailles). La charge de la preuve incombe au bailleur : il·elle doit pouvoir démontrer que le congé n'est PAS motivé par ta demande. Dans la pratique, les bailleurs·esses y parviennent rarement. L'autorité de conciliation déclare alors le congé nul.</p>
+          <p><strong>Protection supplémentaire :</strong> Pendant <strong>trois ans</strong> à compter de la fin d'une procédure de conciliation ou judiciaire, ton·ta bailleur·eresse ne peut pas te résilier de manière ordinaire (art. 271a al. 1 let. e CO). Une résiliation en temps inopportun (pendant une procédure en cours ou peu après) est également nulle (art. 271a al. 1 let. d CO).</p>
+          <p>La demande de baisse est une procédure légale ordinaire et fait partie du quotidien des baux suisses. Si tu reçois quand même une résiliation : tu disposes de <strong>30 jours</strong> dès réception pour la contester auprès de l'autorité de conciliation (art. 273 CO). Adresse-toi immédiatement à l'<strong>ASLOCA</strong> (asloca.ch). La FAQ de l'app contient un guide étape par étape détaillé.</p>
+        </div>
+      </details>
+
+      <details>
         <summary>Que deviennent mes données ?</summary>
         <div class="faq__answer">
           <p>Tes données de loyer et de bail restent chiffrées sur ton appareil. Nous ne gérons aucune base de données cloud et tu n'as pas besoin de compte. Seul le PDF final de ta lettre est transmis chiffré à notre partenaire postal suisse pour impression et distribution.</p>

@@ -474,6 +474,15 @@ permalink: /en/
       </details>
 
       <details>
+        <summary>Can my landlord terminate my lease because I submit a rent reduction request?</summary>
+        <div class="faq__answer">
+          <p><strong>No, you are legally protected.</strong> A termination as a reaction to a rent reduction request is voidable under <strong>Art. 271a para. 1 lit. a Swiss Code of Obligations (CO)</strong> (so-called retaliatory termination). The burden of proof lies with the landlord: they must demonstrate that the termination is NOT motivated by your request. In practice, landlords rarely succeed. The conciliation authority then declares such a termination invalid.</p>
+          <p><strong>Additional protection:</strong> For <strong>three years</strong> from the conclusion of a conciliation or court procedure, your landlord cannot ordinarily terminate the lease (Art. 271a para. 1 lit. e CO). A termination at an inopportune time (during or shortly after an ongoing procedure) is also invalid (Art. 271a para. 1 lit. d CO).</p>
+          <p>A rent reduction request is a normal legal procedure and an everyday part of Swiss tenancy. If you still receive a termination: you have <strong>30 days</strong> from receipt to challenge it before the conciliation authority (Art. 273 CO). Contact the <strong>tenants' association</strong> in your canton immediately (mieterverband.ch). The app FAQ contains a detailed step-by-step guide.</p>
+        </div>
+      </details>
+
+      <details>
         <summary>What happens with my data?</summary>
         <div class="faq__answer">
           <p>Your rent and contract data stays encrypted on your device. We operate no cloud database and you don't need an account. Only the finished PDF of your letter is handed encrypted to our Swiss postal partner so it can be printed and delivered.</p>
