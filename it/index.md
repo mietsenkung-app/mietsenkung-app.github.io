@@ -243,9 +243,9 @@ permalink: /it/
         <p class="stat__desc">Solo il 12 % chiede attivamente un ribasso, anche se circa la metà ne avrebbe diritto. Fonte: studio ZKB&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
-        <p class="stat__num">CHF&nbsp;73</p>
-        <p class="stat__label">risparmio mensile medio</p>
-        <p class="stat__desc">Per un 2.5 locali tipico a CHF&nbsp;1'920. La lettera si ripaga la prima settimana.</p>
+        <p class="stat__num">CHF&nbsp;876</p>
+        <p class="stat__label">risparmio annuo medio</p>
+        <p class="stat__desc">Per un 2.5 locali tipico a CHF&nbsp;1'920. La lettera costa una sola volta CHF&nbsp;9.90 a 29.90, il risparmio si ripete ogni anno.</p>
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num">2&nbsp;min</p>

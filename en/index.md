@@ -243,9 +243,9 @@ permalink: /en/
         <p class="stat__desc">Only 12 % actively ask for a reduction, even though about half are entitled. Source: ZKB study&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
-        <p class="stat__num">CHF&nbsp;73</p>
-        <p class="stat__label">average monthly saving</p>
-        <p class="stat__desc">For a typical 2.5-room flat at CHF&nbsp;1'920. The letter pays for itself in the first week.</p>
+        <p class="stat__num">CHF&nbsp;876</p>
+        <p class="stat__label">average annual saving</p>
+        <p class="stat__desc">For a typical 2.5-room flat at CHF&nbsp;1'920. The letter is a one-off CHF&nbsp;9.90 to 29.90, the saving comes back every year.</p>
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num">2&nbsp;min</p>

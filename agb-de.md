@@ -36,12 +36,12 @@ Diese AGB gelten für die Nutzung der mobilen Anwendung Mietsenkung in allen Spr
 
 ## 3. Leistungsbeschreibung
 
-Mietsenkung ist ein Software-Werkzeug das Schweizer Mieter\*innen bei der Berechnung und Durchsetzung von Mietzinssenkungen aufgrund eines gesunkenen hypothekarischen Referenzzinssatzes unterstützt. Die App:
+Mietsenkung ist ein Software-Werkzeug das Schweizer Mieter&ast;innen bei der Berechnung und Durchsetzung von Mietzinssenkungen aufgrund eines gesunkenen hypothekarischen Referenzzinssatzes unterstützt. Die App:
 
 - berechnet auf Basis von Eingaben (Mietzins, Anpassungsdatum) einen unverbindlichen Senkungs-Anspruch nach Art. 270a OR und Art. 13 VMWG;
 - generiert formelle Briefe (Senkungsbegehren, Erinnerung, Unterlagen-Anforderung, Schlichtungs-Ankündigung) als PDF und Word-Dokument;
 - bietet einen kostenpflichtigen Brief-Versand-Service über Dritt-Anbieter (Pingen GmbH, Zürich);
-- speichert Nutzer\*innen-Daten ausschliesslich lokal auf dem Gerät (verschlüsselte SQLite-Datenbank).
+- speichert Nutzer&ast;innen-Daten ausschliesslich lokal auf dem Gerät (verschlüsselte SQLite-Datenbank).
 
 ## 4. Keine Rechtsberatung
 
@@ -53,13 +53,13 @@ Mietsenkung ist ein Software-Werkzeug das Schweizer Mieter\*innen bei der Berech
 
 ## 5. Kündigungsschutz nach Art. 271a OR (wichtig)
 
-Du nimmst zur Kenntnis dass das Schweizer Mietrecht dich als Mieter\*in vor sogenannten Rachekündigungen schützt:
+Du nimmst zur Kenntnis dass das Schweizer Mietrecht dich als Mieter&ast;in vor sogenannten Rachekündigungen schützt:
 
 - **Art. 271a Abs. 1 lit. a OR:** Eine Kündigung weil du ein Recht aus dem Mietverhältnis geltend machst (z.B. Senkungsbegehren) ist anfechtbar.
 - **Art. 271a Abs. 1 lit. e OR:** Während drei Jahren ab Abschluss eines Schlichtungs- oder Gerichtsverfahrens kann dein Vermieter dich nicht ordentlich kündigen.
 - **Art. 273 OR:** Du hast 30 Tage Frist ab Erhalt einer Kündigung um sie bei der Schlichtungsbehörde anzufechten.
 
-Mietsenkung haftet nicht für allfällige Reaktionen deiner Vermieter\*in auf ein über die App erstelltes Senkungsbegehren. Du bist juristisch gut geschützt; im Streitfall ist die Schlichtungsbehörde + MV zuständig (siehe Ziffer 4).
+Mietsenkung haftet nicht für allfällige Reaktionen deiner Vermieter&ast;in auf ein über die App erstelltes Senkungsbegehren. Du bist juristisch gut geschützt; im Streitfall ist die Schlichtungsbehörde + MV zuständig (siehe Ziffer 4).
 
 ## 6. Haftungsausschluss
 
@@ -67,7 +67,7 @@ Soweit gesetzlich zulässig (Art. 100 OR) ist die Haftung von Mietsenkung beschr
 
 - den Ausgang deines Senkungsverfahrens oder eines Schlichtungs-/Gerichtsverfahrens;
 - entgangene Mietzins-Reduktionen aufgrund von Fehleingaben oder veralteten Daten in der App;
-- Folgekosten aus Reaktionen deiner Vermieter\*in (Kündigungen, Verweigerung von Reparaturen, etc.);
+- Folgekosten aus Reaktionen deiner Vermieter&ast;in (Kündigungen, Verweigerung von Reparaturen, etc.);
 - Ausfall oder Verzögerung des Brief-Versand-Service durch Pingen GmbH oder die Schweizerische Post;
 - Datenverlust durch Geräte-Wechsel, App-Neuinstallation oder Verlust des im Keychain/Keystore gespeicherten Verschlüsselungs-Keys (die App ist local-first ohne Cloud-Backup, siehe FAQ).
 
@@ -105,7 +105,7 @@ Mietsenkung kann diese AGB jederzeit anpassen. Erhebliche Änderungen werden in 
 ## 11. Schlussbestimmungen
 
 - **Anwendbares Recht:** Schweizer Recht unter Ausschluss von Kollisionsregeln.
-- **Gerichtsstand:** Sofern gesetzlich zulässig ist Weggis/Luzern der ausschliessliche Gerichtsstand. Zwingende Konsumenten-Gerichtsstände am Wohnsitz der Nutzer\*in bleiben vorbehalten.
+- **Gerichtsstand:** Sofern gesetzlich zulässig ist Weggis/Luzern der ausschliessliche Gerichtsstand. Zwingende Konsumenten-Gerichtsstände am Wohnsitz der Nutzer&ast;in bleiben vorbehalten.
 - **Salvatorische Klausel:** Sollte eine Bestimmung dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen davon unberührt.
 
 ## 12. Kontakt

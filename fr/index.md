@@ -243,9 +243,9 @@ permalink: /fr/
         <p class="stat__desc">Seuls 12 % font activement valoir une baisse, alors qu'environ la moitié y aurait droit. Source : étude ZKB&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
-        <p class="stat__num">CHF&nbsp;73</p>
-        <p class="stat__label">économie mensuelle moyenne</p>
-        <p class="stat__desc">Pour un 2.5 pièces typique à CHF&nbsp;1'920. La lettre est rentabilisée la première semaine.</p>
+        <p class="stat__num">CHF&nbsp;876</p>
+        <p class="stat__label">économie annuelle moyenne</p>
+        <p class="stat__desc">Pour un 2.5 pièces typique à CHF&nbsp;1'920. La lettre coûte une seule fois CHF&nbsp;9.90 à 29.90, l'économie revient chaque année.</p>
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num">2&nbsp;min</p>
