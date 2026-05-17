@@ -354,7 +354,7 @@ Qui trovi le risposte a tutti i temi attorno all'app: calcolare il diritto, invi
 }
 </script>
 
-## idAnspruch
+## Diritto
 
 <h3 id="quando-ho-diritto-a-una-riduzione-dell-affitto">Quando ho diritto a una riduzione dell'affitto?</h3>
 
@@ -393,7 +393,7 @@ No. La riduzione vale solo dal prossimo termine di disdetta dopo la tua richiest
 Controlla il contratto e tutte le comunicazioni successive di locatore/locatrice (spesso sul modulo ufficiale). L'ultimo adeguamento può essere l'inizio del contratto, se non è mai stato fatto. In caso di dubbio, scegli "Non so con precisione" nel wizard. <strong>Ribassoaffitto</strong> calcola in modo prudente con una stima.
 
 
-## idBriefVersand
+## Lettera e invio
 
 <h3 id="da-quando-vale-il-nuovo-affitto-pi-basso">Da quando vale il nuovo affitto più basso?</h3>
 
@@ -472,7 +472,7 @@ La richiesta di riduzione dell'affitto non è soggetta ad <strong>alcuna forma s
 Giuridicamente no, il diritto di locazione svizzero non prescrive alcuna forma. In pratica è però fortemente consigliato: un/una locatore/locatrice può rifiutare una richiesta presentata da una sola persona senza l'accordo delle altre. Con più parti contrattuali, <strong>Ribassoaffitto</strong> ti propone due vie: firmare insieme sul dispositivo (l'assistente passa il dispositivo tra le parti) e inviare via app, oppure scaricare la lettera, farla firmare su carta e spedirla tu stesso/a.
 
 
-## idFolgebrief
+## Lettere di follow-up
 
 <h3 id="ribassoaffitto-offre-anche-lettere-di-follow-up">Ribassoaffitto offre anche lettere di follow-up?</h3>
 
@@ -495,7 +495,7 @@ Entro 30 giorni dalla ricezione della risposta puoi rivolgerti all'autorità di 
 Sì. Dopo l'invio della lettera, <strong>Ribassoaffitto</strong> si fa vivo automaticamente dopo 14, 30 e 60 giorni se locatore/locatrice non ha reagito. Con un tap imposti lo stato (accettato / parziale / rifiutato / ancora nessuna risposta) e l'app propone direttamente la lettera successiva adatta. Non devi segnare nulla in calendario. Ti ricordiamo finché non dici che il tuo caso è chiuso.
 
 
-## idAppDaten
+## App e dati
 
 <h3 id="cosa-salva-l-app-sul-mio-dispositivo-e-i-miei-dati-sono-al-sicuro">Cosa salva l'app sul mio dispositivo e i miei dati sono al sicuro?</h3>
 
@@ -526,7 +526,7 @@ Le tue lettere, i dati del contratto e la firma sono <strong>cifrati con AES-256
 Sì. Fino a quando locatore/locatrice non accetta la riduzione o l'autorità di conciliazione non decide, paghi l'affitto attuale. Il nuovo affitto è dovuto solo a partire dalla data di effetto. Una trattenuta autonoma può portare a una disdetta immediata.
 
 
-## idRecht
+## Note legali
 
 <h3 id="il-mio-locatore-pu-disdire-il-contratto-perch-presento-una-richiesta-di-riduzion">Il mio locatore può disdire il contratto perché presento una richiesta di riduzione?</h3>
 

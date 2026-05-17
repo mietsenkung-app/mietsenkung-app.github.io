@@ -354,7 +354,7 @@ Tu trouves ici les réponses à tous les sujets autour de l'app : calculer le dr
 }
 </script>
 
-## idAnspruch
+## Droit
 
 <h3 id="quand-ai-je-droit-une-baisse-de-loyer">Quand ai-je droit à une baisse de loyer ?</h3>
 
@@ -393,7 +393,7 @@ Non. La baisse prend effet uniquement à partir du prochain terme de résiliatio
 Regarde ton bail et toutes les communications ultérieures de ta·ton bailleur·eresse (souvent sur le formulaire officiel). La dernière adaptation peut être le début du bail s'il n'y en a jamais eu. En cas de doute, choisis « Je ne sais pas exactement » dans l'assistant. <strong>Baisse-loyer</strong> calcule alors de façon prudente avec une estimation.
 
 
-## idBriefVersand
+## Lettre et envoi
 
 <h3 id="partir-de-quand-le-nouveau-loyer-plus-bas-s-applique-t-il">À partir de quand le nouveau loyer plus bas s'applique-t-il ?</h3>
 
@@ -472,7 +472,7 @@ La demande de baisse de loyer n'est soumise à <strong>aucune forme selon l'art.
 Juridiquement non, le droit suisse du bail ne prescrit aucune forme. En pratique, c'est fortement recommandé : un·e bailleur·eresse peut refuser une demande déposée par une seule personne sans l'accord des autres. Avec plusieurs parties au contrat, <strong>Baisse-loyer</strong> te propose deux voies : signer ensemble sur l'appareil (l'assistant passe l'appareil entre les parties) et envoyer via l'app, ou télécharger la lettre, la faire signer sur papier et la poster toi-même.
 
 
-## idFolgebrief
+## Courriers de suivi
 
 <h3 id="baisse-loyer-propose-t-elle-aussi-des-lettres-de-suivi">Baisse-loyer propose-t-elle aussi des lettres de suivi ?</h3>
 
@@ -495,7 +495,7 @@ Tu peux saisir l'autorité de conciliation de ton arrondissement dans les 30 jou
 Oui. Après l'envoi de la lettre, <strong>Baisse-loyer</strong> te recontacte automatiquement après 14, 30 et 60 jours si la·le bailleur·euse n'a pas réagi. Tu peux alors définir le statut en un tap (accepté / partiel / refusé / pas encore de réponse) et l'app propose directement la lettre de suivi adaptée. Pas besoin de noter quoi que ce soit dans ton calendrier. Nous te rappelons jusqu'à ce que tu dises que ton dossier est terminé.
 
 
-## idAppDaten
+## Application et données
 
 <h3 id="que-stocke-l-app-sur-mon-appareil-et-mes-donn-es-sont-elles-en-s-curit">Que stocke l'app sur mon appareil et mes données sont-elles en sécurité ?</h3>
 
@@ -526,7 +526,7 @@ Tes courriers, données de bail et signature sont <strong>chiffrés en AES-256 e
 Oui. Jusqu'à ce que ta·ton bailleur·eresse accepte la baisse ou que l'autorité de conciliation tranche, tu continues à payer le loyer actuel. Le nouveau loyer ne devient dû qu'à partir de la date d'effet. Une retenue de ta propre initiative peut entraîner une résiliation immédiate.
 
 
-## idRecht
+## Mentions légales
 
 <h3 id="mon-ma-bailleur-eresse-peut-il-elle-me-r-silier-parce-que-je-d-pose-une-demande-">Mon·ma bailleur·eresse peut-il·elle me résilier parce que je dépose une demande de baisse ?</h3>
 

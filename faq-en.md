@@ -354,7 +354,7 @@ Here you find answers to all topics around the app: claim calculation, sending t
 }
 </script>
 
-## idAnspruch
+## Eligibility
 
 <h3 id="when-am-i-entitled-to-a-rent-reduction">When am I entitled to a rent reduction?</h3>
 
@@ -393,7 +393,7 @@ No. The reduction only takes effect from the next termination date after your re
 Check your rental contract and any later letters from your landlord (often on the official form). The last adjustment may be the start of the tenancy if there's been none. If unsure, choose "I'm not sure" in the wizard. <strong>RentReducer</strong> calculates conservatively with an estimate.
 
 
-## idBriefVersand
+## Letter and dispatch
 
 <h3 id="when-does-the-new-lower-rent-take-effect">When does the new, lower rent take effect?</h3>
 
@@ -472,7 +472,7 @@ The rent reduction request is <strong>form-free under Art. 270a CO</strong>: no 
 Legally no, Swiss rental law prescribes no form. But it is strongly recommended in practice: landlords may refuse a request made by one person without the consent of the others. With multiple contract parties, <strong>RentReducer</strong> offers two paths: sign together on the device (the wizard passes the device between the parties) and send via the app, or download the letter, have it signed on paper and post it yourself.
 
 
-## idFolgebrief
+## Follow-up letters
 
 <h3 id="does-rentreducer-offer-follow-up-letters-too">Does RentReducer offer follow-up letters too?</h3>
 
@@ -495,7 +495,7 @@ You can file a petition with the conciliation authority of your district within 
 Yes. After you send the letter, <strong>RentReducer</strong> checks back automatically after 14, 30 and 60 days if your landlord did not respond. With one tap you set the status (accepted / partial / rejected / no response yet) and the app suggests the right follow-up letter directly. You do not have to write anything down in your calendar. We remind you until you say your case is done.
 
 
-## idAppDaten
+## App and data
 
 <h3 id="what-does-the-app-store-on-my-device-and-is-my-data-safe">What does the app store on my device, and is my data safe?</h3>
 
@@ -526,7 +526,7 @@ Your letters, lease details, and signature are <strong>AES-256 encrypted and sto
 Yes. Until your landlord accepts the reduction or the conciliation authority decides, you continue paying the current rent. The new, lower rent is only owed from the effective date. Withholding on your own can trigger an immediate termination.
 
 
-## idRecht
+## Legal notice
 
 <h3 id="can-my-landlord-terminate-my-lease-because-i-submitted-a-rent-reduction-request">Can my landlord terminate my lease because I submitted a rent reduction request?</h3>
 

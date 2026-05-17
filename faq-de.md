@@ -354,7 +354,7 @@ Hier findest du die Antworten zu allen Themen rund um die App: Anspruch berechne
 }
 </script>
 
-## idAnspruch
+## Anspruch
 
 <h3 id="wann-habe-ich-anspruch-auf-eine-mietsenkung">Wann habe ich Anspruch auf eine Mietsenkung?</h3>
 
@@ -393,7 +393,7 @@ Nein. Die Senkung wirkt immer erst ab dem nächsten Kündigungstermin nach deine
 Schau in deinen Mietvertrag und in alle späteren Mitteilungen deiner Vermieter*in (oft auf dem amtlichen Formular). Die letzte Anpassung kann auch der Vertragsbeginn sein, falls nie angepasst wurde. Wenn du unsicher bist, wähle im Wizard «Weiss nicht genau». <strong>Mietsenkung</strong> rechnet dann konservativ mit einer Schätzung.
 
 
-## idBriefVersand
+## Brief und Versand
 
 <h3 id="ab-wann-gilt-die-neue-tiefere-miete">Ab wann gilt die neue, tiefere Miete?</h3>
 
@@ -472,7 +472,7 @@ Das Mietsenkungs-Begehren ist nach <strong>Art. 270a OR formfrei</strong>: keine
 Juristisch nein, das Schweizer Mietrecht schreibt für Senkungsbegehren keine Form vor. Praktisch aber stark empfohlen: Vermieter*innen können ein Begehren von einer Person ohne Zustimmung der anderen ablehnen. Bei mehreren Vertragsparteien zeigt dir <strong>Mietsenkung</strong> zwei Wege: entweder unterschreiben alle gemeinsam am Gerät (Wizard reicht das Gerät zwischen den Parteien herum) und du versendest via App, oder du lädst den Brief herunter, lässt ihn auf Papier unterschreiben und verschickst ihn selber per Post.
 
 
-## idFolgebrief
+## Folgebriefe
 
 <h3 id="bietet-mietsenkung-auch-folgebriefe-an">Bietet Mietsenkung auch Folgebriefe an?</h3>
 
@@ -495,7 +495,7 @@ Innert 30 Tagen nach Erhalt der Antwort kannst du bei der Schlichtungsbehörde d
 Ja. Nach Versand des Briefes meldet sich <strong>Mietsenkung</strong> automatisch nach 14, 30 und 60 Tagen falls dein*e Vermieter*in nicht reagiert hat. Du kannst dann mit einem Tap den Status setzen (akzeptiert / teilweise / komplett abgelehnt / noch keine Antwort) und die App schlägt direkt den passenden Folgebrief vor. Du musst nichts im Kalender notieren. Wir erinnern dich, bis du sagst dass dein Fall durch ist.
 
 
-## idAppDaten
+## App und Daten
 
 <h3 id="was-speichert-die-app-auf-meinem-ger-t-und-sind-meine-daten-sicher">Was speichert die App auf meinem Gerät und sind meine Daten sicher?</h3>
 
@@ -526,7 +526,7 @@ Deine Briefe, Vertragsdaten und Unterschrift sind <strong>AES-256 verschlüsselt
 Ja. Bis die Senkung von deiner Vermieter*in akzeptiert oder von der Schlichtungsbehörde entschieden ist, zahlst du die bisherige Miete weiter. Erst ab dem geltenden Wirkungstermin wird die neue, tiefere Miete geschuldet. Ein Rückbehalt auf eigene Faust kann eine fristlose Kündigung zur Folge haben.
 
 
-## idRecht
+## Rechtliches
 
 <h3 id="kann-mein-vermieter-mich-k-ndigen-weil-ich-ein-senkungsbegehren-stelle">Kann mein Vermieter mich kündigen weil ich ein Senkungsbegehren stelle?</h3>
 
