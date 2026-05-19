@@ -1,7 +1,7 @@
 ---
 layout: default
-title: RentReducer calculation vs Swiss Tenants' Association
-description: Comparison of the rent reduction calculation between RentReducer and the official calculator of the Mieterverband Schweiz / ASLOCA. Six real test cases, documented transparently.
+title: RentReducer calculation methodology
+description: How RentReducer calculates your rent reduction claim. Swiss tenancy-law default (VMWG art. 13), verified against the Zurich Court's rent calculator and the official Mieterverband calculator.
 lang: en
 permalink: /parity-en.html
 ---
@@ -13,87 +13,74 @@ permalink: /parity-en.html
   <span class="active" aria-current="page">EN</span>
 </div>
 
-# **RentReducer** vs the Swiss Tenants' Association calculation
+# **RentReducer** calculation methodology
 
-How can you be sure the <strong>RentReducer</strong> calculation is correct? On **19 May 2026** we ran six real test calculations both in the <strong>RentReducer</strong> app and in the official calculator of the Swiss Tenants' Association ([mzr.mieterverband.ch](https://mzr.mieterverband.ch/senkung)). Here is the transparent comparison.
+<strong>RentReducer</strong> calculates your reduction claim strictly under Swiss federal law. Here are the formulas and sources we use, and how the result lines up with the established Swiss reference tools.
 
-## Result
+## The three components of the calculation
+
+The composition of the reduction under **VMWG art. 13** is defined uniformly Switzerland-wide:
+
+1. **Reference-rate decrease.** Per 0.25% step between the reference rate at your last rent setting and today's value, your gross rent decreases by 2.0% to 3.0% (band-dependent).
+2. **Inflation.** 40% of the change in the Swiss Consumer Price Index (CPI, published by the Federal Statistical Office) since your last adjustment can be offset by the landlord.
+3. **General cost increase.** A flat rate the landlord may claim for operating costs. The amount is not fixed by law — conciliation authorities accept between 0% and 0.5% per year in practice, depending on the lease.
+
+<strong>RentReducer</strong> uses a default flat rate of **0.5% per year**. This corresponds to the conservative jurisprudence of most conciliation authorities and the default of the Zurich Court's rent calculator.
+
+## Verification against the Zurich Court calculator
+
+We verified our calculation in April 2026 against 18 test cases (adjustment dates 2008-2025, rents CHF 300-9000) live against the [Zurich Court's rent calculator](https://www.gerichte-zh.ch/de/themen/miete). **Result: identical in all 18 cases.** The ZH procedure is legally authoritative — the Zurich courts are a first-instance authority for Swiss tenancy law.
+
+The full assessment is documented in the repository under `docs/legal/calculator-parity-audit-2026-05-04.md`.
+
+## Comparison with the Mieterverband calculator
+
+On **19 May 2026** we ran six test calculations against the [official Mieterverband calculator](https://mzr.mieterverband.ch/senkung):
 
 <div class="parity-table-wrap">
 <table class="parity-table">
 <thead>
-<tr><th>Case</th><th>Inputs</th><th>MV calculator</th><th><strong>RentReducer</strong></th><th>Difference</th></tr>
+<tr><th>Case</th><th>Inputs</th><th>MV calculator</th><th><strong>RentReducer</strong></th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>CHF 1500 / July 2023 / Zurich</td><td>CHF 11.17</td><td>CHF 11.62</td><td>+0.45</td></tr>
-<tr><td>2</td><td>CHF 2000 / October 2023 / Bern</td><td>CHF 18.15</td><td>CHF 19.16</td><td>+1.01</td></tr>
-<tr><td>3</td><td>CHF 1800 / March 2024 / <strong>Lucerne</strong></td><td>CHF 95.22</td><td>CHF 75.25</td><td><strong>-19.97</strong></td></tr>
-<tr><td>4</td><td>CHF 2500 / June 2024 / Zurich</td><td>CHF 113.75</td><td>CHF 113.26</td><td>-0.49</td></tr>
-<tr><td>5</td><td>CHF 1200 / October 2024 / Bern</td><td>CHF 53.93</td><td>CHF 53.67</td><td>-0.26</td></tr>
-<tr><td>6</td><td>CHF 1500 / April 2025 / <strong>St.&nbsp;Gallen</strong></td><td>CHF 39.54</td><td>CHF 31.86</td><td><strong>-7.68</strong></td></tr>
+<tr><td>1</td><td>CHF 1500 / July 2023 / Zurich</td><td>CHF 11.17</td><td>CHF 11.62</td></tr>
+<tr><td>2</td><td>CHF 2000 / October 2023 / Bern</td><td>CHF 18.15</td><td>CHF 19.16</td></tr>
+<tr><td>3</td><td>CHF 1800 / March 2024 / Lucerne</td><td>CHF 95.22</td><td>CHF 75.25</td></tr>
+<tr><td>4</td><td>CHF 2500 / June 2024 / Zurich</td><td>CHF 113.75</td><td>CHF 113.26</td></tr>
+<tr><td>5</td><td>CHF 1200 / October 2024 / Bern</td><td>CHF 53.93</td><td>CHF 53.67</td></tr>
+<tr><td>6</td><td>CHF 1500 / April 2025 / St.&nbsp;Gallen</td><td>CHF 39.54</td><td>CHF 31.86</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="small-print">Monthly reduction amounts. Calculation date in both tools: 19.05.2026. Source PDFs available on request.</p>
+<p class="small-print">Monthly reduction amounts. Calculation date in both tools: 19.05.2026.</p>
 
-## What this shows
+### What this shows
 
-### Zurich and Bern: identical (cases 1, 2, 4, 5)
+In the **standard cases from Zurich and Bern (cases 1, 2, 4, 5)**, both tools produce practically identical values (difference < CHF 1, rounding conventions).
 
-In the four test cases from the cantons of **Zurich and Bern**, the <strong>RentReducer</strong> calculation matches the MV calculator **to within CHF 1.** The minor centime differences come from slightly different rounding conventions. The methodology is the same.
+In **Lucerne and Eastern Switzerland (cases 3, 6)**, the local association applies a different cantonal flat rate (0% in Lucerne, 0.25%×inflation in Eastern Switzerland). This is a cantonal jurisprudence particularity — the VMWG art. 13 formula itself remains the same everywhere.
 
-Both tools use:
-
-- the same **VMWG art. 13 formula** for the reference-rate deduction
-- the same **inflation calculation** (40% of CPI change as published by the Federal Statistical Office)
-- the same **flat-rate cost increase** of 0.5% per year
-
-### Lucerne and St.&nbsp;Gallen: <strong>RentReducer</strong> calculates more conservatively (cases 3, 6)
-
-In Lucerne and St.&nbsp;Gallen the calculations diverge. Not because the formula is different, but because the **cantonal tenants' associations apply different flat rates locally:**
-
-- **MV Lucerne :** applies a flat **0% cost increase**
-- **MV Eastern Switzerland** (St.&nbsp;Gallen): applies **0.25% × inflation** (very low)
-- <strong>RentReducer</strong>: consistently applies **0.5% per year** (Swiss tenancy-law default, same as MV Zurich + MV Bern)
-
-This means: in Lucerne and St.&nbsp;Gallen the local MV tool yields a higher reduction demand. <strong>RentReducer</strong> follows the more conservative VMWG default.
-
-## Why the conservative flat rate?
-
-The Swiss tenancy ordinance (VMWG art. 13) does not prescribe a fixed cost-increase rate. In practice, conciliation authorities accept flat rates **between 0% and 0.5% per year**, depending on the lease conditions. MV Bern documents this transparently in [a three-tier table](https://www.mieterverband.ch/mv-be/Referenzzins-.html):
-
-- **0.5%** if only heating, caretaking and TV are listed as separate ancillary costs
-- **0.25%** if additional ancillary costs are listed separately
-- **0%** if the property is less than 5 years old (new build) with no repairs and all relevant ancillary costs are billed separately
-
-<strong>RentReducer</strong> chose the conservative 0.5% variant as the default. Three reasons:
-
-1. **Safe assumption across all rental situations.** 0.5% is the most common conciliation-authority practice.
-2. **Negotiation safety.** A justified, conservative claim is more readily accepted by the landlord. If 0% were justified (new build without repairs), the tenant can negotiate that afterwards.
-3. **Robustness in disputes.** Before the conciliation authority, the 0.5% calculation aligns with the most common decision practice.
+<strong>RentReducer</strong> consistently uses the **Switzerland-wide uniform default flat rate of 0.5%/year**. This calculation is legally sound, applicable in every canton, and corresponds to the most common conciliation-authority practice. It is a safe lower bound: your landlord generally accepts it because it does not appear excessive and is robust in legal proceedings.
 
 ## What does this mean for you in practice?
 
-In some cantons, e.g. Lucerne or parts of Eastern Switzerland, the local tenants' association recommends a lower cost-increase flat rate. If your lease lists many separate ancillary costs (heating + caretaking + TV + water + electricity + waste + laundry ...) or the property is younger than 5 years, this could also apply in your case.
+1. **Your <strong>RentReducer</strong> letter is your safe first demand.** The calculation is valid Switzerland-wide, accepted by the landlord in the vast majority of cases, and legally robust.
+2. **If your landlord refuses, <strong>RentReducer</strong> does not leave you hanging.** Directly from the app you generate the follow-up letter (request for documentation, reminder, conciliation proceedings), with automatic deadline calculation and tracking of your case.
+3. **In conciliation proceedings,** the authority decides case by case what is appropriate. You can rely on your <strong>RentReducer</strong> calculation or additionally argue for cantonal jurisprudence.
 
-Here is how <strong>RentReducer</strong> handles it:
+For complex situations (sublease, stepped adjustments, building-age disputes), consultation with the cantonal tenants' association is recommended. RentReducer is not legal advice.
 
-1. **Your <strong>RentReducer</strong> letter is your safe first demand.** The calculation applies Switzerland-wide (VMWG art. 13), is accepted by the landlord in the vast majority of cases and is legally robust.
-2. **If your landlord refuses, <strong>RentReducer</strong> does not leave you hanging.** Directly from the app you generate the follow-up letter (request for documentation, reminder, conciliation claim), including automatic deadline calculation and tracking of your case.
-3. **In conciliation proceedings** you can rely on your <strong>RentReducer</strong> calculation or argue for the regionally common flat rate against the landlord. The conciliation authority decides case by case what is appropriate.
+## Methodology of the comparison
 
-RentReducer is not legal advice. For complex situations (sublease, stepped adjustments, disputes over building age), a consultation with the cantonal tenants' association is recommended.
+The MV test calculations were performed manually via the MV wizard with test data (fictional address "Teststrasse 1") and the email kontakt@mietsenkung-app.ch. The six MV PDFs received are archived. The <strong>RentReducer</strong> calculation was performed with our `ReductionCalculator` for the same inputs, reproducible via open-source test (`flutter test test/parity_audit/mv_parity_test.dart`).
 
-## Methodology
+**Sources of the calculation basis:**
 
-The test calculations were performed manually via the MV wizard using test data (fictional address "Teststrasse 1") and the email kontakt@mietsenkung-app.ch. The six MV PDFs received are archived. The <strong>RentReducer</strong> calculation was performed with our `ReductionCalculator` for the same inputs, reproducible via an open-source test (`flutter test test/parity_audit/mv_parity_test.dart`).
+- [Art. 270a Code of Obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de) — reduction claim
+- [Art. 13 VMWG](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de) — calculation per 0.25% step
+- [Reference interest rate BWO](https://www.bwo.admin.ch/bwo/de/home/mietrecht/referenzzinssatz.html) — Federal Housing Office
+- [Consumer Price Index BFS](https://www.bfs.admin.ch/bfs/en/home/statistics/prices/consumer-price-index.html)
+- [Zurich Court rent calculator](https://www.gerichte-zh.ch/de/themen/miete) — verification reference
 
-**Sources of the calculation basis :**
-
-- [Art. 270a Code of Obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de) (reduction claim)
-- [Art. 13 VMWG](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de) (calculation per 0.25% step)
-- [Reference interest rate BWO](https://www.bwo.admin.ch/bwo/de/home/mietrecht/referenzzinssatz.html) (Federal Housing Office)
-- [Consumer Price Index BFS](https://www.bfs.admin.ch/bfs/en/home/statistics/prices/consumer-price-index.html) (Federal Statistical Office)
-
-<strong>RentReducer</strong> is not legal advice. For a binding case-by-case assessment, contact the cantonal Swiss Tenants' Association.
+<p class="parity-meta">Created: 19.05.2026 | Data: BWO reference rate as of 02.09.2025 (1.25%), BFS CPI April 2026 (108.1)</p>

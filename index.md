@@ -203,7 +203,7 @@ permalink: /
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
         </span>
         <h3>Anspruch prüfen</h3>
-        <p>Mietzins und Datum der letzten Anpassung eingeben. Die App rechnet nach Bundesrecht (Art.&nbsp;270a&nbsp;OR + VMWG&nbsp;Art.&nbsp;13) inkl. Teuerung und Kostensteigerung. Resultat 1:1 mit dem Mietzinsrechner der Zürcher&nbsp;Gerichte und dem offiziellen Mieterverbands-Rechner (<a href="{{ '/parity-de.html' | relative_url }}">Vergleich in 6 Test-Fällen</a>).</p>
+        <p>Mietzins und Datum der letzten Anpassung eingeben. Die App rechnet nach Bundesrecht (Art.&nbsp;270a&nbsp;OR + VMWG&nbsp;Art.&nbsp;13) inkl. Teuerung und Kostensteigerung. Resultat 1:1 mit dem Mietzinsrechner der Zürcher&nbsp;Gerichte.</p>
         <span class="step__time">≈ 2&nbsp;min · gratis</span>
       </article>
 
@@ -594,10 +594,10 @@ permalink: /
         </span>
       </a>
       <a class="source-row" href="{{ '/parity-de.html' | relative_url }}">
-        <span class="source-row__abbr">MV</span>
+        <span class="source-row__abbr">∑</span>
         <span class="source-row__body">
-          <span class="source-row__title">Vergleich mit MV-Mietzinsrechner</span>
-          <span class="source-row__sub">6 Test-Fälle, transparent dokumentiert (Stand 19.05.2026)</span>
+          <span class="source-row__title">Methodik-Übersicht</span>
+          <span class="source-row__sub">Wie wird gerechnet, welche Quellen, welche Pauschalen</span>
         </span>
       </a>
     </div>
