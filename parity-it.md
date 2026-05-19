@@ -73,15 +73,17 @@ L'ordinanza svizzera sulla locazione (OLAL art. 13) non prescrive un forfait fis
 2. **Sicurezza nella trattativa.** Una richiesta motivata e conservativa è più facilmente accettata dal locatore. Se lo 0% fosse giustificato (immobile nuovo senza riparazioni), il locatario può rinegoziarlo successivamente.
 3. **Robustezza in caso di controversia.** Davanti all'autorità di conciliazione, il calcolo allo 0.5% è coerente con la giurisprudenza più frequente.
 
-## Cosa fare se vivi a Lucerna o nella Svizzera orientale?
+## Cosa significa concretamente per te?
 
-Se il tuo contratto elenca molte spese accessorie separate (riscaldamento + custodia + TV + acqua + elettricità + rifiuti + lavanderia...), un forfait più basso potrebbe essere giustificato. Procedura:
+In alcuni cantoni, ad esempio Lucerna o in parti della Svizzera orientale, l'associazione locale degli inquilini raccomanda un forfait più basso per l'aumento dei costi. Se il tuo contratto elenca molte spese accessorie separate (riscaldamento + custodia + TV + acqua + elettricità + rifiuti + lavanderia ...) o se l'immobile ha meno di 5 anni, potrebbe essere giustificato anche nel tuo caso.
 
-1. **Usa la tua lettera <strong>Ribassoaffitto</strong> come prima richiesta.** Il calcolo è un limite inferiore sicuro, raramente contestato dal locatore.
-2. **Se il locatore rifiuta o se vuoi una riduzione maggiore:** contatta l'associazione cantonale (consulenza gratuita per i membri):
-   - **MV Lucerna :** [luzern@mieterverband.ch](mailto:luzern@mieterverband.ch) / 041 220 10 22
-   - **MV Svizzera orientale :** [ostschweiz@mieterverband.ch](mailto:ostschweiz@mieterverband.ch) / 071 222 50 29
-3. **In caso di procedura di conciliazione** puoi presentare il calcolo cantonale come estensione della tua richiesta.
+Ecco come <strong>Ribassoaffitto</strong> gestisce questa situazione:
+
+1. **La tua lettera <strong>Ribassoaffitto</strong> è la prima richiesta sicura.** Il calcolo è valido in tutta la Svizzera (OLAL art. 13), è accettato nella grande maggioranza dei casi dal locatore ed è giuridicamente solido.
+2. **Se il locatore rifiuta, <strong>Ribassoaffitto</strong> non ti abbandona.** Direttamente dall\'app generi la lettera di seguito (richiesta di documenti, sollecito, richiesta di conciliazione), con calcolo automatico dei termini e tracciamento della tua procedura.
+3. **Nella procedura di conciliazione** puoi basarti sul tuo calcolo <strong>Ribassoaffitto</strong> oppure argomentare il forfait regionale in uso contro il locatore. L\'autorità di conciliazione decide caso per caso cosa sia appropriato.
+
+Ribassoaffitto non sostituisce una consulenza legale. Per situazioni complesse (subaffitto, adeguamenti scalari, controversie sull\'età dell\'immobile), è raccomandabile una consulenza presso l\'associazione cantonale degli inquilini.
 
 ## Metodologia
 

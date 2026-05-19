@@ -73,15 +73,17 @@ Die Schweizer Mietverordnung (VMWG Art. 13) gibt keine fixe Kostensteigerungs-Pa
 2. **Verhandlungs-Sicherheit.** Eine begründete, konservative Forderung wird vom Vermieter eher akzeptiert. Falls 0% gerechtfertigt wäre (z.B. Neubau ohne Reparaturen), kann der Mieter das in der Beantwortung der Vermieterschaft nachverhandeln.
 3. **Streitfall-Robustheit.** Falls es zur Schlichtungsbehörde geht, ist die 0.5%-Berechnung mit der häufigsten Spruchpraxis kongruent.
 
-## Was tun, wenn du in Luzern oder der Ostschweiz wohnst?
+## Was bedeutet das für dich konkret?
 
-Wenn dein Mietvertrag eine umfassende Nebenkosten-Liste hat (Heizung + Hauswartung + TV + Wasser + Strom + Kehricht + Wäsche...) könnte eine niedrigere Kostensteigerungs-Pauschale gerechtfertigt sein. So gehst du vor:
+In gewissen Kantonen, beispielsweise Luzern oder Teilen der Ostschweiz, empfiehlt der lokale Mieterverband eine niedrigere Kostensteigerungs-Pauschale. Wenn dein Mietvertrag eine umfassende Nebenkosten-Liste enthält (Heizung + Hauswartung + TV + Wasser + Strom + Kehricht + Wäsche ...) oder die Liegenschaft jünger als 5 Jahre ist, könnte das auch in deinem Fall gerechtfertigt sein.
 
-1. **Verwende deinen <strong>Mietsenkung</strong>-Brief als Erstforderung.** Die <strong>Mietsenkung</strong>-Berechnung ist eine sichere Untergrenze und wird vom Vermieter selten bestritten.
-2. **Wenn der Vermieter ablehnt oder du eine höhere Senkung anstrebst:** frage den kantonalen Mieterverband (kostenlose Beratung als Mitglied):
-   - **MV Luzern Nidwalden Obwalden Uri:** [luzern@mieterverband.ch](mailto:luzern@mieterverband.ch) / 041 220 10 22
-   - **MV Ostschweiz:** [ostschweiz@mieterverband.ch](mailto:ostschweiz@mieterverband.ch) / 071 222 50 29
-3. **Bei Schlichtungs-Verfahren** kannst du die kantonale MV-Berechnung als Erweiterung deiner Forderung einreichen.
+So geht <strong>Mietsenkung</strong> damit um:
+
+1. **Dein <strong>Mietsenkung</strong>-Brief ist die sichere Erstforderung.** Die Berechnung gilt schweizweit (VMWG Art. 13), wird in der grössten Mehrheit der Fälle vom Vermieter akzeptiert und ist juristisch belastbar.
+2. **Lehnt deine Vermieterschaft ab, schickt <strong>Mietsenkung</strong> dich nicht weg.** Direkt aus der App heraus erstellst du den Folgebrief (Unterlagen anfordern, Erinnerung, Schlichtungs-Klage), inklusive automatischer Frist-Berechnung und Tracking deines Verfahrens.
+3. **Im Schlichtungs-Verfahren** kannst du dich auf deine <strong>Mietsenkung</strong>-Berechnung stützen oder die regional übliche Pauschale gegen den Vermieter argumentieren. Die Schlichtungsbehörde entscheidet im Einzelfall, was angemessen ist.
+
+Mietsenkung ist keine Rechtsberatung. Bei komplexen Konstellationen (z.B. Mitvertrag mit Untermiete, gestaffelte Anpassungen, Streitigkeiten ums Gebäudealter) ist eine Beratung beim kantonalen Mieterinnen- und Mieterverband empfehlenswert.
 
 ## Methodik
 

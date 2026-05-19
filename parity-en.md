@@ -73,15 +73,17 @@ The Swiss tenancy ordinance (VMWG art. 13) does not prescribe a fixed cost-incre
 2. **Negotiation safety.** A justified, conservative claim is more readily accepted by the landlord. If 0% were justified (new build without repairs), the tenant can negotiate that afterwards.
 3. **Robustness in disputes.** Before the conciliation authority, the 0.5% calculation aligns with the most common decision practice.
 
-## What to do if you live in Lucerne or Eastern Switzerland?
+## What does this mean for you in practice?
 
-If your lease lists many separate ancillary costs (heating + caretaking + TV + water + electricity + waste + laundry...), a lower flat rate could be justified. Proceed as follows:
+In some cantons, e.g. Lucerne or parts of Eastern Switzerland, the local tenants' association recommends a lower cost-increase flat rate. If your lease lists many separate ancillary costs (heating + caretaking + TV + water + electricity + waste + laundry ...) or the property is younger than 5 years, this could also apply in your case.
 
-1. **Use your <strong>RentReducer</strong> letter as your first demand.** The calculation is a safe lower bound and is rarely contested by the landlord.
-2. **If the landlord refuses or you want a higher reduction:** contact the cantonal tenants' association (free advice for members):
-   - **MV Lucerne :** [luzern@mieterverband.ch](mailto:luzern@mieterverband.ch) / 041 220 10 22
-   - **MV Eastern Switzerland :** [ostschweiz@mieterverband.ch](mailto:ostschweiz@mieterverband.ch) / 071 222 50 29
-3. **In conciliation proceedings** you can submit the cantonal calculation as an extension of your demand.
+Here is how <strong>RentReducer</strong> handles it:
+
+1. **Your <strong>RentReducer</strong> letter is your safe first demand.** The calculation applies Switzerland-wide (VMWG art. 13), is accepted by the landlord in the vast majority of cases and is legally robust.
+2. **If your landlord refuses, <strong>RentReducer</strong> does not leave you hanging.** Directly from the app you generate the follow-up letter (request for documentation, reminder, conciliation claim), including automatic deadline calculation and tracking of your case.
+3. **In conciliation proceedings** you can rely on your <strong>RentReducer</strong> calculation or argue for the regionally common flat rate against the landlord. The conciliation authority decides case by case what is appropriate.
+
+RentReducer is not legal advice. For complex situations (sublease, stepped adjustments, disputes over building age), a consultation with the cantonal tenants' association is recommended.
 
 ## Methodology
 

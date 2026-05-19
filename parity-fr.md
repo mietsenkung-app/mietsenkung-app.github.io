@@ -73,15 +73,17 @@ L'ordonnance suisse sur le bail (OBLF art. 13) ne prescrit pas de forfait fixe p
 2. **Sécurité de négociation.** Une demande motivée et conservatrice est plus facilement acceptée par la bailleuse. Si 0% se justifie (immeuble neuf sans réparations), le locataire peut le négocier ensuite.
 3. **Robustesse en cas de litige.** Devant l'autorité de conciliation, le calcul à 0.5% est congruent avec la jurisprudence la plus fréquente.
 
-## Que faire si tu habites à Lucerne ou en Suisse orientale ?
+## Qu'est-ce que cela signifie concrètement pour toi ?
 
-Si ton contrat de bail liste de nombreux frais accessoires séparés (chauffage + conciergerie + TV + eau + électricité + ordures + buanderie...), un forfait plus faible pourrait être justifié. Marche à suivre :
+Dans certains cantons, par exemple à Lucerne ou dans des parties de la Suisse orientale, l'association locale des locataires recommande un forfait inférieur pour l'augmentation des coûts. Si ton bail liste de nombreux frais accessoires séparés (chauffage + conciergerie + TV + eau + électricité + ordures + buanderie ...) ou si l'immeuble a moins de 5 ans, cela pourrait aussi se justifier dans ton cas.
 
-1. **Utilise ta lettre <strong>Baisse-loyer</strong> comme première demande.** Le calcul est une limite inférieure sûre, rarement contestée par la bailleuse.
-2. **Si la bailleuse refuse ou si tu vises une réduction plus élevée :** contacte l'association cantonale (consultation gratuite pour les membres) :
-   - **MV Lucerne :** [luzern@mieterverband.ch](mailto:luzern@mieterverband.ch) / 041 220 10 22
-   - **MV Suisse orientale :** [ostschweiz@mieterverband.ch](mailto:ostschweiz@mieterverband.ch) / 071 222 50 29
-3. **En cas de procédure de conciliation,** tu peux soumettre le calcul cantonal en tant qu'extension de ta demande.
+Voici comment <strong>Baisse-loyer</strong> gère cela :
+
+1. **Ta lettre <strong>Baisse-loyer</strong> est la première demande sûre.** Le calcul est valable dans toute la Suisse (OBLF art. 13), est accepté dans la grande majorité des cas par la bailleuse et tient juridiquement.
+2. **Si la bailleuse refuse, <strong>Baisse-loyer</strong> ne te laisse pas tomber.** Directement depuis l'app, tu génères la lettre de suivi (demande de pièces justificatives, rappel, requête en conciliation), avec calcul automatique des délais et suivi de ta procédure.
+3. **En procédure de conciliation,** tu peux te baser sur ton calcul <strong>Baisse-loyer</strong> ou argumenter le forfait régional en vigueur contre la bailleuse. L'autorité de conciliation décide au cas par cas ce qui est approprié.
+
+Baisse-loyer n'est pas un conseil juridique. Pour des constellations complexes (sous-location, ajustements échelonnés, litiges sur l'âge du bâtiment), une consultation auprès de l'association cantonale des locataires est recommandée.
 
 ## Méthodologie
 
