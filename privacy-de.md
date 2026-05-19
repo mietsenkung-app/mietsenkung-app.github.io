@@ -23,11 +23,9 @@ permalink: /privacy-de.html
 
 ## 1. Verantwortliche Person
 
-Verantwortlich für die Datenbearbeitung in dieser App ist:
+Verantwortlich für die Datenbearbeitung in dieser App ist die im [Impressum](impressum.html) genannte Person.
 
-**Manuel Weingartner**
-Privatperson, kein Handelsregister-Eintrag.
-E-Mail: kontakt@mietsenkung-app.ch
+Kontakt: kontakt@mietsenkung-app.ch
 Postadresse auf Anfrage per E-Mail.
 
 Diese Datenschutzerklärung richtet sich nach dem revidierten Schweizer Datenschutzgesetz (nDSG, in Kraft seit 01.09.2023). Für Nutzer&ast;innen mit Wohnsitz im EWR gelten ergänzend die einschlägigen Bestimmungen der EU-Datenschutz-Grundverordnung (DSGVO).
@@ -181,9 +179,6 @@ Wir dürfen diese Datenschutzerklärung anpassen, wenn sich Funktionen der App, 
 
 ## 10. Kontakt
 
-Für alle Datenschutzanfragen:
-
-**Manuel Weingartner**
-E-Mail: kontakt@mietsenkung-app.ch
+Für alle Datenschutzanfragen: kontakt@mietsenkung-app.ch (verantwortliche Person siehe [Impressum](impressum.html)).
 
 Postadresse auf Anfrage. Antwort in der Regel innerhalb 48 Stunden.

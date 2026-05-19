@@ -29,9 +29,27 @@ La composition de la baisse selon l'**OBLF art. 13** est définie uniformément 
 
 ## Vérification contre le calculateur ZH
 
-Nous avons vérifié notre calcul en avril 2026 dans 18 cas de test (dates d'adaptation 2008-2025, loyers CHF 300-9000) en direct contre le [calculateur du Tribunal de Zurich](https://www.gerichte-zh.ch/de/themen/miete). **Résultat : identique dans les 18 cas.** La procédure ZH est juridiquement de référence : les tribunaux ZH sont l'une des instances de première instance pour le droit du bail suisse.
+Nous avons vérifié notre calcul en avril 2026 dans 18 cas de test (dates d'adaptation 2008-2025, loyers CHF 300-9000) contre le [calculateur du Tribunal de Zurich](https://www.gerichte-zh.ch/de/themen/miete). **Résultat : dans les 18 cas, Baisse-loyer donne exactement le même résultat que le calculateur ZH pour des données d'entrée identiques.** Les tribunaux ZH sont compétents en première instance pour le droit du bail suisse, une référence juridiquement solide.
 
-L'évaluation complète est documentée dans le dépôt sous `docs/legal/calculator-parity-audit-2026-05-04.md`.
+Sélection de la série de tests :
+
+<div class="parity-table-wrap">
+<table class="parity-table">
+<thead>
+<tr><th>Cas</th><th>Adaptation</th><th>Loyer</th><th>Baisse</th><th>Δ ZH</th></tr>
+</thead>
+<tbody>
+<tr><td>C1</td><td>25.06.2008</td><td>CHF 4981</td><td>CHF 507.47</td><td>± CHF 0</td></tr>
+<tr><td>C3</td><td>02.10.2010</td><td>CHF 5532</td><td>CHF 277.10</td><td>± CHF 0</td></tr>
+<tr><td>C4</td><td>25.03.2011</td><td>CHF 6944</td><td>CHF 393.83</td><td>± CHF 0</td></tr>
+<tr><td>C6</td><td>22.05.2013</td><td>CHF 1560</td><td>CHF 24.84</td><td>± CHF 0</td></tr>
+<tr><td>C17</td><td>21.10.2024</td><td>CHF 7418</td><td>CHF 342.41</td><td>± CHF 0</td></tr>
+<tr><td>C18</td><td>20.07.2025</td><td>CHF 5878</td><td>CHF 148.03</td><td>± CHF 0</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="small-print">Δ ZH = différence entre le calcul Baisse-loyer et le calcul ZH pour la même base de données. Les 18 cas montrent Δ = CHF 0.</p>
 
 ## Comparaison avec le calculateur du Mieterverband
 
@@ -71,11 +89,7 @@ Dans les **cas standards de Zurich et Berne (cas 1, 2, 4, 5)**, les deux outils 
 
 Pour des constellations complexes (sous-location, ajustements échelonnés, litiges sur l'âge du bâtiment), une consultation auprès de l'association cantonale des locataires est recommandée. Baisse-loyer n'est pas un conseil juridique.
 
-## Méthodologie de la comparaison
-
-Les calculs MV ont été effectués manuellement via l'assistant MV avec des données de test (adresse fictive "Teststrasse 1") et l'email kontakt@mietsenkung-app.ch. Les six PDFs MV reçus sont archivés. Le calcul <strong>Baisse-loyer</strong> a été réalisé avec notre `ReductionCalculator` pour les mêmes entrées, reproductible via un test open-source (`flutter test test/parity_audit/mv_parity_test.dart`).
-
-**Sources des bases de calcul :**
+## Sources
 
 - [Art. 270a Code des obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr) — droit à la baisse
 - [Art. 13 OBLF](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/fr) — calcul par palier de 0.25%
@@ -83,4 +97,4 @@ Les calculs MV ont été effectués manuellement via l'assistant MV avec des don
 - [Indice des prix à la consommation OFS](https://www.bfs.admin.ch/bfs/fr/home/statistiques/prix/indice-prix-consommation.html)
 - [Calculateur du Tribunal de Zurich](https://www.gerichte-zh.ch/de/themen/miete) — référence de vérification
 
-<p class="parity-meta">Créé : 19.05.2026 | Données : taux de référence OFL au 02.09.2025 (1.25%), IPC OFS avril 2026 (108.1)</p>
+<p class="parity-meta">État : 19.05.2026</p>

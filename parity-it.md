@@ -29,9 +29,27 @@ La composizione della riduzione secondo l'**OLAL art. 13** è definita in modo u
 
 ## Verifica contro il calcolatore ZH
 
-Abbiamo verificato il nostro calcolo in aprile 2026 in 18 casi test (date di adeguamento 2008-2025, affitti CHF 300-9000) live contro il [calcolatore del Tribunale di Zurigo](https://www.gerichte-zh.ch/de/themen/miete). **Risultato: identico in tutti i 18 casi.** La procedura ZH è giuridicamente autorevole: i tribunali ZH sono una delle istanze di prima istanza per il diritto svizzero della locazione.
+Abbiamo verificato il nostro calcolo in aprile 2026 in 18 casi test (date di adeguamento 2008-2025, affitti CHF 300-9000) contro il [calcolatore del Tribunale di Zurigo](https://www.gerichte-zh.ch/de/themen/miete). **Risultato: in tutti i 18 casi, Ribassoaffitto produce lo stesso risultato del calcolatore ZH con dati di input identici.** I tribunali ZH sono competenti in prima istanza per il diritto svizzero della locazione, un riferimento giuridicamente solido.
 
-La valutazione completa è documentata nel repository sotto `docs/legal/calculator-parity-audit-2026-05-04.md`.
+Selezione dalla serie di test:
+
+<div class="parity-table-wrap">
+<table class="parity-table">
+<thead>
+<tr><th>Caso</th><th>Adeguamento</th><th>Affitto</th><th>Riduzione</th><th>Δ ZH</th></tr>
+</thead>
+<tbody>
+<tr><td>C1</td><td>25.06.2008</td><td>CHF 4981</td><td>CHF 507.47</td><td>± CHF 0</td></tr>
+<tr><td>C3</td><td>02.10.2010</td><td>CHF 5532</td><td>CHF 277.10</td><td>± CHF 0</td></tr>
+<tr><td>C4</td><td>25.03.2011</td><td>CHF 6944</td><td>CHF 393.83</td><td>± CHF 0</td></tr>
+<tr><td>C6</td><td>22.05.2013</td><td>CHF 1560</td><td>CHF 24.84</td><td>± CHF 0</td></tr>
+<tr><td>C17</td><td>21.10.2024</td><td>CHF 7418</td><td>CHF 342.41</td><td>± CHF 0</td></tr>
+<tr><td>C18</td><td>20.07.2025</td><td>CHF 5878</td><td>CHF 148.03</td><td>± CHF 0</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="small-print">Δ ZH = differenza tra il calcolo Ribassoaffitto e il calcolo ZH per la stessa base di dati. Tutti i 18 casi mostrano Δ = CHF 0.</p>
 
 ## Confronto con il calcolatore del Mieterverband
 
@@ -71,11 +89,7 @@ A **Lucerna e nella Svizzera orientale (casi 3, 6)**, l'associazione locale appl
 
 Per situazioni complesse (subaffitto, adeguamenti scalari, controversie sull'età dell'immobile) è raccomandabile una consulenza presso l'associazione cantonale degli inquilini. Ribassoaffitto non sostituisce una consulenza legale.
 
-## Metodologia del confronto
-
-I calcoli MV sono stati eseguiti manualmente tramite l'assistente MV con dati di test (indirizzo fittizio "Teststrasse 1") e l'email kontakt@mietsenkung-app.ch. I sei PDF MV ricevuti sono archiviati. Il calcolo <strong>Ribassoaffitto</strong> è stato effettuato con il nostro `ReductionCalculator` per gli stessi input, riproducibile tramite test open-source (`flutter test test/parity_audit/mv_parity_test.dart`).
-
-**Fonti delle basi di calcolo:**
+## Fonti
 
 - [Art. 270a Codice delle obbligazioni (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it) — diritto alla riduzione
 - [Art. 13 OLAL](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/it) — calcolo per scaglione di 0.25%
@@ -83,4 +97,4 @@ I calcoli MV sono stati eseguiti manualmente tramite l'assistente MV con dati di
 - [Indice dei prezzi al consumo UST](https://www.bfs.admin.ch/bfs/it/home/statistiche/prezzi/indice-prezzi-consumo.html)
 - [Calcolatore Tribunale di Zurigo](https://www.gerichte-zh.ch/de/themen/miete) — riferimento di verifica
 
-<p class="parity-meta">Creato: 19.05.2026 | Dati: tasso di riferimento UFAB al 02.09.2025 (1.25%), IPC UST aprile 2026 (108.1)</p>
+<p class="parity-meta">Stato: 19.05.2026</p>

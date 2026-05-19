@@ -23,11 +23,9 @@ permalink: /agb-it.html
 
 ## 1. Fornitore e partner contrattuale
 
-Fornitore e partner contrattuale per l'uso dell'app Ribassoaffitto:
+Fornitore e partner contrattuale per l'uso dell'app Ribassoaffitto è la persona responsabile indicata nell'[impressum](impressum.html).
 
-**Manuel Weingartner**
-Persona privata, senza iscrizione al registro di commercio.
-E-mail: kontakt@mietsenkung-app.ch
+Contatto: kontakt@mietsenkung-app.ch
 Sito: https://mietsenkung-app.ch
 
 ## 2. Campo di applicazione

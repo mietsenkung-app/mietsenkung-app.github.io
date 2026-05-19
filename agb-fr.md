@@ -23,11 +23,9 @@ permalink: /agb-fr.html
 
 ## 1. Fournisseur et partenaire contractuel
 
-Fournisseur et partenaire contractuel pour l'utilisation de l'app Baisse-loyer :
+Fournisseur et partenaire contractuel pour l'utilisation de l'app Baisse-loyer est la personne responsable mentionnée dans les [mentions légales](impressum.html).
 
-**Manuel Weingartner**
-Personne privée, sans inscription au registre du commerce.
-E-mail : kontakt@mietsenkung-app.ch
+Contact : kontakt@mietsenkung-app.ch
 Site : https://mietsenkung-app.ch
 
 ## 2. Champ d'application

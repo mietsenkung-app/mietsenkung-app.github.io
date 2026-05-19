@@ -29,9 +29,27 @@ Wie die Mietzinssenkung gemäss **VMWG Art. 13** zusammengesetzt wird, ist schwe
 
 ## Verifikation gegen den ZH-Mietzinsrechner
 
-Wir haben unsere Berechnung im April 2026 in 18 Test-Fällen (Mietanpassungs-Daten 2008-2025, Mietzinse CHF 300-9000) gegen den [Mietzinsrechner der Zürcher Gerichte](https://www.gerichte-zh.ch/de/themen/miete) live verifiziert. **Resultat: in allen 18 Fällen identisch.** Das ZH-Verfahren ist juristisch authoritativ — die ZH-Gerichte sind eine der erstinstanzlichen Schlichtungs-/Gerichts-Instanzen für Schweizer Mietrecht.
+Wir haben unsere Berechnung im April 2026 in 18 Test-Fällen (Mietanpassungs-Daten 2008-2025, Mietzinse CHF 300-9000) gegen den [Mietzinsrechner der Zürcher Gerichte](https://www.gerichte-zh.ch/de/themen/miete) verifiziert. **Resultat: in allen 18 Fällen liefert die Mietsenkung-Berechnung bei identischen Eingabe-Daten exakt das gleiche Ergebnis wie der ZH-Rechner.** Die ZH-Gerichte sind erstinstanzlich für Schweizer Mietrecht zuständig, ein juristisch belastbarer Referenz-Wert.
 
-Die komplette Auswertung ist im Repository unter `docs/legal/calculator-parity-audit-2026-05-04.md` dokumentiert.
+Auswahl aus der Test-Reihe (vollständige Tabelle siehe Methodik-Repository):
+
+<div class="parity-table-wrap">
+<table class="parity-table">
+<thead>
+<tr><th>Fall</th><th>Anpassung</th><th>Mietzins</th><th>Senkung</th><th>Δ ZH-Rechner</th></tr>
+</thead>
+<tbody>
+<tr><td>C1</td><td>25.06.2008</td><td>CHF 4981</td><td>CHF 507.47</td><td>± CHF 0</td></tr>
+<tr><td>C3</td><td>02.10.2010</td><td>CHF 5532</td><td>CHF 277.10</td><td>± CHF 0</td></tr>
+<tr><td>C4</td><td>25.03.2011</td><td>CHF 6944</td><td>CHF 393.83</td><td>± CHF 0</td></tr>
+<tr><td>C6</td><td>22.05.2013</td><td>CHF 1560</td><td>CHF 24.84</td><td>± CHF 0</td></tr>
+<tr><td>C17</td><td>21.10.2024</td><td>CHF 7418</td><td>CHF 342.41</td><td>± CHF 0</td></tr>
+<tr><td>C18</td><td>20.07.2025</td><td>CHF 5878</td><td>CHF 148.03</td><td>± CHF 0</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="small-print">Δ ZH-Rechner = Differenz Mietsenkung-Berechnung zur ZH-Berechnung bei identischer Daten-Basis. Alle 18 Fälle zeigen Δ = 0 CHF.</p>
 
 ## Vergleich mit dem MV-Mietzinsrechner
 
@@ -71,11 +89,7 @@ In **Luzern und der Ostschweiz (Fälle 3, 6)** wendet der lokale Mieterverband e
 
 Bei komplexen Konstellationen (z.B. Untermiete, gestaffelte Anpassungen, Streitigkeiten ums Gebäudealter) ist eine Beratung beim kantonalen Mieterinnen- und Mieterverband empfehlenswert. <strong>Mietsenkung</strong> ist keine Rechtsberatung.
 
-## Methodik des Vergleichs
-
-Die MV-Test-Berechnungen wurden manuell über den MV-Wizard durchgeklickt mit Test-Daten (Fake-Adresse "Teststrasse 1") und der Email kontakt@mietsenkung-app.ch. Die sechs erhaltenen MV-PDFs sind archiviert. Die <strong>Mietsenkung</strong>-Berechnung wurde mit unserem `ReductionCalculator` für die identischen Inputs berechnet, reproduzierbar via Open-Source-Test (`flutter test test/parity_audit/mv_parity_test.dart`).
-
-**Quellen der Berechnungsgrundlagen:**
+## Quellen
 
 - [Art. 270a Obligationenrecht (OR)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de) — Senkungsanspruch
 - [Art. 13 Verordnung über die Miete (VMWG)](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de) — Berechnung pro 0.25%-Schritt
@@ -83,4 +97,4 @@ Die MV-Test-Berechnungen wurden manuell über den MV-Wizard durchgeklickt mit Te
 - [Landesindex der Konsumentenpreise BFS](https://www.bfs.admin.ch/bfs/de/home/statistiken/preise/landesindex-konsumentenpreise.html) — Bundesamt für Statistik
 - [Mietzinsrechner Zürcher Gerichte](https://www.gerichte-zh.ch/de/themen/miete) — Verifikations-Referenz
 
-<p class="parity-meta">Erstellt: 19.05.2026 | Daten: BWO Referenzzinssatz Stand 2025-09-02 (1.25%), BFS LIK Stand April 2026 (108.1)</p>
+<p class="parity-meta">Stand: 19.05.2026</p>

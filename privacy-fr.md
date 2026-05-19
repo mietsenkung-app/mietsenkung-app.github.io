@@ -23,11 +23,9 @@ permalink: /privacy-fr.html
 
 ## 1. Personne responsable
 
-Responsable du traitement des données dans cette application:
+Responsable du traitement des données dans cette application : personne responsable indiquée dans les [mentions légales](impressum.html).
 
-**Manuel Weingartner**
-Personne privée, sans inscription au registre du commerce.
-E-mail: kontakt@mietsenkung-app.ch
+Contact : kontakt@mietsenkung-app.ch
 Adresse postale sur demande par e-mail.
 
 La présente politique de confidentialité se fonde sur la loi fédérale révisée sur la protection des données (nLPD, en vigueur depuis le 01.09.2023). Pour les utilisateur·rice·s domicilié·e·s dans l'EEE, les dispositions applicables du règlement général de l'UE sur la protection des données (RGPD) s'appliquent en complément.
@@ -181,9 +179,6 @@ Nous pouvons adapter cette politique de confidentialité si les fonctionnalités
 
 ## 10. Contact
 
-Pour toutes les demandes liées à la confidentialité:
-
-**Manuel Weingartner**
-E-mail: kontakt@mietsenkung-app.ch
+Pour toutes les demandes liées à la confidentialité : kontakt@mietsenkung-app.ch (personne responsable, voir [mentions légales](impressum.html)).
 
 Adresse postale sur demande. Réponse en règle générale dans un délai de 48 heures.

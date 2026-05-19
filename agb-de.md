@@ -23,11 +23,9 @@ permalink: /agb-de.html
 
 ## 1. Anbieter und Vertragspartner
 
-Anbieter und Vertragspartner für die Nutzung der App Mietsenkung ist:
+Anbieter und Vertragspartner für die Nutzung der App Mietsenkung ist die im [Impressum](impressum.html) genannte verantwortliche Person.
 
-**Manuel Weingartner**
-Privatperson, kein Handelsregister-Eintrag.
-E-Mail: kontakt@mietsenkung-app.ch
+Kontakt: kontakt@mietsenkung-app.ch
 Website: https://mietsenkung-app.ch
 
 ## 2. Geltungsbereich

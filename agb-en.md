@@ -23,11 +23,9 @@ permalink: /agb-en.html
 
 ## 1. Provider and contracting party
 
-Provider and contracting party for the use of the RentReducer app:
+Provider and contracting party for the use of the RentReducer app is the responsible person listed in the [legal notice](impressum.html).
 
-**Manuel Weingartner**
-Private individual, no commercial register entry.
-E-mail: kontakt@mietsenkung-app.ch
+Contact: kontakt@mietsenkung-app.ch
 Website: https://mietsenkung-app.ch
 
 ## 2. Scope

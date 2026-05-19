@@ -29,9 +29,27 @@ The composition of the reduction under **VMWG art. 13** is defined uniformly Swi
 
 ## Verification against the Zurich Court calculator
 
-We verified our calculation in April 2026 against 18 test cases (adjustment dates 2008-2025, rents CHF 300-9000) live against the [Zurich Court's rent calculator](https://www.gerichte-zh.ch/de/themen/miete). **Result: identical in all 18 cases.** The ZH procedure is legally authoritative — the Zurich courts are a first-instance authority for Swiss tenancy law.
+We verified our calculation in April 2026 across 18 test cases (adjustment dates 2008-2025, rents CHF 300-9000) against the [Zurich Court's rent calculator](https://www.gerichte-zh.ch/de/themen/miete). **Result: in all 18 cases RentReducer produces the same result as the ZH calculator for identical input data.** The Zurich courts are first-instance authority for Swiss tenancy law, a legally robust reference.
 
-The full assessment is documented in the repository under `docs/legal/calculator-parity-audit-2026-05-04.md`.
+Selection from the test series:
+
+<div class="parity-table-wrap">
+<table class="parity-table">
+<thead>
+<tr><th>Case</th><th>Adjustment</th><th>Rent</th><th>Reduction</th><th>Δ ZH</th></tr>
+</thead>
+<tbody>
+<tr><td>C1</td><td>25.06.2008</td><td>CHF 4981</td><td>CHF 507.47</td><td>± CHF 0</td></tr>
+<tr><td>C3</td><td>02.10.2010</td><td>CHF 5532</td><td>CHF 277.10</td><td>± CHF 0</td></tr>
+<tr><td>C4</td><td>25.03.2011</td><td>CHF 6944</td><td>CHF 393.83</td><td>± CHF 0</td></tr>
+<tr><td>C6</td><td>22.05.2013</td><td>CHF 1560</td><td>CHF 24.84</td><td>± CHF 0</td></tr>
+<tr><td>C17</td><td>21.10.2024</td><td>CHF 7418</td><td>CHF 342.41</td><td>± CHF 0</td></tr>
+<tr><td>C18</td><td>20.07.2025</td><td>CHF 5878</td><td>CHF 148.03</td><td>± CHF 0</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="small-print">Δ ZH = difference between RentReducer calculation and ZH calculation for the same data basis. All 18 cases show Δ = CHF 0.</p>
 
 ## Comparison with the Mieterverband calculator
 
@@ -71,11 +89,7 @@ In **Lucerne and Eastern Switzerland (cases 3, 6)**, the local association appli
 
 For complex situations (sublease, stepped adjustments, building-age disputes), consultation with the cantonal tenants' association is recommended. RentReducer is not legal advice.
 
-## Methodology of the comparison
-
-The MV test calculations were performed manually via the MV wizard with test data (fictional address "Teststrasse 1") and the email kontakt@mietsenkung-app.ch. The six MV PDFs received are archived. The <strong>RentReducer</strong> calculation was performed with our `ReductionCalculator` for the same inputs, reproducible via open-source test (`flutter test test/parity_audit/mv_parity_test.dart`).
-
-**Sources of the calculation basis:**
+## Sources
 
 - [Art. 270a Code of Obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de) — reduction claim
 - [Art. 13 VMWG](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de) — calculation per 0.25% step
@@ -83,4 +97,4 @@ The MV test calculations were performed manually via the MV wizard with test dat
 - [Consumer Price Index BFS](https://www.bfs.admin.ch/bfs/en/home/statistics/prices/consumer-price-index.html)
 - [Zurich Court rent calculator](https://www.gerichte-zh.ch/de/themen/miete) — verification reference
 
-<p class="parity-meta">Created: 19.05.2026 | Data: BWO reference rate as of 02.09.2025 (1.25%), BFS CPI April 2026 (108.1)</p>
+<p class="parity-meta">Status: 19.05.2026</p>
