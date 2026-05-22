@@ -332,6 +332,15 @@ permalink: /it/
               <p class="phone__journey-title">Richiesta di ribasso inviata</p>
               <p class="phone__journey-sub">Inviata · 5.5.2026 · Giorno 12</p>
             </div>
+            <div class="phone__status-block">
+              <p class="phone__status-label">Come ha risposto ?</p>
+              <div class="phone__status-row">
+                <span class="phone__chip-status phone__chip-status--ok">Accettata</span>
+                <span class="phone__chip-status phone__chip-status--partial">Parziale</span>
+                <span class="phone__chip-status phone__chip-status--no">Rifiutata</span>
+                <span class="phone__chip-status phone__chip-status--wait">Nessuna risposta</span>
+              </div>
+            </div>
             <div class="phone__letter-card">
               <div class="phone__letter-icon">✉</div>
               <div class="phone__letter-body">

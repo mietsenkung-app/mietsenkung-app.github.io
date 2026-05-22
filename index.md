@@ -332,6 +332,15 @@ permalink: /
               <p class="phone__journey-title">Senkungsbegehren versendet</p>
               <p class="phone__journey-sub">Versendet · 5.5.2026 · Tag 12</p>
             </div>
+            <div class="phone__status-block">
+              <p class="phone__status-label">Wie hat sie geantwortet?</p>
+              <div class="phone__status-row">
+                <span class="phone__chip-status phone__chip-status--ok">Akzeptiert</span>
+                <span class="phone__chip-status phone__chip-status--partial">Teilweise</span>
+                <span class="phone__chip-status phone__chip-status--no">Abgelehnt</span>
+                <span class="phone__chip-status phone__chip-status--wait">Keine Antwort</span>
+              </div>
+            </div>
             <div class="phone__letter-card">
               <div class="phone__letter-icon">✉</div>
               <div class="phone__letter-body">

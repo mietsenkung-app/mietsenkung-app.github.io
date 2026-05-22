@@ -332,6 +332,15 @@ permalink: /en/
               <p class="phone__journey-title">Reduction request mailed</p>
               <p class="phone__journey-sub">Sent · May 5, 2026 · Day 12</p>
             </div>
+            <div class="phone__status-block">
+              <p class="phone__status-label">How did they reply?</p>
+              <div class="phone__status-row">
+                <span class="phone__chip-status phone__chip-status--ok">Accepted</span>
+                <span class="phone__chip-status phone__chip-status--partial">Partial</span>
+                <span class="phone__chip-status phone__chip-status--no">Rejected</span>
+                <span class="phone__chip-status phone__chip-status--wait">No reply</span>
+              </div>
+            </div>
             <div class="phone__letter-card">
               <div class="phone__letter-icon">✉</div>
               <div class="phone__letter-body">

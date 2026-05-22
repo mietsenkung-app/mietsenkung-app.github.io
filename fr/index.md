@@ -332,6 +332,15 @@ permalink: /fr/
               <p class="phone__journey-title">Demande de baisse envoyée</p>
               <p class="phone__journey-sub">Lettre standard · 5.5.2026 · Jour 12</p>
             </div>
+            <div class="phone__status-block">
+              <p class="phone__status-label">Comment a-t-iel répondu ?</p>
+              <div class="phone__status-row">
+                <span class="phone__chip-status phone__chip-status--ok">Acceptée</span>
+                <span class="phone__chip-status phone__chip-status--partial">Partielle</span>
+                <span class="phone__chip-status phone__chip-status--no">Refusée</span>
+                <span class="phone__chip-status phone__chip-status--wait">Sans réponse</span>
+              </div>
+            </div>
             <div class="phone__letter-card">
               <div class="phone__letter-icon">✉</div>
               <div class="phone__letter-body">
