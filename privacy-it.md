@@ -13,7 +13,7 @@ permalink: /privacy-it.html
   <a href="privacy-en.html">EN</a>
 </div>
 
-# Informativa sulla privacy — Ribassoaffitto
+# Informativa sulla privacy. Ribassoaffitto
 
 - **Aggiornamento:** 2026-05-10
 - **In vigore dal:** lancio dell'app sull'Apple App Store / Google Play Store

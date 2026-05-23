@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FAQ — RentReducer
+title: "FAQ. RentReducer"
 description: All answers about rent reduction, the request letter, follow-up letters, and conciliation in Switzerland. Privacy, pricing, tenant protection.
 lang: en-CH
 permalink: /faq-en.html

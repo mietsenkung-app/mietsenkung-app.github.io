@@ -23,7 +23,7 @@ La composition de la baisse selon l'**OBLF art. 13** est définie uniformément 
 
 1. **Baisse du taux de référence.** Par palier de 0.25% entre le taux de référence lors de ta dernière adaptation et la valeur actuelle, ton loyer brut baisse de 2.0% à 3.0% (selon la tranche).
 2. **Renchérissement.** 40% de la variation de l'indice national des prix à la consommation (OFS) depuis ta dernière adaptation peut être imputé par la bailleuse.
-3. **Augmentation forfaitaire des coûts.** Un forfait que la bailleuse peut revendiquer pour les coûts d'exploitation. Le montant n'est pas fixé légalement — les autorités de conciliation acceptent en pratique entre 0% et 0.5% par an, selon le bail.
+3. **Augmentation forfaitaire des coûts.** Un forfait que la bailleuse peut revendiquer pour les coûts d'exploitation. Le montant n'est pas fixé légalement. les autorités de conciliation acceptent en pratique entre 0% et 0.5% par an, selon le bail.
 
 <strong>Baisse-loyer</strong> utilise le forfait par défaut de **0.5% par an**. Cela correspond à la jurisprudence conservatrice de la plupart des autorités de conciliation et au défaut du calculateur du Tribunal de Zurich.
 
@@ -77,7 +77,7 @@ Le **19 mai 2026** nous avons effectué six calculs de test contre le [calculate
 
 Dans les **cas standards de Zurich et Berne (cas 1, 2, 4, 5)**, les deux outils donnent des valeurs pratiquement identiques (différence < CHF 1, conventions d'arrondi).
 
-À **Lucerne et en Suisse orientale (cas 3, 6)**, l'association locale applique un forfait cantonal différent (0% à Lucerne, 0.25%×inflation en Suisse orientale). C'est une particularité cantonale de la jurisprudence — la formule OBLF art. 13 elle-même reste partout la même.
+À **Lucerne et en Suisse orientale (cas 3, 6)**, l'association locale applique un forfait cantonal différent (0% à Lucerne, 0.25%×inflation en Suisse orientale). C'est une particularité cantonale de la jurisprudence. la formule OBLF art. 13 elle-même reste partout la même.
 
 <strong>Baisse-loyer</strong> utilise systématiquement le **forfait par défaut uniforme de 0.5%/an valable dans toute la Suisse**. Ce calcul est juridiquement sûr, applicable dans tous les cantons et correspond à la pratique de conciliation la plus fréquente. C'est une limite inférieure sûre : ta bailleuse l'accepte généralement parce qu'elle ne paraît pas excessive et est juridiquement bien défendable.
 
@@ -91,10 +91,10 @@ Pour des constellations complexes (sous-location, ajustements échelonnés, liti
 
 ## Sources
 
-- [Art. 270a Code des obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr) — droit à la baisse
-- [Art. 13 OBLF](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/fr) — calcul par palier de 0.25%
-- [Taux de référence OFL](https://www.bwo.admin.ch/bwo/fr/home/mietrecht/referenzzinssatz.html) — Office fédéral du logement
+- [Art. 270a Code des obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr). droit à la baisse
+- [Art. 13 OBLF](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/fr). calcul par palier de 0.25%
+- [Taux de référence OFL](https://www.bwo.admin.ch/bwo/fr/home/mietrecht/referenzzinssatz.html). Office fédéral du logement
 - [Indice des prix à la consommation OFS](https://www.bfs.admin.ch/bfs/fr/home/statistiques/prix/indice-prix-consommation.html)
-- [Calculateur du Tribunal de Zurich](https://www.gerichte-zh.ch/de/themen/miete) — référence de vérification
+- [Calculateur du Tribunal de Zurich](https://www.gerichte-zh.ch/de/themen/miete). référence de vérification
 
 <p class="parity-meta">État : 19.05.2026</p>

@@ -234,8 +234,8 @@ permalink: /fr/
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">9&nbsp;sur&nbsp;10</span></p>
-        <p class="stat__label">locataires ne demandent rien</p>
+        <p class="stat__num"><span class="stat__num--accent">88&nbsp;%</span></p>
+        <p class="stat__label">des locataires ne demandent pas de baisse</p>
         <p class="stat__desc">Seuls 12 % font activement valoir une baisse, alors qu'environ la moitié y aurait droit. Source : étude ZKB&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
@@ -486,7 +486,7 @@ permalink: /fr/
         <summary>Que deviennent mes données ?</summary>
         <div class="faq__answer">
           <p>Tes données de loyer et de bail restent chiffrées sur ton appareil. Nous ne gérons aucune base de données cloud et tu n'as pas besoin de compte. Seul le PDF final de ta lettre est transmis chiffré à notre partenaire postal suisse pour impression et distribution.</p>
-          <p>Détails dans la <a href="{{ '/privacy-de.html' | relative_url }}">politique de confidentialité</a>.</p>
+          <p>Détails dans la <a href="{{ '/privacy-fr.html' | relative_url }}">politique de confidentialité</a>.</p>
         </div>
       </details>
 

@@ -23,7 +23,7 @@ La composizione della riduzione secondo l'**OLAL art. 13** è definita in modo u
 
 1. **Riduzione del tasso di riferimento.** Per ogni scaglione di 0.25% tra il tasso di riferimento all'ultimo adeguamento e il valore attuale, l'affitto lordo si riduce dal 2.0% al 3.0% (a seconda della fascia).
 2. **Rincaro.** Il 40% della variazione dell'indice nazionale dei prezzi al consumo (UST) dall'ultimo adeguamento può essere imputato dal locatore.
-3. **Aumento forfettario dei costi.** Un forfait che il locatore può rivendicare per i costi operativi. L'importo non è fissato legalmente — le autorità di conciliazione accettano in pratica tra lo 0% e lo 0.5% all'anno, a seconda del contratto.
+3. **Aumento forfettario dei costi.** Un forfait che il locatore può rivendicare per i costi operativi. L'importo non è fissato legalmente. le autorità di conciliazione accettano in pratica tra lo 0% e lo 0.5% all'anno, a seconda del contratto.
 
 <strong>Ribassoaffitto</strong> utilizza il forfait predefinito dello **0.5% all'anno**. Corrisponde alla giurisprudenza conservativa della maggior parte delle autorità di conciliazione e al valore predefinito del calcolatore del Tribunale di Zurigo.
 
@@ -77,7 +77,7 @@ Il **19 maggio 2026** abbiamo eseguito sei calcoli di test contro il [calcolator
 
 Nei **casi standard di Zurigo e Berna (casi 1, 2, 4, 5)**, entrambi gli strumenti forniscono valori praticamente identici (differenza < CHF 1, convenzioni di arrotondamento).
 
-A **Lucerna e nella Svizzera orientale (casi 3, 6)**, l'associazione locale applica un forfait cantonale diverso (0% a Lucerna, 0.25%×inflazione nella Svizzera orientale). È una particolarità cantonale della giurisprudenza — la formula OLAL art. 13 stessa rimane ovunque la stessa.
+A **Lucerna e nella Svizzera orientale (casi 3, 6)**, l'associazione locale applica un forfait cantonale diverso (0% a Lucerna, 0.25%×inflazione nella Svizzera orientale). È una particolarità cantonale della giurisprudenza. la formula OLAL art. 13 stessa rimane ovunque la stessa.
 
 <strong>Ribassoaffitto</strong> utilizza coerentemente il **forfait predefinito uniforme dello 0.5%/anno valido in tutta la Svizzera**. Questo calcolo è giuridicamente sicuro, applicabile in tutti i cantoni e corrisponde alla pratica di conciliazione più frequente. È un limite inferiore sicuro: il tuo locatore generalmente lo accetta perché non appare eccessivo ed è giuridicamente ben difendibile.
 
@@ -91,10 +91,10 @@ Per situazioni complesse (subaffitto, adeguamenti scalari, controversie sull'et�
 
 ## Fonti
 
-- [Art. 270a Codice delle obbligazioni (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it) — diritto alla riduzione
-- [Art. 13 OLAL](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/it) — calcolo per scaglione di 0.25%
-- [Tasso di riferimento UFAB](https://www.bwo.admin.ch/bwo/it/home/mietrecht/referenzzinssatz.html) — Ufficio federale delle abitazioni
+- [Art. 270a Codice delle obbligazioni (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it). diritto alla riduzione
+- [Art. 13 OLAL](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/it). calcolo per scaglione di 0.25%
+- [Tasso di riferimento UFAB](https://www.bwo.admin.ch/bwo/it/home/mietrecht/referenzzinssatz.html). Ufficio federale delle abitazioni
 - [Indice dei prezzi al consumo UST](https://www.bfs.admin.ch/bfs/it/home/statistiche/prezzi/indice-prezzi-consumo.html)
-- [Calcolatore Tribunale di Zurigo](https://www.gerichte-zh.ch/de/themen/miete) — riferimento di verifica
+- [Calcolatore Tribunale di Zurigo](https://www.gerichte-zh.ch/de/themen/miete). riferimento di verifica
 
 <p class="parity-meta">Stato: 19.05.2026</p>

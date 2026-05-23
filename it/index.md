@@ -234,8 +234,8 @@ permalink: /it/
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">9&nbsp;su&nbsp;10</span></p>
-        <p class="stat__label">inquilini non chiedono nulla</p>
+        <p class="stat__num"><span class="stat__num--accent">88&nbsp;%</span></p>
+        <p class="stat__label">degli inquilini non chiede una riduzione</p>
         <p class="stat__desc">Solo il 12 % chiede attivamente un ribasso, anche se circa la metà ne avrebbe diritto. Fonte: studio ZKB&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
@@ -333,7 +333,7 @@ permalink: /it/
               <p class="phone__journey-sub">Inviata · 5.5.2026 · Giorno 12</p>
             </div>
             <div class="phone__status-block">
-              <p class="phone__status-label">Come ha risposto ?</p>
+              <p class="phone__status-label">Come ha risposto?</p>
               <div class="phone__status-row">
                 <span class="phone__chip-status phone__chip-status--ok">Accettata</span>
                 <span class="phone__chip-status phone__chip-status--partial">Parziale</span>
@@ -485,7 +485,7 @@ permalink: /it/
         <summary>Cosa succede ai miei dati?</summary>
         <div class="faq__answer">
           <p>I tuoi dati di affitto e contratto restano cifrati sul tuo dispositivo. Non gestiamo alcuna banca dati cloud e non hai bisogno di un account. Solo il PDF finale della lettera viene trasmesso cifrato al nostro partner postale svizzero per la stampa e la consegna.</p>
-          <p>Dettagli nella <a href="{{ '/privacy-de.html' | relative_url }}">privacy policy</a>.</p>
+          <p>Dettagli nella <a href="{{ '/privacy-it.html' | relative_url }}">privacy policy</a>.</p>
         </div>
       </details>
 

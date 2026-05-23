@@ -23,7 +23,7 @@ The composition of the reduction under **VMWG art. 13** is defined uniformly Swi
 
 1. **Reference-rate decrease.** Per 0.25% step between the reference rate at your last rent setting and today's value, your gross rent decreases by 2.0% to 3.0% (band-dependent).
 2. **Inflation.** 40% of the change in the Swiss Consumer Price Index (CPI, published by the Federal Statistical Office) since your last adjustment can be offset by the landlord.
-3. **General cost increase.** A flat rate the landlord may claim for operating costs. The amount is not fixed by law — conciliation authorities accept between 0% and 0.5% per year in practice, depending on the lease.
+3. **General cost increase.** A flat rate the landlord may claim for operating costs. The amount is not fixed by law. conciliation authorities accept between 0% and 0.5% per year in practice, depending on the lease.
 
 <strong>RentReducer</strong> uses a default flat rate of **0.5% per year**. This corresponds to the conservative jurisprudence of most conciliation authorities and the default of the Zurich Court's rent calculator.
 
@@ -77,7 +77,7 @@ On **19 May 2026** we ran six test calculations against the [official Mieterverb
 
 In the **standard cases from Zurich and Bern (cases 1, 2, 4, 5)**, both tools produce practically identical values (difference < CHF 1, rounding conventions).
 
-In **Lucerne and Eastern Switzerland (cases 3, 6)**, the local association applies a different cantonal flat rate (0% in Lucerne, 0.25%×inflation in Eastern Switzerland). This is a cantonal jurisprudence particularity — the VMWG art. 13 formula itself remains the same everywhere.
+In **Lucerne and Eastern Switzerland (cases 3, 6)**, the local association applies a different cantonal flat rate (0% in Lucerne, 0.25%×inflation in Eastern Switzerland). This is a cantonal jurisprudence particularity. the VMWG art. 13 formula itself remains the same everywhere.
 
 <strong>RentReducer</strong> consistently uses the **Switzerland-wide uniform default flat rate of 0.5%/year**. This calculation is legally sound, applicable in every canton, and corresponds to the most common conciliation-authority practice. It is a safe lower bound: your landlord generally accepts it because it does not appear excessive and is robust in legal proceedings.
 
@@ -91,10 +91,10 @@ For complex situations (sublease, stepped adjustments, building-age disputes), c
 
 ## Sources
 
-- [Art. 270a Code of Obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de) — reduction claim
-- [Art. 13 VMWG](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de) — calculation per 0.25% step
-- [Reference interest rate BWO](https://www.bwo.admin.ch/bwo/de/home/mietrecht/referenzzinssatz.html) — Federal Housing Office
+- [Art. 270a Code of Obligations (CO)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de). reduction claim
+- [Art. 13 VMWG](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de). calculation per 0.25% step
+- [Reference interest rate BWO](https://www.bwo.admin.ch/bwo/de/home/mietrecht/referenzzinssatz.html). Federal Housing Office
 - [Consumer Price Index BFS](https://www.bfs.admin.ch/bfs/en/home/statistics/prices/consumer-price-index.html)
-- [Zurich Court rent calculator](https://www.gerichte-zh.ch/de/themen/miete) — verification reference
+- [Zurich Court rent calculator](https://www.gerichte-zh.ch/de/themen/miete). verification reference
 
 <p class="parity-meta">Status: 19.05.2026</p>

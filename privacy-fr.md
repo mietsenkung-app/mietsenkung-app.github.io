@@ -13,7 +13,7 @@ permalink: /privacy-fr.html
   <a href="privacy-en.html">EN</a>
 </div>
 
-# Politique de confidentialité — Baisse-loyer
+# Politique de confidentialité. Baisse-loyer
 
 - **État:** 2026-05-10
 - **En vigueur depuis:** lancement de l'application sur l'Apple App Store / Google Play Store

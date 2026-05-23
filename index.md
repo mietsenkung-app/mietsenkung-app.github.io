@@ -234,8 +234,8 @@ permalink: /
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">9&nbsp;von&nbsp;10</span></p>
-        <p class="stat__label">Mieter&ast;innen fordern nichts ein</p>
+        <p class="stat__num"><span class="stat__num--accent">88&nbsp;%</span></p>
+        <p class="stat__label">der Mietenden fordern keine Senkung ein</p>
         <p class="stat__desc">Nur 12 % verlangen aktiv eine Senkung, obwohl rund die Hälfte Anspruch hätte. Quelle: ZKB-Studie&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
@@ -453,7 +453,7 @@ permalink: /
         <div class="price-card__addons">
           <strong>Add-Ons (optional, einzeln):</strong>
           <div class="price-card__addons-grid">
-            <div class="price-card__addons-row"><span>Einschreiben optional (mit Tracking)</span><strong>+ CHF 7.90</strong></div>
+            <div class="price-card__addons-row"><span>Einschreiben (mit Tracking)</span><strong>+ CHF 7.90</strong></div>
             <div class="price-card__addons-row"><span>Folgebrief Erinnerung / Unterlagen (via Pingen, beliebig oft buchbar)</span><strong>CHF 6.90</strong></div>
             <div class="price-card__addons-row"><span>Folgebrief Schlichtungsklage als Einschreiben mit Mietvertrag-Foto und Brief-Historie als Beilage (oder Word-Download)</span><strong>CHF 6.90 + 7.90</strong></div>
           </div>

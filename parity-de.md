@@ -23,7 +23,7 @@ Wie die Mietzinssenkung gemäss **VMWG Art. 13** zusammengesetzt wird, ist schwe
 
 1. **Referenzzinssatz-Senkung.** Pro 0.25%-Schritt zwischen dem Referenzzinssatz bei deiner letzten Mietzinsfestsetzung und dem heutigen Wert reduziert sich dein Bruttomietzins um 2.0% bis 3.0% (band-abhängig).
 2. **Teuerung.** 40% der Veränderung des Landesindex der Konsumentenpreise (BFS) seit deiner letzten Anpassung darf die Vermieterschaft gegenverrechnen.
-3. **Allgemeine Kostensteigerung.** Eine Pauschale, die die Vermieterschaft für betriebliche Mehrkosten beanspruchen darf. Die Höhe ist nicht gesetzlich fixiert — Schlichtungsbehörden akzeptieren in der Praxis zwischen 0% und 0.5% pro Jahr, je nach Mietverhältnis.
+3. **Allgemeine Kostensteigerung.** Eine Pauschale, die die Vermieterschaft für betriebliche Mehrkosten beanspruchen darf. Die Höhe ist nicht gesetzlich fixiert. Schlichtungsbehörden akzeptieren in der Praxis zwischen 0% und 0.5% pro Jahr, je nach Mietverhältnis.
 
 <strong>Mietsenkung</strong> verwendet als Default-Pauschale **0.5% pro Jahr**. Das entspricht der konservativen Spruchpraxis der häufigsten Schlichtungsbehörden und dem Default des Mietzinsrechners der Zürcher Gerichte.
 
@@ -77,7 +77,7 @@ Zusätzlich haben wir am **19. Mai 2026** sechs Test-Berechnungen gegen den offi
 
 In den **Standardfällen aus Zürich und Bern (Fälle 1, 2, 4, 5)** liefern beide Tools praktisch identische Werte (Differenz < CHF 1, Rundungs-Konventionen).
 
-In **Luzern und der Ostschweiz (Fälle 3, 6)** wendet der lokale Mieterverband eine eigene, kantonal abweichende Pauschale an (0% in Luzern, 0.25%×Inflation in der Ostschweiz). Das ist eine kantonale Spruchpraxis-Besonderheit, nicht eine Abweichung in der gesetzlichen Berechnungsformel — VMWG Art. 13 selbst bleibt überall gleich.
+In **Luzern und der Ostschweiz (Fälle 3, 6)** wendet der lokale Mieterverband eine eigene, kantonal abweichende Pauschale an (0% in Luzern, 0.25%×Inflation in der Ostschweiz). Das ist eine kantonale Spruchpraxis-Besonderheit, nicht eine Abweichung in der gesetzlichen Berechnungsformel. VMWG Art. 13 selbst bleibt überall gleich.
 
 <strong>Mietsenkung</strong> verwendet konsequent die **schweizweit einheitliche Default-Pauschale 0.5%/Jahr**. Diese Berechnung ist juristisch sauber, in jedem Kanton anwendbar und entspricht der häufigsten Schlichtungsbehörden-Praxis. Sie ist eine sichere Untergrenze: dein Vermieter akzeptiert sie in der Regel, weil sie nicht überzogen wirkt und gerichtlich gut belastbar ist.
 
@@ -91,10 +91,10 @@ Bei komplexen Konstellationen (z.B. Untermiete, gestaffelte Anpassungen, Streiti
 
 ## Quellen
 
-- [Art. 270a Obligationenrecht (OR)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de) — Senkungsanspruch
-- [Art. 13 Verordnung über die Miete (VMWG)](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de) — Berechnung pro 0.25%-Schritt
-- [Referenzzinssatz BWO](https://www.bwo.admin.ch/bwo/de/home/mietrecht/referenzzinssatz.html) — Bundesamt für Wohnungswesen
-- [Landesindex der Konsumentenpreise BFS](https://www.bfs.admin.ch/bfs/de/home/statistiken/preise/landesindex-konsumentenpreise.html) — Bundesamt für Statistik
-- [Mietzinsrechner Zürcher Gerichte](https://www.gerichte-zh.ch/de/themen/miete) — Verifikations-Referenz
+- [Art. 270a Obligationenrecht (OR)](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de). Senkungsanspruch
+- [Art. 13 Verordnung über die Miete (VMWG)](https://www.fedlex.admin.ch/eli/cc/1990/834_834_834/de). Berechnung pro 0.25%-Schritt
+- [Referenzzinssatz BWO](https://www.bwo.admin.ch/bwo/de/home/mietrecht/referenzzinssatz.html). Bundesamt für Wohnungswesen
+- [Landesindex der Konsumentenpreise BFS](https://www.bfs.admin.ch/bfs/de/home/statistiken/preise/landesindex-konsumentenpreise.html). Bundesamt für Statistik
+- [Mietzinsrechner Zürcher Gerichte](https://www.gerichte-zh.ch/de/themen/miete). Verifikations-Referenz
 
 <p class="parity-meta">Stand: 19.05.2026</p>

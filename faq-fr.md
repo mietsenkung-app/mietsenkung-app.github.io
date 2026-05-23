@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Foire aux questions — Baisse-loyer
+title: "Foire aux questions. Baisse-loyer"
 description: Toutes les réponses sur la baisse de loyer, la demande, les courriers de suivi et la conciliation en Suisse. Confidentialité, tarification, protection contre les résiliations.
 lang: fr-CH
 permalink: /faq-fr.html

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Domande frequenti — Ribassoaffitto
+title: "Domande frequenti. Ribassoaffitto"
 description: Tutte le risposte sulla riduzione della pigione, la richiesta, le lettere di follow-up e la conciliazione in Svizzera. Privacy, prezzi, tutela contro le disdette.
 lang: it-CH
 permalink: /faq-it.html

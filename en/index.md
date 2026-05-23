@@ -85,7 +85,7 @@ permalink: /en/
       <div class="hero__trust">
         <span class="trust-pill">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          GDPR-aware
+          Swiss FADP/nDSG compliant
         </span>
         <span class="trust-pill">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
@@ -234,8 +234,8 @@ permalink: /en/
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
-        <p class="stat__num"><span class="stat__num--accent">9&nbsp;in&nbsp;10</span></p>
-        <p class="stat__label">tenants don't claim</p>
+        <p class="stat__num"><span class="stat__num--accent">88&nbsp;%</span></p>
+        <p class="stat__label">of tenants don't claim a reduction</p>
         <p class="stat__desc">Only 12 % actively ask for a reduction, even though about half are entitled. Source: ZKB study&nbsp;2026.</p>
       </div>
       <div class="stat" data-reveal>
@@ -256,7 +256,7 @@ permalink: /en/
   <div class="section__inner">
     <span class="eyebrow" data-reveal>What sets RentReducer apart</span>
     <h2 class="section-title" data-reveal>Private. Precise. With one tap.</h2>
-    <p class="section-lead" data-reveal><strong>RentReducer</strong>... wait wrongdifferent from a Word template.</p>
+    <p class="section-lead" data-reveal>What sets <strong>RentReducer</strong> apart from a Word template.</p>
 
     <div class="bento">
       <article class="bento__card bento__a bento__card--accent" data-reveal>
