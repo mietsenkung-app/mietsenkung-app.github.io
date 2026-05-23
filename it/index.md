@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ribassoaffitto. Recupera ciò che ti spetta."
-description: App svizzera per inquilini. In 2 minuti verifica se hai diritto a un affitto più basso per il tuo appartamento e invia la richiesta di ribasso al tuo locatore o alla tua locatrice con un tap. Da CHF 9.90.
+description: App svizzera per inquilini. In 2 minuti verifica se hai diritto a un affitto più basso per il tuo appartamento e invia la richiesta di ribasso al tuo locatore o alla tua locatrice con un tap per Posta A. Da CHF 9.90.
 lang: it-CH
 lang_short: it
 permalink: /it/
@@ -42,7 +42,7 @@ permalink: /it/
       </a>
       <span class="eyebrow">Ribasso dell'affitto in 2 minuti</span>
       <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
-      <p class="hero__sub">Forse paghi un affitto troppo alto per il tuo appartamento da anni. <strong>Ribassoaffitto</strong> calcola la tua pretesa secondo il diritto federale e invia la lettera per Posta. Se il locatore o la locatrice resta in silenzio o rifiuta, l'app ti accompagna fino all'autorità di conciliazione.</p>
+      <p class="hero__sub">Forse paghi un affitto troppo alto per il tuo appartamento da anni. <strong>Ribassoaffitto</strong> calcola la tua pretesa secondo il diritto federale e invia la lettera per <strong>Posta A</strong>. Se il locatore o la locatrice resta in silenzio o rifiuta, l'app ti accompagna fino all'autorità di conciliazione.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="#" data-coming-soon aria-label="Scarica Ribassoaffitto su App Store">
@@ -66,7 +66,7 @@ permalink: /it/
         </a>
       </div>
 
-      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Verifica del diritto + allarme tasso gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettera da <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Invio incluso</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Senza abbonamento</span></p>
+      <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Verifica del diritto + allarme tasso gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettera da <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Invio per Posta A incluso</span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Senza abbonamento</span></p>
 
       <div class="qr-install" aria-label="QR code per installare l'app">
         <p class="qr-install__hint">Sul computer? Scansiona con lo smartphone:</p>
@@ -417,9 +417,9 @@ permalink: /it/
 
       <article class="price-card price-card--featured" data-reveal>
         <span class="price-card__tag">Popolare</span>
-        <p class="price-card__name">Spedizione lettera</p>
+        <p class="price-card__name">Lettera con invio Posta A</p>
         <p class="price-card__price">CHF&nbsp;9.90<span style="font-size: 0.4em; color: var(--ink-soft); font-weight: 500;">&nbsp;a 29.90</span></p>
-        <p class="price-card__price-sub">una volta per lettera · invio incluso</p>
+        <p class="price-card__price-sub">una volta per lettera · invio per Posta A incluso</p>
         <ul class="price-card__list">
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Richiesta di ribasso come PDF giuridicamente&nbsp;valido</li>
           <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Stampa + consegna dal nostro partner postale svizzero</li>
@@ -459,7 +459,7 @@ permalink: /it/
       <details>
         <summary>Quanto costa davvero l'app?</summary>
         <div class="faq__answer">
-          <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e consegna dal nostro partner postale svizzero.</p>
+          <p>L'app è gratuita. Verifica del diritto e allarme tasso restano gratis. Paghi solo la spedizione della lettera: CHF&nbsp;9.90 a 29.90 secondo il tuo risparmio mensile. Inclusi: generazione della lettera, stampa e <strong>invio per Posta A</strong> dal nostro partner postale svizzero.</p>
           <p>Opzionale: raccomandata con tracciamento (+ CHF&nbsp;7.90). Lettere successive a CHF&nbsp;6.90 ciascuna, il <strong>sollecito</strong> e la <strong>richiesta di motivazione e documenti</strong> partono automaticamente via Pingen. La <strong>domanda di conciliazione</strong> parte anch'essa dall'app, come raccomandata (+ CHF&nbsp;7.90) con la foto del contratto caricata da te e tutte le lettere precedenti in allegato. Preferisci portarla tu alla Posta? Puoi anche scaricarla come <strong>file Word</strong>.</p>
         </div>
       </details>
@@ -580,7 +580,7 @@ permalink: /it/
 <section class="cta" id="download">
   <div class="cta__inner" data-reveal>
     <h2>Pronto/a a far valere la tua pretesa?</h2>
-    <p>La verifica del diritto è gratuita. La lettera parte da CHF&nbsp;9.90 inclusa stampa e invio. Se il locatore o la locatrice resta in silenzio o rifiuta, <strong>Ribassoaffitto</strong> ti accompagna fino all'autorità di conciliazione.</p>
+    <p>La verifica del diritto è gratuita. La lettera parte da CHF&nbsp;9.90 inclusa stampa e <strong>invio per Posta A</strong>. Se il locatore o la locatrice resta in silenzio o rifiuta, <strong>Ribassoaffitto</strong> ti accompagna fino all'autorità di conciliazione.</p>
     <div class="hero__cta">
       <a class="store-button" href="#" data-coming-soon aria-label="Scarica Ribassoaffitto su App Store">
         <svg class="store-button__icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>

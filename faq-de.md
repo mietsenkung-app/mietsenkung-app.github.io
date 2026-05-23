@@ -115,7 +115,7 @@ Hier findest du die Antworten zu allen Themen rund um die App: Anspruch berechne
       "name": "Wie sende ich einen Brief direkt aus der App?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Erstelle den Brief im Wizard, öffne die Preview und tippe auf «Per Post senden» oder «Einschreiben senden». Beim ersten Mal bitten wir dich um deine Unterschrift (einmalig am Gerät gezeichnet). Danach übergibt Mietsenkung den Brief an den Schweizer Druckdienst Pingen, der ihn physisch druckt und per Post an deine Vermieter*in schickt. Du erhältst eine Push-Benachrichtigung sobald der Brief der Post übergeben wurde, bei Einschreiben zusätzlich am Tag der Zustellung. Tippfehler in der Empfänger-Adresse bemerkt? Du kannst den Brief innerhalb von ca. 30 Minuten nach dem Versand stornieren (solange er bei Pingen noch nicht gedruckt ist), die Adresse korrigieren und neu senden."
+        "text": "Erstelle den Brief im Wizard, öffne die Preview und tippe auf «Per A-Post senden» oder «Einschreiben senden». Beim ersten Mal bitten wir dich um deine Unterschrift (einmalig am Gerät gezeichnet). Danach übergibt Mietsenkung den Brief an den Schweizer Druckdienst Pingen, der ihn physisch druckt und per A-Post an deine Vermieter*in schickt. Du erhältst eine Push-Benachrichtigung sobald der Brief der Post übergeben wurde, bei Einschreiben zusätzlich am Tag der Zustellung. Tippfehler in der Empfänger-Adresse bemerkt? Du kannst den Brief innerhalb von ca. 30 Minuten nach dem Versand stornieren (solange er bei Pingen noch nicht gedruckt ist), die Adresse korrigieren und neu senden."
       }
     },
     {
@@ -123,7 +123,7 @@ Hier findest du die Antworten zu allen Themen rund um die App: Anspruch berechne
       "name": "Wie weiss ich, ob mein Brief tatsächlich angekommen ist?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sobald Pingen (der Schweizer Briefversand-Service aus Zürich, pingen.com) deinen Brief der Post übergibt, schickt dir Mietsenkung eine Push-Benachrichtigung («Brief unterwegs»). Bei einem Einschreiben (CHF 7.90 Zuschlag) bekommst du zusätzlich am Tag der tatsächlichen Zustellung eine zweite Push («Brief zugestellt am DD.MM.»), und in der Briefansicht erscheint die Schweizer-Post-Tracking-Nummer. Beim Standardversand gibt es per Definition keinen Zustellnachweis (das ist eine Eigenart des Schweizer Postsystems, nicht eine Einschränkung der App). Wenn du bei einem Senkungsbegehren juristische Sicherheit über das Eintreffen brauchst, z.B. weil du danach zur Schlichtung gehst, sende per Einschreiben."
+        "text": "Sobald Pingen (der Schweizer Briefversand-Service aus Zürich, pingen.com) deinen Brief der Post übergibt, schickt dir Mietsenkung eine Push-Benachrichtigung («Brief unterwegs»). Bei einem Einschreiben (CHF 7.90 Zuschlag) bekommst du zusätzlich am Tag der tatsächlichen Zustellung eine zweite Push («Brief zugestellt am DD.MM.»), und in der Briefansicht erscheint die Schweizer-Post-Tracking-Nummer. Bei A-Post gibt es per Definition keinen Zustellnachweis (das ist eine Eigenart des Schweizer Postsystems, nicht eine Einschränkung der App). Wenn du bei einem Senkungsbegehren juristische Sicherheit über das Eintreffen brauchst, z.B. weil du danach zur Schlichtung gehst, sende per Einschreiben."
       }
     },
     {
@@ -131,7 +131,7 @@ Hier findest du die Antworten zu allen Themen rund um die App: Anspruch berechne
       "name": "Was kostet der Versand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Der Brief-Versand ist im Brief-Kauf direkt inklusive (kein Aufschlag). Keine zusätzlichen Kosten, Zustellung in der Regel in 2 Werktagen. Einschreiben kostet zusätzlich CHF 7.90 pro Brief (Zuschlag, nicht im Abo enthalten). Bezahlung erfolgt über den App Store / Play Store. Der Preis deckt Porto, Post-Quittung und den Druck ab. Am Postschalter kostet ein Einschreiben ~5.70 CHF plus deinen Weg. Einschreiben ist bei Senkungsbegehren rechtlich empfohlen, weil es einen Zustellnachweis liefert."
+        "text": "Der A-Post-Versand (Schweizer Post Priority) ist im Brief-Kauf direkt inklusive. Keine zusätzlichen Kosten. Einschreiben kostet zusätzlich CHF 7.90 pro Brief (Zuschlag, nicht im Brief-Kauf enthalten). Bezahlung erfolgt über den App Store / Play Store. Der Preis deckt Porto, Druck und Couvertierung ab. Am Postschalter kostet ein Einschreiben ~5.70 CHF plus deinen Weg. Einschreiben ist bei Senkungsbegehren rechtlich empfohlen, weil es einen Zustellnachweis liefert."
       }
     },
     {
