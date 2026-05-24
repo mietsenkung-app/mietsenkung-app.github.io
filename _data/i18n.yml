@@ -13,7 +13,7 @@ de:
   brand_aria: "Mietsenkung Startseite"
   brand_word: "Mietsenkung"
   foot_tagline: "Hol dir zurück, was dir zusteht."
-  foot_byline: "Eine Schweizer App von Manuel&nbsp;Weingartner."
+  foot_byline: "Eine Schweizer App."
   foot_h_product: "Produkt"
   foot_h_legal: "Rechtliches"
   foot_h_contact: "Kontakt"
@@ -25,7 +25,7 @@ de:
   langswitch_label: "Sprache"
   coming_soon:
     title: "Bald im Store"
-    body: "Mietsenkung ist kurz vor dem Launch und noch nicht im App&nbsp;Store oder bei Google&nbsp;Play verfügbar. Schau in den nächsten Tagen vorbei — der Button wird dann direkt zum Store führen."
+    body: "Mietsenkung ist kurz vor dem Launch und noch nicht im App&nbsp;Store oder bei Google&nbsp;Play verfügbar. Schau in den nächsten Tagen vorbei, der Button wird dann direkt zum Store führen."
     close: "Schliessen"
 
 fr:
@@ -39,7 +39,7 @@ fr:
   brand_aria: "Baisse-loyer page d'accueil"
   brand_word: "Baisse-loyer"
   foot_tagline: "Récupère ce qui te revient."
-  foot_byline: "Une appli suisse de Manuel&nbsp;Weingartner."
+  foot_byline: "Une application suisse."
   foot_h_product: "Produit"
   foot_h_legal: "Mentions légales"
   foot_h_contact: "Contact"
@@ -51,7 +51,7 @@ fr:
   langswitch_label: "Langue"
   coming_soon:
     title: "Bientôt disponible"
-    body: "Baisse-loyer est sur le point d'être lancée et n'est pas encore disponible sur l'App&nbsp;Store ou Google&nbsp;Play. Reviens dans les prochains jours — le bouton mènera alors directement au store."
+    body: "Baisse-loyer est sur le point d'être lancée et n'est pas encore disponible sur l'App&nbsp;Store ou Google&nbsp;Play. Reviens dans les prochains jours, le bouton mènera alors directement au store."
     close: "Fermer"
 
 it:
@@ -65,7 +65,7 @@ it:
   brand_aria: "Ribassoaffitto pagina iniziale"
   brand_word: "Ribassoaffitto"
   foot_tagline: "Recupera ciò che ti spetta."
-  foot_byline: "Un'app svizzera di Manuel&nbsp;Weingartner."
+  foot_byline: "Un'app svizzera."
   foot_h_product: "Prodotto"
   foot_h_legal: "Note legali"
   foot_h_contact: "Contatto"
@@ -77,7 +77,7 @@ it:
   langswitch_label: "Lingua"
   coming_soon:
     title: "Presto nello store"
-    body: "Ribassoaffitto è prossima al lancio e non è ancora disponibile su App&nbsp;Store o Google&nbsp;Play. Torna nei prossimi giorni — il pulsante porterà allora direttamente allo store."
+    body: "Ribassoaffitto è prossima al lancio e non è ancora disponibile su App&nbsp;Store o Google&nbsp;Play. Torna nei prossimi giorni, il pulsante porterà allora direttamente allo store."
     close: "Chiudi"
 
 en:
@@ -91,7 +91,7 @@ en:
   brand_aria: "RentReducer home"
   brand_word: "RentReducer"
   foot_tagline: "Get back what you're owed."
-  foot_byline: "A Swiss app by Manuel&nbsp;Weingartner."
+  foot_byline: "A Swiss app."
   foot_h_product: "Product"
   foot_h_legal: "Legal"
   foot_h_contact: "Contact"
@@ -103,7 +103,7 @@ en:
   langswitch_label: "Language"
   coming_soon:
     title: "Coming soon"
-    body: "RentReducer is about to launch — not yet on the App&nbsp;Store or Google&nbsp;Play. Check back in the next few days; the button will take you straight to the store."
+    body: "RentReducer is about to launch, not yet on the App&nbsp;Store or Google&nbsp;Play. Check back in the next few days; the button will take you straight to the store."
     close: "Close"
 
 # Map from (current lang) → URL prefix used by the language switcher.

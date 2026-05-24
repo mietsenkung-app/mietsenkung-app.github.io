@@ -91,7 +91,7 @@ Lavoriamo con un numero ridotto di responsabili del trattamento accuratamente se
 
 ### 4.2 RevenueCat (RevenueCat Inc., USA)
 
-- **Scopo:** gestione degli acquisti (consumabili CHF 9.90–29.90 per lettera, CHF 7.90 raccomandata).
+- **Scopo:** gestione degli acquisti (consumabili CHF 9.90-29.90 per lettera, CHF 7.90 raccomandata).
 - **Cosa viene trasmesso:** ID utente anonimo, conferme di transazione d'acquisto che RevenueCat riceve da Apple / Google. Nessun numero di carta di credito, nessun dato di pagamento. Il pagamento avviene esclusivamente tramite App Store o Google Play.
 - **Base giuridica:** esecuzione del contratto (art. 31 cpv. 1 lett. a nLPD, art. 6 par. 1 lett. b GDPR).
 - **Sede dei server:** USA. Trasferimento basato sulle clausole contrattuali tipo dell'UE.

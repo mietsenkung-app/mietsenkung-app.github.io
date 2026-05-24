@@ -9,7 +9,7 @@ permalink: /fr/
 
 <section class="hero">
   <div class="hero__bg-trend" aria-hidden="true">
-    <!-- Historique réel du taux de référence OFL 2008–2025 (source: bwo.admin.ch).
+    <!-- Historique reel du taux de reference OFL 2008-2025 (source: bwo.admin.ch).
          3.50% (sept 2008) jusqu'à 1.25% (aujourd'hui), avec hausse 2023 vers 1.75%
          et baisse 2025 retour à 1.25%. -->
     <svg viewBox="0 0 800 300" preserveAspectRatio="none">

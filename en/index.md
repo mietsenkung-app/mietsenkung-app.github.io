@@ -9,7 +9,7 @@ permalink: /en/
 
 <section class="hero">
   <div class="hero__bg-trend" aria-hidden="true">
-    <!-- Real BWO Swiss reference-rate history 2008–2025 (source: bwo.admin.ch).
+    <!-- Real BWO Swiss reference-rate history 2008-2025 (source: bwo.admin.ch).
          3.50% (Sep 2008) down to 1.25% (today), with a 2023 bump up to 1.75%
          and 2025 drop back to 1.25%. -->
     <svg viewBox="0 0 800 300" preserveAspectRatio="none">

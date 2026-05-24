@@ -6,12 +6,12 @@ Live unter: [https://mietsenkung-app.ch/](https://mietsenkung-app.ch/) (Custom D
 
 ## Struktur
 
-- `index.md` — Landing mit Links zu den Rechtsdokumenten
-- `privacy-de.md` / `privacy-en.md` — Datenschutzerklärung (DE / EN)
-- `impressum.md` — Impressum (DE)
-- `_layouts/default.html` — gemeinsames Layout (Header, Footer, Sprachumschalter)
-- `assets/style.css` — Styling (Emerald-Akzent passend zur App)
-- `_config.yml` — Jekyll-Konfiguration
+- `index.md`: Landing mit Links zu den Rechtsdokumenten
+- `privacy-de.md` / `privacy-en.md`: Datenschutzerklaerung (DE / EN)
+- `impressum.md`: Impressum (DE)
+- `_layouts/default.html`: gemeinsames Layout (Header, Footer, Sprachumschalter)
+- `assets/style.css`: Styling (Emerald-Akzent passend zur App)
+- `_config.yml`: Jekyll-Konfiguration
 
 ## Quelle der Inhalte
 
@@ -24,4 +24,4 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Voraussetzung: Ruby + Jekyll. Für GitHub Pages ist der lokale Build nicht zwingend nötig — Pages baut automatisch bei jedem Push.
+Voraussetzung: Ruby + Jekyll. Fuer GitHub Pages ist der lokale Build nicht zwingend noetig, Pages baut automatisch bei jedem Push.

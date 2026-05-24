@@ -131,7 +131,7 @@ Here you find answers to all topics around the app: claim calculation, sending t
       "name": "What does sending cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Standard letter delivery is included directly in the letter purchase (no surcharge). No extra cost, delivery typically within 2 business days. Registered costs an additional CHF 7.90 per letter (surcharge, not included), payable via App Store / Play Store. The price covers postage, proof-of-deposit and printing. At the post counter, a registered letter costs about CHF 5.70 plus your trip. Registered mail is legally recommended for reduction requests because it provides proof of delivery."
+        "text": "Priority Mail (A-Post) delivery is included directly in the letter purchase (no surcharge). No extra cost. Registered costs an additional CHF 7.90 per letter (surcharge, not included), payable via App Store / Play Store. The price covers postage, proof-of-deposit and printing. At the post counter, a registered letter costs about CHF 5.70 plus your trip. Registered mail is legally recommended for reduction requests because it provides proof of delivery."
       }
     },
     {
@@ -421,7 +421,7 @@ As soon as <strong>Pingen</strong> (the Swiss letter-mailing service based in Zu
 
 <h3 id="what-does-sending-cost">What does sending cost?</h3>
 
-<strong>Standard letter delivery</strong> is included directly in the letter purchase (no surcharge). No extra cost, delivery typically within 2 business days. <strong>Registered</strong> costs an additional CHF 7.90 per letter (surcharge, not included), payable via App Store / Play Store. The price covers postage, proof-of-deposit and printing. At the post counter, a registered letter costs about CHF 5.70 plus your trip. Registered mail is legally recommended for reduction requests because it provides proof of delivery.
+<strong>Priority Mail (A-Post) delivery</strong> is included directly in the letter purchase (no surcharge). No extra cost. <strong>Registered</strong> costs an additional CHF 7.90 per letter (surcharge, not included), payable via App Store / Play Store. The price covers postage, proof-of-deposit and printing. At the post counter, a registered letter costs about CHF 5.70 plus your trip. Registered mail is legally recommended for reduction requests because it provides proof of delivery.
 
 <h3 id="can-i-cancel-a-letter-that-s-already-been-sent">Can I cancel a letter that's already been sent?</h3>
 

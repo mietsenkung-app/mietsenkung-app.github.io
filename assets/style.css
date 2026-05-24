@@ -1,5 +1,5 @@
 /* ==========================================================
-   Mietsenkung — marketing site
+   Mietsenkung. Marketing site
    Design system: Inter + slate/emerald + amber accent.
    Built mobile-first. Respects prefers-reduced-motion.
    ========================================================== */
@@ -24,7 +24,7 @@
   --sp-6: 1.5rem;  --sp-8: 2rem;   --sp-12: 3rem;   --sp-16: 4rem;
   --sp-20: 5rem;   --sp-24: 6rem;  --sp-32: 8rem;
 
-  /* color — light */
+  /* color, light */
   --ink:        #0b1220;
   --ink-soft:   #475569;
   --ink-faint:  #64748b;
@@ -270,7 +270,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   margin: 0 0 var(--sp-12);
 }
 
-/* Reveal-on-scroll — progressive enhancement.
+/* Reveal-on-scroll, progressive enhancement.
    Content is visible by default. Only hidden when JS sets .fx-reveal on <html>. */
 [data-reveal] { transition: opacity 0.6s ease, transform 0.6s ease; }
 .fx-reveal [data-reveal]:not(.is-visible) { opacity: 0; transform: translateY(16px); }
@@ -295,7 +295,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
 
 /* Hero background: animated reference-rate trend chart (Variante B, 2026-05-14).
    SVG zeichnet sich beim Page-Load über ~6s ein via stroke-dasharray/offset.
-   Sehr dezent (opacity 0.55 max), läuft NICHT als Endlosschleife — daher
+   Sehr dezent (opacity 0.55 max), laeuft NICHT als Endlosschleife, daher
    batterie- und reduce-motion-freundlich. Stellt thematisch dar: Referenzzins-
    Verlauf von 2020 bis heute, der über die Jahre mehrfach gesunken ist. */
 .hero__bg-trend {
@@ -390,63 +390,10 @@ img, svg { max-width: 100%; height: auto; display: block; }
   .hero__brandmark__icon { width: 48px; height: 48px; border-radius: 12px; }
   .hero__brandmark__word { font-size: 20px; }
 }
-.hero__head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-6);
-  margin: 0 0 var(--sp-4);
-}
-.hero__head-text {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-.hero__brand {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero__brand-icon {
-  width: 112px;
-  height: 112px;
-  border-radius: 26px;
-  display: block;
-  filter:
-    drop-shadow(0 14px 28px rgba(16, 185, 129, 0.30))
-    drop-shadow(0 4px 8px rgba(0, 0, 0, 0.10));
-  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-.hero__brand-icon:hover {
-  transform: translateY(-2px) scale(1.02);
-}
-@media (max-width: 720px) {
-  .hero__head { gap: var(--sp-4); }
-  .hero__brand-icon {
-    width: 88px;
-    height: 88px;
-    border-radius: 20px;
-  }
-}
-@media (max-width: 480px) {
-  .hero__head { gap: var(--sp-3); }
-  .hero__brand-icon {
-    width: 72px;
-    height: 72px;
-    border-radius: 16px;
-  }
-}
-/* Sehr schmale screens: H1 darf volle Breite nehmen, Logo rutscht nach
-   oben/rechts und wird kompakt — Reihenfolge bleibt logo-rechts dank
-   row-direction; sollte H1 auf ≤320px clippen, kann ein flex-direction:
-   column-reverse hier reaktiviert werden. */
-@media (max-width: 360px) {
-  .hero__brand-icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 14px;
-  }
-}
+/* Stale-Block geloescht (vc:79+1, 2026-05-24): .hero__head, .hero__head-text,
+   .hero__brand, .hero__brand-icon stammten vom pre-Brandmark-Layout
+   (vor 2026-05-14). Aktuelle Hero-Brand-Wortmarke laeuft ueber
+   .hero__brandmark und .hero__brandmark__icon/__word. */
 
 .hero__title {
   font-size: var(--fs-display);
@@ -554,7 +501,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
 }
 
 /* QR-cards: only render on real desktops/laptops with a fine pointer (no touch).
-   On phones the user is already on the right device — they tap the store button instead. */
+   On phones the user is already on the right device, they tap the store button instead. */
 .qr-install { display: none; }
 @media (min-width: 960px) and (hover: hover) and (pointer: fine) {
   .qr-install { display: block; margin-top: var(--sp-6); }
@@ -617,7 +564,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   margin: 0 6px;
 }
 
-/* Phone mockup — mirrors the real Mietsenkung dashboard:
+/* Phone mockup, mirrors the real Mietsenkung dashboard:
    - Manrope font (matches the app's UI font)
    - Light grey background (#F7F7F8 = AppColors.backgroundLight)
    - White SavingsCard with red "Dein Anspruch" label, big emerald CHF number,
@@ -987,7 +934,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   border-color: rgba(100, 116, 139, 0.45);
 }
 
-/* Journey-Section layout — Phone + Text side-by-side wie im Hero */
+/* Journey-Section layout. Phone + Text side-by-side wie im Hero */
 .journey {
   padding: var(--sp-16) var(--pad-x);
   background: var(--paper);
@@ -1029,7 +976,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   }
   .hero__visual:hover .phone,
   .journey__visual:hover .phone { transform: rotate(0deg) translateY(-4px); }
-  /* Mirror tilt für zweiten Mock — leicht nach rechts statt links, damit
+  /* Mirror tilt fuer zweiten Mock, leicht nach rechts statt links, damit
      er sich vom Hero-Phone visuell unterscheidet aber denselben Stil hat. */
   .journey__visual .phone { transform: rotate(2deg); }
 }
@@ -1271,7 +1218,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   background: var(--paper);
   border-color: var(--line);
 }
-/* Icons aus den Bento-Cards weg — editorial: nur Headline + Text. */
+/* Icons aus den Bento-Cards weg. Editorial: nur Headline + Text. */
 .bento__icon { display: none; }
 .bento__card h3 {
   font-size: var(--fs-h3);
@@ -1333,7 +1280,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   box-shadow: var(--shadow-glow);
   background: linear-gradient(180deg, var(--paper) 0%, var(--emerald-mist) 100%);
 }
-/* "Beliebt"-Tag entfernt — Pricing-Cards sprechen für sich, kein
+/* "Beliebt"-Tag entfernt. Pricing-Cards sprechen fuer sich, kein
    "highlighted plan"-SaaS-Pattern mehr. */
 .price-card__tag { display: none; }
 .price-card__name {
@@ -1515,7 +1462,7 @@ img, svg { max-width: 100%; height: auto; display: block; }
   transition: border-color 0.2s, transform 0.2s;
 }
 .source-row:hover { border-color: var(--emerald-glow); transform: translateY(-2px); color: var(--ink); }
-/* Abkürzungs-Pills (BWO/BFS/...) entfernt — schlichte Quellen-Liste
+/* Abkuerzungs-Pills (BWO/BFS/...) entfernt. Schlichte Quellen-Liste
    nur mit Title + Sub. */
 .source-row__abbr { display: none; }
 .source-row__body { flex: 1; min-width: 0; }
@@ -1697,7 +1644,7 @@ main:not(:has(.hero)) th { background: var(--paper-soft); font-weight: 600; }
 }
 
 /* ---------------------------------------------------------
-   Coming-Soon modal (temporary — remove once Apple/Google
+   Coming-Soon modal (temporary, remove once Apple/Google
    listings are live and store-button hrefs are restored).
    --------------------------------------------------------- */
 .coming-soon-modal {

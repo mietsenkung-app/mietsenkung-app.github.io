@@ -9,9 +9,9 @@ permalink: /
 
 <section class="hero">
   <div class="hero__bg-trend" aria-hidden="true">
-    <!-- Echte BWO-Referenzzinssatz-Historie 2008–2025 (Quelle: bwo.admin.ch).
-         3.50% (Sep 2008) bis 1.25% (heute), mit Anstieg 2023 von 1.25% → 1.75%
-         und Rückgang 2025 zurück auf 1.25%. -->
+    <!-- Echte BWO-Referenzzinssatz-Historie 2008-2025 (Quelle: bwo.admin.ch).
+         3.50% (Sep 2008) bis 1.25% (heute), mit Anstieg 2023 von 1.25% auf 1.75%
+         und Rueckgang 2025 zurueck auf 1.25%. -->
     <svg viewBox="0 0 800 300" preserveAspectRatio="none">
       <defs>
         <linearGradient id="heroTrendGrad" x1="0" y1="0" x2="0" y2="1">

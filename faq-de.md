@@ -421,7 +421,7 @@ Sobald <strong>Pingen</strong> (der Schweizer Briefversand-Service aus Zürich, 
 
 <h3 id="was-kostet-der-versand">Was kostet der Versand?</h3>
 
-Der <strong>Brief-Versand</strong> ist im Brief-Kauf direkt inklusive (kein Aufschlag). Keine zusätzlichen Kosten, Zustellung in der Regel in 2 Werktagen. <strong>Einschreiben</strong> kostet zusätzlich CHF 7.90 pro Brief (Zuschlag, nicht im Abo enthalten). Bezahlung erfolgt über den App Store / Play Store. Der Preis deckt Porto, Post-Quittung und den Druck ab. Am Postschalter kostet ein Einschreiben ~5.70 CHF plus deinen Weg. Einschreiben ist bei Senkungsbegehren rechtlich empfohlen, weil es einen Zustellnachweis liefert.
+Der <strong>Brief-Versand</strong> ist im Brief-Kauf direkt inklusive (kein Aufschlag), per A-Post. Keine zusätzlichen Kosten. <strong>Einschreiben</strong> kostet zusätzlich CHF 7.90 pro Brief (Zuschlag, nicht im Abo enthalten). Bezahlung erfolgt über den App Store / Play Store. Der Preis deckt Porto, Post-Quittung und den Druck ab. Am Postschalter kostet ein Einschreiben ~5.70 CHF plus deinen Weg. Einschreiben ist bei Senkungsbegehren rechtlich empfohlen, weil es einen Zustellnachweis liefert.
 
 <h3 id="kann-ich-einen-versendeten-brief-stornieren">Kann ich einen versendeten Brief stornieren?</h3>
 

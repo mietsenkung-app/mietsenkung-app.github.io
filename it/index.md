@@ -9,7 +9,7 @@ permalink: /it/
 
 <section class="hero">
   <div class="hero__bg-trend" aria-hidden="true">
-    <!-- Storia reale del tasso di riferimento UFAB 2008–2025 (fonte: bwo.admin.ch).
+    <!-- Storia reale del tasso di riferimento UFAB 2008-2025 (fonte: bwo.admin.ch).
          Dal 3.50% (set 2008) all'1.25% (oggi), con aumento nel 2023 a 1.75%
          e ritorno nel 2025 a 1.25%. -->
     <svg viewBox="0 0 800 300" preserveAspectRatio="none">

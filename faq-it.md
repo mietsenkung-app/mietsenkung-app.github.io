@@ -131,7 +131,7 @@ Qui trovi le risposte a tutti i temi attorno all'app: calcolare il diritto, invi
       "name": "Quanto costa la spedizione?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "L'invio della lettera è direttamente incluso nell'acquisto della lettera (senza supplemento). Nessun costo aggiuntivo, consegna di norma in 2 giorni lavorativi. La raccomandata costa CHF 7.90 in più per lettera (supplemento, non incluso), pagabile tramite App Store / Play Store. Il prezzo copre affrancatura, prova di deposito e stampa. Allo sportello postale una raccomandata costa circa CHF 5.70 più il tuo tragitto. La raccomandata è giuridicamente consigliata per le richieste di riduzione perché fornisce una prova di consegna."
+        "text": "L'invio della lettera è direttamente incluso nell'acquisto della lettera (senza supplemento), per Posta A. Nessun costo aggiuntivo. La raccomandata costa CHF 7.90 in più per lettera (supplemento, non incluso), pagabile tramite App Store / Play Store. Il prezzo copre affrancatura, prova di deposito e stampa. Allo sportello postale una raccomandata costa circa CHF 5.70 più il tuo tragitto. La raccomandata è giuridicamente consigliata per le richieste di riduzione perché fornisce una prova di consegna."
       }
     },
     {
@@ -421,7 +421,7 @@ Non appena <strong>Pingen</strong> (il servizio svizzero di invio postale con se
 
 <h3 id="quanto-costa-la-spedizione">Quanto costa la spedizione?</h3>
 
-L'<strong>invio della lettera</strong> è direttamente incluso nell'acquisto della lettera (senza supplemento). Nessun costo aggiuntivo, consegna di norma in 2 giorni lavorativi. La <strong>raccomandata</strong> costa CHF 7.90 in più per lettera (supplemento, non incluso), pagabile tramite App Store / Play Store. Il prezzo copre affrancatura, prova di deposito e stampa. Allo sportello postale una raccomandata costa circa CHF 5.70 più il tuo tragitto. La raccomandata è giuridicamente consigliata per le richieste di riduzione perché fornisce una prova di consegna.
+L'<strong>invio della lettera</strong> è direttamente incluso nell'acquisto della lettera (senza supplemento), per Posta A. Nessun costo aggiuntivo. La <strong>raccomandata</strong> costa CHF 7.90 in più per lettera (supplemento, non incluso), pagabile tramite App Store / Play Store. Il prezzo copre affrancatura, prova di deposito e stampa. Allo sportello postale una raccomandata costa circa CHF 5.70 più il tuo tragitto. La raccomandata è giuridicamente consigliata per le richieste di riduzione perché fornisce una prova di consegna.
 
 <h3 id="posso-annullare-una-lettera-gi-inviata">Posso annullare una lettera già inviata?</h3>
 

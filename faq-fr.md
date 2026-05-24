@@ -131,7 +131,7 @@ Tu trouves ici les réponses à tous les sujets autour de l'app : calculer le dr
       "name": "Combien coûte l'envoi ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "L'envoi de la lettre est directement inclus dans l'achat de la lettre (sans supplément). Aucun frais supplémentaire, distribution en règle générale en 2 jours ouvrables. Le recommandé coûte CHF 7.90 de plus par lettre (supplément, hors abonnement), payable via l'App Store / Play Store. Le prix couvre l'affranchissement, la preuve de dépôt et l'impression. Au guichet postal, un recommandé coûte environ CHF 5.70 plus ton déplacement. Le recommandé est juridiquement recommandé pour les demandes de baisse, car il fournit une preuve de réception."
+        "text": "L'envoi de la lettre est directement inclus dans l'achat de la lettre (sans supplément), par Courrier A. Aucun frais supplémentaire. Le recommandé coûte CHF 7.90 de plus par lettre (supplément, hors abonnement), payable via l'App Store / Play Store. Le prix couvre l'affranchissement, la preuve de dépôt et l'impression. Au guichet postal, un recommandé coûte environ CHF 5.70 plus ton déplacement. Le recommandé est juridiquement recommandé pour les demandes de baisse, car il fournit une preuve de réception."
       }
     },
     {
@@ -421,7 +421,7 @@ Dès que <strong>Pingen</strong> (le service d'envoi de courrier suisse basé à
 
 <h3 id="combien-co-te-l-envoi">Combien coûte l'envoi ?</h3>
 
-L'<strong>envoi de la lettre</strong> est directement inclus dans l'achat de la lettre (sans supplément). Aucun frais supplémentaire, distribution en règle générale en 2 jours ouvrables. Le <strong>recommandé</strong> coûte CHF 7.90 de plus par lettre (supplément, hors abonnement), payable via l'App Store / Play Store. Le prix couvre l'affranchissement, la preuve de dépôt et l'impression. Au guichet postal, un recommandé coûte environ CHF 5.70 plus ton déplacement. Le recommandé est juridiquement recommandé pour les demandes de baisse, car il fournit une preuve de réception.
+L'<strong>envoi de la lettre</strong> est directement inclus dans l'achat de la lettre (sans supplément), par Courrier A. Aucun frais supplémentaire. Le <strong>recommandé</strong> coûte CHF 7.90 de plus par lettre (supplément, hors abonnement), payable via l'App Store / Play Store. Le prix couvre l'affranchissement, la preuve de dépôt et l'impression. Au guichet postal, un recommandé coûte environ CHF 5.70 plus ton déplacement. Le recommandé est juridiquement recommandé pour les demandes de baisse, car il fournit une preuve de réception.
 
 <h3 id="puis-je-annuler-une-lettre-d-j-envoy-e">Puis-je annuler une lettre déjà envoyée ?</h3>
 
