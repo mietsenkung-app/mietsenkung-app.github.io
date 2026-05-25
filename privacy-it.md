@@ -15,7 +15,7 @@ permalink: /privacy-it.html
 
 # Informativa sulla privacy. Ribassoaffitto
 
-- **Aggiornamento:** 2026-05-10
+- **Aggiornamento:** 2026-05-25
 - **In vigore dal:** lancio dell'app sull'Apple App Store / Google Play Store
 - **Si applica a:** Ribassoaffitto iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
 

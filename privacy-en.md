@@ -15,7 +15,7 @@ permalink: /privacy-en.html
 
 # Privacy Policy Mietsenkung
 
-- **Date:** 2026-05-10
+- **Date:** 2026-05-25
 - **Effective from:** Launch of the app on the Apple App Store / Google Play Store
 - **Applies to:** Mietsenkung iOS + Android app (Bundle ID `com.mietsenkung.mietsenkung`)
 

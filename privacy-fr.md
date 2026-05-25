@@ -15,7 +15,7 @@ permalink: /privacy-fr.html
 
 # Politique de confidentialité. Baisse-loyer
 
-- **État:** 2026-05-10
+- **État:** 2026-05-25
 - **En vigueur depuis:** lancement de l'application sur l'Apple App Store / Google Play Store
 - **S'applique à:** Baisse-loyer iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
 

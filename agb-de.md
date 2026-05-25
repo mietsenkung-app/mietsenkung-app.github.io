@@ -15,7 +15,7 @@ permalink: /agb-de.html
 
 # Allgemeine Geschäftsbedingungen Mietsenkung
 
-- **Stand:** 2026-05-17
+- **Stand:** 2026-05-25
 - **In Kraft ab:** Launch der App im Apple App Store / Google Play Store
 - **Gilt für:** Mietsenkung iOS + Android App (Bundle ID `com.mietsenkung.mietsenkung`)
 
