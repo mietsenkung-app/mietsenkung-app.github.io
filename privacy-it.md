@@ -135,6 +135,16 @@ L'app è un'app mobile nativa e **non imposta cookie**. Nessuna pubblicità, nes
 
 Questo sito web è statico, ospitato su GitHub Pages. **Non imposta alcun cookie**, **non utilizza alcun tracking**, non carica script di terze parti e non memorizza dati personali. Non viene utilizzata alcuna analytics lato server.
 
+### 5.2 Iscrizione newsletter pre-lancio (Formspree, opzionale)
+
+Finché Ribassoaffitto non è disponibile negli app store, puoi lasciare il tuo indirizzo e-mail sul sito per essere avvisato/-a al lancio. L'inserimento è **volontario**.
+
+- **Destinatario:** Formspree Inc., USA. Formspree inoltra l'e-mail alla nostra casella `kontakt@mietsenkung-app.ch` e la conserva ai fini dell'invio.
+- **Scopo:** notifica unica al lancio. Nessuna newsletter successiva, nessuna pubblicità, nessuna condivisione con terzi.
+- **Base giuridica:** il tuo consenso (art. 31 cpv. 1 nLPD, art. 6 par. 1 lett. a GDPR). Revocabile in qualsiasi momento via `kontakt@mietsenkung-app.ch`.
+- **Conservazione:** fino all'invio della notifica. Cancellazione entro 30 giorni successivi.
+- **Sub-fornitore:** Formspree.io (USA). Si applica l'EU-US Data Privacy Framework. In caso di revoca i dati vengono cancellati anche presso Formspree.
+
 ---
 
 ## 6. Bambini e adolescenti

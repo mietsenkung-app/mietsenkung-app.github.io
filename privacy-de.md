@@ -135,6 +135,16 @@ Die App ist eine native Mobile-App und setzt **keine Cookies**. Es gibt keine We
 
 Diese Webseite ist statisch und wird über GitHub Pages ausgeliefert. Sie setzt **keine Cookies**, nutzt **kein Tracking**, lädt keine Drittanbieter-Skripte und speichert keine personenbezogenen Daten. Es läuft kein serverseitiges Analytics.
 
+### 5.2 Pre-Launch-Newsletter-Sign-up (Formspree, optional)
+
+Solange Mietsenkung noch nicht in den App-Stores live ist, kannst du auf der Webseite optional deine E-Mail-Adresse hinterlassen, damit wir dich beim Launch benachrichtigen. Diese Eingabe ist **freiwillig**.
+
+- **Empfänger:** Formspree Inc., USA. Formspree leitet die E-Mail-Adresse an unseren Posteingang `kontakt@mietsenkung-app.ch` weiter und speichert sie für Versand-Zwecke.
+- **Zweck:** einmalige Benachrichtigung beim App-Launch. Keine weitere Newsletter-Folge, kein Werbe-Versand, keine Weitergabe an Dritte.
+- **Rechtsgrundlage:** deine Einwilligung (Art. 31 Abs. 1 nDSG, Art. 6 Abs. 1 lit. a DSGVO). Du kannst sie jederzeit widerrufen, indem du uns eine Mail an `kontakt@mietsenkung-app.ch` schickst.
+- **Aufbewahrung:** bis zum Launch-Versand. Danach Löschung innerhalb 30 Tagen.
+- **Sub-Processor:** Formspree.io (USA). Es gilt das EU-US Data Privacy Framework. Bei Widerruf werden auch Formspree-side die Daten gelöscht.
+
 ---
 
 ## 6. Kinder und Jugendliche

@@ -604,5 +604,7 @@ permalink: /en/
       </a>
     </div>
     <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Claim check + rate alert free</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Letter from <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">No subscription</span></p>
+
+    {% include newsletter.html %}
   </div>
 </section>

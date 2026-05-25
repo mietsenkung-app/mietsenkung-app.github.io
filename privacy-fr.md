@@ -135,6 +135,16 @@ L'application est une application mobile native et ne pose **aucun cookie**. Pas
 
 Ce site web est statique, hébergé sur GitHub Pages. Il **ne pose aucun cookie**, **n'utilise aucun tracking**, ne charge aucun script tiers et ne stocke pas de données personnelles. Aucune analytique côté serveur n'est exploitée.
 
+### 5.2 Inscription newsletter pré-lancement (Formspree, optionnel)
+
+Tant que Baisse-loyer n'est pas disponible dans les app stores, tu peux laisser ton adresse e-mail sur le site pour être averti·e au lancement. Cette saisie est **volontaire**.
+
+- **Destinataire :** Formspree Inc., USA. Formspree transmet l'e-mail à notre boîte `kontakt@mietsenkung-app.ch` et le stocke à des fins d'envoi.
+- **Objectif :** notification unique au lancement. Pas de newsletter ultérieure, pas de publicité, pas de partage avec des tiers.
+- **Base légale :** ton consentement (art. 31 al. 1 nLPD, art. 6 par. 1 let. a RGPD). Révocable à tout moment via `kontakt@mietsenkung-app.ch`.
+- **Conservation :** jusqu'à l'envoi de la notification. Suppression dans les 30 jours suivants.
+- **Sous-traitant :** Formspree.io (USA). EU-US Data Privacy Framework applicable. En cas de révocation, les données sont aussi supprimées chez Formspree.
+
 ---
 
 ## 6. Enfants et adolescents

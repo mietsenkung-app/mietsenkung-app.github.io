@@ -135,6 +135,16 @@ The app is a native mobile app and sets **no cookies**. There is no advertising,
 
 This website is static and served via GitHub Pages. It sets **no cookies**, uses **no tracking**, loads no third-party scripts, and does not store personal data. No server-side analytics is used.
 
+### 5.2 Pre-Launch newsletter signup (Formspree, optional)
+
+While Mietsenkung is not yet live in the app stores, you can optionally leave your email address on the website so we can notify you at launch. This is **voluntary**.
+
+- **Recipient:** Formspree Inc., USA. Formspree forwards the email to our inbox `kontakt@mietsenkung-app.ch` and stores it for delivery purposes.
+- **Purpose:** one-time launch notification. No further newsletter, no marketing, no third-party sharing.
+- **Legal basis:** your consent (Art. 31(1) FADP, Art. 6(1)(a) GDPR). Revocable any time by emailing `kontakt@mietsenkung-app.ch`.
+- **Retention:** until launch notification sent. Deletion within 30 days thereafter.
+- **Sub-processor:** Formspree.io (USA). EU-US Data Privacy Framework applies. On revocation, data is also deleted on Formspree's side.
+
 ---
 
 ## 6. Children and minors

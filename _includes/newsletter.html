@@ -1,0 +1,29 @@
+{%- comment -%}
+  A5 Pre-Launch-Newsletter-Capture (Formspree).
+
+  Aktiv nur wenn site.formspree_endpoint befüllt ist. Solange leer rendert
+  die Form mit visuell-disabled state + Coming-Soon-Hint statt broken-Submit.
+
+  Strings aus _data/i18n.yml site.data.i18n[lang_short].newsletter.
+  Manuel setzt nach Formspree-Account-Anlage in _config.yml:
+    formspree_endpoint: "https://formspree.io/f/XXXXXX"
+  Siehe docs/marketing/newsletter-setup.md (im App-Repo, nicht-Website-Repo).
+{%- endcomment -%}
+<aside class="newsletter" data-reveal>
+  <h3 class="newsletter__title">{{ t.newsletter.title }}</h3>
+  <p class="newsletter__body">{{ t.newsletter.body }}</p>
+  {% if site.formspree_endpoint and site.formspree_endpoint != "" %}
+    <form class="newsletter__form" action="{{ site.formspree_endpoint }}" method="POST">
+      <label class="newsletter__field">
+        <span class="visually-hidden">{{ t.newsletter.placeholder }}</span>
+        <input type="email" name="email" required placeholder="{{ t.newsletter.placeholder }}" autocomplete="email">
+      </label>
+      <input type="hidden" name="_subject" value="Mietsenkung Pre-Launch-Signup">
+      <input type="hidden" name="_language" value="{{ page.lang_short | default: 'de' }}">
+      <button type="submit" class="newsletter__button">{{ t.newsletter.button }}</button>
+    </form>
+  {% else %}
+    <p class="newsletter__pending"><em>{{ t.coming_soon.body }}</em></p>
+  {% endif %}
+  <p class="newsletter__privacy">{{ t.newsletter.privacy }}</p>
+</aside>
