@@ -603,7 +603,5 @@ permalink: /it/
       </a>
     </div>
     <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Verifica + allarme tasso gratis</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettera da <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Senza abbonamento</span></p>
-
-    {% include newsletter.html %}
   </div>
 </section>

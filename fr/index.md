@@ -604,7 +604,5 @@ permalink: /fr/
       </a>
     </div>
     <p class="hero__pricing"><span class="hero__pricing-bit"><strong>Vérification + alerte taux gratuites</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Lettre dès <strong>CHF&nbsp;9.90</strong></span><span class="dot" aria-hidden="true">·</span><span class="hero__pricing-bit">Sans abonnement</span></p>
-
-    {% include newsletter.html %}
   </div>
 </section>

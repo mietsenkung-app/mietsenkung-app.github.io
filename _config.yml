@@ -9,12 +9,6 @@ kramdown:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
-# A5 Pre-Launch-Newsletter-Capture. Manuel ersetzt das nach Formspree-
-# Account-Anlage (siehe docs/marketing/newsletter-setup.md). Solange leer
-# rendert die Form mit visuell-disabled state + "Coming soon"-Hint statt
-# einer broken Formspree-URL.
-formspree_endpoint: ""
 exclude:
   - README.md
   - .gitignore

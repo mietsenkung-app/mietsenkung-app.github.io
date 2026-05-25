@@ -27,13 +27,6 @@ de:
     title: "Bald im Store"
     body: "Mietsenkung ist kurz vor dem Launch und noch nicht im App&nbsp;Store oder bei Google&nbsp;Play verfügbar. Schau in den nächsten Tagen vorbei, der Button wird dann direkt zum Store führen."
     close: "Schliessen"
-  newsletter:
-    title: "Benachrichtigung beim Launch"
-    body: "Mietsenkung startet in den nächsten Tagen. Trag deine E-Mail-Adresse ein, dann sagen wir dir Bescheid sobald die App im Store ist."
-    placeholder: "deine@email.ch"
-    button: "Bescheid geben"
-    privacy: "Wir nutzen deine E-Mail ausschliesslich für die Launch-Benachrichtigung. Versand via Formspree (USA). Mehr in der Datenschutzerklärung."
-    thanks: "Danke! Wir benachrichtigen dich beim Launch."
 
 fr:
   nav:
@@ -60,13 +53,6 @@ fr:
     title: "Bientôt disponible"
     body: "Baisse-loyer est sur le point d'être lancée et n'est pas encore disponible sur l'App&nbsp;Store ou Google&nbsp;Play. Reviens dans les prochains jours, le bouton mènera alors directement au store."
     close: "Fermer"
-  newsletter:
-    title: "Sois averti·e au lancement"
-    body: "Baisse-loyer arrive dans les prochains jours. Laisse ton e-mail et nous te prévenons dès que l'app est dans les stores."
-    placeholder: "ton@email.ch"
-    button: "Me prévenir"
-    privacy: "Ton e-mail sert uniquement à t'informer du lancement. Envoyé via Formspree (USA). Plus d'infos dans la politique de confidentialité."
-    thanks: "Merci! Nous te préviendrons au lancement."
 
 it:
   nav:
@@ -93,13 +79,6 @@ it:
     title: "Presto nello store"
     body: "Ribassoaffitto è prossima al lancio e non è ancora disponibile su App&nbsp;Store o Google&nbsp;Play. Torna nei prossimi giorni, il pulsante porterà allora direttamente allo store."
     close: "Chiudi"
-  newsletter:
-    title: "Avvisami al lancio"
-    body: "Ribassoaffitto arriva nei prossimi giorni. Lascia la tua e-mail e ti avvisiamo appena l'app è negli store."
-    placeholder: "tua@email.ch"
-    button: "Avvisami"
-    privacy: "Usiamo la tua e-mail solo per la notifica di lancio. Invio tramite Formspree (USA). Maggiori info nell'informativa sulla privacy."
-    thanks: "Grazie! Ti avvisiamo al lancio."
 
 en:
   nav:
@@ -126,13 +105,6 @@ en:
     title: "Coming soon"
     body: "RentReducer is about to launch, not yet on the App&nbsp;Store or Google&nbsp;Play. Check back in the next few days; the button will take you straight to the store."
     close: "Close"
-  newsletter:
-    title: "Get notified at launch"
-    body: "RentReducer is launching in the next few days. Leave your email and we'll let you know as soon as the app is in the stores."
-    placeholder: "you@email.com"
-    button: "Notify me"
-    privacy: "We use your email only for the launch notification. Sent via Formspree (USA). More in the privacy policy."
-    thanks: "Thanks! We'll notify you at launch."
 
 # Map from (current lang) → URL prefix used by the language switcher.
 # DE is at root, others under /<lang>/.
