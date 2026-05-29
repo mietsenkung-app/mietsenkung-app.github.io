@@ -17,7 +17,7 @@ permalink: /privacy-de.html
 
 - **Stand:** 2026-05-25
 - **In Kraft ab:** Launch der App im Apple App Store / Google Play Store
-- **Gilt für:** Mietsenkung iOS + Android App (Bundle ID `com.mietsenkung.mietsenkung`)
+- **Gilt für:** die App Mietsenkung, in den App-Stores auch gelistet als RentReducer (Englisch), Baisse-loyer (Französisch) und Ribassoaffitto (Italienisch), für iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
 
 ---
 
@@ -143,7 +143,9 @@ Mietsenkung richtet sich an Erwachsene, die einen gültigen Mietvertrag abgeschl
 
 ---
 
-## 7. Deine Rechte
+## 7. Deine Rechte und Datenlöschung {#section-7}
+
+Diese Datenlöschungs-Informationen gelten für die App Mietsenkung (RentReducer / Baisse-loyer / Ribassoaffitto). Da die App lokal-first arbeitet und kein Konto anlegt, bleiben alle deine Daten auf deinem Gerät: Du löschst einzelne Einträge direkt in der App, und beim Deinstallieren werden automatisch sämtliche lokalen Daten entfernt. Es liegt keine Kopie bei uns auf einem Server.
 
 Nach nDSG (und DSGVO, falls anwendbar) stehen dir folgende Rechte zu:
 

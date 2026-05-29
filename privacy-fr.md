@@ -17,7 +17,7 @@ permalink: /privacy-fr.html
 
 - **État:** 2026-05-25
 - **En vigueur depuis:** lancement de l'application sur l'Apple App Store / Google Play Store
-- **S'applique à:** Baisse-loyer iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
+- **S'applique à:** l'application Baisse-loyer, également listée dans les app stores sous les noms Mietsenkung (allemand), RentReducer (anglais) et Ribassoaffitto (italien), pour iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
 
 ---
 

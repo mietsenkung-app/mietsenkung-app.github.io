@@ -17,7 +17,7 @@ permalink: /privacy-it.html
 
 - **Aggiornamento:** 2026-05-25
 - **In vigore dal:** lancio dell'app sull'Apple App Store / Google Play Store
-- **Si applica a:** Ribassoaffitto iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
+- **Si applica a:** l'app Ribassoaffitto, elencata negli app store anche come Mietsenkung (tedesco), RentReducer (inglese) e Baisse-loyer (francese), per iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
 
 ---
 

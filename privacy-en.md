@@ -17,7 +17,7 @@ permalink: /privacy-en.html
 
 - **Date:** 2026-05-25
 - **Effective from:** Launch of the app on the Apple App Store / Google Play Store
-- **Applies to:** Mietsenkung iOS + Android app (Bundle ID `com.mietsenkung.mietsenkung`)
+- **Applies to:** the app RentReducer, also listed in the app stores as Mietsenkung (German), Baisse-loyer (French) and Ribassoaffitto (Italian), for iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
 
 ---
 
