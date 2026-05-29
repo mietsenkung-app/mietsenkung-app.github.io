@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
-description: Privacy policy for the Mietsenkung app. Swiss nDSG-compliant, GDPR-aware, local-first.
+description: Privacy policy for the RentReducer app. Swiss nDSG-compliant, GDPR-aware, local-first.
 lang: en
 permalink: /privacy-en.html
 ---
@@ -13,7 +13,7 @@ permalink: /privacy-en.html
   <span class="active" aria-current="page">EN</span>
 </div>
 
-# Privacy Policy Mietsenkung
+# Privacy Policy RentReducer
 
 - **Date:** 2026-05-25
 - **Effective from:** Launch of the app on the Apple App Store / Google Play Store
@@ -34,7 +34,7 @@ This privacy policy is based on the revised Swiss Federal Act on Data Protection
 
 ## 2. Overview: local-first
 
-Mietsenkung is deliberately built "local-first". Your lease data, your address, the address of your landlord and your signature stay exclusively on your device in a local SQLite database. There is no user account, no cloud sync, no server-side database at our end.
+RentReducer is deliberately built "local-first". Your lease data, your address, the address of your landlord and your signature stay exclusively on your device in a local SQLite database. There is no user account, no cloud sync, no server-side database at our end.
 
 Data is transferred to third parties in only two situations:
 
@@ -139,7 +139,7 @@ This website is static and served via GitHub Pages. It sets **no cookies**, uses
 
 ## 6. Children and minors
 
-Mietsenkung is aimed at adults who have entered into a valid lease agreement. The app is not intended for children under 16. We do not knowingly collect data from anyone under 16.
+RentReducer is aimed at adults who have entered into a valid lease agreement. The app is not intended for children under 16. We do not knowingly collect data from anyone under 16.
 
 ---
 
