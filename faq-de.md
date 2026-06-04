@@ -21,6 +21,7 @@ Hier findest du die Antworten zu allen Themen rund um die App: Anspruch berechne
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
   "mainEntity": [
     {
       "@type": "Question",

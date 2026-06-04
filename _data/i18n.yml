@@ -27,6 +27,15 @@ de:
     title: "Bald im Store"
     body: "Mietsenkung ist kurz vor dem Launch und noch nicht im App&nbsp;Store oder bei Google&nbsp;Play verfügbar. Schau in den nächsten Tagen vorbei, der Button wird dann direkt zum Store führen."
     close: "Schliessen"
+  howto:
+    name: "In drei Schritten zur Mietzinssenkung"
+    steps:
+      - name: "Anspruch prüfen"
+        text: "Aktuellen Mietzins und das Datum der letzten Anpassung eingeben. Die Berechnung erfolgt nach Schweizer Bundesrecht (Art. 270a OR und VMWG Art. 13), inklusive Teuerung und Kostensteigerung."
+      - name: "Senkungsbegehren versenden"
+        text: "Das Senkungsbegehren wird mit der Unterschrift generiert und per A-Post oder Einschreiben an die Vermieterin oder den Vermieter verschickt."
+      - name: "Reaktion verfolgen"
+        text: "Bleibt eine Antwort aus oder wird die Senkung abgelehnt, helfen Erinnerungsschreiben und bei Bedarf die Schlichtungsbehörde weiter."
 
 fr:
   nav:
@@ -53,6 +62,15 @@ fr:
     title: "Bientôt disponible"
     body: "Baisse-loyer est sur le point d'être lancée et n'est pas encore disponible sur l'App&nbsp;Store ou Google&nbsp;Play. Reviens dans les prochains jours, le bouton mènera alors directement au store."
     close: "Fermer"
+  howto:
+    name: "Obtenir une baisse de loyer en trois étapes"
+    steps:
+      - name: "Vérifier le droit"
+        text: "Saisir le loyer actuel et la date de la dernière adaptation. Le calcul suit le droit fédéral suisse (art. 270a CO et art. 13 OBLF), y compris le renchérissement et la hausse des coûts."
+      - name: "Envoyer la demande de baisse"
+        text: "La demande de baisse est générée avec la signature, puis envoyée par courrier A ou recommandé au bailleur."
+      - name: "Suivre la réponse"
+        text: "En l'absence de réponse ou en cas de refus, des rappels et, si nécessaire, l'autorité de conciliation permettent de poursuivre."
 
 it:
   nav:
@@ -79,6 +97,15 @@ it:
     title: "Presto nello store"
     body: "Ribassoaffitto è prossima al lancio e non è ancora disponibile su App&nbsp;Store o Google&nbsp;Play. Torna nei prossimi giorni, il pulsante porterà allora direttamente allo store."
     close: "Chiudi"
+  howto:
+    name: "Ottenere una riduzione della pigione in tre passi"
+    steps:
+      - name: "Verificare il diritto"
+        text: "Inserire la pigione attuale e la data dell'ultimo adeguamento. Il calcolo segue il diritto federale svizzero (art. 270a CO e art. 13 OLAL), inclusi rincaro e aumento dei costi."
+      - name: "Inviare la richiesta di riduzione"
+        text: "La richiesta di riduzione viene generata con la firma e inviata per posta A o raccomandata al locatore."
+      - name: "Seguire la risposta"
+        text: "In assenza di risposta o in caso di rifiuto, solleciti e, se necessario, l'autorità di conciliazione aiutano a proseguire."
 
 en:
   nav:
@@ -105,6 +132,15 @@ en:
     title: "Coming soon"
     body: "RentReducer is about to launch, not yet on the App&nbsp;Store or Google&nbsp;Play. Check back in the next few days; the button will take you straight to the store."
     close: "Close"
+  howto:
+    name: "Get a rent reduction in three steps"
+    steps:
+      - name: "Check your entitlement"
+        text: "Enter your current rent and the date of the last adjustment. The calculation follows Swiss federal law (art. 270a CO and art. 13 VMWG), including inflation and cost increases."
+      - name: "Send the reduction request"
+        text: "The reduction request is generated with your signature and sent by A Mail or registered mail to your landlord."
+      - name: "Track the response"
+        text: "If there is no reply or the reduction is refused, reminder letters and, if needed, the conciliation authority help you proceed."
 
 # Map from (current lang) → URL prefix used by the language switcher.
 # DE is at root, others under /<lang>/.

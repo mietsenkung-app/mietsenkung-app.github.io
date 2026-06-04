@@ -82,6 +82,7 @@
       {
         "@type": "SoftwareApplication",
         "name": "{{ t.brand_word }}",
+        "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
         "operatingSystem": "iOS, Android",
         "applicationCategory": "FinanceApplication",
         "description": "{{ og_desc }}",
@@ -109,6 +110,19 @@
           "email": "kontakt@mietsenkung-app.ch",
           "contactType": "customer support"
         }
+      },
+      {
+        "@type": "HowTo",
+        "name": "{{ t.howto.name }}",
+        "inLanguage": "{{ page.lang | default: 'de-CH' }}",
+        "step": [
+          {% for s in t.howto.steps %}{
+            "@type": "HowToStep",
+            "position": {{ forloop.index }},
+            "name": "{{ s.name }}",
+            "text": "{{ s.text }}"
+          }{% unless forloop.last %},{% endunless %}{% endfor %}
+        ]
       }
     ]
   }

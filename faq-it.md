@@ -21,6 +21,7 @@ Qui trovi le risposte a tutti i temi attorno all'app: calcolare il diritto, invi
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
   "mainEntity": [
     {
       "@type": "Question",

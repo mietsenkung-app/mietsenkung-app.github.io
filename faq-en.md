@@ -21,6 +21,7 @@ Here you find answers to all topics around the app: claim calculation, sending t
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
   "mainEntity": [
     {
       "@type": "Question",

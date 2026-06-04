@@ -21,6 +21,7 @@ Tu trouves ici les réponses à tous les sujets autour de l'app : calculer le dr
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
   "mainEntity": [
     {
       "@type": "Question",
