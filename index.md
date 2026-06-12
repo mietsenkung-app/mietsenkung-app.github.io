@@ -186,6 +186,27 @@ permalink: /
   </div>
 </section>
 
+<section class="section media" id="media">
+  <div class="section__inner">
+    <span class="eyebrow" data-reveal>Presse</span>
+    <h2 class="section-title" data-reveal>In den Medien</h2>
+    <div class="media__grid">
+      {% assign press_items = site.data.press | sort: "date" | reverse %}
+      {% for item in press_items %}
+      <a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener noreferrer" data-reveal>
+        <div class="media-card__head">
+          <span class="media-card__outlet">{{ item.outlet }}</span>
+          <time class="media-card__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%-d.%-m.%Y' }}</time>
+        </div>
+        <h3 class="media-card__title">{{ item.title }}</h3>
+        <span class="media-card__link">Zum Beitrag<span class="media-card__arrow" aria-hidden="true">&rarr;</span></span>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="media__soon" data-reveal>Weitere Beiträge folgen in Kürze.</p>
+  </div>
+</section>
+
 <section class="section steps" id="how">
   <div class="section__inner">
     <span class="eyebrow" data-reveal>Ablauf</span>

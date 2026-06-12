@@ -1,0 +1,9 @@
+# Medienecho. Ein Eintrag pro Artikel/Beitrag, erscheint automatisch in der
+# "In den Medien"-Sektion auf allen vier Sprach-Startseiten (Template sortiert
+# nach Datum, neuste zuerst). Der Originaltitel bleibt in der Quellsprache
+# (er zitiert das Outlet, wird nicht uebersetzt). Neuer Beitrag = hier eine
+# Zeile ergaenzen, fertig.
+- outlet: "Tele 1"
+  date: 2026-06-12
+  url: "https://www.tele1.ch/nachrichten/steht-mir-eine-mietzinsreduktion-zu-zentralschweizer-app-soll-helfen-164498061"
+  title: "Steht mir eine Mietzinsreduktion zu? Zentralschweizer App soll helfen"

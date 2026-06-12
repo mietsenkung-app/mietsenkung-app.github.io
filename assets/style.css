@@ -1046,6 +1046,84 @@ img, svg { max-width: 100%; height: auto; display: block; }
   white-space: nowrap;
 }
 
+/* ---------- 6b. In den Medien ---------- */
+.media {
+  background: var(--paper);
+}
+.media__grid {
+  display: grid;
+  /* auto-fill (not auto-fit): empty tracks stay reserved, so a single card
+     keeps its card width instead of stretching across the whole row. */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--sp-6);
+}
+.media-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-6);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.media-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--emerald-glow);
+}
+.media-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+}
+.media-card__outlet {
+  font-family: var(--font-mono);
+  font-size: var(--fs-micro);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--emerald-deep);
+  background: var(--emerald-mist);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.media-card__date {
+  font-size: var(--fs-small);
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.media-card__title {
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0;
+  color: var(--ink);
+}
+.media-card__link {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--fs-small);
+  font-weight: 600;
+  color: var(--emerald);
+}
+.media-card__arrow {
+  transition: transform 0.2s ease;
+}
+.media-card:hover .media-card__arrow {
+  transform: translateX(3px);
+}
+.media__soon {
+  margin: var(--sp-8) 0 0;
+  font-size: var(--fs-small);
+  color: var(--ink-faint);
+}
+
 /* ---------- 7. Steps "Wie's geht" ---------- */
 .steps {
   background: var(--paper);
