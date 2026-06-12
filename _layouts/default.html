@@ -145,6 +145,7 @@
         <a href="{{ anchor_prefix }}#price">{{ t.nav.price }}</a>
         <a href="{{ anchor_prefix }}#faq">{{ t.nav.faq }}</a>
         <a href="{{ anchor_prefix }}#sources">{{ t.nav.sources }}</a>
+        <a href="{{ anchor_prefix }}#media">{{ t.nav.media }}</a>
       </nav>
       <div class="lang-switcher" role="group" aria-label="{{ t.langswitch_label }}">
         {% for entry in site.data.i18n.urls %}{% assign other = entry[0] %}<a href="{{ entry[1] | relative_url }}"{% if other == lang_short %} aria-current="page" class="is-active"{% endif %} hreflang="{{ other }}">{{ other | upcase }}</a>{% endfor %}

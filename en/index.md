@@ -199,7 +199,7 @@ permalink: /en/
           <time class="media-card__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%-d %b %Y' }}</time>
         </div>
         <h3 class="media-card__title">{{ item.title }}</h3>
-        <span class="media-card__link">Read more<span class="media-card__arrow" aria-hidden="true">&rarr;</span></span>
+        <span class="media-card__link">View the story<span class="media-card__arrow" aria-hidden="true">&rarr;</span></span>
       </a>
       {% endfor %}
     </div>
