@@ -1,12 +1,14 @@
 # Medienecho. Ein Eintrag pro Artikel/Beitrag, erscheint automatisch in der
 # "In den Medien"-Sektion auf allen vier Sprach-Startseiten (Template sortiert
 # nach Datum, neuste zuerst). Der Originaltitel bleibt in der Quellsprache
-# (er zitiert das Outlet, wird nicht uebersetzt). Neuer Beitrag = hier eine
-# Zeile ergaenzen, fertig.
+# (er zitiert das Outlet, wird nicht uebersetzt). Ausnahme: geografische
+# Verengungen ("Zürcher", "Zentralschweizer") duerfen bewusst getrimmt werden,
+# weil die App schweizweit gilt (Outlet-Name + Link bleiben, also korrekt
+# zugeordnet). Neuer Beitrag = hier eine Zeile ergaenzen, fertig.
 - outlet: "Tsüri.ch"
   date: 2026-06-16
   url: "https://tsri.ch/a/wegen-referenzzins-neue-app-soll-bei-mietsenkungen-helfen"
-  title: "Diese App soll Zürcher Mieter:innen helfen, weniger Miete zu zahlen"
+  title: "Diese App soll Mieter:innen helfen, weniger Miete zu zahlen"
 - outlet: "Tele 1"
   date: 2026-06-12
   url: "https://www.tele1.ch/nachrichten/steht-mir-eine-mietzinsreduktion-zu-zentralschweizer-app-soll-helfen-164498061"
