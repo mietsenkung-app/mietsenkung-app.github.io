@@ -15,7 +15,7 @@ permalink: /privacy-de.html
 
 # Datenschutzerklärung Mietsenkung
 
-- **Stand:** 2026-05-25
+- **Stand:** 2026-06-16
 - **In Kraft ab:** Launch der App im Apple App Store / Google Play Store
 - **Gilt für:** die App Mietsenkung, in den App-Stores auch gelistet als RentReducer (Englisch), Baisse-loyer (Französisch) und Ribassoaffitto (Italienisch), für iOS + Android (Bundle ID `com.mietsenkung.mietsenkung`)
 
