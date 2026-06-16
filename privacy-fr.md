@@ -54,14 +54,14 @@ Si tu désinstalles l'application, toutes les données de bail disparaissent. Il
 - **Bail:** loyer net, date de début du bail, date du dernier ajustement, taux d'intérêt de référence lors de l'ajustement, dates de résiliation
 - **Historique des lettres:** lettres générées (PDF), identifiants de suivi Pingen, date d'envoi
 - **Signature:** image PNG dessinée au doigt, saisie une fois par locataire, stockée comme BLOB dans sqflite
-- **Statut Premium:** indicateur d'abonnement RevenueCat mis en cache
+- **Statut d'achat:** indicateur RevenueCat mis en cache
 - **Préférences de l'application:** langue, thème, préférences de notifications
 
 ### 3.2 Données techniques (anonymes)
 
 - **Jeton FCM:** chaîne anonyme attribuée par le système de notifications de Google par installation, afin que nous puissions t'envoyer des alertes de taux. Aucune référence à une personne.
 - **Jeton App Check:** jeton d'attestation de courte durée qui certifie l'intégrité de ton appareil auprès de Firebase. Aucune référence à une personne.
-- **Identifiant utilisateur RevenueCat:** UUID anonyme pour rattacher ton abonnement. Aucune référence personnelle, aucune adresse e-mail.
+- **Identifiant utilisateur RevenueCat:** UUID anonyme pour rattacher tes achats. Aucune référence personnelle, aucune adresse e-mail.
 - **Rapports de crash:** en cas de plantage, la trace de pile, le type d'appareil et la version de l'OS sont envoyés à Sentry. Les données personnelles sont activement supprimées avant l'envoi (voir 4.3).
 - **Statistiques d'utilisation anonymes (opt-out):** Activées par défaut, désactivables à tout moment dans les Réglages, section Vie privée. Seuls des compteurs journaliers agrégés sont conservés dans Firestore (par exemple "nombre de vérifications de droit aujourd'hui", "nombre de courriers envoyés aujourd'hui", "somme des réductions de loyer acceptées aujourd'hui, arrondies par tranches de 10 CHF"). **Aucun** identifiant utilisateur, **aucun** identifiant d'appareil, **aucun** événement contenant des données personnelles. Une ré-identification de personnes individuelles à partir de ces compteurs est impossible. Base légale: intérêt légitime à mesurer le succès du produit (art. 31 al. 2 nLPD, art. 6 par. 1 let. f RGPD).
 
@@ -120,7 +120,7 @@ Nous travaillons avec un nombre restreint de sous-traitants soigneusement sélec
 
 ### 4.5 Apple App Store et Google Play
 
-- **But:** distribution de l'application, traitement des paiements pour abonnements et achats intégrés, rapports de plantage optionnels au niveau de l'appareil si tu les as activés dans les réglages OS.
+- **But:** distribution de l'application, traitement des paiements pour les achats intégrés, rapports de plantage optionnels au niveau de l'appareil si tu les as activés dans les réglages OS.
 - **Ce qui est transmis:** tout ce que tu indiques lors de l'achat et ce qu'Apple ou Google enregistre déjà sur ton compte. Nous n'avons aucune influence à ce sujet.
 - **Politique d'Apple:** [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 - **Politique de Google:** [https://policies.google.com/privacy](https://policies.google.com/privacy)

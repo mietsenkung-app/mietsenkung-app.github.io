@@ -54,14 +54,14 @@ If you uninstall the app, all lease data is gone. There is no backup trace on ou
 - **Lease data:** net rent, start of tenancy, date of last adjustment, reference interest rate at the time of adjustment, termination dates
 - **Letter history:** generated letters (PDF), Pingen tracking IDs, dispatch date
 - **Signature:** finger-drawn PNG image, captured once per tenant, stored as BLOB in sqflite
-- **Premium status:** cached RevenueCat entitlement flag
+- **Purchase status:** cached RevenueCat entitlement flag
 - **App settings:** language, theme, push preferences
 
 ### 3.2 Technical data (anonymous)
 
 - **FCM token:** an anonymous string that Google's push system issues per app installation so we can send you rate alerts. No personal identifier.
 - **App Check token:** short-lived attestation token that confirms device integrity to Firebase. No personal identifier.
-- **RevenueCat app user ID:** anonymous UUID used to map your subscription. No personal identifier, no e-mail.
+- **RevenueCat app user ID:** anonymous UUID used to map your purchases. No personal identifier, no e-mail.
 - **Crash reports:** if the app crashes, stack trace, device type and OS version are sent to Sentry. PII is actively stripped before transmission (see section 4.3).
 - **Anonymous usage statistics (opt-out):** On by default, can be switched off at any time in Settings under Privacy. Only aggregate daily counters are stored in Firestore (e.g. "number of entitlement checks today", "number of letters dispatched today", "sum of accepted rent reductions today, bucketed in CHF 10 steps"). There is **no** user ID, **no** device ID, **no** event containing personal data. Re-identification of individuals from these counters is impossible. Legal basis: legitimate interest in measuring product success (art. 31 para. 2 revFADP, art. 6 para. 1 lit. f GDPR).
 
@@ -91,11 +91,11 @@ We work with a small number of carefully selected data processors. Each is liste
 
 ### 4.2 RevenueCat (RevenueCat Inc., USA)
 
-- **Purpose:** subscription management (CHF 19.90 per year premium, CHF 7.90 registered-letter consumable).
+- **Purpose:** in-app purchase management (letter dispatch CHF 9.90 to 29.90 per letter, CHF 7.90 registered-letter add-on). No subscription.
 - **What is transferred:** anonymous app user ID, purchase transaction receipts that RevenueCat receives from Apple / Google. No credit card numbers, no payment data. Payment runs exclusively through the App Store or Google Play.
 - **Legal basis:** contract performance (Art. 31 para. 1 lit. a nDSG, Art. 6 para. 1 lit. b GDPR).
 - **Server location:** USA. Data transfer based on EU Standard Contractual Clauses.
-- **Retention:** as long as your subscription is active, plus accounting retention periods.
+- **Retention:** as long as your purchase is active, plus accounting retention periods.
 - **Provider privacy policy:** [https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy)
 
 ### 4.3 Sentry (Functional Software Inc., USA)
@@ -120,7 +120,7 @@ We work with a small number of carefully selected data processors. Each is liste
 
 ### 4.5 Apple App Store and Google Play
 
-- **Purpose:** app distribution, payment processing for subscriptions and in-app purchases, optional device-level crash reports if you have enabled them in your OS settings.
+- **Purpose:** app distribution, payment processing for in-app purchases, optional device-level crash reports if you have enabled them in your OS settings.
 - **What is transferred:** everything you provide at purchase time and whatever Apple or Google already captures through your account. We have no influence over this.
 - **Apple privacy policy:** [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 - **Google privacy policy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)

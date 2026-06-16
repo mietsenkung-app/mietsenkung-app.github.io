@@ -54,14 +54,14 @@ Se disinstalli l'app, tutti i dati di locazione spariscono. Non resta alcuna cop
 - **Contratto di locazione:** affitto netto, data d'inizio della locazione, data dell'ultimo adeguamento, tasso d'interesse di riferimento al momento dell'adeguamento, scadenze di disdetta
 - **Storico lettere:** lettere generate (PDF), ID di tracciamento Pingen, data di spedizione
 - **Firma:** immagine PNG disegnata col dito, salvata una volta per locatario/a, come BLOB in sqflite
-- **Stato Premium:** flag di abbonamento RevenueCat in cache
+- **Stato d'acquisto:** flag RevenueCat in cache
 - **Preferenze app:** lingua, tema, preferenze di notifica
 
 ### 3.2 Dati tecnici (anonimi)
 
 - **Token FCM:** stringa anonima assegnata dal sistema di notifiche push di Google per installazione, affinché possiamo inviarti gli avvisi sul tasso. Nessun riferimento a una persona.
 - **Token App Check:** token di attestazione di breve durata che certifica l'integrità del tuo dispositivo verso Firebase. Nessun riferimento a una persona.
-- **ID utente RevenueCat:** UUID anonimo per associare il tuo abbonamento. Nessun riferimento personale, nessuna e-mail.
+- **ID utente RevenueCat:** UUID anonimo per associare i tuoi acquisti. Nessun riferimento personale, nessuna e-mail.
 - **Rapporti di crash:** in caso di crash, lo stack-trace, il tipo di dispositivo e la versione del sistema operativo vengono inviati a Sentry. I dati personali vengono attivamente rimossi prima dell'invio (vedi 4.3).
 - **Statistiche di utilizzo anonime (opt-out):** Attive di default, disattivabili in qualsiasi momento nelle Impostazioni, sezione Privacy. Vengono conservati solo contatori giornalieri aggregati in Firestore (ad esempio "numero di verifiche del diritto oggi", "numero di lettere inviate oggi", "somma delle riduzioni di affitto accettate oggi, arrotondate in fasce da 10 CHF"). **Nessun** identificativo utente, **nessun** identificativo del dispositivo, **nessun** evento con dati personali. Non è possibile re-identificare singole persone da questi contatori. Base giuridica: interesse legittimo a misurare il successo del prodotto (art. 31 cpv. 2 nLPD, art. 6 par. 1 lett. f GDPR).
 
@@ -120,7 +120,7 @@ Lavoriamo con un numero ridotto di responsabili del trattamento accuratamente se
 
 ### 4.5 Apple App Store e Google Play
 
-- **Scopo:** distribuzione dell'app, elaborazione dei pagamenti per abbonamenti e acquisti in-app, rapporti di crash a livello di dispositivo facoltativi se attivati nelle impostazioni del sistema.
+- **Scopo:** distribuzione dell'app, elaborazione dei pagamenti per acquisti in-app, rapporti di crash a livello di dispositivo facoltativi se attivati nelle impostazioni del sistema.
 - **Cosa viene trasmesso:** tutto ciò che indichi all'acquisto e ciò che Apple o Google registra comunque sul tuo account. Non abbiamo alcun controllo su questo.
 - **Privacy di Apple:** [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 - **Privacy di Google:** [https://policies.google.com/privacy](https://policies.google.com/privacy)

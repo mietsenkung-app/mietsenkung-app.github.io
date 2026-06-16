@@ -54,14 +54,14 @@ Löschst du die App, sind alle Mietvertragsdaten weg. Es gibt keine Backup-Spur 
 - **Mietvertrag:** Netto-Mietzins, Startdatum des Mietverhältnisses, Datum der letzten Anpassung, Referenzzinssatz bei der Anpassung, Kündigungstermine
 - **Brief-Historie:** generierte Briefe (PDF), Pingen-Tracking-IDs, Versanddatum
 - **Signatur:** Finger-gezeichnetes PNG-Bild, pro Mieter\*in einmal erfasst, als BLOB in sqflite
-- **Premium-Status:** gecachter RevenueCat-Entitlement-Flag
+- **Kauf-Status:** gecachter RevenueCat-Entitlement-Flag
 - **App-Einstellungen:** Sprache, Theme, Push-Präferenzen
 
 ### 3.2 Technische Daten (anonym)
 
 - **FCM-Token:** eine anonyme Zeichenkette, die Googles Push-System pro App-Installation vergibt, damit wir dir Zins-Alarme schicken können. Kein Personenbezug.
 - **App-Check-Token:** kurzlebiges Attestation-Token, das Integrität deines Geräts gegenüber Firebase bestätigt. Kein Personenbezug.
-- **RevenueCat-App-User-ID:** anonyme UUID zur Zuordnung deines Abos. Kein Personenbezug, keine E-Mail.
+- **RevenueCat-App-User-ID:** anonyme UUID zur Zuordnung deiner Käufe. Kein Personenbezug, keine E-Mail.
 - **Crash-Reports:** falls die App abstürzt, werden Stack-Trace, Gerätetyp und OS-Version an Sentry gesendet. PII wird vor Versand aktiv entfernt (siehe Ziff. 4.3).
 - **Anonyme Nutzungs-Statistiken (opt-out):** Standardmässig aktiviert, jederzeit in den Einstellungen unter Datenschutz abschaltbar. Es werden ausschliesslich aggregierte Tages-Zähler in Firestore geführt (z.B. "Anzahl Anspruchs-Prüfungen heute", "Anzahl versendete Briefe heute", "Summe der akzeptierten CHF-Reduktionen heute" in 10er-Schritten gebuckelt). Es gibt **kein** User-ID-Feld, **kein** Device-ID-Feld, **kein** Event mit personenbezogenen Daten. Eine Re-Identifikation einzelner Personen aus diesen Zählern ist nicht möglich. Rechtsgrundlage: berechtigtes Interesse an Produkt-Erfolgsmessung (Art. 31 Abs. 2 nDSG, Art. 6 Abs. 1 lit. f DSGVO).
 
@@ -91,11 +91,11 @@ Wir arbeiten mit wenigen, sorgfältig ausgewählten Auftragsverarbeitern zusamme
 
 ### 4.2 RevenueCat (RevenueCat Inc., USA)
 
-- **Zweck:** Abo-Verwaltung (CHF 19.90/Jahr Premium, CHF 7.90 Einschreiben-Consumable).
+- **Zweck:** Verwaltung der In-App-Käufe (Brief-Versand CHF 9.90 bis 29.90 pro Brief, Einschreiben CHF 7.90). Kein Abo.
 - **Was übertragen wird:** anonyme App-User-ID, Kauf-Transaktionsbestätigungen, die RevenueCat von Apple / Google erhält. Keine Kreditkartennummern, keine Zahlungsdaten. Bezahlung läuft ausschliesslich über den App Store beziehungsweise Google Play.
 - **Rechtsgrundlage:** Vertragserfüllung (Art. 31 Abs. 1 lit. a nDSG, Art. 6 Abs. 1 lit. b DSGVO).
 - **Serverstandort:** USA. Datenübermittlung gestützt auf EU-Standardvertragsklauseln.
-- **Aufbewahrung:** solange dein Abo aktiv ist, plus buchhalterische Aufbewahrungsfristen.
+- **Aufbewahrung:** solange dein Kauf aktiv ist, plus buchhalterische Aufbewahrungsfristen.
 - **Datenschutz des Anbieters:** [https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy)
 
 ### 4.3 Sentry (Functional Software Inc., USA)
@@ -120,7 +120,7 @@ Wir arbeiten mit wenigen, sorgfältig ausgewählten Auftragsverarbeitern zusamme
 
 ### 4.5 Apple App Store und Google Play
 
-- **Zweck:** Distribution der App, Zahlungsabwicklung für Abos und In-App-Käufe, optionale Device-Level-Crash-Reports wenn du es in den OS-Einstellungen aktiviert hast.
+- **Zweck:** Distribution der App, Zahlungsabwicklung für In-App-Käufe, optionale Device-Level-Crash-Reports wenn du es in den OS-Einstellungen aktiviert hast.
 - **Was übertragen wird:** alles, was du beim Kauf angibst und was Apple beziehungsweise Google ohnehin über deinen Account erfasst. Wir haben darauf keinen Einfluss.
 - **Datenschutz von Apple:** [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 - **Datenschutz von Google:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
