@@ -251,7 +251,7 @@ permalink: /fr/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Pourquoi cette appli</span>
     <h2 class="stats__title" data-reveal>Les locataires en Suisse perdent des millions chaque année.</h2>
-    <p class="stats__lead" data-reveal>Seule une fraction des personnes en droit réclame effectivement. La charge dissuade : calculer la prétention, rédiger la lettre, planifier les rappels, relancer en cas de silence ou refus. <strong>Baisse-loyer</strong> prend ces étapes en main, de la première vérification jusqu'à l'autorité de conciliation.</p>
+    <p class="stats__lead" data-reveal>Seule une fraction des personnes en droit réclame effectivement. La charge dissuade : calculer la prétention, rédiger la lettre, planifier les rappels, relancer en cas de silence ou refus. <strong>Baisse-loyer</strong> prend ces étapes en main, de la première vérification jusqu'à l'autorité de conciliation. Grâce à l'app, des locataires paient déjà moins de loyer.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>

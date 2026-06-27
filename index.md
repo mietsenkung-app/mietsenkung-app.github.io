@@ -251,7 +251,7 @@ permalink: /
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Warum gibt's das</span>
     <h2 class="stats__title" data-reveal>Schweizer Mieter&ast;innen verschenken jährlich Millionen.</h2>
-    <p class="stats__lead" data-reveal>Nur ein Bruchteil der Berechtigten fordert die Senkung tatsächlich ein. Der Aufwand schreckt ab: Anspruch berechnen, Brief formulieren, Termine setzen, bei Schweigen oder Ablehnung den nächsten Schritt einleiten. <strong>Mietsenkung</strong> übernimmt diese Schritte vollständig, vom Anspruchs-Check bis zur Schlichtungsbehörde.</p>
+    <p class="stats__lead" data-reveal>Nur ein Bruchteil der Berechtigten fordert die Senkung tatsächlich ein. Der Aufwand schreckt ab: Anspruch berechnen, Brief formulieren, Termine setzen, bei Schweigen oder Ablehnung den nächsten Schritt einleiten. <strong>Mietsenkung</strong> übernimmt diese Schritte vollständig, vom Anspruchs-Check bis zur Schlichtungsbehörde. Die ersten Mieter&ast;innen zahlen damit schon weniger Miete.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>

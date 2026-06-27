@@ -251,7 +251,7 @@ permalink: /en/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Why we built this</span>
     <h2 class="stats__title" data-reveal>Swiss tenants miss out on millions every year.</h2>
-    <p class="stats__lead" data-reveal>Only a fraction of those entitled actually claim. The effort puts people off: calculating the claim, drafting the letter, scheduling reminders, chasing silence or refusal with the next step. <strong>RentReducer</strong> takes those steps over completely, from the initial claim to the conciliation authority.</p>
+    <p class="stats__lead" data-reveal>Only a fraction of those entitled actually claim. The effort puts people off: calculating the claim, drafting the letter, scheduling reminders, chasing silence or refusal with the next step. <strong>RentReducer</strong> takes those steps over completely, from the initial claim to the conciliation authority. The first tenants already pay less rent thanks to the app.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>

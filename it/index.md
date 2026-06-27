@@ -251,7 +251,7 @@ permalink: /it/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Perché esiste</span>
     <h2 class="stats__title" data-reveal>Inquiline e inquilini in Svizzera perdono milioni ogni anno.</h2>
-    <p class="stats__lead" data-reveal>Solo una frazione degli aventi diritto fa effettivamente la richiesta. L'impegno scoraggia: calcolare la pretesa, redigere la lettera, fissare i promemoria, sollecitare in caso di silenzio o rifiuto. <strong>Ribassoaffitto</strong> si occupa di tutti questi passi, dalla verifica iniziale fino all'autorità di conciliazione.</p>
+    <p class="stats__lead" data-reveal>Solo una frazione degli aventi diritto fa effettivamente la richiesta. L'impegno scoraggia: calcolare la pretesa, redigere la lettera, fissare i promemoria, sollecitare in caso di silenzio o rifiuto. <strong>Ribassoaffitto</strong> si occupa di tutti questi passi, dalla verifica iniziale fino all'autorità di conciliazione. I primi inquilini pagano già meno d'affitto grazie all'app.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
