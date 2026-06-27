@@ -42,7 +42,7 @@ permalink: /fr/
       </a>
       <span class="eyebrow">Baisse de loyer en 2 minutes</span>
       <h1 class="hero__title">Récupère<br>ce qui te <em>revient</em>.</h1>
-      <p class="hero__sub">Tu paies peut-être un loyer trop élevé pour ton appartement depuis des années. <strong>Baisse-loyer</strong> calcule ta prétention selon le droit fédéral et envoie la lettre par <strong>Courrier A</strong>. Si ton·a bailleur·esse reste silencieux·se ou refuse, l'app t'accompagne jusqu'à l'autorité de conciliation.</p>
+      <p class="hero__sub">Tu paies peut-être un loyer trop élevé pour ton appartement depuis des années. <strong>Baisse-loyer</strong> calcule ta prétention selon le droit fédéral et envoie la lettre par <strong>Courrier A</strong>. Si ton·a bailleur·esse reste silencieux·se ou refuse, l'app t'accompagne jusqu'à l'autorité de conciliation. Grâce à l'app, des locataires paient déjà moins de loyer.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="https://apps.apple.com/app/id6765495437" target="_blank" rel="noopener" aria-label="Télécharger Baisse-loyer sur l'App Store">
@@ -251,7 +251,7 @@ permalink: /fr/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Pourquoi cette appli</span>
     <h2 class="stats__title" data-reveal>Les locataires en Suisse perdent des millions chaque année.</h2>
-    <p class="stats__lead" data-reveal>Seule une fraction des personnes en droit réclame effectivement. La charge dissuade : calculer la prétention, rédiger la lettre, planifier les rappels, relancer en cas de silence ou refus. <strong>Baisse-loyer</strong> prend ces étapes en main, de la première vérification jusqu'à l'autorité de conciliation. Grâce à l'app, des locataires paient déjà moins de loyer.</p>
+    <p class="stats__lead" data-reveal>Seule une fraction des personnes en droit réclame effectivement. La charge dissuade : calculer la prétention, rédiger la lettre, planifier les rappels, relancer en cas de silence ou refus. <strong>Baisse-loyer</strong> prend ces étapes en main, de la première vérification jusqu'à l'autorité de conciliation. Et ça marche : les premières et premiers locataires paient déjà moins.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>

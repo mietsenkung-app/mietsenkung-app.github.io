@@ -42,7 +42,7 @@ permalink: /it/
       </a>
       <span class="eyebrow">Ribasso dell'affitto in 2 minuti</span>
       <h1 class="hero__title">Recupera<br>ciò che ti <em>spetta</em>.</h1>
-      <p class="hero__sub">Forse paghi un affitto troppo alto per il tuo appartamento da anni. <strong>Ribassoaffitto</strong> calcola la tua pretesa secondo il diritto federale e invia la lettera per <strong>Posta A</strong>. Se il locatore o la locatrice resta in silenzio o rifiuta, l'app ti accompagna fino all'autorità di conciliazione.</p>
+      <p class="hero__sub">Forse paghi un affitto troppo alto per il tuo appartamento da anni. <strong>Ribassoaffitto</strong> calcola la tua pretesa secondo il diritto federale e invia la lettera per <strong>Posta A</strong>. Se il locatore o la locatrice resta in silenzio o rifiuta, l'app ti accompagna fino all'autorità di conciliazione. I primi inquilini pagano già meno d'affitto grazie all'app.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="https://apps.apple.com/app/id6765495437" target="_blank" rel="noopener" aria-label="Scarica Ribassoaffitto su App Store">
@@ -251,7 +251,7 @@ permalink: /it/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Perché esiste</span>
     <h2 class="stats__title" data-reveal>Inquiline e inquilini in Svizzera perdono milioni ogni anno.</h2>
-    <p class="stats__lead" data-reveal>Solo una frazione degli aventi diritto fa effettivamente la richiesta. L'impegno scoraggia: calcolare la pretesa, redigere la lettera, fissare i promemoria, sollecitare in caso di silenzio o rifiuto. <strong>Ribassoaffitto</strong> si occupa di tutti questi passi, dalla verifica iniziale fino all'autorità di conciliazione. I primi inquilini pagano già meno d'affitto grazie all'app.</p>
+    <p class="stats__lead" data-reveal>Solo una frazione degli aventi diritto fa effettivamente la richiesta. L'impegno scoraggia: calcolare la pretesa, redigere la lettera, fissare i promemoria, sollecitare in caso di silenzio o rifiuto. <strong>Ribassoaffitto</strong> si occupa di tutti questi passi, dalla verifica iniziale fino all'autorità di conciliazione. E funziona: i primi inquilini pagano già meno d'affitto.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>

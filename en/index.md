@@ -42,7 +42,7 @@ permalink: /en/
       </a>
       <span class="eyebrow">Lower rent in 2 minutes</span>
       <h1 class="hero__title">Get back<br>what you're <em>owed</em>.</h1>
-      <p class="hero__sub">You may have been overpaying rent on your apartment for years. <strong>RentReducer</strong> calculates your claim under Swiss federal law and sends the letter via <strong>Swiss Post Priority Mail (A-Post)</strong>. If your landlord stays silent or refuses, the app guides you all the way to the conciliation authority.</p>
+      <p class="hero__sub">You may have been overpaying rent on your apartment for years. <strong>RentReducer</strong> calculates your claim under Swiss federal law and sends the letter via <strong>Swiss Post Priority Mail (A-Post)</strong>. If your landlord stays silent or refuses, the app guides you all the way to the conciliation authority. The first tenants already pay less rent thanks to the app.</p>
 
       <div class="hero__cta">
         <a class="store-button" href="https://apps.apple.com/app/id6765495437" target="_blank" rel="noopener" aria-label="Download RentReducer on the App Store">
@@ -251,7 +251,7 @@ permalink: /en/
   <div class="stats__inner">
     <span class="eyebrow" data-reveal>Why we built this</span>
     <h2 class="stats__title" data-reveal>Swiss tenants miss out on millions every year.</h2>
-    <p class="stats__lead" data-reveal>Only a fraction of those entitled actually claim. The effort puts people off: calculating the claim, drafting the letter, scheduling reminders, chasing silence or refusal with the next step. <strong>RentReducer</strong> takes those steps over completely, from the initial claim to the conciliation authority. The first tenants already pay less rent thanks to the app.</p>
+    <p class="stats__lead" data-reveal>Only a fraction of those entitled actually claim. The effort puts people off: calculating the claim, drafting the letter, scheduling reminders, chasing silence or refusal with the next step. <strong>RentReducer</strong> takes those steps over completely, from the initial claim to the conciliation authority. And it works: the first tenants are already paying less rent.</p>
 
     <div class="stats__grid">
       <div class="stat" data-reveal>
